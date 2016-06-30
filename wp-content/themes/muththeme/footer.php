@@ -5,22 +5,27 @@
           <div class="muth-footer-text-moto">
             <img src="img/Logo.png">
             <hr>
-            <p>Páčia sa vám naše práce a chceli by ste využiť naše služby? Vyžiadajte si cenovú kalkuláciu, poraďte sa s nami, alebo nám hoci iba napíšte "Ahoj", potešíme sa!</p>
+            <?php if ( is_active_sidebar( 'footer-sidebar' ) ): ?>
+                <?php dynamic_sidebar( 'footer-sidebar' ); ?>
+              <?php endif; ?>
             <h4>Príjímame nové zákazky</h4>
           </div>
           <div class="muth-footer-sitemap">
-            <h3>Mapa stránky</h3>
-            <hr>
+            <?php if ( is_active_sidebar( 'footer-sidebar-2' ) ): ?>
+                <?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
+              <?php endif; ?>
+              <hr>
             <ul>
               <?php wp_nav_menu(array('theme_location' => 'secondary')); ?>
             </ul>
           </div>
           <div class="muth-contact">
-            <h3>Kontakt</h3>
-            <hr>
             <div class="muth-footer-table">
               <table>
-                <?php get_sidebar();?>
+              <?php if ( is_active_sidebar( 'footer-sidebar-3' ) ): ?>
+                <?php dynamic_sidebar( 'footer-sidebar-3' ); ?>
+              <?php endif; ?>
+                
               </table>
             </div>
             <a href="" class="muth-icon-fb">
@@ -36,7 +41,14 @@
         </div>
       </div>
       <div class="muth-secondary-footer">
-        <h4>&copy Všetky práva vyhradené Muth v.o.s</h4>
+        <h4><?php _e( '&copy; ' ); ?>
+            <?php echo date( 'Y' ); ?>
+            <span> <?php bloginfo( 'name' ); ?> </span>
+            <span> | </span>
+            <?php if ( is_active_sidebar( 'footer-sidebar-4' ) ):?>
+                <?php dynamic_sidebar( 'footer-sidebar-4' ); ?>
+            <?php endif; ?>
+        </h4>
       </div> 
 			
 		</footer>

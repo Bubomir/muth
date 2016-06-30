@@ -10,14 +10,14 @@
 
     function register_my_widgets() {
   
-    register_widget( 'muth_text_widget' );
+    register_widget( 'muth_contact_widget' );
 }
 
 
 add_action( 'widgets_init', 'register_my_widgets' );
 
 
-class muth_text_widget extends WP_Widget
+class muth_contact_widget extends WP_Widget
 {
     /**
      * Constructor
@@ -25,11 +25,11 @@ class muth_text_widget extends WP_Widget
     public function __construct()
     {
         $widget_ops = array(
-            'classname' => 'muth_text_widget',
-            'description' => 'Widget For contact info in footer.'
+            'classname' => 'muth_contact_widget',
+            'description' => 'Widget For contact info.'
         );
 
-        parent::__construct( 'muth_text_widget', 'Muth Widget', $widget_ops );
+        parent::__construct( 'muth_contact_widget', 'Muth Contact Info Widget', $widget_ops );
     }
 
     /**
@@ -45,7 +45,7 @@ class muth_text_widget extends WP_Widget
         $output = '';
         $output .= '<tr>';
         $output .= '<td class="'.(!empty($instance['glyphicon'])? $instance['glyphicon'] : '').'">'.(!empty($instance['text_title'])? $instance['text_title'] : '').':</td>';
-        $output .= '<td>'.(!empty($instance['use_link'] && $instance['use_link'] == true)? '<a href="'.$instance['text_describe'].'">' : '').$instance['text_describe'].(!empty($instance['use_link'] && $instance['use_link'] == true)? '</a>' : '').'</td>';
+        $output .= '<td>'.(!empty($instance['use_link'] && $instance['use_link'] == true)? '<a href="'.$instance['text_describe'].'">' : '<span>').$instance['text_describe'].(!empty($instance['use_link'] && $instance['use_link'] == true)? '</a>' : '</span>').'</td>';
         $output .= '</tr>';
        
        echo $output;
@@ -82,7 +82,8 @@ class muth_text_widget extends WP_Widget
      **/
     public function form( $instance )
     {   
-       print_r($instance);
+       //print_r($instance);
+      
         $title = __('Widget Image');
         if(isset($instance['title']))
         {
@@ -97,10 +98,14 @@ class muth_text_widget extends WP_Widget
 
         $text_describe = __('Popis textu');
 
-        $use_link = $instance['use_link'];
         if(isset($instance['text_describe']))
         {
             $text_describe = $instance['text_describe'];
+        }
+        $use_link = '';
+        if(isset($instance['use_link']))
+        {
+            $use_link = $instance['use_link'];
         }
 
         $glyphicon = __('Glyphicon Image');
@@ -116,7 +121,7 @@ class muth_text_widget extends WP_Widget
         }
         ?>
 
-      
+        
         <p>
             <label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title );?>" />
@@ -131,7 +136,7 @@ class muth_text_widget extends WP_Widget
             <label for="<?php echo $this->get_field_name( 'text_describe' ); ?>"><?php _e( 'Popis textu:' ); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id( 'text_describe' ); ?>" name="<?php echo $this->get_field_name( 'text_describe' ); ?>" type="text" value="<?php echo esc_attr( $text_describe ); ?>" />
         <p>
-            <input class="checkbox" type="checkbox" <?php checked( $use_link, 'on' ); ?> id="<?php echo $this->get_field_id( 'use_link' ); ?>" name="<?php echo $this->get_field_name( 'use_link' ); ?>" /> 
+            <input class="checkbox" type="checkbox" <?php checked($use_link, 'on' ); ?> id="<?php echo $this->get_field_id( 'use_link' ); ?>" name="<?php echo $this->get_field_name( 'use_link' ); ?>" /> 
             <label for="<?php echo $this->get_field_id( 'use_link' ); ?>">Použiť ako link ?</label>
         </p>
        
@@ -173,19 +178,19 @@ class muth_text_widget extends WP_Widget
 //footer widget
 function muth_widget_setup()
 {
-
-    $args = array(
-        'name'          => __('Footer Sidebar 1'),
-        'id'            => 'footer-sidebar-1',
+     $args = array(
+        'name'          => __('Footer Sidebar %d'),
+        'id'            => 'footer-sidebar',
         'class'         => 'custom',
         'description'   => 'Appears in the footer area',
-        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</aside>',
-        'before_title'  => '<h3 class="widget-title">',
-        'after_title'   => '</h3>'
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '',
+        'after_title'   => ''
     );
+    register_sidebars(4,$args);
 
-    register_sidebar($args);
 
+   
 }
 add_action('widgets_init', 'muth_widget_setup' );

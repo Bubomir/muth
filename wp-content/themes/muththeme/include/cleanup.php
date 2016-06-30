@@ -9,6 +9,9 @@
 	========================
 */
 
+/* Disable WordPress Admin Bar for all users but admins. */
+show_admin_bar(false);
+
 /* remove version string from js and css */
 function muth_remove_wp_version_strings( $src ) {
 	
