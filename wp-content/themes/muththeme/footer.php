@@ -20,19 +20,7 @@
             <hr>
             <div class="muth-footer-table">
               <table>
-                <tr>
-                <?php print_r(get_sidebar());?>
-                  <td class="muth-footer-phone">Telefón:</td>
-                  <td><a href="">+421 902 999 333</a></td>
-                </tr>
-                <tr>
-                  <td class="muth-footer-mail">Email:</td>
-                  <td><a href="">test.test@gmail.com</a></td>
-                </tr>
-                <tr>
-                  <td class="muth-footer-address">Adresa:</td>
-                  <td><a href="">test.skype</a></td>
-                </tr>
+                <?php get_sidebar();?>
               </table>
             </div>
             <a href="" class="muth-icon-fb">

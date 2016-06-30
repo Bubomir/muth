@@ -32,12 +32,16 @@ jQuery(document).ready( function($){
 		
 	});
 	
-	$('#remove-picture').on('click',function(e){
+	$('.remove_image_button').on('click',function(e){
 		e.preventDefault();
 		var answer = confirm("Are you sure you want to remove your Profile Picture?");
 		if( answer == true ){
-			$('#profile-picture').val('');
-			$('.sunset-general-form').submit();
+			$('.upload_image_button').prev().val('');
+			if($('.preview-picture').length){
+				$('.preview-picture').remove();
+			}
+			
+			//$('.sunset-general-form').submit();
 		}
 		return;
 	});
