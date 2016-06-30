@@ -12,7 +12,7 @@
           </div>
           <div class="muth-footer-sitemap">
             <?php if ( is_active_sidebar( 'footer-sidebar-2' ) ): ?>
-                <?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
+               <?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
               <?php endif; ?>
               <hr>
             <ul>
@@ -45,8 +45,8 @@
             <?php echo date( 'Y' ); ?>
             <span> <?php bloginfo( 'name' ); ?> </span>
             <span> | </span>
-            <?php if ( is_active_sidebar( 'footer-sidebar-4' ) ):?>
-                <?php dynamic_sidebar( 'footer-sidebar-4' ); ?>
+            <?php if ( is_active_sidebar( 'footer-sidebar-copyright' ) ):?>
+                <?php dynamic_sidebar( 'footer-sidebar-copyright' ); ?>
             <?php endif; ?>
         </h4>
       </div> 

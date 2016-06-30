@@ -7,45 +7,11 @@
     <section class="services">
       <div class="muth-icon-menu">
         <div class="row">
-          <div class="muth-icon-item">
-            <div class="muth-monitor-image">
-                <div class="muth-service-name-in">
-                  Web Design
-                </div>
-            </div>
-            <div class="muth-service-name-out">
-              Web Design
-            </div>
-            <div class="muth-service-description">
-              Pri práci sa inšpirujeme akumulovanými skúsenosťami a vytvárame jedinečné produkty.
-            </div>
-          </div>
-          <div class="muth-icon-item">
-            <div class="muth-monitor-image">
-                <div class="muth-service-name-in">
-                  Web Design
-                </div>
-            </div>
-            <div class="muth-service-name-out">
-              Web Design
-            </div>
-            <div class="muth-service-description">
-              Pri práci sa inšpirujeme akumulovanými skúsenosťami a vytvárame jedinečné produkty.
-            </div>
-          </div>
-           <div class="muth-icon-item">
-            <div class="muth-monitor-image">
-                <div class="muth-service-name-in">
-                  Web Design
-                </div>
-            </div>
-            <div class="muth-service-name-out">
-              Web Design
-            </div>
-            <div class="muth-service-description">
-              Pri práci sa inšpirujeme akumulovanými skúsenosťami a vytvárame jedinečné produkty.
-            </div>
-          </div>
+          
+         <?php if ( is_active_sidebar( 'icon-sidebar' ) ): ?>
+                <?php dynamic_sidebar( 'icon-sidebar' ); ?>
+          <?php endif; ?>
+
         </div>
       </div>
     </section>

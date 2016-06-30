@@ -3549,3 +3549,62 @@
 [30-Jun-2016 12:05:40 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
 [30-Jun-2016 12:05:40 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
 [30-Jun-2016 12:05:40 UTC] PHP   7. muth_contact_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[30-Jun-2016 17:58:57 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 231
+[30-Jun-2016 17:58:57 UTC] PHP Stack trace:
+[30-Jun-2016 17:58:57 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 17:58:57 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[30-Jun-2016 17:58:57 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 17:58:57 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 17:58:57 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 17:58:57 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 17:58:57 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[30-Jun-2016 18:01:50 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 210
+[30-Jun-2016 18:01:50 UTC] PHP Stack trace:
+[30-Jun-2016 18:01:50 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 18:01:50 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[30-Jun-2016 18:01:50 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[30-Jun-2016 18:01:50 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[30-Jun-2016 18:01:50 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[30-Jun-2016 18:03:50 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 212
+[30-Jun-2016 18:03:50 UTC] PHP Stack trace:
+[30-Jun-2016 18:03:50 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 18:03:50 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[30-Jun-2016 18:03:50 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[30-Jun-2016 18:03:50 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[30-Jun-2016 18:03:50 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[30-Jun-2016 18:06:21 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 233
+[30-Jun-2016 18:06:21 UTC] PHP Stack trace:
+[30-Jun-2016 18:06:21 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 18:06:21 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[30-Jun-2016 18:06:21 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:06:21 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:06:21 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:06:21 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:06:21 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[30-Jun-2016 18:08:44 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 233
+[30-Jun-2016 18:08:44 UTC] PHP Stack trace:
+[30-Jun-2016 18:08:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 18:08:44 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[30-Jun-2016 18:08:44 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:08:44 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:08:44 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:08:44 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:08:44 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[30-Jun-2016 18:10:37 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 233
+[30-Jun-2016 18:10:37 UTC] PHP Stack trace:
+[30-Jun-2016 18:10:37 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 18:10:37 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[30-Jun-2016 18:10:37 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:10:37 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:10:37 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:10:37 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:10:37 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[30-Jun-2016 18:10:55 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 233
+[30-Jun-2016 18:10:55 UTC] PHP Stack trace:
+[30-Jun-2016 18:10:55 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[30-Jun-2016 18:10:55 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[30-Jun-2016 18:10:55 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:10:55 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[30-Jun-2016 18:10:55 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:10:55 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[30-Jun-2016 18:10:55 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
