@@ -1,5 +1,4 @@
 <?php
-
 /*
 	
 @package muththeme
@@ -31,3 +30,4 @@ function muth_remove_meta_version() {
 	return '';
 }
 add_filter( 'the_generator', 'muth_remove_meta_version' );
+?>

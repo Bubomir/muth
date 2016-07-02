@@ -211,3 +211,4 @@ function get_testimonial($posts_per_page = 1, $orderby = 'none', $testimonial_id
 
     return $testimonials;
 }
+?>

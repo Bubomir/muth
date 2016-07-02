@@ -3608,3 +3608,513 @@
 [30-Jun-2016 18:10:55 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
 [30-Jun-2016 18:10:55 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
 [30-Jun-2016 18:10:55 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[01-Jul-2016 09:14:19 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:19 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:19 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:19 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:19 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:19 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:19 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:19 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:19 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:19 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:19 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:19 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:19 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:19 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:19 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:19 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:19 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:19 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:19 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:19 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:19 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:19 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:19 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:19 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:19 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:19 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:19 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:19 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:19 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:19 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:19 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:19 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:19 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:19 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:19 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:19 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:20 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:20 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:20 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:20 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:14:58 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2016 09:14:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:14:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:14:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:14:58 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:14:58 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:14:58 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:14:58 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:14:58 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:00 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:00 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:00 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:00 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:00 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:00 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:00 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:12 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:12 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:12 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:12 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:12 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:12 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:12 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:12 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:12 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:12 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:12 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:12 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:12 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:12 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:12 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:12 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:12 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:12 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:12 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:12 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:12 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:12 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:12 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:12 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:12 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:12 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:12 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:12 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:12 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:12 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:12 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:12 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:12 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:12 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:12 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:12 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:12 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:12 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:12 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:12 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP Notice:  Undefined index: sk in C:\wamp\www\muth\wp-content\themes\muththeme\header.php on line 43
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP Stack trace:
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:15:13 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 09:15:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 09:15:13 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 09:15:13 UTC] PHP   5. get_header() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:1
+[01-Jul-2016 09:15:13 UTC] PHP   6. locate_template() C:\wamp\www\muth\wp-includes\general-template.php:45
+[01-Jul-2016 09:15:13 UTC] PHP   7. load_template() C:\wamp\www\muth\wp-includes\template.php:531
+[01-Jul-2016 09:15:13 UTC] PHP   8. require_once() C:\wamp\www\muth\wp-includes\template.php:572
+[01-Jul-2016 09:51:23 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 233
+[01-Jul-2016 09:51:23 UTC] PHP Stack trace:
+[01-Jul-2016 09:51:23 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[01-Jul-2016 09:51:23 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[01-Jul-2016 09:51:23 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 09:51:23 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 09:51:23 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[01-Jul-2016 09:51:23 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[01-Jul-2016 09:51:23 UTC] PHP   7. muth_icon_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[01-Jul-2016 10:37:19 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 364
+[01-Jul-2016 10:37:19 UTC] PHP Stack trace:
+[01-Jul-2016 10:37:19 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[01-Jul-2016 10:37:19 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[01-Jul-2016 10:37:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[01-Jul-2016 10:37:19 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[01-Jul-2016 10:37:19 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[01-Jul-2016 10:41:29 UTC] PHP Fatal error:  Class 'muth_partners_widget' not found in C:\wamp\www\muth\wp-includes\class-wp-widget-factory.php on line 57
+[01-Jul-2016 10:41:29 UTC] PHP Stack trace:
+[01-Jul-2016 10:41:29 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[01-Jul-2016 10:41:29 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[01-Jul-2016 10:41:29 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[01-Jul-2016 10:41:29 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[01-Jul-2016 10:41:29 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[01-Jul-2016 10:41:29 UTC] PHP   6. do_action() C:\wamp\www\muth\wp-settings.php:393
+[01-Jul-2016 10:41:29 UTC] PHP   7. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 10:41:29 UTC] PHP   8. wp_widgets_init() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 10:41:29 UTC] PHP   9. do_action() C:\wamp\www\muth\wp-includes\widgets.php:1475
+[01-Jul-2016 10:41:29 UTC] PHP  10. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 10:41:29 UTC] PHP  11. register_my_widgets() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 10:41:29 UTC] PHP  12. register_widget() C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php:15
+[01-Jul-2016 10:41:29 UTC] PHP  13. WP_Widget_Factory->register() C:\wamp\www\muth\wp-includes\widgets.php:113
+[01-Jul-2016 11:41:08 UTC] PHP Notice:  Undefined variable: output in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 364
+[01-Jul-2016 11:41:08 UTC] PHP Stack trace:
+[01-Jul-2016 11:41:08 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 11:41:08 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 11:41:08 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 11:41:08 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 11:41:08 UTC] PHP   5. dynamic_sidebar() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:54
+[01-Jul-2016 11:41:08 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[01-Jul-2016 11:41:08 UTC] PHP   7. WP_Widget->display_callback() C:\wamp\www\muth\wp-includes\widgets.php:738
+[01-Jul-2016 11:41:08 UTC] PHP   8. muth_partners_widget->widget() C:\wamp\www\muth\wp-includes\class-wp-widget.php:376
+[01-Jul-2016 11:41:08 UTC] PHP Notice:  Undefined variable: output in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 364
+[01-Jul-2016 11:41:08 UTC] PHP Stack trace:
+[01-Jul-2016 11:41:08 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 11:41:08 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 11:41:08 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 11:41:08 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 11:41:08 UTC] PHP   5. dynamic_sidebar() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:54
+[01-Jul-2016 11:41:08 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[01-Jul-2016 11:41:08 UTC] PHP   7. WP_Widget->display_callback() C:\wamp\www\muth\wp-includes\widgets.php:738
+[01-Jul-2016 11:41:08 UTC] PHP   8. muth_partners_widget->widget() C:\wamp\www\muth\wp-includes\class-wp-widget.php:376
+[01-Jul-2016 11:41:09 UTC] PHP Notice:  Undefined variable: output in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 364
+[01-Jul-2016 11:41:09 UTC] PHP Stack trace:
+[01-Jul-2016 11:41:09 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 11:41:09 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 11:41:09 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 11:41:09 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 11:41:09 UTC] PHP   5. dynamic_sidebar() C:\wamp\www\muth\wp-content\themes\muththeme\index.php:54
+[01-Jul-2016 11:41:09 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[01-Jul-2016 11:41:09 UTC] PHP   7. WP_Widget->display_callback() C:\wamp\www\muth\wp-includes\widgets.php:738
+[01-Jul-2016 11:41:09 UTC] PHP   8. muth_partners_widget->widget() C:\wamp\www\muth\wp-includes\class-wp-widget.php:376
+[01-Jul-2016 11:47:28 UTC] PHP Parse error:  syntax error, unexpected ''</div>'' (T_CONSTANT_ENCAPSED_STRING) in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 364
+[01-Jul-2016 11:47:28 UTC] PHP Stack trace:
+[01-Jul-2016 11:47:28 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 11:47:28 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 11:47:28 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[01-Jul-2016 11:47:28 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[01-Jul-2016 11:47:28 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[01-Jul-2016 11:47:28 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[01-Jul-2016 12:29:50 UTC] PHP Notice:  Undefined variable: i in C:\wamp\www\muth\wp-content\themes\muththeme\index.php on line 41
+[01-Jul-2016 12:29:50 UTC] PHP Stack trace:
+[01-Jul-2016 12:29:50 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 12:29:50 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 12:29:50 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 12:29:50 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 12:29:52 UTC] PHP Notice:  Undefined variable: i in C:\wamp\www\muth\wp-content\themes\muththeme\index.php on line 41
+[01-Jul-2016 12:29:52 UTC] PHP Stack trace:
+[01-Jul-2016 12:29:52 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 12:29:52 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 12:29:52 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 12:29:52 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 13:07:48 UTC] PHP Notice:  Undefined index: disconnected in C:\wamp\www\muth\wp-content\plugins\jetpack\class.jetpack.php on line 3110
+[01-Jul-2016 13:07:48 UTC] PHP Stack trace:
+[01-Jul-2016 13:07:48 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\plugins.php:0
+[01-Jul-2016 13:07:48 UTC] PHP   2. deactivate_plugins() C:\wamp\www\muth\wp-admin\plugins.php:180
+[01-Jul-2016 13:07:48 UTC] PHP   3. do_action() C:\wamp\www\muth\wp-admin\includes\plugin.php:700
+[01-Jul-2016 13:07:48 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 13:07:48 UTC] PHP   5. Jetpack::plugin_deactivation() C:\wamp\www\muth\wp-includes\plugin.php:525
+[01-Jul-2016 13:07:48 UTC] PHP   6. Jetpack::disconnect() C:\wamp\www\muth\wp-content\plugins\jetpack\class.jetpack.php:3062
+[01-Jul-2016 14:22:39 UTC] PHP Notice:  Undefined variable: i in C:\wamp\www\muth\wp-content\themes\muththeme\index.php on line 42
+[01-Jul-2016 14:22:39 UTC] PHP Stack trace:
+[01-Jul-2016 14:22:39 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 14:22:39 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 14:22:39 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 14:22:39 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[01-Jul-2016 15:18:39 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\wamp\www\muth\wp-content\themes\muththeme\index.php on line 40
+[01-Jul-2016 15:18:39 UTC] PHP Stack trace:
+[01-Jul-2016 15:18:39 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 15:18:39 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 15:18:39 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 15:18:51 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\wamp\www\muth\wp-content\themes\muththeme\index.php on line 43
+[01-Jul-2016 15:18:51 UTC] PHP Stack trace:
+[01-Jul-2016 15:18:51 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 15:18:51 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 15:18:51 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[01-Jul-2016 15:18:58 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\wamp\www\muth\wp-content\themes\muththeme\index.php on line 45
+[01-Jul-2016 15:18:58 UTC] PHP Stack trace:
+[01-Jul-2016 15:18:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[01-Jul-2016 15:18:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[01-Jul-2016 15:18:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19

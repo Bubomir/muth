@@ -1,7 +1,10 @@
 jQuery(document).ready( function($){
 	
 	var mediaUploader;
-	
+	$('#bubo').on('click',function(e) {
+		console.log('cl');
+	});
+
 	$('.upload_image_button').on('click',function(e) {
 		
 		e.preventDefault();
@@ -39,6 +42,7 @@ jQuery(document).ready( function($){
 			$('.upload_image_button').prev().val('');
 			if($('.preview-picture').length){
 				$('.preview-picture').remove();
+				$('.alignright').submit();
 			}
 			
 			//$('.sunset-general-form').submit();
