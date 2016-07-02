@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
-    var testimonial_timer = 5000;
 
-    testimonial_manual_click_slider();
+	testimonial_manual_click_slider();
+    var testimonial_timer = 5000,
+	    timer = setTimeout(testimonial_slider_timer, testimonial_timer);
 
-    var timer = setTimeout(testimonial_slider_timer, testimonial_timer);
+
     /*
     =========================
     Funkcie pre automaticke prehravanie a manualne prepinanie slidera
@@ -43,18 +44,23 @@ jQuery(document).ready(function($) {
                 var index = e.currentTarget.value,
                     fadeOut_element = $('.testimonial-activated'),
                     fadeIn_element = $('#muth-testimonial-list-' + index);
-                
+
+                //nulovanie timeru kvoli synchronizacii medzi manualnym preklikavanim a automatickym posuvanim
                 clearTimeout(timer);
+
                 testimonial_text_animation(fadeIn_element, fadeOut_element, time_animation, class_animation);
+
                 $('.muth-controller-activated').removeClass('muth-controller-activated');
                 $('#muth-controller-' + index).addClass('muth-controller-activated');
 
+                //opätovne spustenie automatickej animacie po manualnom prekliknuti
                 timer = setTimeout(testimonial_slider_timer, testimonial_timer);
             });
         }
 
     }
 
+    //funkcia pre animaciu textu testimonial pridava a odobera css triedu pre aktivaciu
     function testimonial_text_animation(fadeIn_element, fadeOut_element, time, class_animation) {
         fadeOut_element.fadeOut(time, function() {
             fadeOut_element.removeClass(class_animation);

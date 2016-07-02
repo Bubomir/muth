@@ -164,11 +164,11 @@ class muth_contact_widget extends WP_Widget
             <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
             <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36"  value="<?php echo esc_url( $image ); ?>" />
             
-        <?php if(empty($image)):?>
-            <input class="upload_image_button button button-secondary" type="button" value="Upload Image" />
-        <?php  else: ?>
-            <input class="upload_image_button button button-secondary" type="button" value="Replace Image" />
-            <input class="remove_image_button button button-secondary" type="button" value="Remove Image" />
+       <?php if(!empty($image)):?>
+           <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahradiť Obrázok" />
+           <input id="remove_image_button_id" class="remove_image_button button button-secondary" type="button" value="Zmazať Obrázok" />
+        <?php else: ?>
+           <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahrať Obrázok" />
          <?php endif; ?>
         </p>
 
@@ -321,12 +321,14 @@ class muth_icon_widget extends WP_Widget
 
             <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
             <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36" placeholder="URL obrázku" value="<?php echo esc_url( $image ); ?>" />
+
             
-        <?php if(empty($image)):?>
-            <input id="bubo" class="upload_image_button button button-secondary" type="button" value="Nahrať Obrázok" />
-        <?php  else: ?>
-            <input id="bubo" class="upload_image_button button button-secondary" type="button" value="Nahradiť Obrázok" />
-            <input class="remove_image_button button button-secondary" type="button" value="Zmazať Obrázok" />
+
+        <?php if(!empty($image)):?>
+           <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahradiť Obrázok" />
+           <input id="remove_image_button_id" class="remove_image_button button button-secondary" type="button" value="Zmazať Obrázok" />
+        <?php else: ?>
+           <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahrať Obrázok" />
          <?php endif; ?>
         </p>
 

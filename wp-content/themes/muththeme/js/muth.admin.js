@@ -1,12 +1,11 @@
-jQuery(document).ready( function($){
+$=jQuery.noConflict();
+
+$(document).ready( function(){
 	
 	var mediaUploader;
-	$('#bubo').on('click',function(e) {
-		console.log('cl');
-	});
 
-	$('.upload_image_button').on('click',function(e) {
-		
+	$(document).on('click','#upload_image_button_id',function(e) {	
+
 		e.preventDefault();
 		if( mediaUploader ){
 			mediaUploader.open();
@@ -29,23 +28,29 @@ jQuery(document).ready( function($){
 			$('.preview-picture').css('background-image','url(' + attachment.url + ')');
 			$('.preview-picture').css('background-repeat','no-repeat');
 			$('.preview-picture').css('background-size','contain');
+
+			$('.upload_image_button').val('Nahradiť obrázok');
 		});
 		
 		mediaUploader.open();
-		
+
+					
 	});
 	
-	$('.remove_image_button').on('click',function(e){
+
+	$(document).on('click','#remove_image_button_id',function(e) {
 		e.preventDefault();
 		var answer = confirm("Are you sure you want to remove your Profile Picture?");
 		if( answer == true ){
+
 			$('.upload_image_button').prev().val('');
 			if($('.preview-picture').length){
 				$('.preview-picture').remove();
-				$('.alignright').submit();
+				
+				$('.remove_image_button').remove();
+				$('.upload_image_button').val('Nahrať obrázok');
 			}
 			
-			//$('.sunset-general-form').submit();
 		}
 		return;
 	});
