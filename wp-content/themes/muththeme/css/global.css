@@ -9472,14 +9472,14 @@ footer {
 @media (min-width: 992px) {
   .muth-map .muth-map-content .muth-google-map {
     float: left;
-    width: 100%;
+    width: 66.66667%;
   }
 }
 
 @media (min-width: 1200px) {
   .muth-map .muth-map-content .muth-google-map {
     float: left;
-    width: 100%;
+    width: 66.66667%;
   }
 }
 
@@ -9490,60 +9490,11 @@ footer {
   background: #f4f4f4;
 }
 
-.muth-map .muth-map-content .muth-way {
-  position: relative;
-  float: left;
-  width: 66.66667%;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-@media (min-width: 768px) {
-  .muth-map .muth-map-content .muth-way {
-    float: left;
-    width: 66.66667%;
-  }
-}
-
-@media (min-width: 992px) {
-  .muth-map .muth-map-content .muth-way {
-    float: left;
-    width: 66.66667%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .muth-map .muth-map-content .muth-way {
-    float: left;
-    width: 66.66667%;
-  }
-}
-
-.muth-map .muth-map-content .muth-way ul {
-  display: block;
-  margin: 0px;
-  padding: 0px;
-  display: block;
-  list-style: none;
-}
-
 .muth-map .muth-map-content .muth-address {
+  padding-top: 2.5rem;
   position: relative;
   float: left;
-  width: 33.33333%;
+  width: 100%;
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
@@ -9565,7 +9516,7 @@ footer {
 @media (min-width: 768px) {
   .muth-map .muth-map-content .muth-address {
     float: left;
-    width: 33.33333%;
+    width: 100%;
   }
 }
 

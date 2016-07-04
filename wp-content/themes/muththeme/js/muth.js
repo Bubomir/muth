@@ -1,9 +1,16 @@
 jQuery(document).ready(function($) {
 
-	testimonial_manual_click_slider();
-    var testimonial_timer = 5000,
-	    timer = setTimeout(testimonial_slider_timer, testimonial_timer);
+    var testimonial_text = $('.muth-testimonial-text'),
+        testimonial_controller = $('.muth-testimonial-controller');
 
+
+    if(testimonial_text.length && testimonial_controller.length){
+	
+        var testimonial_timer = 5000,
+    	    timer = setTimeout(testimonial_slider_timer, testimonial_timer);
+
+            testimonial_manual_click_slider();
+    }
 
     /*
     =========================
@@ -35,6 +42,7 @@ jQuery(document).ready(function($) {
         timer = setTimeout(testimonial_slider_timer, testimonial_timer);
     }
 
+    //funkcia pre manualne ovladanie testimonial slidera
     function testimonial_manual_click_slider() {
         var ul_controller_children = $('#muth-testimonial-controller-id').children(),
             time_animation = 300,

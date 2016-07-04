@@ -4118,3 +4118,13 @@
 [01-Jul-2016 15:18:58 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
 [01-Jul-2016 15:18:58 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
 [01-Jul-2016 15:18:58 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[04-Jul-2016 10:58:15 UTC] PHP Parse error:  syntax error, unexpected 'switch' (T_SWITCH) in C:\wamp\www\muth\wp-content\themes\muththeme\page-contact.php on line 21
+[04-Jul-2016 10:58:15 UTC] PHP Stack trace:
+[04-Jul-2016 10:58:15 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[04-Jul-2016 10:58:15 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[04-Jul-2016 10:58:15 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[04-Jul-2016 10:59:30 UTC] PHP Parse error:  syntax error, unexpected 'endswitch' (T_ENDSWITCH), expecting case (T_CASE) or default (T_DEFAULT) or '}' in C:\wamp\www\muth\wp-content\themes\muththeme\page-contact.php on line 38
+[04-Jul-2016 10:59:30 UTC] PHP Stack trace:
+[04-Jul-2016 10:59:30 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[04-Jul-2016 10:59:30 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[04-Jul-2016 10:59:30 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
