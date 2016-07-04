@@ -5117,3 +5117,835 @@
 [04-Jul-2016 11:59:43 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
 [04-Jul-2016 11:59:43 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
 [04-Jul-2016 11:59:43 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[04-Jul-2016 12:04:21 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:21 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:21 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:21 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:04:21 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:04:21 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:04:21 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:21 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:21 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:21 UTC] PHP Fatal error:  Call to undefined function addhttp() in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 411
+[04-Jul-2016 12:04:21 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:21 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:21 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:04:21 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:04:21 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:04:21 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:21 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:21 UTC] PHP   7. muth_partners_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:04:44 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:04:44 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:04:44 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:44 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:04:44 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:44 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:44 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:04:44 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:04:44 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:04:44 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:04:44 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:04:55 UTC] PHP Fatal error:  Class 'muth_fast_contact_widget' not found in C:\wamp\www\muth\wp-includes\class-wp-widget-factory.php on line 57
+[04-Jul-2016 12:04:55 UTC] PHP Stack trace:
+[04-Jul-2016 12:04:55 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:04:55 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:04:55 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:04:55 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:04:55 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:04:55 UTC] PHP   6. do_action() C:\wamp\www\muth\wp-settings.php:393
+[04-Jul-2016 12:04:55 UTC] PHP   7. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[04-Jul-2016 12:04:55 UTC] PHP   8. wp_widgets_init() C:\wamp\www\muth\wp-includes\plugin.php:525
+[04-Jul-2016 12:04:55 UTC] PHP   9. do_action() C:\wamp\www\muth\wp-includes\widgets.php:1475
+[04-Jul-2016 12:04:55 UTC] PHP  10. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[04-Jul-2016 12:04:55 UTC] PHP  11. register_my_widgets() C:\wamp\www\muth\wp-includes\plugin.php:525
+[04-Jul-2016 12:04:55 UTC] PHP  12. register_widget() C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php:16
+[04-Jul-2016 12:04:55 UTC] PHP  13. WP_Widget_Factory->register() C:\wamp\www\muth\wp-includes\widgets.php:113
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:05:15 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:05:15 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:05:15 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:05:15 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:05:15 UTC] PHP Stack trace:
+[04-Jul-2016 12:05:15 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:05:15 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:05:15 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:05:15 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:05:15 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:05:15 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:11 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:11 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:11 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:11 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:06:11 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:06:11 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:06:11 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:11 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:11 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:06:12 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:06:12 UTC] PHP Stack trace:
+[04-Jul-2016 12:06:12 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:06:12 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:06:12 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:06:12 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:06:12 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:06:12 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:13 UTC] PHP Warning:  require_once(wigets/muth_partners_widget.php): failed to open stream: No such file or directory in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:07:13 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:13 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[04-Jul-2016 12:07:13 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[04-Jul-2016 12:07:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:07:13 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:07:13 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:07:13 UTC] PHP   6. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:07:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'wigets/muth_partners_widget.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:07:13 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:13 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[04-Jul-2016 12:07:13 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[04-Jul-2016 12:07:13 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:07:13 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:07:13 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:07:13 UTC] PHP   6. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:07:16 UTC] PHP Warning:  require_once(wigets/muth_partners_widget.php): failed to open stream: No such file or directory in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:07:16 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:16 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:16 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:07:16 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:07:16 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:07:16 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:07:16 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:07:16 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:07:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'wigets/muth_partners_widget.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:07:16 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:16 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:16 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:07:16 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:07:16 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:07:16 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:07:16 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:07:16 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:07:35 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:35 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:35 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:35 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:07:35 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:07:35 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:07:35 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:35 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:35 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:07:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:07:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:07:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:07:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:07:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:07:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:07:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:07:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:02 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:08:02 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:02 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:02 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:08:02 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:08:02 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:08:02 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:08:02 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:08:02 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:08:02 UTC] PHP Warning:  require_once(http://www.muth.dev/wp-content/themes/muththeme/widgets/muth_partners_widget.php): failed to open stream: no suitable wrapper could be found in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:08:02 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:02 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:02 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:08:02 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:08:02 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:08:02 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:08:02 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:08:02 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:08:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://www.muth.dev/wp-content/themes/muththeme/widgets/muth_partners_widget.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:08:02 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:02 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:02 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:08:02 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:08:02 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:08:02 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:08:02 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:08:02 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:08:14 UTC] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:08:14 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:14 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:14 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:08:14 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:08:14 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:08:14 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:08:14 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:08:14 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:08:14 UTC] PHP Warning:  require(http://www.muth.dev/wp-content/themes/muththeme/widgets/muth_partners_widget.php): failed to open stream: no suitable wrapper could be found in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:08:14 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:14 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:14 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:08:14 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:08:14 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:08:14 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:08:14 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:08:14 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:08:14 UTC] PHP Fatal error:  require(): Failed opening required 'http://www.muth.dev/wp-content/themes/muththeme/widgets/muth_partners_widget.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 325
+[04-Jul-2016 12:08:14 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:14 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:14 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:08:14 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:08:14 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:08:14 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:08:14 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:08:14 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:08:25 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:08:25 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:08:25 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:08:25 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:08:25 UTC] PHP Stack trace:
+[04-Jul-2016 12:08:25 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:08:25 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:08:25 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:08:25 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:08:25 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:08:25 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:09:27 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:09:27 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:09:27 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:09:27 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 160
+[04-Jul-2016 12:09:27 UTC] PHP Stack trace:
+[04-Jul-2016 12:09:27 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:09:27 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:09:27 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:09:27 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:09:27 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:09:27 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:19 UTC] PHP Warning:  require_once(widgets/muth_contact_icon_widget.php): failed to open stream: No such file or directory in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 22
+[04-Jul-2016 12:10:19 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:19 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:19 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:10:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:10:19 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:10:19 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:10:19 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:10:19 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:10:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'widgets/muth_contact_icon_widget.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php on line 22
+[04-Jul-2016 12:10:19 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:19 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:19 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[04-Jul-2016 12:10:19 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[04-Jul-2016 12:10:19 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[04-Jul-2016 12:10:19 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[04-Jul-2016 12:10:19 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[04-Jul-2016 12:10:19 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[04-Jul-2016 12:10:36 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:10:36 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[04-Jul-2016 12:10:36 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:36 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:36 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:36 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[04-Jul-2016 12:10:36 UTC] PHP Notice:  Undefined variable: image in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 139
+[04-Jul-2016 12:10:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:10:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[04-Jul-2016 12:10:36 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[04-Jul-2016 12:10:36 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[04-Jul-2016 12:10:37 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:37 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[04-Jul-2016 12:10:37 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:37 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[04-Jul-2016 12:10:37 UTC] PHP   8. muth_contact_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
