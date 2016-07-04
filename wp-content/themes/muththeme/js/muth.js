@@ -1,17 +1,18 @@
 jQuery(document).ready(function($) {
-
     var testimonial_text = $('.muth-testimonial-text'),
-        testimonial_controller = $('.muth-testimonial-controller');
+        testimonial_controller = $('.muth-testimonial-controller'),
+        google_map = $('.muth-google-map');
 
-
-    if(testimonial_text.length && testimonial_controller.length){
-	
+    //podmienka pre zobrazenie iba tam kde sa nachadza testimonial container
+    if (testimonial_text.length && testimonial_controller.length) {
         var testimonial_timer = 5000,
-    	    timer = setTimeout(testimonial_slider_timer, testimonial_timer);
-
-            testimonial_manual_click_slider();
+            timer = setTimeout(testimonial_slider_timer, testimonial_timer);
+        testimonial_manual_click_slider();
     }
-
+    //podmienka pre zobrazenie mapy iba tam kde treba t.j. contact page 
+    if (google_map.length) {
+        initMap(49.2197919, 18.749553900000024);
+    }
     /*
     =========================
     Funkcie pre automaticke prehravanie a manualne prepinanie slidera
@@ -25,7 +26,6 @@ jQuery(document).ready(function($) {
             fadeOut_element,
             time_animation = 300,
             class_animation = 'testimonial-activated';
-        
         if (start_index < (ul_controller_children.length - 1)) {
             fadeIn_element = $('#muth-testimonial-list-' + (start_index + 1));
             fadeOut_element = $('#muth-testimonial-list-' + start_index);
@@ -41,7 +41,6 @@ jQuery(document).ready(function($) {
         }
         timer = setTimeout(testimonial_slider_timer, testimonial_timer);
     }
-
     //funkcia pre manualne ovladanie testimonial slidera
     function testimonial_manual_click_slider() {
         var ul_controller_children = $('#muth-testimonial-controller-id').children(),
@@ -52,22 +51,16 @@ jQuery(document).ready(function($) {
                 var index = e.currentTarget.value,
                     fadeOut_element = $('.testimonial-activated'),
                     fadeIn_element = $('#muth-testimonial-list-' + index);
-
                 //nulovanie timeru kvoli synchronizacii medzi manualnym preklikavanim a automatickym posuvanim
                 clearTimeout(timer);
-
                 testimonial_text_animation(fadeIn_element, fadeOut_element, time_animation, class_animation);
-
                 $('.muth-controller-activated').removeClass('muth-controller-activated');
                 $('#muth-controller-' + index).addClass('muth-controller-activated');
-
                 //opätovne spustenie automatickej animacie po manualnom prekliknuti
                 timer = setTimeout(testimonial_slider_timer, testimonial_timer);
             });
         }
-
     }
-
     //funkcia pre animaciu textu testimonial pridava a odobera css triedu pre aktivaciu
     function testimonial_text_animation(fadeIn_element, fadeOut_element, time, class_animation) {
         fadeOut_element.fadeOut(time, function() {
@@ -75,6 +68,22 @@ jQuery(document).ready(function($) {
             fadeIn_element.fadeIn(time, function() {
                 fadeIn_element.addClass(class_animation);
             });
+        });
+    }
+
+    function initMap(lattitude, longtitude) {
+        var myLatLng = {
+            lat: lattitude,
+            lng: longtitude
+        };
+        var map = new google.maps.Map(document.getElementById('muth-google-map-id'), {
+            center: myLatLng,
+            zoom: 16
+        });
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
         });
     }
 });

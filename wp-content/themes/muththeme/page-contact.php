@@ -4,41 +4,34 @@ Template Name: Contact Page
 */
 get_header(); ?>
 
-
-
 <section class="muth-all-contacts">
-
-      <div class="muth-all-contacts-content">
-      
+    <div class="muth-all-contacts-content">
         <div class="row">
             <h3>Neváhajte nás kontaktovať s vašimi otázkami :)</h3>
-
-            <div class="muth-subheader"></div>
-            </div>
+            <div class="muth-subheader"></div> <!-- muth-subheader -->
+        </div> <!-- row --> 
             
-            <div class="row">
-            	 <?php
-            	 	//language switcher for contact multi-lang form 
-            	  $lang = get_bloginfo('language'); 
-            	switch ($lang):
-            	 	case 'sk-SK':
-            	 		echo 'slovencina';
-            	 		break;
-            	 	case 'cs-CZ':
-            	 		echo 'cestina';
-            	 		break;
-            	 	case 'en-US':
-            	 		echo 'anglina';
-            	 		break;
-            	 	case 'de-DE':
-            	 		echo 'nemcina';
-            	 		break;
-            	 	default:
-            	 		echo 'neznamy jazyk';
-            	 		break;
-            	 endswitch;
-            	 
-            	 echo do_shortcode( '[contact-form-7 id="167" title="test"]' ); ?>
+        <div class="row">
+        	<?php
+        	 	//language switcher for contact multi-lang form 
+        	$lang = get_bloginfo('language'); 
+        	switch ($lang):
+        	 	case 'sk-SK':
+                    echo do_shortcode('[contact-form-7 id="167" title="Kontaktný formulár SK"]');
+        	 		break;
+        	 	case 'cs-CZ':
+        	 		echo do_shortcode('[contact-form-7 id="175" title="Kontaktný formulár CZ"]');
+        	 		break;
+        	 	case 'en-US':
+        	 		echo do_shortcode('[contact-form-7 id="176" title="Kontaktný formulár EN"]');
+        	 		break;
+        	 	case 'de-DE':
+        	 		echo do_shortcode('[contact-form-7 id="177" title="Kontaktný formulár DE"]');
+        	 		break;
+        	 	default:
+        	 		//echo 'neznamy jazyk';
+        	 		break;
+        	 endswitch;?>
             
             <ul>
               <li>
@@ -50,9 +43,35 @@ get_header(); ?>
                 <p>+421 918 867 525</p>
               </li>
             </ul>
-            </div>
-      </div>
-    </section>
+        </div> <!-- row -->
+    </div> <!-- muth-all-contacts-content -->
+</section> <!-- muth-all-contacts -->
+
+<section class="muth-map">
+  <div class="muth-map-content">
+    <div class="row">
+      <h3>Nájdete nás</h3>
+      <div class="muth-subheader"></div> <!-- muth-subheader -->
+      <div  class="muth-google-map"><div id="muth-google-map-id" class="nieco"></div>
+                  
+      </div> <!-- muth-google-map -->
+      <div class="muth-address">
+        <h4>Naša adresa</h4>
+        <ul>
+          <li>Predmeská 66</li>
+          <li>Žilina 010 01</li>
+        </ul>
+        <h4>Korešpondenčná adresa</h4>
+        <ul>
+          <li>Na Záhumní</li>
+          <li>013 02 Nededza</li>
+        </ul>
+
+      </div> <!-- muth-address -->
+    </div> <!-- row -->
+  </div> <!-- muth-map-content -->
+</section> <!-- muth-map -->
+
 
 <?php get_footer(); ?>
 	
