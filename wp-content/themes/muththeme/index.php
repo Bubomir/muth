@@ -16,13 +16,18 @@
       </div> <!-- muth-icon-menu -->
     </section> <!-- services -->
    
+   <?php if ( is_active_sidebar( 'fast_contact-sidebar' ) ): ?>
+
     <section class="muth-fast-contact">
       <div class="muth-fast-contact-content">
         <div class="row">
-          <a href="#">Chcete elegantný a funkčný web?<span style="color: green;"> Oslovte nás.</span></a>
+          <!-- <a href="#">Chcete elegantný a funkčný web?<span style="color: green;"> Oslovte nás.</span></a> -->
+          <?php dynamic_sidebar( 'fast_contact-sidebar' ); ?>
         </div> <!-- row -->
       </div> <!-- muth-fast-contact-content -->
     </section> <!-- muth-fast-contact -->
+    
+  <?php endif; ?>
 
     <section class="muth-testimonial">
       <div class="muth-testimonial-content">
@@ -34,8 +39,7 @@
             <ul >
            
             <?php $count=0;
-
-              foreach (get_testimonial(3) as $testimonial):
+              foreach (get_testimonial() as $testimonial):
                 $activated = ($count < 1) ? 'class="testimonial-activated"' : '';
                   echo '<li id="muth-testimonial-list-'.$count.'" '.$activated.'>';
                   echo '<p>'. $testimonial['content'].'</p>';

@@ -170,7 +170,7 @@ add_action('manage_posts_custom_column', 'muth_testimonials_columns', 10, 2);
  *
  * @return  string  Formatted HTML
  */
-function get_testimonial($posts_per_page = 1, $orderby = 'none', $testimonial_id = null)
+function get_testimonial($posts_per_page = 0, $orderby = 'none', $testimonial_id = null)
 {
     $args = array(
         'posts_per_page' => (int) $posts_per_page,
@@ -183,8 +183,7 @@ function get_testimonial($posts_per_page = 1, $orderby = 'none', $testimonial_id
     }
 
     $query = new WP_Query($args);
-
-   
+      
     $testimonials = array();
     if ($query->have_posts()) {
         while ($query->have_posts()): $query->the_post();
