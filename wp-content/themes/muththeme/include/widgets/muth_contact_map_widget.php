@@ -1,5 +1,5 @@
 <?php
-class muth_contact_widget extends WP_Widget
+class muth_contact_map_widget extends WP_Widget
 {
     /**
      * Constructor
@@ -7,11 +7,11 @@ class muth_contact_widget extends WP_Widget
     public function __construct()
     {
         $widget_ops = array(
-            'classname'   => 'muth_contact_widget',
-            'description' => 'Widget For contact info.',
+            'classname'   => 'muth_contact_map_widget',
+            'description' => 'Widget For contact map.',
         );
 
-        parent::__construct('muth_contact_widget', 'Muth Contact Info Widget', $widget_ops);
+        parent::__construct('muth_contact_map_widget', 'Muth Contact Map Widget', $widget_ops);
     }
 
     /**

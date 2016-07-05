@@ -23,9 +23,11 @@ class muth_partners_widget extends WP_Widget
      **/
     public function widget( $args, $instance )
     {
+        $link = (!empty($instance['link'])? $instance['link'] : __('#'));
+        $image = (!empty($instance['image'])? $instance['image'] : __(''));
         // Add any html to output the image in the $instance array
         $output = '';
-        $output .= '<li><a href='.(!empty($instance['link'])? $instance['link'] : '#').'><img src='.(!empty($instance['image'])? $instance['image'] : '').'></a></li>';
+        $output .= '<li><a href='.$link.'><img src='.$image.'></a></li>';
       
         echo $output;
     }   

@@ -2,12 +2,30 @@
 /*
 Template Name: Contact Page
 */
-get_header(); ?>
+get_header();
+
+if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+        wpcf7_enqueue_scripts();
+    }
+ 
+    if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+        wpcf7_enqueue_styles();
+    }
+?>
 
 <section class="muth-all-contacts">
     <div class="muth-all-contacts-content">
         <div class="row">
-            <h3>Neváhajte nás kontaktovať s vašimi otázkami :)</h3>
+        <h3>
+
+        <?php 
+          while (have_posts()) : the_post(); 
+            echo get_the_content();
+          endwhile;
+         ?>
+
+         </h3>
+            
             <div class="muth-subheader"></div> <!-- muth-subheader -->
         </div> <!-- row --> 
             
@@ -47,6 +65,12 @@ get_header(); ?>
     </div> <!-- muth-all-contacts-content -->
 </section> <!-- muth-all-contacts -->
 
+
+
+<?php if ( is_active_sidebar( 'contact_map-sidebar' ) ): ?>
+
+<?php dynamic_sidebar( 'contact_map-sidebar' ); ?>
+
 <section class="muth-map">
   <div class="muth-map-content">
     <div class="row">
@@ -72,6 +96,7 @@ get_header(); ?>
   </div> <!-- muth-map-content -->
 </section> <!-- muth-map -->
 
+<?php endif; ?>
 
 <?php get_footer(); ?>
 	

@@ -14,6 +14,7 @@ function register_my_widgets() {
     register_widget( 'muth_contact_widget' );
     register_widget( 'muth_partners_widget' );
     register_widget( 'muth_fast_contact_widget' );
+    register_widget( 'muth_contact_map_widget' );
 }
 
 
@@ -23,6 +24,7 @@ require_once ('widgets/muth_contact_info_widget.php');
 require_once ('widgets/muth_icon_widget.php');
 require_once ('widgets/muth_partners_widget.php');
 require_once ('widgets/muth_fast_contact_widget.php');
+require_once ('widgets/muth_contact_map_widget.php');
 
 
 //funkcia pre riadenie pridavabua prefixu http k linku a jeho kontrolu
@@ -49,7 +51,20 @@ function muth_widget_setup()
     );
     register_sidebar($args);
 
-    //partners sidebar
+    //icon menu sidebar
+    $args = array(
+        'name'          => __('Contact Map Sidebar'),
+        'id'            => 'contact_map-sidebar',
+        'class'         => 'custom',
+        'description'   => 'Contact Map Sidebar',
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '',
+        'after_title'   => ''
+    );
+    register_sidebar($args);
+
+    //partners title sidebar
     $args = array(
         'name'          => __('Partners Title Sidebar'),
         'id'            => 'partners-title-sidebar',
@@ -75,7 +90,7 @@ function muth_widget_setup()
     );
     register_sidebar($args);
 
-    //partners sidebar
+    //fast contact sidebar
     $args = array(
         'name'          => __('Fast Contact Sidebar'),
         'id'            => 'fast_contact-sidebar',

@@ -46,8 +46,8 @@
             <?php endif; ?>
         </h4>
       </div> 
-			
 		</footer>
+
 		<?php wp_footer(); ?>
 	</body>
 </html>

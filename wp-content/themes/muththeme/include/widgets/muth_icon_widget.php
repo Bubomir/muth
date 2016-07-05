@@ -23,13 +23,20 @@ class muth_icon_widget extends WP_Widget
      **/
     public function widget( $args, $instance )
     {
+
+        $link = (!empty($instance['link'])? $instance['link'] : __('#'));
+        $glyphicon = (!empty($instance['glyphicon'])? $instance['glyphicon'] : __(''));
+        $text_title = (!empty($instance['text_title'])? $instance['text_title'] : __(''));
+        $text_describe = (!empty($instance['text_describe'])? $instance['text_describe'] : __(''));
+
+
         // Add any html to output the image in the $instance array
         $output = '';
-        $output .= '<a href='.(!empty($instance['link'])? $instance['link'] : '#').' class="muth-icon-item">';
-        $output .= '<div class="'.(!empty($instance['glyphicon'])? $instance['glyphicon'] : '').'">';
-        $output .= '<div class="muth-service-name-in">'.(!empty($instance['text_title'])? $instance['text_title'] : '').'</div></div>';
-        $output .= '<div class="muth-service-name-out">'.(!empty($instance['text_title'])? $instance['text_title'] : '').'</div>';
-        $output .= '<div class="muth-service-description">'.(!empty($instance['text_describe'])? $instance['text_describe'] : '').'</div>';
+        $output .= '<a href='.$link.' class="muth-icon-item">';
+        $output .= '<div class="'.$glyphicon.'">';
+        $output .= '<div class="muth-service-name-in">'.$text_title.'</div></div>';
+        $output .= '<div class="muth-service-name-out">'.$text_title.'</div>';
+        $output .= '<div class="muth-service-description">'.$text_describe.'</div>';
         $output .= '</a>';
        
         echo $output;

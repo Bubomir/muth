@@ -7,11 +7,11 @@ class muth_fast_contact_widget extends WP_Widget
     public function __construct()
     {
         $widget_ops = array(
-            'classname' => 'muth_fast_contact_widget',
-            'description' => 'Widget For fast contact row.'
+            'classname'   => 'muth_fast_contact_widget',
+            'description' => 'Widget For fast contact row.',
         );
 
-        parent::__construct( 'muth_fast_contact_widget', 'Muth Fast Contact Widget', $widget_ops );
+        parent::__construct('muth_fast_contact_widget', 'Muth Fast Contact Widget', $widget_ops);
     }
 
     /**
@@ -21,18 +21,23 @@ class muth_fast_contact_widget extends WP_Widget
      * @param array  An array of settings for this widget instance
      * @return void Echoes it's output
      **/
-    public function widget( $args, $instance )
+    public function widget($args, $instance)
     {
+
+        $link          = (!empty($instance['link']) ? $instance['link'] : __('#'));
+        $text_title    = (!empty($instance['text_title']) ? $instance['text_title'] : __(''));
+        $text_describe = (!empty($instance['text_describe']) ? $instance['text_describe'] : __(''));
+
         // Add any html to output the image in the $instance array
         $output = '';
 
-        $output .= '<a href='.(!empty($instance['link'])? $instance['link'] : '#').' ">';
-        $output .= (!empty($instance['text_title'])? $instance['text_title'] : '');
-        $output .= '<span style="color: green;">'.(!empty($instance['text_describe'])? $instance['text_describe'] : '').'</span>';
+        $output .= '<a href="' . $link . ' ">';
+        $output .= $text_title;
+        $output .= '<span style="color: green;">'.__(' '). $text_describe . '</span>';
         $output .= '</a>';
-       
+
         echo $output;
-    }   
+    }
 
     /**
      * Deals with the settings when they are saved by the admin. Here is
@@ -42,15 +47,16 @@ class muth_fast_contact_widget extends WP_Widget
      * @param array  An array of the previous settings
      * @return array The validated and (if necessary) amended settings
      **/
-    public function update( $new_instance, $old_instance ) {
+    public function update($new_instance, $old_instance)
+    {
 
         // update logic goes here
-        
-        $instance = $old_instance;
-        $instance[ 'title' ] = strip_tags( $new_instance[ 'title' ] );
-        $instance[ 'text_title' ] = strip_tags( $new_instance[ 'text_title' ] );
-        $instance[ 'text_describe' ] = strip_tags( $new_instance[ 'text_describe' ] );
-        $instance[ 'link' ] = strip_tags( $new_instance[ 'link' ] );
+
+        $instance                  = $old_instance;
+        $instance['title']         = strip_tags($new_instance['title']);
+        $instance['text_title']    = strip_tags($new_instance['text_title']);
+        $instance['text_describe'] = strip_tags($new_instance['text_describe']);
+        $instance['link']          = strip_tags($new_instance['link']);
         return $instance;
     }
 
@@ -60,53 +66,49 @@ class muth_fast_contact_widget extends WP_Widget
      * @param array  An array of the current settings for this widget
      * @return void
      **/
-    public function form( $instance )
-    {   
-       //print_r($instance);
-      
+    public function form($instance)
+    {
+        //print_r($instance);
+
         $title = __('');
-        if(isset($instance['title']))
-        {
+        if (isset($instance['title'])) {
             $title = $instance['title'];
         }
-       
+
         $text_title = __('');
-        if(isset($instance['text_title']))
-        {
+        if (isset($instance['text_title'])) {
             $text_title = $instance['text_title'];
         }
 
         $text_describe = __('');
 
-        if(isset($instance['text_describe']))
-        {
+        if (isset($instance['text_describe'])) {
             $text_describe = $instance['text_describe'];
         }
         $link = __('');
-        if(isset($instance['link']))
-        {
+        if (isset($instance['link'])) {
             $link = $instance['link'];
         }
         ?>
-        
+
         <p>
-            <label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" placeholder="Nadpis" value="<?php echo esc_attr( $title );?>" />
+            <label for="<?php echo $this->get_field_name('title'); ?>"><?php _e('Title:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" placeholder="Nadpis" value="<?php echo esc_attr($title); ?>" />
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_name( 'text_title' ); ?>"><?php _e( 'Nazov textu:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'text_title' ); ?>" name="<?php echo $this->get_field_name( 'text_title' ); ?>" type="text" placeholder="Názov textu" value="<?php echo esc_attr( $text_title ); ?>" />
+            <label for="<?php echo $this->get_field_name('text_title'); ?>"><?php _e('Nazov textu:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_title'); ?>" name="<?php echo $this->get_field_name('text_title'); ?>" type="text" placeholder="Názov textu" value="<?php echo esc_attr($text_title); ?>" />
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_name( 'text_describe' ); ?>"><?php _e( 'Popis textu:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'text_describe' ); ?>" name="<?php echo $this->get_field_name( 'text_describe' ); ?>" type="text" placeholder="Popis textu" value="<?php echo esc_attr( $text_describe ); ?>" />
+            <label for="<?php echo $this->get_field_name('text_describe'); ?>"><?php _e('Popis textu:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="Popis textu" value="<?php echo esc_attr($text_describe); ?>" />
         <p>
-            <label for="<?php echo $this->get_field_name( 'link' ); ?>"><?php _e( 'Link:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" placeholder="Link" value="<?php echo esc_attr( $link );?>" />
+            <label for="<?php echo $this->get_field_name('link'); ?>"><?php _e('Link:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('link'); ?>" name="<?php echo $this->get_field_name('link'); ?>" type="text" placeholder="Link" value="<?php echo esc_attr($link); ?>" />
         </p>
-                       
+
     <?php
-    }
+}
 }

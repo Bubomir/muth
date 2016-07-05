@@ -21,7 +21,6 @@
     <section class="muth-fast-contact">
       <div class="muth-fast-contact-content">
         <div class="row">
-          <!-- <a href="#">Chcete elegantný a funkčný web?<span style="color: green;"> Oslovte nás.</span></a> -->
           <?php dynamic_sidebar( 'fast_contact-sidebar' ); ?>
         </div> <!-- row -->
       </div> <!-- muth-fast-contact-content -->

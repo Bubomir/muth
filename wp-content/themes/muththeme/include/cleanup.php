@@ -25,6 +25,10 @@ function muth_remove_wp_version_strings( $src ) {
 add_filter( 'script_loader_src', 'muth_remove_wp_version_strings' );
 add_filter( 'style_loader_src', 'muth_remove_wp_version_strings' );
 
+//remove JS and CSS for contact form 7 when it isnt need it
+add_filter( 'wpcf7_load_js', '__return_false' );
+add_filter( 'wpcf7_load_css', '__return_false' );
+
 /* remove metatag generator from header */
 function muth_remove_meta_version() {
 	return '';
