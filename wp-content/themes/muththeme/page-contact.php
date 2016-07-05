@@ -4,6 +4,7 @@ Template Name: Contact Page
 */
 get_header();
 
+//registracia JS a CSS pre contact form 7
 if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
         wpcf7_enqueue_scripts();
     }
@@ -76,24 +77,38 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
     <div class="row">
       <h3>Nájdete nás</h3>
       <div class="muth-subheader"></div> <!-- muth-subheader -->
-      <div  class="muth-google-map"><div id="muth-google-map-id" class="nieco"></div>
-                  
+      
+      <div class="muth-google-map">
+        <div class="muth-map"></div> <!-- muth-map --> 
       </div> <!-- muth-google-map -->
-      <div class="muth-address">
-        <h4>Naša adresa</h4>
-        <ul>
-          <li>Predmeská 66</li>
-          <li>Žilina 010 01</li>
-        </ul>
-        <h4>Korešpondenčná adresa</h4>
-        <ul>
-          <li>Na Záhumní</li>
-          <li>013 02 Nededza</li>
-        </ul>
 
+      <div class="muth-address">
+        <div class="muth-normal-address">
+          <div class="muth-adress-name  muth-icon">
+          <div class=" muth-muth-fb"></div>
+            <!-- <svg height="60px" version="1.1" viewBox="0 0 60 60" width="60px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill-rule="evenodd" id="soical" stroke="none" stroke-width="1"><g id="social" transform="translate(-573.000000, -738.000000)"><g id="slices" transform="translate(173.000000, 138.000000)"/><g  id="square-flat" transform="translate(173.000000, 138.000000)"><path d="M402.995937,600 L457.004063,600 C458.658673,600 460,601.33731 460,602.995937 L460,657.004063 C460,658.658673 458.66269,660 457.004063,660 L402.995937,660 C401.341327,660 400,658.66269 400,657.004063 L400,602.995937 C400,601.341327 401.33731,600 402.995937,600 Z" id="square-65"/></g><g fill="#FFFFFF" id="icon" transform="translate(182.000000, 150.000000)"><path d="M409.307692,614.384615 C409.307692,620.757692 420.846154,635.663161 420.846154,635.258357 C420.846154,634.853553 432.384615,620.757692 432.384615,614.384615 C432.384615,608.011538 427.215385,602.846154 420.846154,602.846154 C414.476923,602.846154 409.307692,608.011538 409.307692,614.384615 Z M415.076923,613.230769 C415.076923,616.417308 417.661538,619 420.846154,619 C424.030769,619 426.615385,616.417308 426.615385,613.230769 C426.615385,610.044231 424.030769,607.461538 420.846154,607.461538 C417.661538,607.461538 415.076923,610.044231 415.076923,613.230769 Z" id="location"/></g></g></g></svg> -->
+            <h4> Korešpondenčná adresa</h4>
+          </div> <!-- muth-adress-name -->
+          <ul>
+            <li>Predmeská 66</li>
+            <li>Žilina 010 01</li>
+          </ul>
+        </div> <!-- muth-normal-address -->
+        
+        <div class="muth-correspondedn-address">
+          <div class="muth-adress-name">
+            <svg height="60px" version="1.1" viewBox="0 0 60 60" width="60px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill-rule="evenodd" id="soical" stroke="none" stroke-width="1"><g id="social" transform="translate(-573.000000, -738.000000)"><g id="slices" transform="translate(173.000000, 138.000000)"/><g  id="square-flat" transform="translate(173.000000, 138.000000)"><path d="M402.995937,600 L457.004063,600 C458.658673,600 460,601.33731 460,602.995937 L460,657.004063 C460,658.658673 458.66269,660 457.004063,660 L402.995937,660 C401.341327,660 400,658.66269 400,657.004063 L400,602.995937 C400,601.341327 401.33731,600 402.995937,600 Z" id="square-65"/></g><g fill="#FFFFFF" id="icon" transform="translate(182.000000, 150.000000)"><path d="M409.307692,614.384615 C409.307692,620.757692 420.846154,635.663161 420.846154,635.258357 C420.846154,634.853553 432.384615,620.757692 432.384615,614.384615 C432.384615,608.011538 427.215385,602.846154 420.846154,602.846154 C414.476923,602.846154 409.307692,608.011538 409.307692,614.384615 Z M415.076923,613.230769 C415.076923,616.417308 417.661538,619 420.846154,619 C424.030769,619 426.615385,616.417308 426.615385,613.230769 C426.615385,610.044231 424.030769,607.461538 420.846154,607.461538 C417.661538,607.461538 415.076923,610.044231 415.076923,613.230769 Z" id="location"/></g></g></g></svg>
+            <h4> Korešpondenčná adresa</h4>
+          </div> <!-- muth-adress-name -->
+          <ul>
+            <li>Na Záhumní</li>
+            <li>013 02 Nededza</li>
+          </ul>
+        </div> <!-- muth-correspondedn-address -->
       </div> <!-- muth-address -->
+
     </div> <!-- row -->
-  </div> <!-- muth-map-content -->
+  </div>  <!-- muth-map-content -->
 </section> <!-- muth-map -->
 
 <?php endif; ?>

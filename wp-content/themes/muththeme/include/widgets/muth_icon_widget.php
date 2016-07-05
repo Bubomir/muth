@@ -131,7 +131,7 @@ class muth_icon_widget extends WP_Widget
         </p>
        
        <p>
-       <!-- <div class="dashicons-before dashicons-admin-post"> </div> -->
+       
             <?php if(!empty($glyphicon)): ?>
 
                 <div class="<?php echo $glyphicon ?>"></div>

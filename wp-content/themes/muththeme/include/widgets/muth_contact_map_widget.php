@@ -24,19 +24,21 @@ class muth_contact_map_widget extends WP_Widget
     public function widget($args, $instance)
     {
         // Add any html to output the image in the $instance array
-        $glyphicon     = (!empty($instance['glyphicon']) ? $instance['glyphicon'] : __(''));
-        $text_title    = (!empty($instance['text_title']) ? $instance['text_title'] : __(''));
-        $text_describe = (!empty($instance['text_describe']) ? $instance['text_describe'] : __(''));
-        $use_link_begin_1   = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '<td class="' . $glyphicon . '">' . $text_title : '<td style="vertical-align: top;" class="' . $glyphicon . '">' . $text_title);
-        $use_link_begin_2 = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '<td><a href="' . $text_describe . '">' : '<td style="padding-left: 2.5rem;"><span>');
-        $use_link_end_2   = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '</a></td>' : '</span></td>');
 
+        $text_address_typ = (!empty($instance['text_address_typ']) ? $instance['text_address_typ'] : __(''));
+        $text_street      = (!empty($instance['text_street']) ? $instance['text_street'] : __(''));
+        $text_city        = (!empty($instance['text_city']) ? $instance['text_city'] : __(''));
+        $text_zip         = (!empty($instance['text_zip']) ? $instance['text_zip'] : __(''));
+        $text_country     = (!empty($instance['text_country']) ? $instance['text_country'] : __(''));
+        $glyphicon        = (!empty($instance['glyphicon']) ? $instance['glyphicon'] : __(''));
 
         $output = '';
-        $output .= '<tr>';
-        $output .= $use_link_begin_1 . ':</td>';
-        $output .= $use_link_begin_2 . $text_describe . $use_link_end_2;
-        $output .= '</tr>';
+        $output .= '';
+        $output .= '';
+        $output .= '';
+        $output .= '';
+        $output .= '';
+        $output .= '';
 
         echo $output;
     }
@@ -54,13 +56,15 @@ class muth_contact_map_widget extends WP_Widget
 
         // update logic goes here
 
-        $instance                  = $old_instance;
-        $instance['title']         = strip_tags($new_instance['title']);
-        $instance['text_title']    = strip_tags($new_instance['text_title']);
-        $instance['text_describe'] = strip_tags($new_instance['text_describe']);
-        $instance['glyphicon']     = strip_tags($new_instance['glyphicon']);
-        // The update for the variable of the checkbox
-        $instance['use_link'] = $new_instance['use_link'];
+        $instance                     = $old_instance;
+        $instance['title']            = strip_tags($new_instance['title']);
+        $instance['text_address_typ'] = strip_tags($new_instance['text_address_typ']);
+        $instance['text_street']      = strip_tags($new_instance['text_street']);
+        $instance['text_city']        = strip_tags($new_instance['text_city']);
+        $instance['text_zip']         = strip_tags($new_instance['text_zip']);
+        $instance['text_country']     = strip_tags($new_instance['text_country']);
+        $instance['glyphicon']        = strip_tags($new_instance['glyphicon']);
+
         return $instance;
     }
 
@@ -74,27 +78,37 @@ class muth_contact_map_widget extends WP_Widget
     {
         //print_r($instance);
 
-        $title = __('Widget Image');
+        $title = __('');
         if (isset($instance['title'])) {
             $title = $instance['title'];
         }
 
-        $text_title = __('Názov textu');
-        if (isset($instance['text_title'])) {
-            $text_title = $instance['text_title'];
+        $text_address_typ = __('');
+        if (isset($instance['text_address_typ'])) {
+            $text_address_typ = $instance['text_address_typ'];
         }
 
-        $text_describe = __('Popis textu');
-
-        if (isset($instance['text_describe'])) {
-            $text_describe = $instance['text_describe'];
-        }
-        $use_link = '';
-        if (isset($instance['use_link'])) {
-            $use_link = $instance['use_link'];
+        $text_street = __('');
+        if (isset($instance['text_street'])) {
+            $text_street = $instance['text_street'];
         }
 
-        $glyphicon = __('Glyphicon Image');
+        $text_city = __('');
+        if (isset($instance['text_city'])) {
+            $text_city = $instance['text_city'];
+        }
+
+        $text_zip = __('');
+        if (isset($instance['text_zip'])) {
+            $text_zip = $instance['text_zip'];
+        }
+
+        $text_country = __('');
+        if (isset($instance['text_country'])) {
+            $text_country = $instance['text_country'];
+        }
+
+        $glyphicon = __('');
         if (isset($instance['glyphicon'])) {
             $glyphicon = $instance['glyphicon'];
         }
@@ -103,25 +117,37 @@ class muth_contact_map_widget extends WP_Widget
 
 
         <p>
-            <label for="<?php echo $this->get_field_name('title'); ?>"><?php _e('Title:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>" />
+            <label for="<?php echo $this->get_field_name('title'); ?>"><?php _e('Názov:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" placeholder="<?php _e('Názov:');?>" value="<?php echo esc_attr($title); ?>" />
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_name('text_title'); ?>"><?php _e('Nazov textu:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('text_title'); ?>" name="<?php echo $this->get_field_name('text_title'); ?>" type="text" value="<?php echo esc_attr($text_title); ?>" />
+            <label for="<?php echo $this->get_field_name('text_address_typ'); ?>"><?php _e('Typ adresy:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_address_typ'); ?>" name="<?php echo $this->get_field_name('text_address_typ'); ?>" type="text" placeholder="<?php _e('Typ adresy: korešpondenčna atď');?>" value="<?php echo esc_attr($text_address_typ); ?>" />
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_name('text_describe'); ?>"><?php _e('Popis textu:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" value="<?php echo esc_attr($text_describe); ?>" />
-        <p>
-            <input class="checkbox" type="checkbox" <?php checked($use_link, 'on');?> id="<?php echo $this->get_field_id('use_link'); ?>" name="<?php echo $this->get_field_name('use_link'); ?>" />
-            <label for="<?php echo $this->get_field_id('use_link'); ?>">Použiť ako link ?</label>
+            <label for="<?php echo $this->get_field_name('text_street'); ?>"><?php _e('Ulica:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_street'); ?>" name="<?php echo $this->get_field_name('text_street'); ?>" type="text" placeholder="<?php _e('Ulica');?>" value="<?php echo esc_attr($text_street); ?>" />
         </p>
 
-       <p>
-       <!-- <div class="dashicons-before dashicons-admin-post"> </div> -->
+        <p>
+            <label for="<?php echo $this->get_field_name('text_city'); ?>"><?php _e('Mesto:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_city'); ?>" name="<?php echo $this->get_field_name('text_city'); ?>" type="text" placeholder="<?php _e('Mesto');?>" value="<?php echo esc_attr($text_city); ?>" />
+        </p>
+
+        <p>
+            <label for="<?php echo $this->get_field_name('text_zip'); ?>"><?php _e('PSČ:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_zip'); ?>" name="<?php echo $this->get_field_name('text_zip'); ?>" type="text" placeholder="<?php _e('PSČ');?>" value="<?php echo esc_attr($text_zip); ?>" />
+        </p>
+
+        <p>
+            <label for="<?php echo $this->get_field_name('text_country'); ?>"><?php _e('Štát:');?></label>
+            <input class="widefat" id="<?php echo $this->get_field_id('text_country'); ?>" name="<?php echo $this->get_field_name('text_country'); ?>" type="text" placeholder="<?php _e('Štát');?>" value="<?php echo esc_attr($text_country); ?>" />
+        </p>
+
+        <p>
+
             <?php if (!empty($glyphicon)): ?>
 
                 <div class="<?php echo $glyphicon ?>"></div>
@@ -129,10 +155,11 @@ class muth_contact_map_widget extends WP_Widget
             <?php endif;?>
 
             <label for="<?php echo $this->get_field_name('glyphicon'); ?>"><?php _e('Glyphicon:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('glyphicon'); ?>" name="<?php echo $this->get_field_name('glyphicon'); ?>" type="text" value="<?php echo esc_attr($glyphicon); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id('glyphicon'); ?>" name="<?php echo $this->get_field_name('glyphicon'); ?>" type="text" placeholder="<?php _e('napíš CSS glyphicon triedu');?>" value="<?php echo esc_attr($glyphicon); ?>" />
         </p>
 
-       
+
+
     <?php
 }
 }
