@@ -93,20 +93,20 @@ class muth_fast_contact_widget extends WP_Widget
 
         <p>
             <label for="<?php echo $this->get_field_name('title'); ?>"><?php _e('Title:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" placeholder="Nadpis" value="<?php echo esc_attr($title); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" placeholder="<?php _e('Nadpis');?>" value="<?php echo esc_attr($title); ?>" />
         </p>
 
         <p>
             <label for="<?php echo $this->get_field_name('text_title'); ?>"><?php _e('Nazov textu:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('text_title'); ?>" name="<?php echo $this->get_field_name('text_title'); ?>" type="text" placeholder="Názov textu" value="<?php echo esc_attr($text_title); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id('text_title'); ?>" name="<?php echo $this->get_field_name('text_title'); ?>" type="text" placeholder="<?php _e('Názov textu');?>" value="<?php echo esc_attr($text_title); ?>" />
         </p>
 
         <p>
             <label for="<?php echo $this->get_field_name('text_describe'); ?>"><?php _e('Popis textu:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="Popis textu" value="<?php echo esc_attr($text_describe); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php _e('Popis textu');?>" value="<?php echo esc_attr($text_describe); ?>" />
         <p>
             <label for="<?php echo $this->get_field_name('link'); ?>"><?php _e('Link:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('link'); ?>" name="<?php echo $this->get_field_name('link'); ?>" type="text" placeholder="Link" value="<?php echo esc_attr($link); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id('link'); ?>" name="<?php echo $this->get_field_name('link'); ?>" type="text" placeholder="<?php _e('http://');?>" value="<?php echo esc_attr($link); ?>" />
         </p>
 
     <?php

@@ -82,12 +82,12 @@ class muth_partners_widget extends WP_Widget
         
         <p>
             <label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" placeholder="Nadpis" value="<?php echo esc_attr( $title );?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" placeholder="<?php _e('Nadpis');?>" value="<?php echo esc_attr( $title );?>" />
         </p>
 
         <p>
             <label for="<?php echo $this->get_field_name( 'link' ); ?>"><?php _e( 'Link:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" placeholder="http://" value="<?php echo addhttp(esc_attr( $link ));?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" placeholder="<?php _e('http://');?>" value="<?php echo addhttp(esc_attr( $link ));?>" />
         </p>
        
 
@@ -99,7 +99,7 @@ class muth_partners_widget extends WP_Widget
          <?php endif; ?>
 
             <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
-            <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36" placeholder="URL obrázku" value="<?php echo esc_url( $image ); ?>" />
+            <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36" placeholder="<?php _e('URL obrázku');?>" value="<?php echo esc_url( $image ); ?>" />
             
         <?php if(!empty($image)):?>
            <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahradiť Obrázok" />

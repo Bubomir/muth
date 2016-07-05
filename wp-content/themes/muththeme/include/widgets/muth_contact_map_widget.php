@@ -32,7 +32,7 @@ class muth_contact_map_widget extends WP_Widget
         $text_country     = (!empty($instance['text_country']) ? $instance['text_country'] : __(''));
         $glyphicon        = (!empty($instance['glyphicon']) ? $instance['glyphicon'] : __(''));
 
-        $output = '';
+        $output = 'fds';
         $output .= '';
         $output .= '';
         $output .= '';

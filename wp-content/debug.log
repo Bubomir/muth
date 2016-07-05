@@ -7126,3 +7126,27 @@
 [05-Jul-2016 10:53:37 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
 [05-Jul-2016 10:53:37 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
 [05-Jul-2016 10:53:37 UTC] PHP   7. muth_contact_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[05-Jul-2016 11:38:59 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 63
+[05-Jul-2016 11:38:59 UTC] PHP Stack trace:
+[05-Jul-2016 11:38:59 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[05-Jul-2016 11:38:59 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[05-Jul-2016 11:38:59 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[05-Jul-2016 11:38:59 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[05-Jul-2016 11:38:59 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[05-Jul-2016 11:38:59 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[05-Jul-2016 11:38:59 UTC] PHP   7. muth_contact_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[05-Jul-2016 14:04:02 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\wamp\www\muth\wp-content\themes\muththeme\page-contact.php on line 120
+[05-Jul-2016 14:04:02 UTC] PHP Stack trace:
+[05-Jul-2016 14:04:02 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[05-Jul-2016 14:04:02 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[05-Jul-2016 14:04:02 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[05-Jul-2016 14:04:02 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\wamp\www\muth\wp-content\themes\muththeme\page-contact.php on line 120
+[05-Jul-2016 14:04:02 UTC] PHP Stack trace:
+[05-Jul-2016 14:04:02 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[05-Jul-2016 14:04:02 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[05-Jul-2016 14:04:02 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[05-Jul-2016 14:04:52 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\wamp\www\muth\wp-content\themes\muththeme\page-contact.php on line 122
+[05-Jul-2016 14:04:52 UTC] PHP Stack trace:
+[05-Jul-2016 14:04:52 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[05-Jul-2016 14:04:52 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[05-Jul-2016 14:04:52 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19

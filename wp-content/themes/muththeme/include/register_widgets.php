@@ -51,6 +51,19 @@ function muth_widget_setup()
     );
     register_sidebar($args);
 
+    //contact map title
+    $args = array(
+        'name'          => __('Contact Map Title Sidebar'),
+        'id'            => 'contact_map_title-sidebar',
+        'class'         => 'custom',
+        'description'   => 'Contact Map Title Sidebar',
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    );
+    register_sidebar($args);
+
     //icon menu sidebar
     $args = array(
         'name'          => __('Contact Map Sidebar'),

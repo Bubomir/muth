@@ -114,20 +114,20 @@ class muth_icon_widget extends WP_Widget
         
         <p>
             <label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" placeholder="Nadpis" value="<?php echo esc_attr( $title );?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" placeholder="<?php _e('Nadpis');?>" value="<?php echo esc_attr( $title );?>" />
         </p>
 
         <p>
             <label for="<?php echo $this->get_field_name( 'text_title' ); ?>"><?php _e( 'Nazov textu:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'text_title' ); ?>" name="<?php echo $this->get_field_name( 'text_title' ); ?>" type="text" placeholder="Názov textu" value="<?php echo esc_attr( $text_title ); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'text_title' ); ?>" name="<?php echo $this->get_field_name( 'text_title' ); ?>" type="text" placeholder="<?php _e('Názov textu');?>" value="<?php echo esc_attr( $text_title ); ?>" />
         </p>
 
         <p>
             <label for="<?php echo $this->get_field_name( 'text_describe' ); ?>"><?php _e( 'Popis textu:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'text_describe' ); ?>" name="<?php echo $this->get_field_name( 'text_describe' ); ?>" type="text" placeholder="Popis textu" value="<?php echo esc_attr( $text_describe ); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'text_describe' ); ?>" name="<?php echo $this->get_field_name( 'text_describe' ); ?>" type="text" placeholder="<?php _e('Popis textu');?>" value="<?php echo esc_attr( $text_describe ); ?>" />
         <p>
             <label for="<?php echo $this->get_field_name( 'link' ); ?>"><?php _e( 'Link:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" placeholder="Link" value="<?php echo esc_attr( $link );?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" placeholder="<?php _e('Link');?>" value="<?php echo esc_attr( $link );?>" />
         </p>
        
        <p>
@@ -139,7 +139,7 @@ class muth_icon_widget extends WP_Widget
             <?php endif; ?>
 
             <label for="<?php echo $this->get_field_name( 'glyphicon' ); ?>"><?php _e( 'Glyphicon:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'glyphicon' ); ?>" name="<?php echo $this->get_field_name( 'glyphicon' ); ?>" type="text" placeholder="css glyphicon class " value="<?php echo esc_attr( $glyphicon ); ?>" />
+            <input class="widefat" id="<?php echo $this->get_field_id( 'glyphicon' ); ?>" name="<?php echo $this->get_field_name( 'glyphicon' ); ?>" type="text" placeholder="<?php _e('napíš CSS glyphicon triedu');?>" value="<?php echo esc_attr( $glyphicon ); ?>" />
         </p>
 
        <p>
@@ -150,7 +150,7 @@ class muth_icon_widget extends WP_Widget
          <?php endif; ?>
 
             <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
-            <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36" placeholder="URL obrázku" value="<?php echo esc_url( $image ); ?>" />
+            <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36" placeholder="<?php _e('URL obrázku');?>" value="<?php echo esc_url( $image ); ?>" />
 
             
 
