@@ -82,7 +82,7 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
       <div class="muth-subheader"></div> <!-- muth-subheader -->
       
       <div class="muth-google-map">
-        <div class="muth-map"></div> <!-- muth-map --> 
+        <div id="muth-google-map-id" class="muth-map"></div> <!-- muth-map --> 
       </div> <!-- muth-google-map -->
 
       <div class="muth-address">
