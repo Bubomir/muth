@@ -20,6 +20,9 @@ jQuery(document).ready(function($) {
     if($('.muth-contact-form-text-textarea').length){
         add_animation_element_textarea();
     }
+    if($('.muth-button').length){
+        add_animation_element_button();
+    } 
     
 
     //funkcie pre pridanie elementu aplikujuceho animaciu v contakt forme
@@ -30,6 +33,13 @@ jQuery(document).ready(function($) {
     function add_animation_element_textarea(){
         $('.muth-contact-form-text-textarea').after('<span class="muth-contact-form-text-span"></span>');
     }
+
+     //funkcia pre pridanie elemntu do button tagu pre animciu v kontakt forme
+    function add_animation_element_button(){
+        var btn_value = $('.muth-button').val();
+        $('.muth-button').after('<span class="muth-button-animation-span" value= "'+btn_value +'"></span>');
+    }
+
     /*
     =========================
     Funkcie pre automaticke prehravanie a manualne prepinanie slidera

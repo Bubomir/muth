@@ -7897,7 +7897,7 @@ button.close {
   text-decoration: none;
   font-size: 1rem;
   display: block;
-  padding: 1.25rem;
+  padding: 1.3rem;
   color: white;
 }
 
@@ -7907,11 +7907,12 @@ button.close {
 
 .muth-navbar-languages {
   float: right;
-  background-color: #262b2e;
+  background-color: #171a1c;
   position: fixed;
-  width: 270px;
+  width: 280px;
   top: 62.85px;
   right: -60px;
+  border-radius: 5px;
   transform-origin: bottom left;
   -ms-transform: skew(50deg, 0deg);
   -webkit-transform: skew(50deg, 0deg);
@@ -7920,7 +7921,7 @@ button.close {
 
 @media (max-width: 991px) {
   .muth-navbar-languages {
-    width: 237px;
+    width: 245px;
     top: 55px;
     right: -60px;
   }
@@ -7928,8 +7929,9 @@ button.close {
 
 @media (max-width: 750px) {
   .muth-navbar-languages {
+    border-radius: 5px;
     height: 55px;
-    width: 145px;
+    width: 140px;
     top: 7px;
     left: 6px;
     -ms-transform: none;
@@ -7947,7 +7949,7 @@ button.close {
 
 .muth-navbar-languages ul li {
   float: left;
-  padding: 8px 30px 8px 0px;
+  padding: 8px 18px 8px 12px;
   transform-origin: bottom left;
   -ms-transform: skew(-50deg, 0deg);
   -webkit-transform: skew(-50deg, 0deg);
@@ -7956,7 +7958,7 @@ button.close {
 
 @media (max-width: 991px) {
   .muth-navbar-languages ul li {
-    padding: 8px 20px 8px 0px;
+    padding: 8px 11px 8px 9px;
   }
 }
 
@@ -8129,8 +8131,10 @@ button.close {
 
 .services .muth-icon-menu .muth-icon-item .muth-monitor-image {
   height: 204px;
-  background: url("../img/monitor.png") no-repeat center center fixed;
+  background: url("../img/monitor.png");
   background-size: 253px 204px;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   transform: translateY(24px);
   -webkit-transform: translateY(24px);
@@ -8606,6 +8610,14 @@ footer {
   }
 }
 
+.muth-footer-address-padding-1 {
+  padding-left: 2.5rem;
+}
+
+.muth-footer-address-padding-2 {
+  padding-left: 2.5rem;
+}
+
 .muth-testimonial {
   background-color: #d0fbf7;
 }
@@ -8730,7 +8742,7 @@ footer {
   list-style: none;
   text-align: center;
   margin: 0px;
-  padding-bottom: 3.75rem;
+  padding-bottom: 2.5rem;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -9094,6 +9106,7 @@ footer {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 1.25rem;
+  /*Styles for required contact form7*/
 }
 
 @media (min-width: 768px) {
@@ -9123,6 +9136,10 @@ footer {
   color: #262b2e;
   pointer-events: none;
   padding-top: 1.25rem;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-name br {
+  display: none;
 }
 
 .muth-all-contacts .muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-span {
@@ -9164,8 +9181,10 @@ footer {
   animation: anim-shadow 0.3s forwards;
 }
 
-.muth-all-contacts .muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-button {
-  margin-top: 1.25rem;
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-name .wpcf7-not-valid-tip {
+  padding-left: 1px;
+  padding-top: 8px;
+  font-size: 0.8rem;
 }
 
 .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text {
@@ -9189,6 +9208,8 @@ footer {
   padding-right: 30px;
   padding-top: 2.5rem;
   padding-bottom: 3.75rem;
+  /*Stylig for contact form 7*/
+  /*Styles for required contact form7*/
 }
 
 @media (min-width: 768px) {
@@ -9212,11 +9233,40 @@ footer {
   }
 }
 
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text p {
+  margin: 0;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .wpcf7-response-output {
+  padding: 1.25rem;
+  text-align: center;
+  margin: 1.25rem 10px 0 10px;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .wpcf7-mail-sent-ng {
+  border-radius: 5px;
+  border: 3px dashed #cc0000;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .wpcf7-validation-errors {
+  border-radius: 5px;
+  border: 3px dashed #ccbe00;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .wpcf7-mail-sent-ok {
+  border-radius: 5px;
+  border: 3px dashed #2d7010;
+}
+
 .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-label {
   display: block;
   text-align: left;
   color: #262b2e;
   pointer-events: none;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text br {
+  display: none;
 }
 
 .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-textarea {
@@ -9256,11 +9306,69 @@ footer {
   animation: anim-shadow 0.3s forwards;
 }
 
-.muth-all-contacts .muth-all-contacts-content button {
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .wpcf7-not-valid-tip {
+  padding-left: 1px;
+  padding-top: 8px;
+  font-size: 0.8rem;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button {
+  margin-top: 1.25rem;
+  width: 100%;
+  border: none;
+  background: none;
   padding: 10px 1.25rem 10px 1.25rem;
+  border-color: black;
+  color: #37474f;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span {
+  display: block;
+  position: relative;
+  pointer-events: none;
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
+  pointer-esvents: none;
+  position: absolute;
+  content: attr(value);
+  background: #2dbe60;
+  width: 100%;
+  top: -72px;
+  border-radius: 5px;
+  height: 0px;
+  text-align: center;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  padding-top: 10px;
+  color: white;
+  opacity: 0;
+  -webkit-text-size-adjust: none;
+}
+
+@media (max-width: 992px) {
+  .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
+    top: -65px;
+  }
+}
+
+.muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button:active, .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+  -webkit-animation: anim-button-span 0.3s forwards;
+  animation: anim-button-span 0.3s forwards;
+}
+
+@media (max-width: 992px) {
+  .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button:active, .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+    -webkit-animation: anim-button-span992 0.3s forwards;
+    animation: anim-button-span992 0.3s forwards;
+  }
 }
 
 .muth-all-contacts .muth-all-contacts-content ul {
+  margin: 0px;
   padding-top: 4.0625rem;
   position: relative;
   float: left;
@@ -9282,6 +9390,7 @@ footer {
   padding-right: 30px;
   list-style: none;
   border-color: #2dbe60;
+  padding-bottom: 3.75rem;
 }
 
 @media (min-width: 768px) {
@@ -9305,8 +9414,28 @@ footer {
   }
 }
 
+@media (max-width: 991px) {
+  .muth-all-contacts .muth-all-contacts-content ul {
+    padding-top: 0px;
+    text-align: center;
+  }
+}
+
 .muth-all-contacts .muth-all-contacts-content ul li {
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .muth-all-contacts .muth-all-contacts-content ul li {
+    display: inline-block;
+    padding: 0 1.25rem 0 1.25rem;
+  }
+}
+
+@media (max-width: 751px) {
+  .muth-all-contacts .muth-all-contacts-content ul li {
+    display: block;
+  }
 }
 
 .muth-all-contacts .muth-all-contacts-content ul li svg {
@@ -9323,12 +9452,19 @@ footer {
   margin: 0px;
 }
 
+@media (max-width: 751px) {
+  .muth-all-contacts .muth-all-contacts-content ul li p {
+    padding: 1.25rem;
+    display: block;
+  }
+}
+
 .muth-all-contacts .muth-all-contacts-content ul li:last-child {
   padding-top: 1.25rem;
 }
 
 .muth-map {
-  background-color: #d0fbf7;
+  background-color: white;
 }
 
 .muth-map .muth-map-content h3 {
@@ -9459,7 +9595,8 @@ footer {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding: 2.5rem 0 3.75rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 3.75rem;
 }
 
 @media (min-width: 768px) {
@@ -9483,7 +9620,7 @@ footer {
   }
 }
 
-.muth-map .muth-map-content .muth-google-map .nieco {
+.muth-map .muth-map-content .muth-google-map .muth-map {
   display: block;
   height: 350px;
   width: 100%;
@@ -9534,11 +9671,112 @@ footer {
   }
 }
 
-.muth-map .muth-map-content .muth-address ul {
+.muth-map .muth-map-content .muth-address .muth-adress-name {
+  padding-top: 1.25rem;
+  display: block;
+  vertical-align: middle;
+}
+
+.muth-map .muth-map-content .muth-address .muth-adress-name h4 {
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.muth-map .muth-map-content .muth-address .muth-adress-name svg {
+  fill: #262b2e;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+@media (max-width: 341px) {
+  .muth-map .muth-map-content .muth-address .muth-adress-name {
+    text-align: center;
+  }
+  .muth-map .muth-map-content .muth-address .muth-adress-name h4 {
+    padding-left: 0px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .muth-map .muth-map-content .muth-address .muth-adress-name svg {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.muth-map .muth-map-content .muth-address .muth-correspondedn-address {
+  display: block;
+}
+
+.muth-map .muth-map-content .muth-address .muth-correspondedn-address ul {
   margin: 0px;
   padding: 0px;
   display: block;
   list-style: none;
+}
+
+.muth-map .muth-map-content .muth-address .muth-correspondedn-address ul li {
+  padding-left: 72px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 991px) {
+  .muth-map .muth-map-content .muth-address .muth-correspondedn-address {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 341px) {
+  .muth-map .muth-map-content .muth-address .muth-correspondedn-address {
+    padding-top: 2.5rem;
+  }
+  .muth-map .muth-map-content .muth-address .muth-correspondedn-address ul li {
+    padding: 0px;
+  }
+}
+
+.muth-map .muth-map-content .muth-address .muth-normal-address {
+  display: block;
+}
+
+.muth-map .muth-map-content .muth-address .muth-normal-address ul {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  list-style: none;
+}
+
+.muth-map .muth-map-content .muth-address .muth-normal-address ul li {
+  padding-left: 72px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 991px) {
+  .muth-map .muth-map-content .muth-address .muth-normal-address {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 341px) {
+  .muth-map .muth-map-content .muth-address .muth-normal-address ul li {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .muth-map .muth-map-content .muth-address {
+    text-align: center;
+  }
 }
 
 @-webkit-keyframes anim-shadow {
@@ -9552,5 +9790,33 @@ footer {
   to {
     box-shadow: 0px 0px 100px 50px;
     opacity: 0;
+  }
+}
+
+@keyframes anim-button-span {
+  to {
+    opacity: 1;
+    height: 49px;
+  }
+}
+
+@-webkit-keyframes anim-button-span {
+  to {
+    opacity: 1;
+    height: 47px;
+  }
+}
+
+@keyframes anim-button-span992 {
+  to {
+    opacity: 1;
+    height: 44px;
+  }
+}
+
+@-webkit-keyframes anim-button-span992 {
+  to {
+    opacity: 1;
+    height: 44px;
   }
 }
