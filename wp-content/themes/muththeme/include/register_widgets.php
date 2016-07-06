@@ -15,6 +15,7 @@ function register_my_widgets() {
     register_widget( 'muth_partners_widget' );
     register_widget( 'muth_fast_contact_widget' );
     register_widget( 'muth_contact_map_widget' );
+    register_widget( 'muth_simple_text_widget' );
 }
 
 
@@ -25,6 +26,7 @@ require_once ('widgets/muth_icon_widget.php');
 require_once ('widgets/muth_partners_widget.php');
 require_once ('widgets/muth_fast_contact_widget.php');
 require_once ('widgets/muth_contact_map_widget.php');
+require_once ('widgets/muth_simple_text_widget.php');
 
 
 //funkcia pre riadenie pridavabua prefixu http k linku a jeho kontrolu

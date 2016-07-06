@@ -7150,3 +7150,95 @@
 [05-Jul-2016 14:04:52 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
 [05-Jul-2016 14:04:52 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
 [05-Jul-2016 14:04:52 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[06-Jul-2016 09:13:50 UTC] PHP Fatal error:  Class 'muth_simple_text_widget' not found in C:\wamp\www\muth\wp-includes\class-wp-widget-factory.php on line 57
+[06-Jul-2016 09:13:50 UTC] PHP Stack trace:
+[06-Jul-2016 09:13:50 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[06-Jul-2016 09:13:50 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[06-Jul-2016 09:13:50 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 09:13:50 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 09:13:50 UTC] PHP   5. do_action() C:\wamp\www\muth\wp-settings.php:393
+[06-Jul-2016 09:13:50 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:50 UTC] PHP   7. wp_widgets_init() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:50 UTC] PHP   8. do_action() C:\wamp\www\muth\wp-includes\widgets.php:1475
+[06-Jul-2016 09:13:50 UTC] PHP   9. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:50 UTC] PHP  10. register_my_widgets() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:50 UTC] PHP  11. register_widget() C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php:18
+[06-Jul-2016 09:13:50 UTC] PHP  12. WP_Widget_Factory->register() C:\wamp\www\muth\wp-includes\widgets.php:113
+[06-Jul-2016 09:13:51 UTC] PHP Fatal error:  Class 'muth_simple_text_widget' not found in C:\wamp\www\muth\wp-includes\class-wp-widget-factory.php on line 57
+[06-Jul-2016 09:13:51 UTC] PHP Stack trace:
+[06-Jul-2016 09:13:51 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[06-Jul-2016 09:13:51 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\widgets.php:10
+[06-Jul-2016 09:13:51 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-admin\admin.php:31
+[06-Jul-2016 09:13:51 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 09:13:51 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 09:13:51 UTC] PHP   6. do_action() C:\wamp\www\muth\wp-settings.php:393
+[06-Jul-2016 09:13:51 UTC] PHP   7. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:51 UTC] PHP   8. wp_widgets_init() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:51 UTC] PHP   9. do_action() C:\wamp\www\muth\wp-includes\widgets.php:1475
+[06-Jul-2016 09:13:51 UTC] PHP  10. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:51 UTC] PHP  11. register_my_widgets() C:\wamp\www\muth\wp-includes\plugin.php:525
+[06-Jul-2016 09:13:51 UTC] PHP  12. register_widget() C:\wamp\www\muth\wp-content\themes\muththeme\include\register_widgets.php:18
+[06-Jul-2016 09:13:51 UTC] PHP  13. WP_Widget_Factory->register() C:\wamp\www\muth\wp-includes\widgets.php:113
+[06-Jul-2016 09:20:07 UTC] PHP Notice:  Undefined variable: link in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 99
+[06-Jul-2016 09:20:07 UTC] PHP Stack trace:
+[06-Jul-2016 09:20:07 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[06-Jul-2016 09:20:07 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[06-Jul-2016 09:20:07 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[06-Jul-2016 09:20:07 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[06-Jul-2016 09:20:07 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[06-Jul-2016 09:20:07 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[06-Jul-2016 09:20:07 UTC] PHP   7. muth_simple_text_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[06-Jul-2016 09:20:08 UTC] PHP Notice:  Undefined variable: link in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 99
+[06-Jul-2016 09:20:08 UTC] PHP Stack trace:
+[06-Jul-2016 09:20:08 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[06-Jul-2016 09:20:08 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[06-Jul-2016 09:20:08 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[06-Jul-2016 09:20:08 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[06-Jul-2016 09:20:08 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[06-Jul-2016 09:20:08 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[06-Jul-2016 09:20:08 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[06-Jul-2016 09:20:08 UTC] PHP   8. muth_simple_text_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[06-Jul-2016 10:13:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 35
+[06-Jul-2016 10:13:48 UTC] PHP Stack trace:
+[06-Jul-2016 10:13:48 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[06-Jul-2016 10:13:48 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[06-Jul-2016 10:13:48 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 10:13:48 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 10:13:48 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[06-Jul-2016 10:13:48 UTC] PHP   6. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[06-Jul-2016 10:13:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 34
+[06-Jul-2016 10:13:57 UTC] PHP Stack trace:
+[06-Jul-2016 10:13:57 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[06-Jul-2016 10:13:57 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[06-Jul-2016 10:13:57 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[06-Jul-2016 10:13:57 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 10:13:57 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 10:13:57 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[06-Jul-2016 10:13:57 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[06-Jul-2016 10:14:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 34
+[06-Jul-2016 10:14:12 UTC] PHP Stack trace:
+[06-Jul-2016 10:14:12 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[06-Jul-2016 10:14:12 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[06-Jul-2016 10:14:12 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[06-Jul-2016 10:14:12 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 10:14:12 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 10:14:12 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[06-Jul-2016 10:14:12 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[06-Jul-2016 10:14:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 34
+[06-Jul-2016 10:14:45 UTC] PHP Stack trace:
+[06-Jul-2016 10:14:45 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[06-Jul-2016 10:14:45 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[06-Jul-2016 10:14:45 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[06-Jul-2016 10:14:45 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 10:14:45 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 10:14:45 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[06-Jul-2016 10:14:45 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[06-Jul-2016 10:14:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 29
+[06-Jul-2016 10:14:55 UTC] PHP Stack trace:
+[06-Jul-2016 10:14:55 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[06-Jul-2016 10:14:55 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[06-Jul-2016 10:14:55 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[06-Jul-2016 10:14:55 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[06-Jul-2016 10:14:55 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[06-Jul-2016 10:14:55 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[06-Jul-2016 10:14:55 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5

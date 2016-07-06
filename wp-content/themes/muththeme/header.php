@@ -18,7 +18,9 @@
     <section class="muth-navbar">
       <div id="muth-logo" class="muth-nav-logo muth-logo-mobile-deactivated">
        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" /></a>
+       <?php echo get_bloginfo( 'description'); ?>
       </div>
+
       <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
         <svg width="1000px" height="1000px">
           <path id="pathA" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>

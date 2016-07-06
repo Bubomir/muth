@@ -1,14 +1,12 @@
 		<footer>
 			<div class="muth-container">
         <div class="muth-main-footer">
-          <div class="muth-footer-text-moto">
-            <a href="<?php echo get_home_url(); ?>"><img src="img/Logo.png"></a>
-            <hr>
+          
             <?php if ( is_active_sidebar( 'footer-sidebar' ) ): ?>
                 <?php dynamic_sidebar( 'footer-sidebar' ); ?>
               <?php endif; ?>
-            <h4>Príjímame nové zákazky</h4>
-          </div>
+           
+         
           <div class="muth-footer-sitemap">
             <?php if ( is_active_sidebar( 'footer-sidebar-2' ) ): ?>
                <?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
