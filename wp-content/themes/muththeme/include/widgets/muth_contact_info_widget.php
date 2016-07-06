@@ -27,15 +27,14 @@ class muth_contact_widget extends WP_Widget
         $glyphicon     = (!empty($instance['glyphicon']) ? $instance['glyphicon'] : __(''));
         $text_title    = (!empty($instance['text_title']) ? $instance['text_title'] : __(''));
         $text_describe = (!empty($instance['text_describe']) ? $instance['text_describe'] : __(''));
-        $use_link_begin_1   = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '<td class="' . $glyphicon . '">' . $text_title : '<td style="vertical-align: top;" class="' . $glyphicon . '">' . $text_title);
-        $use_link_begin_2 = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '<td><a href="' . $text_describe . '">' : '<td style="padding-left: 2.5rem;"><span>');
-        $use_link_end_2   = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '</a></td>' : '</span></td>');
+        $use_link_begin = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '<td><a href="' . $text_describe . '">' : '<td><span>');
+        $use_link_end   = (!empty($instance['use_link'] && $instance['use_link'] == true) ? '</a></td>' : '</span></td>');
 
 
         $output = '';
         $output .= '<tr>';
-        $output .= $use_link_begin_1 . ':</td>';
-        $output .= $use_link_begin_2 . $text_describe . $use_link_end_2;
+        $output .= '<td style="vertical-align: top;" class="' . $glyphicon . '">'.$text_title . ':</td>';
+        $output .= $use_link_begin . $text_describe . $use_link_end;
         $output .= '</tr>';
 
         echo $output;
@@ -114,7 +113,7 @@ class muth_contact_widget extends WP_Widget
 
         <p>
             <label for="<?php echo $this->get_field_name('text_describe'); ?>"><?php _e('Popis textu:');?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php echo __('Popis textu'); ?>" value="<?php echo esc_attr($text_describe); ?>" />
+            <textarea class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php echo __('Popis textu'); ?>" value="<?php echo esc_attr($text_describe); ?>" ></textarea>
         <p>
             <input class="checkbox" type="checkbox" <?php checked($use_link, 'on');?> id="<?php echo $this->get_field_id('use_link'); ?>" name="<?php echo $this->get_field_name('use_link'); ?>" />
             <label for="<?php echo $this->get_field_id('use_link'); ?>">Použiť ako link ?</label>

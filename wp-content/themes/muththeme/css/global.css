@@ -7817,10 +7817,10 @@ button.close {
 }
 
 .muth-navbar .muth-nav-logo {
-  display: block;
   float: left;
-  height: 63px;
+  position: fixed;
   background: black;
+  height: 62.85px;
   opacity: 0.95;
 }
 
@@ -7845,7 +7845,7 @@ button.close {
 
 @media (max-width: 991px) {
   .muth-navbar .muth-nav-logo {
-    height: 56px;
+    height: 55px;
   }
 }
 
@@ -8575,12 +8575,12 @@ footer {
 }
 
 .muth-footer-table a {
-  padding-left: 2.5rem;
   color: #2dbe60;
 }
 
 .muth-footer-table table td {
   padding-bottom: 8px;
+  padding-left: 2.5rem;
 }
 
 .muth-footer-table table .muth-footer-phone {

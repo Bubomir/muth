@@ -154,13 +154,13 @@ footer{
 	padding-bottom: $padding-medium;
 
 	a{
-		padding-left: $padding-medium;
 		color: $light-green;
 	}
 
 	table{
 		td{
 			padding-bottom: 8px;
+			padding-left: $padding-medium;
 		}
 		//margin: 0 auto;
 		.muth-footer-phone{

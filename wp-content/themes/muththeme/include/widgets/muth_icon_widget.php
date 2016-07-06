@@ -124,7 +124,7 @@ class muth_icon_widget extends WP_Widget
 
         <p>
             <label for="<?php echo $this->get_field_name( 'text_describe' ); ?>"><?php _e( 'Popis textu:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'text_describe' ); ?>" name="<?php echo $this->get_field_name( 'text_describe' ); ?>" type="text" placeholder="<?php _e('Popis textu');?>" value="<?php echo esc_attr( $text_describe ); ?>" />
+            <textarea class="widefat" id="<?php echo $this->get_field_id( 'text_describe' ); ?>" name="<?php echo $this->get_field_name( 'text_describe' ); ?>" type="text" placeholder="<?php _e('Popis textu');?>" value="<?php echo esc_attr( $text_describe ); ?>" ></textarea>
         <p>
             <label for="<?php echo $this->get_field_name( 'link' ); ?>"><?php _e( 'Link:' ); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" placeholder="<?php _e('Link');?>" value="<?php echo esc_attr( $link );?>" />
