@@ -7817,10 +7817,10 @@ button.close {
 }
 
 .muth-navbar .muth-nav-logo {
+  display: block;
   float: left;
-  position: fixed;
+  height: 63px;
   background: black;
-  height: 62.85px;
   opacity: 0.95;
 }
 
@@ -7845,7 +7845,7 @@ button.close {
 
 @media (max-width: 991px) {
   .muth-navbar .muth-nav-logo {
-    height: 55px;
+    height: 56px;
   }
 }
 
