@@ -1,0 +1,25 @@
+.muth-services {
+  @include make-all-columns(12, 12, 12, 12, $gutter);
+  display: block;
+  padding: $padding-medium;
+  text-align: justify;
+
+  img {
+    @include make-all-columns(12, 12, 12, 4, $gutter);
+    display: block;
+    
+
+  }
+  span {
+    @include make-all-columns(12, 12, 12, 8, $gutter);
+    display: block;
+  }
+  h2 {
+    display: block;
+    margin-top: 0;
+  }
+
+  .muth-text-right{
+  	text-align: right;
+  }
+}

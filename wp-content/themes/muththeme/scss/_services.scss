@@ -1,90 +1,101 @@
 //Mixins for this sections
-@mixin service-translateY-transform($valueY){
-	transform: translateY($valueY);
-	-webkit-transform: translateY($valueY);
-	-moz-transform: translateY($valueY);
+@mixin service-translateY-transform($valueY) {
+  transform: translateY($valueY);
+  -webkit-transform: translateY($valueY);
+  -moz-transform: translateY($valueY);
 }
 
-@mixin service-transition($time, $style, $element: null){
-	@if not $element{
-		-webkit-transition: $time $style;
-		-moz-transition: $time $style;
-		-o-transition: $time $style;
-	} @else {
-		-webkit-transition: $element $time $style;
-		-moz-transition: $element $time $style;
-		-o-transition: $element $time $style;
-	}
+@mixin service-transition($time, $style, $element: null) {
+  @if not $element {
+    -webkit-transition: $time $style;
+    -moz-transition: $time $style;
+    -o-transition: $time $style;
+  }
+  @else {
+    -webkit-transition: $element $time $style;
+    -moz-transition: $element $time $style;
+    -o-transition: $element $time $style;
+  }
 }
 
 //Styles for this section
-.services{
-	.muth-icon-menu{
-		@extend .container;
-		.muth-icon-item{
-			@include make-all-columns(12, 12, 4 ,4, $gutter);
-			padding-top: $padding-big;
-			padding-bottom: $padding-big;
-			text-decoration: none;
-			color: $dark-font-gray;
-
-		.muth-monitor-image{
-			height: 204px;
-			background: url('../img/monitor.png');
-			background-size: 253px 204px;
-			background-position: center;
-			background-repeat: no-repeat;
-			text-align: center;
-			@include service-translateY-transform(24px);
-			@include service-transition(0.5s, ease-in-out);
-		}
-
-		.muth-service-name-out{
-			color: green;
-			padding: $padding-small 0 $padding-small 0;
-			text-align: center;
-			font-size: 1.2rem;
-		    color: white;
-		    @include service-transition(0.5s, ease-in-out, color);
-		}
-		
-		.muth-service-name-in{
-			padding-top: 60px;
-			color: green;
-			font-size: 1.2rem;
-			@include service-transition(0.5s, ease-in-out, color);	
-		}
-
-		.muth-service-description{
-			padding: 0 $padding-medium 0 $padding-medium;
-			line-height: 1.6rem;
-			text-align: center;
-			@include service-translateY-transform(-24px);
-			@include service-transition(0.5s, ease-in-out);
-			
-		}
-
-		&:hover{
-			.muth-monitor-image{
-				@include service-translateY-transform(0px);
-				@include service-transition(0.5s, ease-in-out);
-
-			    .muth-service-name-in{
-					color: white;
-					@include service-transition(0.5s, ease-in-out, color);
-				}
-			}
-
-			.muth-service-name-out{
-				color: green;
-				@include service-transition(0.5s, ease-in-out, color);
-			}
-		
-			.muth-service-description{
-				@include service-translateY-transform(0px);
-				@include service-transition(0.5s, ease-in-out);
-			}
-		}
-		}
-	}
+.services {
+  .muth-icon-menu {
+    @extend .container;
+    .muth-icon-item {
+      @include make-all-columns(12, 12, 4, 4, $gutter);
+      padding-top: $padding-big;
+      padding-bottom: $padding-big;
+      text-decoration: none;
+      color: $dark-font-gray;
+      .muth-monitor-image {
+        height: 204px;
+        background: url('../img/monitor.png');
+        background-size: 253px 204px;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        @include service-translateY-transform(24px);
+        @include service-transition(0.5s,
+        ease-in-out);
+      }
+      .muth-service-name-out {
+        color: green;
+        padding: $padding-small 0 $padding-small 0;
+        text-align: center;
+        font-size: 1.2rem;
+        color: white;
+        @include service-transition(0.5s,
+        ease-in-out,
+        color);
+      }
+      .muth-service-name-in {
+        width: 236px;
+        height: 122px;
+        text-align: center;
+        position: absolute;
+        background: red;
+        color: green;
+        font-size: 1.2rem;
+        @include service-transition(0.5s,
+        ease-in-out,
+        color);
+        h4 {
+          margin: 0;
+        }
+      }
+      .muth-service-description {
+        padding: 0 $padding-medium 0 $padding-medium;
+        line-height: 1.6rem;
+        text-align: center;
+        @include service-translateY-transform(-24px);
+        @include service-transition(0.5s,
+        ease-in-out);
+      }
+      &:hover {
+        .muth-monitor-image {
+          @include service-translateY-transform(0px);
+          @include service-transition(0.5s,
+          ease-in-out);
+          .muth-service-name-in {
+            color: white;
+            @include service-transition(0.5s,
+            ease-in-out,
+            color);
+          }
+        }
+        .muth-service-name-out {
+          color: green;
+          @include service-transition(0.5s,
+          ease-in-out,
+          color);
+        }
+        .muth-service-description {
+          @include service-translateY-transform(0px);
+          @include service-transition(0.5s,
+          ease-in-out);
+        }
+      }
+    }
+  }
 }

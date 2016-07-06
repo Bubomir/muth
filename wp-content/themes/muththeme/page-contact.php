@@ -14,7 +14,7 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
     }
 ?>
 
-<section class="muth-all-contacts">
+<section class="muht-page-full-width">
     <div class="muth-all-contacts-content">
         <div class="row">
         <h3>
@@ -27,7 +27,7 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
 
          </h3>
             
-            <div class="muth-subheader"></div> <!-- muth-subheader -->
+            <div class="muth-subheader-line"></div> <!-- muth-subheader-line -->
         </div> <!-- row --> 
             
         <div class="row">
@@ -36,16 +36,16 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
         	$lang = get_bloginfo('language'); 
         	switch ($lang):
         	 	case 'sk-SK':
-                    echo do_shortcode('[contact-form-7 id="167" title="Kontaktný formulár SK"]');
+                echo do_shortcode('[contact-form-7 id="167" title="Kontaktný formulár SK"]');
         	 		break;
         	 	case 'cs-CZ':
-        	 		echo do_shortcode('[contact-form-7 id="175" title="Kontaktný formulár CZ"]');
+        	 		  echo do_shortcode('[contact-form-7 id="175" title="Kontaktný formulár CZ"]');
         	 		break;
         	 	case 'en-US':
-        	 		echo do_shortcode('[contact-form-7 id="176" title="Kontaktný formulár EN"]');
+        	 		  echo do_shortcode('[contact-form-7 id="176" title="Kontaktný formulár EN"]');
         	 		break;
         	 	case 'de-DE':
-        	 		echo do_shortcode('[contact-form-7 id="177" title="Kontaktný formulár DE"]');
+        	 		  echo do_shortcode('[contact-form-7 id="177" title="Kontaktný formulár DE"]');
         	 		break;
         	 	default:
         	 		//echo 'neznamy jazyk';

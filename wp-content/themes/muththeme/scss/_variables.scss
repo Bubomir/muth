@@ -1,5 +1,6 @@
 //Global colors
 $gray: #f4f4f4;
+$white: #ffffff;
 
 $light-green: #2dbe60;
 $dark-green: #8fab98;
@@ -26,18 +27,3 @@ $white-font: #fff;
 
 //Global gutter
 $gutter: 60px;
-
-//Global Mixins
-@mixin make-all-columns($xs, $sm, $md, $lg, $gutter){
-	@include make-xs-column($xs,$gutter);
-	@include make-sm-column($sm,$gutter);
-	@include make-md-column($md,$gutter);
-	@include make-lg-column($lg,$gutter);
-}
-
-@mixin make-all-columns-offset($xs-offset, $sm-offset, $md-offset, $lg-offset){
-	@include make-xs-column-offset($xs-offset);
-	@include make-sm-column-offset($sm-offset);
-	@include make-md-column-offset($md-offset);
-	@include make-lg-column-offset($lg-offset);
-}

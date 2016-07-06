@@ -2,7 +2,6 @@ jQuery(document).ready(function($) {
     var testimonial_text = $('.muth-testimonial-text'),
         testimonial_controller = $('.muth-testimonial-controller'),
         google_map = $('.muth-google-map');
-
     //podmienka pre zobrazenie iba tam kde sa nachadza testimonial container
     if (testimonial_text.length && testimonial_controller.length) {
         var testimonial_timer = 5000,
@@ -13,33 +12,58 @@ jQuery(document).ready(function($) {
     if (google_map.length) {
         initMap(49.2197919, 18.749553900000024);
     }
-
-    if($('.muth-contact-form-name-input').length){
+    if ($('.muth-contact-form-name-input').length) {
         add_animation_element_input();
     }
-    if($('.muth-contact-form-text-textarea').length){
+    if ($('.muth-contact-form-text-textarea').length) {
         add_animation_element_textarea();
     }
-    if($('.muth-button').length){
+    if ($('.muth-button').length) {
         add_animation_element_button();
-    } 
-    
+    }
+
+    calculation_center_point();
+    calculation_center_point_h4();
+
+    $(window).resize(function() {
+        calculation_center_point();
+    });
+
+    function calculation_center_point() {
+        var $this = $('.muth-monitor-image');
+
+        var offset = $this.offset();
+        var width = $this.outerWidth();
+        var height = $this.outerHeight();
+        var centerX = (width / 2)-118;
+        var centerY = (height / 2)-93;
+        $('.muth-service-name-in').css({"top": centerY +"px", "left": centerX +"px" });
+       
+    }
+    function calculation_center_point_h4(){
+        var $this = $('.muth-service-name-h4');
+
+        for (var i = 0; i < $this.length; i++) {
+
+            var paddingTop = (122-$this[i].clientHeight)/2;
+            $this[i].style.paddingTop = paddingTop+'px'
+        }
+    }
+
 
     //funkcie pre pridanie elementu aplikujuceho animaciu v contakt forme
-    function add_animation_element_input(){
+    function add_animation_element_input() {
         $('.muth-contact-form-name-input').after('<span class="muth-contact-form-name-span"></span>');
     }
 
-    function add_animation_element_textarea(){
+    function add_animation_element_textarea() {
         $('.muth-contact-form-text-textarea').after('<span class="muth-contact-form-text-span"></span>');
     }
-
-     //funkcia pre pridanie elemntu do button tagu pre animciu v kontakt forme
-    function add_animation_element_button(){
+    //funkcia pre pridanie elemntu do button tagu pre animciu v kontakt forme
+    function add_animation_element_button() {
         var btn_value = $('.muth-button').val();
-        $('.muth-button').after('<span class="muth-button-animation-span" value= "'+btn_value +'"></span>');
+        $('.muth-button').after('<span class="muth-button-animation-span" value= "' + btn_value + '"></span>');
     }
-
     /*
     =========================
     Funkcie pre automaticke prehravanie a manualne prepinanie slidera

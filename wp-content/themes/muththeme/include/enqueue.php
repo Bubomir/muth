@@ -28,7 +28,7 @@ add_action('admin_enqueue_scripts', 'muth_admin_script_enqeue');
 
 function muth_script_enqeue()
 {
-    wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/global.css', array(), '1.0.0', 'all');
+    wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/muth.css', array(), '1.0.0', 'all');
 
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script('ease', get_template_directory_uri() . '/js/ease.min.js', array(), '1.0.0', true);

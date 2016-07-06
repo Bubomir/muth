@@ -59,6 +59,9 @@
 @import "variables";
 @import "customSvgFont";
 
+//Global page
+@import "global";
+
 //Index page
 @import "navigationBar";
 @import "animatedMobileButton";
@@ -70,6 +73,7 @@
 @import "partners";
 
 //Contact Us Page
-@import "contactUsPage";
+@import "page_contact_us";
+@import "page_services";
 
 
