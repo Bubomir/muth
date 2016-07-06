@@ -1,0 +1,430 @@
+//
+
+
+
+.muth-all-contacts{
+	display: block;
+	background-color: $gray;
+	.muth-all-contacts-content{
+		@extend .container;
+		h3{
+			@include make-all-columns(12, 12, 12, 12, $gutter);
+			text-align: center;
+			margin-top: 160px;
+			margin-bottom: $padding-small;
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+		.muth-subheader{
+			@include make-all-columns(4, 4, 4, 4, $gutter);
+			@include make-all-columns-offset(4, 4, 4, 4);
+			border-bottom: 1px solid;
+			border-color: $light-green;
+		}
+		.muth-contact-form-name{
+			@include make-all-columns(12, 12, 4, 4, $gutter);
+			padding-top: $padding-small;
+			
+			.muth-contact-form-name-label{
+				display: block;
+				text-align: left;
+				color: $dark-blue;
+				pointer-events: none;
+				padding-top: $padding-small;
+			}
+			br{
+				display: none;
+			}
+			.muth-contact-form-name-span{
+				position: relative;
+				display: block;
+				pointer-events: none;
+			}
+			.muth-contact-form-name-span::after{
+				position: absolute;
+				content: "";
+			 	width: 100%;
+				height: 39px;
+				top: -40px;
+			 	left:0px;
+				box-shadow: 0px 0px 0px 0px;
+				color: $light-green;
+			}
+			.muth-contact-form-name-input{
+				//z-index: -1;		
+				border: none;
+				padding: 8px 15px 8px 15px;
+				font-size: 1rem;
+				width: 100%;
+				box-shadow: 0px 0px 0px 2px transparent;
+				-webkit-transition: box-shadow 0.3s;
+				transition: box-shadow 0.3s;
+				color: $medium-blue;
+				font-weight: bold;
+			}
+			.muth-contact-form-name-input:focus{
+				box-shadow: 0px 0px 0px 2px $light-green;
+				pointer-events: none;
+			}
+
+			.muth-contact-form-name-input:focus + .muth-contact-form-name-span::after{
+				-webkit-animation: anim-shadow 0.3s forwards;
+				animation: anim-shadow 0.3s forwards;
+			}
+
+			/*Styles for required contact form7*/
+			.wpcf7-not-valid-tip{
+				padding-left: 1px;
+				padding-top: 8px;
+				font-size: 0.8rem;
+			}
+		}
+		.muth-contact-form-text{
+			@include make-all-columns(12, 12, 4, 4, $gutter);
+			padding-top: $padding-medium;
+			padding-bottom: $padding-big;
+			
+			p{
+				margin: 0; 
+			}
+
+			/*Stylig for contact form 7*/
+			.wpcf7-response-output{
+				padding: $padding-small;
+				text-align: center;
+				margin: $margin-small 10px 0 10px;
+			}
+
+			.wpcf7-mail-sent-ng{
+				border-radius: 5px;
+				border: 3px dashed #cc0000;
+			}
+
+			.wpcf7-validation-errors{
+				border-radius: 5px;
+				border: 3px dashed #ccbe00;
+			}
+
+			.wpcf7-mail-sent-ok{
+				border-radius: 5px;
+				border: 3px dashed #2d7010;
+			}
+
+
+
+			.muth-contact-form-text-label{
+				display: block;
+				text-align: left;
+				color: $dark-blue;
+				pointer-events: none;
+			}
+			br{display: none}
+			.muth-contact-form-text-textarea{
+				padding: 8px 15px 8px 15px;
+				color: $medium-blue;
+				font-weight: bold;
+				resize: none;
+				width: 100%;
+				height: 250px;
+				border: none;
+			}
+			.muth-contact-form-text-textarea:focus{
+				box-shadow: 0px 0px 0px 2px $light-green;
+							pointer-events: none;
+			}
+
+			.muth-contact-form-text-span{
+				position: relative;
+				display: block;
+				pointer-events: none;
+			}
+			.muth-contact-form-text-span::after{
+				position: absolute;
+				content: "";
+			 	width: 100%;
+				height: 250px;
+				top: -250px;
+			 	left:0px;
+				box-shadow: 0px 0px 0px 0px;
+				color: $light-green;
+			}
+			.muth-contact-form-text-textarea:focus + .muth-contact-form-text-span::after{
+			-webkit-animation: anim-shadow 0.3s forwards;
+			animation: anim-shadow 0.3s forwards;
+			}
+			/*Styles for required contact form7*/
+			.wpcf7-not-valid-tip{
+				padding-left: 1px;
+				padding-top: 8px;
+				font-size: 0.8rem;
+			}	
+
+			.muth-button{
+				margin-top: $margin-small;
+				width: 100%;
+				background: none;
+				padding: 10px $padding-small 10px $padding-small;
+				border-color: black;
+				color: #37474f;
+				font-size: 1.2rem;
+				border-radius: 5px; 
+				border: none;
+				outline: 1px solid;
+			}
+
+			.muth-button-animation-span{
+				display: block;
+				position: relative;
+				pointer-events: none;
+			}
+			.muth-button-animation-span::after{
+				pointer-esvents: none;
+				position: absolute;
+				content: attr(value);
+				background: $light-green;
+				width: 100%;
+				top: -71px;
+				height: 0px;
+				text-align: center;
+				font-size: 1.2rem;
+				vertical-align: middle;
+				padding-top: 10px;
+				color: white;
+				opacity: 0;
+				-webkit-text-size-adjust: none;
+				@media (min-width: 993px) and (-webkit-min-device-pixel-ratio:0){
+					top: -69px;
+				}
+
+				@media (max-width: 992px) and (-webkit-min-device-pixel-ratio:0){
+					top:-80px;
+				}
+				@media (max-width: 992px){
+					top: -64px;
+				}
+			}
+
+			.muth-button:active, .muth-button:hover + .ajax-loader + .muth-button-animation-span::after{
+				-webkit-animation: anim-button-span 0.3s forwards;
+				animation: anim-button-span 0.3s forwards;
+				@media (max-width: 992px){
+					-webkit-animation: anim-button-span992 0.3s forwards;
+					animation: anim-button-span992 0.3s forwards;
+				}
+			}
+		}
+
+		ul{
+			margin: 0px;
+			padding-top: $padding-big + 0.3125rem;
+			@include make-all-columns(12, 12, 4, 4, $gutter);
+			list-style: none;
+			border-color: $light-green;
+			padding-bottom: $padding-big;
+			@media (max-width: 991px){
+				padding-top: 0px;
+				text-align: center;
+			}
+			li{
+				@media (max-width: 991px){
+				display: inline-block;
+				padding: 0 $padding-small 0 $padding-small;
+				}
+				@media (max-width: 751px){
+				display: block;
+				}
+				font-weight: bold;
+				svg{
+					display: inline-block;
+					height: 50px;
+					width: 50px;
+					vertical-align: middle;
+				}
+				p{
+					display: inline-block;
+					padding-left: $padding-small;
+					font-size: 1rem;
+					margin: 0px;
+					@media (max-width: 751px){
+						padding: $padding-small;
+						display: block;
+					}
+				}
+				&:last-child{
+					padding-top: $padding-small;
+				}
+			}
+		}
+	}
+}
+
+
+
+.muth-map{
+	background-color: white;
+	.muth-map-content{
+		@extend .container;
+		h3{
+			@include make-all-columns(12,12,12,12, $gutter);
+			text-align: center;
+			font-size: 1.4rem;
+			margin: 0px;
+			padding: $padding-big 0 $padding-medium 0;	
+		}
+		.muth-subheader{
+			@include make-all-columns(6, 6, 6, 6, $gutter);
+			@include make-all-columns-offset(3, 3, 3, 3);
+			border-bottom: 1px solid;
+			border-color: $light-green;
+		}
+		.muth-google-map{
+			@include make-all-columns(12, 12, 8, 8, $gutter);
+			padding-top: $padding-medium;
+			padding-bottom: $padding-big;
+			.muth-map{
+				display: block;
+				height: 350px;
+				width: 100%;
+				background: $gray;
+			}
+		}
+
+		.muth-address{
+			padding-top: $padding-medium;
+			@include make-all-columns(12, 12, 4, 4, $gutter);
+			padding-bottom: $padding-big;
+			.muth-adress-name{
+				padding-top: $padding-small;
+				display: block;
+				vertical-align: middle;
+				h4{
+					font-size: 1rem;
+					display: inline-block;
+					vertical-align: middle;
+					margin-top: 0px;
+					margin-bottom: 40px;
+					padding-left: 15px;
+					font-weight: bold;
+				}
+				svg{
+					fill: $dark-blue;
+					height: 50px;
+					width: 50px;
+					display: inline-block;
+				}
+				@media (max-width: 341px){
+					text-align: center;
+					h4{
+						padding-left: 0px;
+						display: block;
+						margin-bottom: 20px;
+						margin-top: 15px;
+					}
+					svg{
+						margin: 0 auto;
+						display: block;
+					}
+				}
+			}
+
+			.muth-correspondedn-address{
+				display: block;
+				ul{
+					margin: 0px;
+					padding: 0px;
+					display: block;
+					list-style: none;
+					li{
+						padding-left: 72px;
+						font-size: 1.1rem;
+					}
+				}
+				@media (max-width: 991px){
+					display: inline-block;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+				@media (max-width: 341px){
+					padding-top: $padding-medium;
+					ul{
+						li{
+							padding: 0px;
+						}
+					}
+				}
+			}
+
+			.muth-normal-address{
+				display: block;
+				ul{
+				margin: 0px;
+				padding: 0px;
+				display: block;
+				list-style: none;
+					li{
+						padding-left: 72px;
+						font-size: 1.1rem;
+					}
+				}
+				@media (max-width: 991px){
+					display: inline-block;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+				@media (max-width: 341px){
+				ul{
+					li{
+						padding: 0px;
+					}
+				}
+			}
+			}
+			@media (max-width: 991px){
+					text-align: center;
+			}
+		}
+	}
+
+}
+
+@-webkit-keyframes anim-shadow {
+	to {
+		box-shadow: 0px 0px 100px 50px;
+    	opacity: 0;
+	}
+}
+
+@keyframes anim-shadow {
+	to {
+		box-shadow: 0px 0px 100px 50px;
+    	opacity: 0;
+	}
+}
+
+@keyframes anim-button-span{
+	to {
+		opacity: 1;
+		height: 47px;
+	}
+}
+
+@-webkit-keyframes anim-button-span{
+	to {
+		opacity: 1;
+		height: 48px;
+	}
+}
+
+@keyframes anim-button-span992{
+	to {
+		opacity: 1;
+		height: 44px;
+	}
+}
+
+@-webkit-keyframes anim-button-span992{
+	to {
+		opacity: 1;
+		height: 44px;
+	}
+}

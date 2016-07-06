@@ -1,0 +1,198 @@
+footer{
+	background-color: $medium-blue;
+	color: $light-font-gray;
+}
+.muth-container{
+	@extend .container;
+}
+.muth-main-footer{
+	@extend .row;
+	line-height: 1.6rem;
+	hr{
+		border-top-color: $light-green;
+	}
+	h3{
+		margin-top: 0px;
+		font-size: 1.4rem;
+		color: $white-font;
+	}
+	p{
+		text-align: justify;
+	}
+	h4{
+		font-size: 1.2rem;
+		color: $white-font;
+		padding-top: $padding-small;
+	}
+}
+.muth-secondary-footer{
+	width: 100%;
+	padding: $padding-small;
+	background-color: $dark-blue;
+	text-align: center;
+	color: $white-font;
+	h4{
+		font-size: 0.8rem;
+	}
+}
+.muth-footer-text-moto{
+	padding-top: $padding-medium;
+	padding-bottom: $padding-big;
+	@include make-xs-column(12,$gutter);
+	@include make-sm-column(12,$gutter)
+	@include make-md-column(12,$gutter);
+	@include make-lg-column(4,$gutter);
+	img{
+		width: 85px;
+	}
+	@media (max-width: 768px){
+		text-align: center;
+		h4{
+			text-align: left;
+		}
+		p{
+			text-align: left;
+		}
+	}
+	@media (max-width: 1200px){
+		padding-bottom: 0px;
+	}
+		@media (max-width: 768px){
+		padding-top: $padding-big;
+	}
+	}
+.muth-footer-sitemap{
+	padding-top: $padding-medium;
+	padding-bottom: $padding-big;
+	@include make-xs-column(12,$gutter);
+	@include make-sm-column(6,$gutter);
+	@include make-md-column(6,$gutter);
+	@include make-lg-column(4,$gutter);
+
+	ul{
+		text-transform: uppercase;
+		list-style: none;
+		text-align: left;
+		margin: 0px;
+		padding:0px;
+		width: 300px;
+	}
+	li{
+		display:inline-block;
+		width:140px;
+		padding-right: $padding-small;
+	}
+	
+	a{
+		&:hover, &:link, &:active{
+			color: $white-font;
+		}
+		color: $light-font-gray;
+	}
+	@media (max-width: 768px){
+		text-align: center;
+		padding-bottom: 0px;
+	}
+}
+
+.muth-contact{
+	@include make-xs-column(12,$gutter);
+	@include make-sm-column(6,$gutter);
+	@include make-md-column(6,$gutter);
+	@include make-lg-column(4,$gutter);
+
+	padding-top: $padding-medium;
+	padding-bottom: $padding-big;
+
+	h3{
+		@media (max-width: 768px){
+			text-align: center;
+		}
+	}
+	
+	ul{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		font-size: 40px;
+		font-color: $gray;
+		li{
+			display: inline-block;
+			a{
+				text-decoration: none;
+				cursor: pointer;
+				color: $light-font-gray;
+			}
+			.muth-muth-fb{
+				&:hover{
+					color: #0a79d2;
+				}
+			}
+			.muth-muth-twiter{
+				&:hover{
+					color: #4099ff;
+				}
+			}
+			.muth-muth-linkedin{
+				&:hover{
+					color: #0077b5;
+				}
+			}
+			.muth-muth-rss{
+				&:hover{
+					color: #ff6600;
+				}
+			}
+		}
+	}
+	@media (max-width: 768px){
+		text-align: center;
+	}	
+}
+
+.muth-footer-table{
+	padding-bottom: $padding-medium;
+
+	a{
+		padding-left: $padding-medium;
+		color: $light-green;
+	}
+
+	table{
+		td{
+			padding-bottom: 8px;
+		}
+		//margin: 0 auto;
+		.muth-footer-phone{
+			background-image: url(../img/phone-ico.png);
+			background-repeat: no-repeat;
+			background-size: 22px 22px;
+			padding-left: 35px;
+
+		}
+		.muth-footer-mail{
+			background-image: url(../img/mail-ico.png);
+			background-repeat: no-repeat;
+			background-size: 22px 22px;
+			padding-left: 35px;
+
+		}
+		.muth-footer-address{
+			background-image: url(../img/address-ico.png);
+			background-repeat: no-repeat;
+			background-size: 22px 22px;
+			padding-left: 35px;
+
+		}
+		@media (max-width: 768px){
+			text-align: left;
+		}
+	}
+}
+
+.muth-footer-address-padding-1{
+	padding-left: $padding-medium;
+}
+.muth-footer-address-padding-2{
+	padding-left: $padding-medium;
+}

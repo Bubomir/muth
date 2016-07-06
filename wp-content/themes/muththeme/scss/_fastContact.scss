@@ -1,0 +1,55 @@
+//Mixins for this section
+@mixin parenthesis-translateX-transform($valueX){
+  -webkit-transform: translateX($valueX);
+  -moz-transform: translateX($valueX);
+  transform: translateX($valueX);
+}
+
+@mixin parenthesis-scale-transform($scale-size){
+  -webkit-transform: scale($scale-size);
+  -moz-transform: scale($scale-size);
+  transform: scale($scale-size);
+}
+
+@mixin parethesis-transition($transform-time, $opacity-time){
+  -webkit-transition: -webkit-transform $transform-time, opacity $opacity-time;
+  -moz-transition: -moz-transform $transform-time, opacity $opacity-time;
+  transition: transform $transform-time, opacity $opacity-time;
+}
+
+//Styles for this section
+.muth-fast-contact{
+  background: $gray;
+  .muth-fast-contact-content{
+    @extend .container;
+    text-align: center;
+
+       a{
+        @include make-all-columns(12, 12, 12, 12, $gutter);
+        padding: $padding-medium 0px $padding-medium 0px;
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        &::before, &::after{
+          display: inline-block;
+          opacity: 0;
+          @include parethesis-transition(0.3s, 0.2s);
+        }
+
+        &::before{
+          margin-right: 10px;
+          content: '{';
+          @include parenthesis-translateX-transform(20px);
+        }
+        &::after{
+          margin-left: 10px;
+          content: '}';
+          @include parenthesis-translateX-transform(-20px);
+        }
+        &:hover::before, &:hover::after, &:focus::before, &:focus::after{
+          opacity: 1;
+          @include parenthesis-scale-transform(1.8);
+        }
+    }
+  }
+}

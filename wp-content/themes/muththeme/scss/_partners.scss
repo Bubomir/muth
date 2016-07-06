@@ -1,0 +1,40 @@
+//Style for this section
+.partners{
+	background: $gray;
+	.muth-partners-content{
+		@extend .container;
+		text-align: center;
+		.muth-partners-header{
+			@include make-all-columns(12, 12, 12, 12, $gutter);
+			padding-top: $padding-small;
+			padding-bottom: $padding-small;
+			text-align: center;
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+		.muth-subheader{
+			@include make-all-columns(4, 4, 4, 4, $gutter);
+			@include make-all-columns-offset(4, 4, 4, 4);
+			border-bottom: 1px solid;
+			border-color: $light-green;
+		}
+		.muth-partners-logos{
+			@include make-all-columns(12, 12, 12, 12, $gutter);
+
+			ul{
+				list-style: none;
+				padding-bottom: $padding-small;
+				margin: 0px;
+				padding: 0px;
+				text-align: center;
+				li{
+					display: inline-block;
+					padding: $padding-small $padding-medium $padding-small $padding-medium;
+					img{
+						height: 60px;
+					}
+				}
+			}
+		}
+	}
+}

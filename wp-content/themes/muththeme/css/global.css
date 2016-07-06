@@ -9315,14 +9315,14 @@ footer {
 .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button {
   margin-top: 1.25rem;
   width: 100%;
-  border: none;
   background: none;
   padding: 10px 1.25rem 10px 1.25rem;
   border-color: black;
   color: #37474f;
   font-size: 1.2rem;
   border-radius: 5px;
-  border: 1px solid;
+  border: none;
+  outline: 1px solid;
 }
 
 .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span {
@@ -9337,8 +9337,7 @@ footer {
   content: attr(value);
   background: #2dbe60;
   width: 100%;
-  top: -72px;
-  border-radius: 5px;
+  top: -71px;
   height: 0px;
   text-align: center;
   font-size: 1.2rem;
@@ -9349,9 +9348,21 @@ footer {
   -webkit-text-size-adjust: none;
 }
 
+@media (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
+  .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
+    top: -69px;
+  }
+}
+
+@media (max-width: 992px) and (-webkit-min-device-pixel-ratio: 0) {
+  .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
+    top: -80px;
+  }
+}
+
 @media (max-width: 992px) {
   .muth-all-contacts .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
-    top: -65px;
+    top: -64px;
   }
 }
 
@@ -9796,14 +9807,14 @@ footer {
 @keyframes anim-button-span {
   to {
     opacity: 1;
-    height: 49px;
+    height: 47px;
   }
 }
 
 @-webkit-keyframes anim-button-span {
   to {
     opacity: 1;
-    height: 47px;
+    height: 48px;
   }
 }
 

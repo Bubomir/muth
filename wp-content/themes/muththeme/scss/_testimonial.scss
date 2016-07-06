@@ -1,0 +1,96 @@
+//Mixins for this section
+@mixin quotes-skew-transform($skewX, $skewY, $size){
+  -ms-transform: skew($skewX, $skewY);
+  -webkit-transform: skew($skewX, $skewY);
+  transform: skew($skewX, $skewY);
+  font-size: $size;
+}
+
+//Styles for this sections
+.muth-testimonial {
+  background-color: $light-blue;
+  .muth-testimonial-content{
+    @extend .container;
+    .muth-testimonial-text{
+      @include make-all-columns(12, 12, 12, 12, $gutter);
+      
+      .muth-quote-mark-left{
+        display: inline-block;
+        padding-top: $padding-big;
+        @include quotes-skew-transform(-15deg, 0deg, 40px);
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        list-style: none;
+        li{
+          display: none;
+          float: left;
+          p{
+            display: inline-block;
+            padding: 0 $padding-medium 0 $padding-medium;
+            text-align: center;
+            margin:0px;
+          }
+
+          .muth-testimonial-author{
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 18px;
+                 
+          }
+        }
+        .testimonial-activated{
+          display: block;
+        }
+      }
+
+      .muth-quote-mark-right{
+        display: inline-block;
+        margin-top: -40px;
+        padding-bottom: $padding-big;
+        float: right;
+        @include quotes-skew-transform(-15deg, 0deg, 40px);
+      }
+      .muth-testimonial-controller{
+        display: inline-block;
+      }
+    }
+    .muth-testimonial-controller{
+      @include make-all-columns(12, 12, 12, 12, $gutter);
+      display: block;
+      list-style: none;
+      text-align: center;
+      margin: 0px;
+      padding-bottom: $padding-medium;
+      -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        cursor: inherit;
+        li{
+          margin: 0 5px 0 5px;
+          display: inline-block;
+          padding: 0 5px 0 5px;
+          background-color: $light-blue;
+          width: 15px;
+          height: 15px;
+          border-radius: 25px;
+          border: 2px solid;
+          border-color: gray;
+          cursor: pointer;
+          &:hover, &:active, &:focus{
+            border-color: $light-green;
+            background-color: $light-blue;
+          }
+        }
+      .muth-controller-activated{
+        border-color: $light-green;
+          background-color: $light-blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'muth-icon';
+    src:    url('../img/fonts/muth-icon.eot?bj1p8x');
+    src:    url('../img/fonts/muth-icon.eot?bj1p8x#iefix') format('embedded-opentype'),
+        url('../img/fonts/muth-icon.ttf?bj1p8x') format('truetype'),
+        url('../img/fonts/muth-icon.woff?bj1p8x') format('woff'),
+        url('../img/fonts/muth-icon.svg?bj1p8x#muth-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.muth-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'muth-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.lang-item-cs:before {
+    content: "\e900";
+}
+.lang-item-de:before {
+    content: "\e901";
+}
+.lang-item-en:before {
+    content: "\e902";
+}
+.muth-muth-fb:before {
+    content: "\e903";
+}
+.muth-muth-linkedin:before {
+    content: "\e904";
+}
+.muth-muth-quote-first:before {
+    content: "\e905";
+}
+.muth-muth-quote-last:before {
+    content: "\e906";
+}
+.muth-muth-rss:before {
+    content: "\e907";
+}
+.lang-item-sk:before {
+    content: "\e908";
+}
+.muth-muth-twiter:before {
+    content: "\e909";
+	font-stretch: normal;
+}
