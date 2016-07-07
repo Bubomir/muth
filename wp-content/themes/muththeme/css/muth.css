@@ -8282,16 +8282,32 @@ button.close {
   height: 122px;
   text-align: center;
   position: absolute;
-  background: red;
   color: green;
   font-size: 1.2rem;
-  -webkit-transition: color 0.5s ease-in-out;
-  -moz-transition: color 0.5s ease-in-out;
-  -o-transition: color 0.5s ease-in-out;
+  -webkit-transition: opacity 5s ease-in-out;
+  -moz-transition: opacity 5s ease-in-out;
+  -o-transition: opacity 5s ease-in-out;
 }
 
 .services .muth-icon-menu .muth-icon-item .muth-service-name-in h4 {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  opacity: 1;
   margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.services .muth-icon-menu .muth-icon-item .muth-service-name-in img {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 226px;
 }
 
 .services .muth-icon-menu .muth-icon-item .muth-service-description {
@@ -8315,11 +8331,18 @@ button.close {
   -o-transition: 0.5s ease-in-out;
 }
 
-.services .muth-icon-menu .muth-icon-item:hover .muth-monitor-image .muth-service-name-in {
-  color: white;
-  -webkit-transition: color 0.5s ease-in-out;
-  -moz-transition: color 0.5s ease-in-out;
-  -o-transition: color 0.5s ease-in-out;
+.services .muth-icon-menu .muth-icon-item:hover .muth-monitor-image .muth-service-name-in h4 {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+
+.services .muth-icon-menu .muth-icon-item:hover .muth-monitor-image .muth-service-name-in img {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  opacity: 1;
 }
 
 .services .muth-icon-menu .muth-icon-item:hover .muth-service-name-out {

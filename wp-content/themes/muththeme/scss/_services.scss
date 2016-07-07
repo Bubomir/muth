@@ -54,14 +54,23 @@
         height: 122px;
         text-align: center;
         position: absolute;
-        background: red;
         color: green;
         font-size: 1.2rem;
-        @include service-transition(0.5s,
-        ease-in-out,
-        color);
+        @include service-transition(5s,ease-in-out, opacity);
         h4 {
+          @include service-transition(0.5s,ease-in-out,opacity);
+          opacity: 1;
           margin: 0;
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+        img{
+          @include service-transition(0.5s,ease-in-out,opacity);
+          opacity: 0;
+          position: absolute;
+          top: 6px;
+          left: 5px;
+          width: 226px;
         }
       }
       .muth-service-description {
@@ -69,8 +78,7 @@
         line-height: 1.6rem;
         text-align: center;
         @include service-translateY-transform(-24px);
-        @include service-transition(0.5s,
-        ease-in-out);
+        @include service-transition(0.5s,ease-in-out);
       }
       &:hover {
         .muth-monitor-image {
@@ -78,10 +86,15 @@
           @include service-transition(0.5s,
           ease-in-out);
           .muth-service-name-in {
-            color: white;
-            @include service-transition(0.5s,
-            ease-in-out,
-            color);
+            //@include service-transition(5s, ease-in-out, opacity);
+            h4{
+              opacity: 0;
+              @include service-transition(0.5s,ease-in-out,opacity);
+            }
+            img{
+              @include service-transition(0.5s,ease-in-out,opacity);
+              opacity: 1;
+            }
           }
         }
         .muth-service-name-out {
