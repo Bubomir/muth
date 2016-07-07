@@ -13,8 +13,22 @@
   @include make-lg-column-offset($lg-offset);
 }
 
+@mixin make-all-columns-push($xs-push, $sm-push, $md-push, $lg-push) {
+  @include make-xs-column-push($xs-push);
+  @include make-sm-column-push($sm-push);
+  @include make-md-column-push($md-push);
+  @include make-lg-column-push($lg-push);
+}
+
+@mixin make-all-columns-pull($xs-pull, $sm-pull, $md-pull, $lg-pull) {
+  @include make-xs-column-pull($xs-pull);
+  @include make-sm-column-pull($sm-pull);
+  @include make-md-column-pull($md-pull);
+  @include make-lg-column-pull($lg-pull);
+}
+
 //global classes
-.muth-page-title{
+.muth-page-title {
   @include make-all-columns(12, 12, 12, 12, $gutter);
   text-align: center;
   margin-top: 160px;
@@ -23,20 +37,21 @@
   font-weight: bold;
 }
 
-.muht-page-full-width{
-	display: block;
-	
+.muht-page-full-width {
+  display: block;
 }
-.muth-page-background-gray{
-background-color: $gray;
-}
-.muth-page-background-white{
-background-color: $white;
-}
-.muth-page-content{
-	@extend .container;
 
-	.muth-subheader-line {
+.muth-page-background-gray {
+  background-color: $gray;
+}
+
+.muth-page-background-white {
+  background-color: $white;
+}
+
+.muth-page-content {
+  @extend .container;
+  .muth-subheader-line {
     @include make-all-columns(4, 4, 4, 4, $gutter);
     @include make-all-columns-offset(4, 4, 4, 4);
     border-bottom: 1px solid;

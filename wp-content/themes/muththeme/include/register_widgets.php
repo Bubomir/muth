@@ -14,7 +14,6 @@ function register_my_widgets() {
     register_widget( 'muth_contact_widget' );
     register_widget( 'muth_partners_widget' );
     register_widget( 'muth_fast_contact_widget' );
-    register_widget( 'muth_contact_map_widget' );
     register_widget( 'muth_simple_text_widget' );
 }
 
@@ -25,7 +24,6 @@ require_once ('widgets/muth_contact_info_widget.php');
 require_once ('widgets/muth_icon_widget.php');
 require_once ('widgets/muth_partners_widget.php');
 require_once ('widgets/muth_fast_contact_widget.php');
-require_once ('widgets/muth_contact_map_widget.php');
 require_once ('widgets/muth_simple_text_widget.php');
 
 
@@ -52,33 +50,8 @@ function muth_widget_setup()
         'after_title'   => '</h3>'
     );
     register_sidebar($args);
-
-    //contact map title
-    $args = array(
-        'name'          => __('Contact Map Title Sidebar'),
-        'id'            => 'contact_map_title-sidebar',
-        'class'         => 'custom',
-        'description'   => 'Contact Map Title Sidebar',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    );
-    register_sidebar($args);
-
-    //icon menu sidebar
-    $args = array(
-        'name'          => __('Contact Map Sidebar'),
-        'id'            => 'contact_map-sidebar',
-        'class'         => 'custom',
-        'description'   => 'Contact Map Sidebar',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => ''
-    );
-    register_sidebar($args);
-
+    
+    
     //partners title sidebar
     $args = array(
         'name'          => __('Partners Title Sidebar'),

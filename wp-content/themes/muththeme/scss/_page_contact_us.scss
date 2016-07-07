@@ -236,10 +236,10 @@
   background-color: white;
   .muth-map-content {
     @extend .container;
-    h3 {
+    h2 {
       @include make-all-columns(12, 12, 12, 12, $gutter);
       text-align: center;
-      font-size: 1.4rem;
+      //font-size: 1.4rem;
       margin: 0px;
       padding: $padding-big 0 $padding-medium 0;
     }
