@@ -10,7 +10,7 @@ Template Name: About us Page
         <div class="row">
         	<div class="muth-page-title"> 
         	
-        		<h1><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h1>
+        		<h2><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h2>
 
         	</div> <!-- muth-page-title -->
         	
@@ -34,7 +34,7 @@ Template Name: About us Page
         	</div><!--  muth-services -->
 		</div> <!-- row --> 
     </div> <!-- muth-page-content -->
-</section> <!-- muth-page-full-width muth-page-background-white -->
+</section> <!-- muth-all-contacts -->
 
 <section class="muth-page-full-width muth-page-background-gray">
     <div class="muth-page-content">
@@ -82,8 +82,8 @@ else :
 endif;
          ?>
 </div> <!-- row --> 
-    </div> <!-- muth-page-content -->
-</section> <!-- muth-page-full-width muth-page-background-gray -->
+    </div> <!-- muth-all-contacts-content -->
+</section> <!-- muth-all-contacts -->
 
 
 <?php get_footer(); ?>

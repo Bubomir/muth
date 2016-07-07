@@ -36,8 +36,16 @@
   font-size: 1.8rem;
   font-weight: bold;
 }
+.muth-page-sub-title{
+  @include make-all-columns(12, 12, 12, 12, $gutter);
+  text-align: left;
+  margin-bottom: $padding-small;
+  font-size: 1.6rem;
+  font-weight: bold;
+  
+}
 
-.muht-page-full-width {
+.muth-page-full-width {
   display: block;
 }
 
