@@ -131,10 +131,12 @@ jQuery(document).ready(function($) {
             center: myLatLng,
             zoom: 16
         });
+        var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            title: 'Hello World!'
+            icon: image
         });
     }
 });

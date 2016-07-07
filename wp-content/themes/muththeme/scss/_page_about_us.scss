@@ -1,0 +1,36 @@
+.muth-title-text {
+  @include make-all-columns(12, 12, 12, 12, $gutter);
+  
+  span{
+    display: block;
+    padding: $padding-medium;
+    font-size: 1.25rem;
+    text-align: justify;
+  }
+} 
+.muth-profiles {
+  @include make-all-columns(12, 6, 6, 3, $gutter);
+  padding: $padding-medium;
+
+  img{
+    display: block;
+    margin: auto;
+    width: 128px;
+    height: 128px;
+  }
+  h3{
+    display: block;
+    text-align: center;
+  }
+  h4{
+
+    display: block;
+    text-align: center;
+  }
+  
+  span{
+    padding-top: $padding-small;
+    display: block;
+    text-align: justify;
+  }
+}

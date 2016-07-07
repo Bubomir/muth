@@ -3,23 +3,34 @@
   display: block;
   padding: $padding-medium;
   text-align: justify;
-
   img {
-    @include make-all-columns(12, 12, 12, 4, $gutter);
+    @include make-all-columns(12, 4, 4, 4, $gutter);
     display: block;
-    
-
   }
   span {
-    @include make-all-columns(12, 12, 12, 8, $gutter);
+    @include make-all-columns(12, 8, 8, 8, $gutter);
     display: block;
   }
   h2 {
     display: block;
     margin-top: 0;
   }
-
-  .muth-text-right{
-  	text-align: right;
+  .muth-img-left {
+    @include make-all-columns-pull(0, 8, 8, 8);
+  }
+  .muth-span-right {
+    @include make-all-columns-push(0, 4, 4, 4);
+  }
+  .muth-text-right {
+    text-align: right;
+  }
+  @media (max-width: $screen-sm) {
+    .muth-text-right {
+      text-align: left;
+    }
+    img {
+     // width: 200px;
+     // height: 200px;
+    }
   }
 }
