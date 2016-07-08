@@ -62,8 +62,8 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
           </div> <!-- muth-adress-name -->
           <ul>
             <li><?php echo $street;?></li>
-            <li><?php echo $city;?></li>
-            <li><?php echo $štat.__(' ').$zip;?></li>
+            <li><?php echo $city.__(' ').$zip;?></li>
+            <li><?php echo $štat;?></li>
           </ul>
         </div> <!-- muth-normal-address -->
 
