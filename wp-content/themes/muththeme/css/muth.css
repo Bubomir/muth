@@ -9523,37 +9523,70 @@ footer {
 
 .muth-references-web-description {
   position: absolute;
-  background-color: red;
-  top: 100px;
+  background-color: #2dbe60;
+  top: 120px;
   width: 300px;
-  height: 300px;
+  height: 180px;
   opacity: 0.8;
-  transform: translateY(100px);
-  text-align: center;
+  transform: translateY(80px);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
 }
 
-.muth-references-web-description h3 {
+.muth-references-web-description .muth-reference-name {
+  color: white;
+  display: block;
   height: 100px;
   width: 300px;
-  background-color: blue;
-  margin: auto;
-  padding: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .muth-references-web-description .muth-reference-name {
+    width: 200px;
+    height: 70px;
+  }
+}
+
+.muth-references-web-description .muth-reference-name-h3 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   text-align: center;
+  margin: 0;
 }
 
 .muth-references-web-description span {
   display: block;
-  padding: 1.25rem;
+  padding: 0 1.25rem 1.25rem 1.25rem;
   height: 80px;
-  background-color: yellow;
+  text-transform: uppercase;
+  color: #d9d9d9;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .muth-references-web-description {
+    width: 200px;
+    height: 110px;
+    top: 90px;
+    transform: translateY(0px);
+  }
+  .muth-references-web-description h3 {
+    font-size: 1.5rem;
+  }
+  .muth-references-web-description span {
+    height: 40px;
+    font-size: 0.6rem;
+  }
 }
 
 .muth-references-web-fix-size {
+  display: block;
   width: 300px;
   height: 300px;
   position: relative;
   overflow: hidden;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .muth-references-web-fix-size:hover .muth-references-web-description {
@@ -9563,6 +9596,17 @@ footer {
 .muth-references-web-fix-size img {
   width: 300px;
   height: 300px;
+}
+
+@media (max-width: 768px) {
+  .muth-references-web-fix-size {
+    width: 200px;
+    height: 200px;
+  }
+  .muth-references-web-fix-size img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .muth-references-outsourcing,
