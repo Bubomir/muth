@@ -8077,3 +8077,12 @@
 [07-Jul-2016 13:33:03 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
 [07-Jul-2016 13:33:03 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
 [07-Jul-2016 13:33:03 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[08-Jul-2016 10:43:50 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_simple_text_widget.php on line 36
+[08-Jul-2016 10:43:50 UTC] PHP Stack trace:
+[08-Jul-2016 10:43:50 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[08-Jul-2016 10:43:50 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[08-Jul-2016 10:43:50 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[08-Jul-2016 10:43:50 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[08-Jul-2016 10:43:50 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[08-Jul-2016 10:43:50 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[08-Jul-2016 10:43:50 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
