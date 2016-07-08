@@ -1,69 +1,62 @@
-.muth-references-webs{
-	@include make-all-columns(12,6,4,4, $gutter);
-	padding-bottom: $padding-medium;
-	text-align: center;
-			
+.muth-references-webs {
+  @include make-all-columns(12, 6, 4, 4, $gutter);
+  padding-bottom: $padding-medium;
+  text-align: center;
 }
 
-.muth-references-web-description{
-	position: absolute;
-	//background-color: red;
-	
-	top: 100px;
-	width: 100%;
-	height: 200px;
-	opacity: 0.8;
-	transform: translateY(100px);
-	text-align: center;
+.muth-references-web-description {
+  position: absolute;
+  background-color: red;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+  opacity: 0.8;
+  transform: translateY(100px);
+  text-align: center;
 
-
-	h3{
-		display: table-cell;
-		height: 100px;
-		width: 300px;
-		//background-color: blue;
-		margin: 0;
-		padding: $padding-small;
-		vertical-align: middle;
-		text-align: center;
-	}
-	span{
-		display: block;
-		padding: $padding-small;
-		height: 80px;
-		//background-color: yellow;
-	}
-
+  h3 {
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    padding: $padding-small;
+    text-align: center;
+  }
+  span {
+    display: block;
+    padding: $padding-small;
+    height: 80px;
+    background-color: yellow;
+  }
 }
 
+.muth-references-web-fix-size {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+ 
 
-.muth-references-web-fix-size{
-	width: 300px;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-
-	&:hover{
-		.muth-references-web-description{
-			transform: translateY(0);
-		}
-	}
-	img{
-			width: 300px;
-			height: 300px;
-		}
+  &:hover {
+    .muth-references-web-description {
+      transform: translateY(0);
+    }
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
-.muth-references-outsourcing, .muth-references-shop{
-	@include make-all-columns(12,12,12,12, $gutter);
-	ul{
-
-		li{
-			padding-top: $padding-small;
-			list-style: none;
-
-		}
-	}
-	padding-bottom: $padding-small;
+.muth-references-outsourcing,
+.muth-references-shop {
+  @include make-all-columns(12, 12, 12, 12, $gutter);
+  ul {
+    li {
+      padding-top: $padding-small;
+      list-style: none;
+    }
+  }
+  padding-bottom: $padding-small;
 }
-

@@ -38,12 +38,13 @@ footer{
 .muth-footer-text-moto{
 	padding-top: $padding-medium;
 	padding-bottom: $padding-big;
-	@include make-xs-column(12,$gutter);
-	@include make-sm-column(12,$gutter)
-	@include make-md-column(12,$gutter);
-	@include make-lg-column(4,$gutter);
+
+	
+	@include make-all-columns(12,12,12,4,$gutter);
 	img{
-		width: 85px;
+		width: 84px;
+		height: 25px;
+		display: block;
 	}
 	@media (max-width: 768px){
 		text-align: center;
@@ -64,22 +65,19 @@ footer{
 .muth-footer-sitemap{
 	padding-top: $padding-medium;
 	padding-bottom: $padding-big;
-	@include make-xs-column(12,$gutter);
-	@include make-sm-column(6,$gutter);
-	@include make-md-column(6,$gutter);
-	@include make-lg-column(4,$gutter);
-
+	@include make-all-columns(12,6,6,4,$gutter);
+	
 	ul{
 		text-transform: uppercase;
 		list-style: none;
 		text-align: left;
 		margin: 0px;
 		padding:0px;
-		width: 300px;
+		display: block;
 	}
 	li{
 		display:inline-block;
-		width:140px;
+		width: 50%;
 		padding-right: $padding-small;
 	}
 	
@@ -96,11 +94,8 @@ footer{
 }
 
 .muth-contact{
-	@include make-xs-column(12,$gutter);
-	@include make-sm-column(6,$gutter);
-	@include make-md-column(6,$gutter);
-	@include make-lg-column(4,$gutter);
-
+	@include make-all-columns(12,6,6,4,$gutter);
+	
 	padding-top: $padding-medium;
 	padding-bottom: $padding-big;
 

@@ -8578,7 +8578,9 @@ footer {
 }
 
 .muth-footer-text-moto img {
-  width: 85px;
+  width: 84px;
+  height: 25px;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -8655,12 +8657,12 @@ footer {
   text-align: left;
   margin: 0px;
   padding: 0px;
-  width: 300px;
+  display: block;
 }
 
 .muth-footer-sitemap li {
   display: inline-block;
-  width: 140px;
+  width: 50%;
   padding-right: 1.25rem;
 }
 
@@ -9521,21 +9523,21 @@ footer {
 
 .muth-references-web-description {
   position: absolute;
+  background-color: red;
   top: 100px;
-  width: 100%;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   opacity: 0.8;
   transform: translateY(100px);
   text-align: center;
 }
 
 .muth-references-web-description h3 {
-  display: table-cell;
   height: 100px;
   width: 300px;
-  margin: 0;
+  background-color: blue;
+  margin: auto;
   padding: 1.25rem;
-  vertical-align: middle;
   text-align: center;
 }
 
@@ -9543,6 +9545,7 @@ footer {
   display: block;
   padding: 1.25rem;
   height: 80px;
+  background-color: yellow;
 }
 
 .muth-references-web-fix-size {
@@ -9550,6 +9553,7 @@ footer {
   height: 300px;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .muth-references-web-fix-size:hover .muth-references-web-description {
@@ -9561,7 +9565,8 @@ footer {
   height: 300px;
 }
 
-.muth-references-outsourcing, .muth-references-shop {
+.muth-references-outsourcing,
+.muth-references-shop {
   position: relative;
   float: left;
   width: 100%;
@@ -9584,27 +9589,31 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .muth-references-outsourcing, .muth-references-shop {
+  .muth-references-outsourcing,
+  .muth-references-shop {
     float: left;
     width: 100%;
   }
 }
 
 @media (min-width: 992px) {
-  .muth-references-outsourcing, .muth-references-shop {
+  .muth-references-outsourcing,
+  .muth-references-shop {
     float: left;
     width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  .muth-references-outsourcing, .muth-references-shop {
+  .muth-references-outsourcing,
+  .muth-references-shop {
     float: left;
     width: 100%;
   }
 }
 
-.muth-references-outsourcing ul li, .muth-references-shop ul li {
+.muth-references-outsourcing ul li,
+.muth-references-shop ul li {
   padding-top: 1.25rem;
   list-style: none;
 }

@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     var testimonial_text = $('.muth-testimonial-text'),
-        testimonial_controller = $('.muth-testimonial-controller'),
-        google_map = $('.muth-google-map');
+        testimonial_controller = $('.muth-testimonial-controller');
+       
     //podmienka pre zobrazenie iba tam kde sa nachadza testimonial container
     if (testimonial_text.length && testimonial_controller.length) {
         var testimonial_timer = 5000,
@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
         testimonial_manual_click_slider();
     }
     //podmienka pre zobrazenie mapy iba tam kde treba t.j. contact page 
-    if (google_map.length) {
+    if ($('.muth-google-map').length) {
         initMap(49.2197919, 18.749553900000024);
     }
     if ($('.muth-contact-form-name-input').length) {
@@ -22,13 +22,23 @@ jQuery(document).ready(function($) {
         add_animation_element_button();
     }
 
-    calculation_center_point();
-    calculation_center_point_h4();
 
-    $(window).resize(function() {
+    if($('.muth-monitor-image').length){
         calculation_center_point();
-    });
+        $(window).resize(function() {
+            calculation_center_point();
+        });
+    }
 
+    if($('.muth-service-name-h4').length){
+        calculation_center_point_h4();
+    }
+    // if($('.').length){
+    //     console('test');
+    // }
+
+    
+    //funkcie pre vypocet stredoveho bodu pre animaciu na titulnej stranke
     function calculation_center_point() {
         var $this = $('.muth-monitor-image');
 
@@ -40,6 +50,7 @@ jQuery(document).ready(function($) {
         $('.muth-service-name-in').css({"top": centerY +"px", "left": centerX +"px" });
        
     }
+    //funkcie pre vypocet zachytneho bodu pre animaciu na titulnej stranke
     function calculation_center_point_h4(){
         var $this = $('.muth-service-name-h4');
 
@@ -49,7 +60,6 @@ jQuery(document).ready(function($) {
             $this[i].style.paddingTop = paddingTop+'px'
         }
     }
-
 
     //funkcie pre pridanie elementu aplikujuceho animaciu v contakt forme
     function add_animation_element_input() {

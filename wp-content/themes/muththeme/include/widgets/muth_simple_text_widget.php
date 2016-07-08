@@ -32,6 +32,7 @@ class muth_simple_text_widget extends WP_Widget
 
         $output .= '<div class="muth-footer-text-moto">';
         $output .= '<a href="'. $home_link .'"><img src="'.$image.'"></a>';
+        //$output .= '<h3> TEST </h3>';
         $output .= '<hr>';
         $output .= '<p>'.$text_describe.'</p>';
         $output .= '</div>';
