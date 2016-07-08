@@ -18,7 +18,6 @@
     <section class="muth-navbar">
       <div id="muth-logo" class="muth-nav-logo muth-logo-mobile-deactivated">
        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" /></a>
-       <?php echo get_bloginfo( 'description'); ?>
       </div>
 
       <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
