@@ -14,6 +14,7 @@
   h2 {
     display: block;
     margin-top: 0;
+    margin-bottom: $margin-medium;
   }
   .muth-img-left {
     @include make-all-columns-pull(0, 8, 8, 8);

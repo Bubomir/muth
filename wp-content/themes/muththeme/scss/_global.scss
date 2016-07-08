@@ -31,9 +31,8 @@
 .muth-page-title {
   @include make-all-columns(12, 12, 12, 12, $gutter);
   text-align: center;
-  margin-top: 160px;
+  margin-top: 100px;
   margin-bottom: $padding-small;
-  font-size: 1.8rem;
   font-weight: bold;
 }
 .muth-page-sub-title{

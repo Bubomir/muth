@@ -10,7 +10,7 @@ Template Name: Services Page
         <div class="row">
         	<div class="muth-page-title"> 
         	
-        	<?php if(get_field('title')): the_field('title'); endif; ?>
+        	<h1><?php if(get_field('title')): the_field('title'); endif; ?></h1>
 
         	</div> <!-- muth-page-title -->
         	
