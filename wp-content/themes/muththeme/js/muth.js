@@ -31,7 +31,10 @@ jQuery(document).ready(function($) {
     }
 
     if($('.muth-service-name-h4').length){
-        calculation_center_point_h4();
+        calculation_vertical_align($('.muth-service-name-h4'));
+    }
+    if($('.muth-reference-name-h3').length){
+        calculation_vertical_align($('.muth-reference-name-h3'));
     }
     // if($('.').length){
     //     console('test');
@@ -51,13 +54,12 @@ jQuery(document).ready(function($) {
        
     }
     //funkcie pre vypocet zachytneho bodu pre animaciu na titulnej stranke
-    function calculation_center_point_h4(){
-        var $this = $('.muth-service-name-h4');
-
-        for (var i = 0; i < $this.length; i++) {
-
-            var paddingTop = (122-$this[i].clientHeight)/2;
-            $this[i].style.paddingTop = paddingTop+'px'
+    function calculation_vertical_align(element){
+        for (var i = 0; i < element.length; i++) {
+            var heightOfParentEle = element.parent().get(i).clientHeight;
+            console.log(heightOfParentEle);
+            var paddingTop = (heightOfParentEle-element[i].clientHeight)/2;
+            element[i].style.paddingTop = paddingTop+'px';
         }
     }
 

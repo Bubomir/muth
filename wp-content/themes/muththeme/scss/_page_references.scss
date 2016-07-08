@@ -6,37 +6,65 @@
 
 .muth-references-web-description {
   position: absolute;
-  background-color: red;
-  top: 100px;
+  background-color: $light-green;
+  top: 120px;
   width: 300px;
-  height: 300px;
+  height: 180px;
   opacity: 0.8;
-  transform: translateY(100px);
-  text-align: center;
+  transform: translateY(80px);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
 
-  h3 {
+  .muth-reference-name{
+    color: white;
+    display: block;
     height: 100px;
     width: 300px;
-    background-color: blue;
-    margin: auto;
-    padding: $padding-small;
+    //background-color: #27a553;
+    @media (max-width: 768px){
+      width: 200px;
+      height: 70px;
+    }
+  }
+  .muth-reference-name-h3 {
+    //background-color: blue;
+    padding-left: $padding-small;
+    padding-right: $padding-small;
     text-align: center;
+    margin: 0;
   }
   span {
     display: block;
-    padding: $padding-small;
+    padding: 0 $padding-small $padding-small $padding-small;
     height: 80px;
-    background-color: yellow;
+    text-transform: uppercase;
+    color: #d9d9d9;
+    font-size: 0.9rem;
+    //background-color: yellow;
+  }
+  @media (max-width: 768px){
+    width: 200px;
+    height: 110px;
+    top: 90px;
+    transform: translateY(0px);
+    h3{
+      font-size: 1.5rem;
+    }
+    span{
+      height: 40px;
+      font-size: 0.6rem;
+    }
   }
 }
 
 .muth-references-web-fix-size {
+  display: block;
   width: 300px;
   height: 300px;
   position: relative;
   overflow: hidden;
-  text-align: center;
- 
+  margin: 0 auto;
 
   &:hover {
     .muth-references-web-description {
@@ -47,6 +75,15 @@
     width: 300px;
     height: 300px;
   }
+  @media (max-width: 768px){
+    width: 200px;
+    height: 200px;
+    img{
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
 }
 
 .muth-references-outsourcing,

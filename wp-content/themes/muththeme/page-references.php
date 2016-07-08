@@ -40,13 +40,15 @@ Template Name: References Page
         <div class="row">
         	<div class = "muth-references-webs"> 
 
-        		<div class = "muth-references-web-fix-size">
+        		<a href="" class = "muth-references-web-fix-size">
 	        		<img src="http://placehold.it/300x300">
 	        		<div class="muth-references-web-description">
-		        		<h3>Visko teepak a Visko teepak</h3>
+                        <div class="muth-reference-name">
+		        		    <h3 class="muth-reference-name-h3">Visko teepak a Visko teepak</h3>
+                        </div>
 						<span>poradenstvo, administracia , grafika, vyvoj, sprava webu, web aplikacia</span>
 	        		</div> <!-- muth-references-web-description -->
-        		</div> <!-- muth-references-web-fix-size -->
+        		</a> <!-- muth-references-web-fix-size -->
         			
         	</div><!--  muth-references-webs -->
         	<div class = "muth-references-webs"> 
@@ -54,7 +56,9 @@ Template Name: References Page
         		<div class = "muth-references-web-fix-size">
         		<img src="http://placehold.it/300x300">
         		<div class="muth-references-web-description">
-	        		<h3>Visko teepak </h3>
+	        		<div class="muth-reference-name">
+                            <h3 class="muth-reference-name-h3">Visko teepak</h3>
+                        </div>
 					<span>poradenstvo, administracia , grafika, vyvoj, sprava webu, web aplikacia</span>
         		</div>
         		</div>
