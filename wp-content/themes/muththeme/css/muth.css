@@ -7853,6 +7853,12 @@ button.close {
   }
 }
 
+@media (max-width: 768px) {
+  .muth-page-title {
+    margin-top: 140px;
+  }
+}
+
 .muth-page-sub-title {
   position: relative;
   float: left;
