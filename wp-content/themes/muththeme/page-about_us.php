@@ -10,7 +10,7 @@ Template Name: About us Page
         <div class="row">
         	<div class="muth-page-title"> 
         	
-        		<h2><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h2>
+        		<h1><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h1>
 
         	</div> <!-- muth-page-title -->
         	
