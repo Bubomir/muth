@@ -39,16 +39,16 @@
         &::before{
           margin-right: 10px;
           content: '{';
-          @include parenthesis-translateX-transform(20px);
+          @include parenthesis-translateX-transform(0px);
         }
         &::after{
           margin-left: 10px;
           content: '}';
-          @include parenthesis-translateX-transform(-20px);
+          @include parenthesis-translateX-transform(-0px);
         }
         &:hover::before, &:hover::after, &:focus::before, &:focus::after{
           opacity: 1;
-          @include parenthesis-scale-transform(1.8);
+          //@include parenthesis-scale-transform(1.8);
         }
     }
   }

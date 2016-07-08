@@ -8290,6 +8290,8 @@ button.close {
 
 .services .muth-icon-menu .muth-icon-item .muth-monitor-image {
   height: 204px;
+  width: 253px;
+  margin: 0 auto;
   background: url("../img/monitor.png");
   background-size: 253px 204px;
   background-position: center;
@@ -8315,8 +8317,10 @@ button.close {
 }
 
 .services .muth-icon-menu .muth-icon-item .muth-service-name-in {
-  width: 236px;
-  height: 122px;
+  top: 9px;
+  left: 9px;
+  width: 235px;
+  height: 121px;
   text-align: center;
   position: absolute;
   color: green;
@@ -8463,24 +8467,21 @@ button.close {
 .muth-fast-contact .muth-fast-contact-content a::before {
   margin-right: 10px;
   content: '{';
-  -webkit-transform: translateX(20px);
-  -moz-transform: translateX(20px);
-  transform: translateX(20px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 .muth-fast-contact .muth-fast-contact-content a::after {
   margin-left: 10px;
   content: '}';
-  -webkit-transform: translateX(-20px);
-  -moz-transform: translateX(-20px);
-  transform: translateX(-20px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 .muth-fast-contact .muth-fast-contact-content a:hover::before, .muth-fast-contact .muth-fast-contact-content a:hover::after, .muth-fast-contact .muth-fast-contact-content a:focus::before, .muth-fast-contact .muth-fast-contact-content a:focus::after {
   opacity: 1;
-  -webkit-transform: scale(1.8);
-  -moz-transform: scale(1.8);
-  transform: scale(1.8);
 }
 
 footer {
@@ -8811,7 +8812,7 @@ footer {
 }
 
 .muth-testimonial {
-  background-color: #d0fbf7;
+  background-color: white;
 }
 
 .muth-testimonial .muth-testimonial-content .muth-testimonial-text {
@@ -8967,7 +8968,7 @@ footer {
   margin: 0 5px 0 5px;
   display: inline-block;
   padding: 0 5px 0 5px;
-  background-color: #d0fbf7;
+  background-color: #ffffff;
   width: 15px;
   height: 15px;
   border-radius: 25px;
@@ -8978,12 +8979,12 @@ footer {
 
 .muth-testimonial .muth-testimonial-content .muth-testimonial-controller li:hover, .muth-testimonial .muth-testimonial-content .muth-testimonial-controller li:active, .muth-testimonial .muth-testimonial-content .muth-testimonial-controller li:focus {
   border-color: #2dbe60;
-  background-color: #d0fbf7;
+  background-color: #ffffff;
 }
 
 .muth-testimonial .muth-testimonial-content .muth-testimonial-controller .muth-controller-activated {
   border-color: #2dbe60;
-  background-color: #d0fbf7;
+  background-color: #ffffff;
 }
 
 .partners {
@@ -9572,6 +9573,7 @@ footer {
 }
 
 .muth-references-web-fix-size {
+  border-radius: 5px;
   display: block;
   width: 300px;
   height: 300px;

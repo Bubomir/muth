@@ -22,14 +22,6 @@ jQuery(document).ready(function($) {
         add_animation_element_button();
     }
 
-
-    if($('.muth-monitor-image').length){
-        calculation_center_point();
-        $(window).resize(function() {
-            calculation_center_point();
-        });
-    }
-
     if($('.muth-service-name-h4').length){
         calculation_vertical_align($('.muth-service-name-h4'));
     }
@@ -40,19 +32,7 @@ jQuery(document).ready(function($) {
     //     console('test');
     // }
 
-    
-    //funkcie pre vypocet stredoveho bodu pre animaciu na titulnej stranke
-    function calculation_center_point() {
-        var $this = $('.muth-monitor-image');
-
-        var offset = $this.offset();
-        var width = $this.outerWidth();
-        var height = $this.outerHeight();
-        var centerX = (width / 2)-118;
-        var centerY = (height / 2)-93;
-        $('.muth-service-name-in').css({"top": centerY +"px", "left": centerX +"px" });
-       
-    }
+   
     //funkcie pre vypocet zachytneho bodu pre animaciu na titulnej stranke
     function calculation_vertical_align(element){
         for (var i = 0; i < element.length; i++) {

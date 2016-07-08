@@ -8,7 +8,7 @@
 
 //Styles for this sections
 .muth-testimonial {
-  background-color: $light-blue;
+  background-color: white;
   .muth-testimonial-content{
     @extend .container;
     .muth-testimonial-text{
@@ -75,7 +75,7 @@
           margin: 0 5px 0 5px;
           display: inline-block;
           padding: 0 5px 0 5px;
-          background-color: $light-blue;
+          background-color: $white;
           width: 15px;
           height: 15px;
           border-radius: 25px;
@@ -84,12 +84,12 @@
           cursor: pointer;
           &:hover, &:active, &:focus{
             border-color: $light-green;
-            background-color: $light-blue;
+            background-color: $white;
           }
         }
       .muth-controller-activated{
         border-color: $light-green;
-          background-color: $light-blue;
+          background-color: $white;
       }
     }
   }
