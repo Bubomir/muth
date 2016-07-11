@@ -113,7 +113,7 @@ class muth_contact_widget extends WP_Widget
 
         <p>
             <label for="<?php echo $this->get_field_name('text_describe'); ?>"><?php _e('Popis textu:');?></label>
-            <textarea class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php echo __('Popis textu'); ?>" value="<?php echo esc_attr($text_describe); ?>" ></textarea>
+            <textarea class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php echo __('Popis textu'); ?>" ><?php echo esc_attr($text_describe); ?></textarea>
         <p>
             <input class="checkbox" type="checkbox" <?php checked($use_link, 'on');?> id="<?php echo $this->get_field_id('use_link'); ?>" name="<?php echo $this->get_field_name('use_link'); ?>" />
             <label for="<?php echo $this->get_field_id('use_link'); ?>">Použiť ako link ?</label>
