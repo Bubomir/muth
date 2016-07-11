@@ -28,6 +28,8 @@
     
   <?php endif; ?>
 
+
+    <?php if(!empty(get_testimonial())): ?>
     <section class="muth-testimonial">
       <div class="muth-testimonial-content">
         <div class="row">
@@ -64,7 +66,7 @@
         </div> <!-- row -->
       </div> <!-- muth-testimonial-content -->
     </section> <!-- muth-testimonial -->
-
+  <?php endif; ?>
 
     <?php if ( is_active_sidebar( 'partners-sidebar' ) && is_active_sidebar( 'partners-title-sidebar' ) ): ?>
       <section class="partners">

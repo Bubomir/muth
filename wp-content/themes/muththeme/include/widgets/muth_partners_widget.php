@@ -59,7 +59,7 @@ class muth_partners_widget extends WP_Widget
      **/
     public function form( $instance )
     {   
-       print_r($instance);
+       //print_r($instance);
       
         $title = __('');
         if(isset($instance['title']))
