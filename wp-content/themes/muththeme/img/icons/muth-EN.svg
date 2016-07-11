@@ -1,1 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="428.183" width="409.89" viewBox="0 0 384.2857 401.42856"><path d="M57.143 0C25.485 0 0 25.485 0 57.143v287.15c0 31.65 25.485 57.14 57.143 57.14h270c31.66 0 57.15-25.49 57.15-57.14V57.143c0-31.655-25.49-57.14-57.15-57.14h-270zm-5.198 111.85h116.58v18.92H75.997v57.49h81.418v18.92H75.997v63.6h93.878v18.8H51.955l-.005-177.73zm146 0h24.05l85.57 137.2.73-.24V111.85h24.05v177.73h-24.05l-85.57-137.45-.73.25v137.2h-24.05V111.85z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="428.17981"
+   width="409.8978"
+   viewBox="0 0 384.293 401.42556"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="muth-EN.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview6"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.55116619"
+     inkscape:cx="204.94501"
+     inkscape:cy="214.09227"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     d="M 57.143,-0.00371946 C 25.485,-0.00371946 0,25.481281 0,57.139281 L 0,344.28928 c 0,31.65 25.485,57.14 57.143,57.14 l 270,0 c 31.66,0 57.15,-25.49 57.15,-57.14 l 0,-287.149999 c 0,-31.655 -25.49,-57.14000046349 -57.15,-57.14000046349 l -270,0 z M 51.945,111.84628 l 116.58,0 0,18.92 -92.528,0 0,57.49 81.418,0 0,18.92 -81.418,0 0,63.6 93.878,0 0,18.8 -117.92,0 -0.005,-177.73 z m 146,0 24.05,0 85.57,137.2 0.73,-0.24 0,-136.96 24.05,0 0,177.73 -24.05,0 -85.57,-137.45 -0.73,0.25 0,137.2 -24.05,0 0,-177.73 z"
+     id="path4"
+     inkscape:connector-curvature="0" />
+</svg>

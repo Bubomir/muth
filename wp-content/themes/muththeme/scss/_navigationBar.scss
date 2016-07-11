@@ -72,7 +72,7 @@
 					padding: 1.3rem;
 					color: white;
 
-					&:hover, &:focus, &:visited{
+					&:hover, &:focus, &:visited, &:active{
 						background: $light-green;
 				}
 				}
@@ -89,7 +89,7 @@
 	background-color: #171a1c;
 	position: fixed;
 	width: 280px;
-	top: 64.45px;
+	top: 63px;
 	right: -60px;
 	border-radius: 5px;
 	//border-bottom-left-radius: 5px;
