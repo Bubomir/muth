@@ -8086,3 +8086,60 @@
 [08-Jul-2016 10:43:50 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
 [08-Jul-2016 10:43:50 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
 [08-Jul-2016 10:43:50 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[11-Jul-2016 10:56:36 UTC] PHP Fatal error:  Call to undefined method muth_icon_widget::get_number() in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_icon_widget.php on line 157
+[11-Jul-2016 10:56:36 UTC] PHP Stack trace:
+[11-Jul-2016 10:56:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[11-Jul-2016 10:56:36 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[11-Jul-2016 10:56:36 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[11-Jul-2016 10:56:36 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[11-Jul-2016 10:56:36 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:56:36 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:56:36 UTC] PHP   7. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[11-Jul-2016 10:56:52 UTC] PHP Fatal error:  Cannot use object of type muth_icon_widget as array in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_icon_widget.php on line 157
+[11-Jul-2016 10:56:52 UTC] PHP Stack trace:
+[11-Jul-2016 10:56:52 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[11-Jul-2016 10:56:52 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[11-Jul-2016 10:56:52 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[11-Jul-2016 10:56:52 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[11-Jul-2016 10:56:52 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:56:52 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:56:52 UTC] PHP   7. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[11-Jul-2016 10:58:24 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_icon_widget.php on line 157
+[11-Jul-2016 10:58:24 UTC] PHP Stack trace:
+[11-Jul-2016 10:58:24 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[11-Jul-2016 10:58:24 UTC] PHP   2. wp_list_widgets() C:\wamp\www\muth\wp-admin\widgets.php:393
+[11-Jul-2016 10:58:24 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:48}() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[11-Jul-2016 10:58:24 UTC] PHP   4. wp_widget_control() C:\wamp\www\muth\wp-admin\includes\widgets.php:48
+[11-Jul-2016 10:58:24 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   6. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   7. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[11-Jul-2016 10:58:24 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_icon_widget.php on line 157
+[11-Jul-2016 10:58:24 UTC] PHP Stack trace:
+[11-Jul-2016 10:58:24 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[11-Jul-2016 10:58:24 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[11-Jul-2016 10:58:24 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[11-Jul-2016 10:58:24 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[11-Jul-2016 10:58:24 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[11-Jul-2016 10:58:24 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   8. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[11-Jul-2016 10:58:24 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_icon_widget.php on line 157
+[11-Jul-2016 10:58:24 UTC] PHP Stack trace:
+[11-Jul-2016 10:58:24 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[11-Jul-2016 10:58:24 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[11-Jul-2016 10:58:24 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[11-Jul-2016 10:58:24 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[11-Jul-2016 10:58:24 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[11-Jul-2016 10:58:24 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   8. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[11-Jul-2016 10:58:24 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_icon_widget.php on line 157
+[11-Jul-2016 10:58:24 UTC] PHP Stack trace:
+[11-Jul-2016 10:58:24 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\widgets.php:0
+[11-Jul-2016 10:58:24 UTC] PHP   2. wp_list_widget_controls() C:\wamp\www\muth\wp-admin\widgets.php:483
+[11-Jul-2016 10:58:24 UTC] PHP   3. dynamic_sidebar() C:\wamp\www\muth\wp-admin\includes\widgets.php:97
+[11-Jul-2016 10:58:24 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\widgets.php:738}() C:\wamp\www\muth\wp-includes\widgets.php:738
+[11-Jul-2016 10:58:24 UTC] PHP   5. wp_widget_control() C:\wamp\www\muth\wp-includes\widgets.php:738
+[11-Jul-2016 10:58:24 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
+[11-Jul-2016 10:58:24 UTC] PHP   8. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513

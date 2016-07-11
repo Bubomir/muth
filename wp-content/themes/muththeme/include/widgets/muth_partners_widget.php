@@ -59,7 +59,7 @@ class muth_partners_widget extends WP_Widget
      **/
     public function form( $instance )
     {   
-       print_r($instance);
+       //print_r($instance);
       
         $title = __('');
         if(isset($instance['title']))
@@ -92,20 +92,26 @@ class muth_partners_widget extends WP_Widget
        
 
        <p>
+       <?php $widget_counter = $this->number ; ?>
+
         <?php if(empty($image)):?>
-            <div class="preview-picture"></div>
+            <div id="preview-picture-id-<?php echo $widget_counter; ?>" class="preview-picture"></div>
         <?php  else: ?>
-            <div class="preview-picture" style="width:50px; height: 50px; background-image:url( <?php echo ($image); ?>); background-repeat:no-repeat; background-size:contain;"></div>
+            <div id="preview-picture-id-<?php echo $widget_counter; ?>" class="preview-picture" style="width:50px; height: 50px; background-image:url( <?php echo ($image); ?>); background-repeat:no-repeat; background-size:contain;"></div>
          <?php endif; ?>
 
             <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
             <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36" placeholder="<?php _e('URL obrázku');?>" value="<?php echo esc_url( $image ); ?>" />
+
             
+            
+
         <?php if(!empty($image)):?>
-           <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahradiť Obrázok" />
-           <input id="remove_image_button_id" class="remove_image_button button button-secondary" type="button" value="Zmazať Obrázok" />
+
+           <input id="upload_image_button_id-<?php echo $widget_counter; ?>" class="upload_image_button button button-secondary" data-counter="<?php echo $widget_counter; ?>" type="button" value="Nahradiť Obrázok" />
+           <input id="remove_image_button_id-<?php echo $widget_counter; ?>" class="remove_image_button button button-secondary" data-counter="<?php echo $widget_counter; ?>" type="button" value="Zmazať Obrázok" />
         <?php else: ?>
-           <input id="upload_image_button_id" class="upload_image_button button button-secondary" type="button" value="Nahrať Obrázok" />
+           <input id="upload_image_button_id-<?php echo $widget_counter; ?>" class="upload_image_button button button-secondary" data-counter="<?php echo $widget_counter; ?>" type="button" value="Nahrať Obrázok" />
          <?php endif; ?>
         </p>
 

@@ -51,7 +51,7 @@ if( have_rows('web_references') ):
         if(isset($picture['url']) && !empty($picture['url'])):
           $img = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
         else:
-           $img = '<img class="img-circle" src="http://placehold.it/300x300">';
+           $img = '<img src="http://placehold.it/300x300">';
         endif;
               
        ?>

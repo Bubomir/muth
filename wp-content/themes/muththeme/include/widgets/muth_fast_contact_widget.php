@@ -33,7 +33,7 @@ class muth_fast_contact_widget extends WP_Widget
 
         $output .= '<a href="' . $link . ' ">';
         $output .= $text_title;
-        $output .= '<span style="color: green;">'.__(' '). $text_describe . '</span>';
+        $output .= '<span style="color: #2dbe60;">'.__(' '). $text_describe . '</span>';
         $output .= '</a>';
 
         echo $output;
@@ -103,7 +103,7 @@ class muth_fast_contact_widget extends WP_Widget
 
         <p>
             <label for="<?php echo $this->get_field_name('text_describe'); ?>"><?php _e('Popis textu:');?></label>
-            <textarea class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php _e('Popis textu');?>" value="<?php echo esc_attr($text_describe); ?>" ></textarea>
+            <textarea class="widefat" id="<?php echo $this->get_field_id('text_describe'); ?>" name="<?php echo $this->get_field_name('text_describe'); ?>" type="text" placeholder="<?php _e('Popis textu');?>"><?php echo esc_attr($text_describe); ?></textarea>
         <p>
             <label for="<?php echo $this->get_field_name('link'); ?>"><?php _e('Link:');?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('link'); ?>" name="<?php echo $this->get_field_name('link'); ?>" type="text" placeholder="<?php _e('http://');?>" value="<?php echo esc_attr($link); ?>" />
