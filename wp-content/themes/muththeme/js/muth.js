@@ -28,16 +28,13 @@ jQuery(document).ready(function($) {
     if($('.muth-reference-name-h3').length){
         calculation_vertical_align($('.muth-reference-name-h3'));
     }
-    // if($('.').length){
-    //     console('test');
-    // }
-
+    
    
     //funkcie pre vypocet zachytneho bodu pre animaciu na titulnej stranke
     function calculation_vertical_align(element){
         for (var i = 0; i < element.length; i++) {
             var heightOfParentEle = element.parent().get(i).clientHeight;
-            console.log(heightOfParentEle);
+           // console.log(heightOfParentEle);
             var paddingTop = (heightOfParentEle-element[i].clientHeight)/2;
             element[i].style.paddingTop = paddingTop+'px';
         }
