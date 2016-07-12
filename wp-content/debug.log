@@ -8143,3 +8143,105 @@
 [11-Jul-2016 10:58:24 UTC] PHP   6. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\widgets.php:237}() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
 [11-Jul-2016 10:58:24 UTC] PHP   7. WP_Widget->form_callback() C:\wamp\www\muth\wp-admin\includes\widgets.php:237
 [11-Jul-2016 10:58:24 UTC] PHP   8. muth_icon_widget->form() C:\wamp\www\muth\wp-includes\class-wp-widget.php:513
+[12-Jul-2016 11:44:35 UTC] PHP Notice:  Undefined index: host in C:\wamp\www\muth\wp-includes\theme.php on line 2071
+[12-Jul-2016 11:44:35 UTC] PHP Stack trace:
+[12-Jul-2016 11:44:35 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\index.php:0
+[12-Jul-2016 11:44:35 UTC] PHP   2. include() C:\wamp\www\muth\wp-admin\index.php:92
+[12-Jul-2016 11:44:35 UTC] PHP   3. do_action() C:\wamp\www\muth\wp-admin\admin-header.php:92
+[12-Jul-2016 11:44:35 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[12-Jul-2016 11:44:35 UTC] PHP   5. _wp_customize_loader_settings() C:\wamp\www\muth\wp-includes\plugin.php:525
+[12-Jul-2016 11:44:35 UTC] PHP Notice:  Undefined index: host in C:\wamp\www\muth\wp-includes\theme.php on line 2132
+[12-Jul-2016 11:44:35 UTC] PHP Stack trace:
+[12-Jul-2016 11:44:35 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\index.php:0
+[12-Jul-2016 11:44:35 UTC] PHP   2. include() C:\wamp\www\muth\wp-admin\index.php:92
+[12-Jul-2016 11:44:35 UTC] PHP   3. wp_customize_support_script() C:\wamp\www\muth\wp-admin\admin-header.php:200
+[12-Jul-2016 11:45:36 UTC] PHP Warning:  require(C:\wamp\www\muth\wp-content\plugins\tiny-compress-images/src/config/tiny-config.php): failed to open stream: No such file or directory in C:\wamp\www\muth\wp-content\plugins\tiny-compress-images\tiny-compress-images.php on line 12
+[12-Jul-2016 11:45:36 UTC] PHP Stack trace:
+[12-Jul-2016 11:45:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 11:45:36 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[12-Jul-2016 11:45:36 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 11:45:36 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 11:45:36 UTC] PHP   5. include_once() C:\wamp\www\muth\wp-settings.php:255
+[12-Jul-2016 11:45:36 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp\www\muth\wp-content\plugins\tiny-compress-images/src/config/tiny-config.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\plugins\tiny-compress-images\tiny-compress-images.php on line 12
+[12-Jul-2016 11:45:36 UTC] PHP Stack trace:
+[12-Jul-2016 11:45:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 11:45:36 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[12-Jul-2016 11:45:36 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 11:45:36 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 11:45:36 UTC] PHP   5. include_once() C:\wamp\www\muth\wp-settings.php:255
+[12-Jul-2016 11:46:36 UTC] PHP Warning:  require(C:\wamp\www\muth\wp-content\plugins\tiny-compress-images/src/config/tiny-config.php): failed to open stream: No such file or directory in C:\wamp\www\muth\wp-content\plugins\tiny-compress-images\tiny-compress-images.php on line 12
+[12-Jul-2016 11:46:36 UTC] PHP Stack trace:
+[12-Jul-2016 11:46:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 11:46:36 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[12-Jul-2016 11:46:36 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 11:46:36 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 11:46:36 UTC] PHP   5. include_once() C:\wamp\www\muth\wp-settings.php:255
+[12-Jul-2016 11:46:36 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp\www\muth\wp-content\plugins\tiny-compress-images/src/config/tiny-config.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\plugins\tiny-compress-images\tiny-compress-images.php on line 12
+[12-Jul-2016 11:46:36 UTC] PHP Stack trace:
+[12-Jul-2016 11:46:36 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 11:46:36 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[12-Jul-2016 11:46:36 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 11:46:36 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 11:46:36 UTC] PHP   5. include_once() C:\wamp\www\muth\wp-settings.php:255
+[12-Jul-2016 11:47:20 UTC] PHP Warning:  require(C:\wamp\www\muth\wp-content\plugins\tiny-compress-images/src/config/tiny-config.php): failed to open stream: No such file or directory in C:\wamp\www\muth\wp-content\plugins\tiny-compress-images\tiny-compress-images.php on line 12
+[12-Jul-2016 11:47:20 UTC] PHP Stack trace:
+[12-Jul-2016 11:47:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[12-Jul-2016 11:47:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[12-Jul-2016 11:47:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[12-Jul-2016 11:47:20 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 11:47:20 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 11:47:20 UTC] PHP   6. include_once() C:\wamp\www\muth\wp-settings.php:255
+[12-Jul-2016 11:47:20 UTC] PHP Fatal error:  require(): Failed opening required 'C:\wamp\www\muth\wp-content\plugins\tiny-compress-images/src/config/tiny-config.php' (include_path='.;C:\php\pear') in C:\wamp\www\muth\wp-content\plugins\tiny-compress-images\tiny-compress-images.php on line 12
+[12-Jul-2016 11:47:20 UTC] PHP Stack trace:
+[12-Jul-2016 11:47:20 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[12-Jul-2016 11:47:20 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[12-Jul-2016 11:47:20 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[12-Jul-2016 11:47:20 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 11:47:20 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 11:47:20 UTC] PHP   6. include_once() C:\wamp\www\muth\wp-settings.php:255
+[12-Jul-2016 11:47:47 UTC] PHP Notice:  Undefined index: host in C:\wamp\www\muth\wp-includes\theme.php on line 2071
+[12-Jul-2016 11:47:47 UTC] PHP Stack trace:
+[12-Jul-2016 11:47:47 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\index.php:0
+[12-Jul-2016 11:47:47 UTC] PHP   2. include() C:\wamp\www\muth\wp-admin\index.php:92
+[12-Jul-2016 11:47:47 UTC] PHP   3. do_action() C:\wamp\www\muth\wp-admin\admin-header.php:92
+[12-Jul-2016 11:47:47 UTC] PHP   4. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[12-Jul-2016 11:47:47 UTC] PHP   5. _wp_customize_loader_settings() C:\wamp\www\muth\wp-includes\plugin.php:525
+[12-Jul-2016 11:47:47 UTC] PHP Notice:  Undefined index: host in C:\wamp\www\muth\wp-includes\theme.php on line 2132
+[12-Jul-2016 11:47:47 UTC] PHP Stack trace:
+[12-Jul-2016 11:47:47 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\index.php:0
+[12-Jul-2016 11:47:47 UTC] PHP   2. include() C:\wamp\www\muth\wp-admin\index.php:92
+[12-Jul-2016 11:47:47 UTC] PHP   3. wp_customize_support_script() C:\wamp\www\muth\wp-admin\admin-header.php:200
+[12-Jul-2016 12:00:42 UTC] PHP Notice:  Undefined index: use_link in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 62
+[12-Jul-2016 12:00:42 UTC] PHP Stack trace:
+[12-Jul-2016 12:00:42 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 12:00:42 UTC] PHP   2. do_action() C:\wamp\www\muth\wp-admin\admin-ajax.php:89
+[12-Jul-2016 12:00:42 UTC] PHP   3. call_user_func_array:{C:\wamp\www\muth\wp-includes\plugin.php:525}() C:\wamp\www\muth\wp-includes\plugin.php:525
+[12-Jul-2016 12:00:42 UTC] PHP   4. wp_ajax_save_widget() C:\wamp\www\muth\wp-includes\plugin.php:525
+[12-Jul-2016 12:00:42 UTC] PHP   5. call_user_func_array:{C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918}() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[12-Jul-2016 12:00:42 UTC] PHP   6. WP_Widget->update_callback() C:\wamp\www\muth\wp-admin\includes\ajax-actions.php:1918
+[12-Jul-2016 12:00:42 UTC] PHP   7. muth_contact_widget->update() C:\wamp\www\muth\wp-includes\class-wp-widget.php:437
+[12-Jul-2016 12:34:57 UTC] PHP Parse error:  syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 60
+[12-Jul-2016 12:34:57 UTC] PHP Stack trace:
+[12-Jul-2016 12:34:57 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 12:34:57 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[12-Jul-2016 12:34:57 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 12:34:57 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 12:34:57 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[12-Jul-2016 12:34:57 UTC] PHP   6. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[12-Jul-2016 12:35:01 UTC] PHP Parse error:  syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 60
+[12-Jul-2016 12:35:01 UTC] PHP Stack trace:
+[12-Jul-2016 12:35:01 UTC] PHP   1. {main}() C:\wamp\www\muth\wp-admin\admin-ajax.php:0
+[12-Jul-2016 12:35:01 UTC] PHP   2. require_once() C:\wamp\www\muth\wp-admin\admin-ajax.php:22
+[12-Jul-2016 12:35:01 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 12:35:01 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 12:35:01 UTC] PHP   5. include() C:\wamp\www\muth\wp-settings.php:369
+[12-Jul-2016 12:35:01 UTC] PHP   6. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[12-Jul-2016 12:35:04 UTC] PHP Parse error:  syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 60
+[12-Jul-2016 12:35:04 UTC] PHP Stack trace:
+[12-Jul-2016 12:35:04 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[12-Jul-2016 12:35:04 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[12-Jul-2016 12:35:04 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[12-Jul-2016 12:35:04 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[12-Jul-2016 12:35:05 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[12-Jul-2016 12:35:05 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[12-Jul-2016 12:35:05 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5

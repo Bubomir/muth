@@ -8827,25 +8827,32 @@ footer {
   padding-left: 2.5rem;
 }
 
+.muth-footer-table table span {
+  color: #2dbe60;
+}
+
 .muth-footer-table table .muth-footer-phone {
   background-image: url(../img/phone-ico.png);
   background-repeat: no-repeat;
   background-size: 22px 22px;
-  padding-left: 35px;
+  padding-left: 2.5rem;
+  vertical-align: top;
 }
 
 .muth-footer-table table .muth-footer-mail {
   background-image: url(../img/mail-ico.png);
   background-repeat: no-repeat;
   background-size: 22px 22px;
-  padding-left: 35px;
+  padding-left: 2.5rem;
+  vertical-align: top;
 }
 
 .muth-footer-table table .muth-footer-address {
   background-image: url(../img/address-ico.png);
   background-repeat: no-repeat;
   background-size: 22px 22px;
-  padding-left: 35px;
+  padding-left: 2.5rem;
+  vertical-align: top;
 }
 
 @media (max-width: 768px) {
