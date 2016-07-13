@@ -20,6 +20,42 @@ Template Name: References Page
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
 
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
@@ -56,15 +92,18 @@ if( have_rows('web_references') ):
               
        ?>
 
-       <div class = "muth-references-webs"> 
-            <a href="" class = "muth-references-web-fix-size">
-                <?php echo $img; ?>
+       <div id="links" class="muth-references-webs"> 
+            <a href="http://www.muth.dev/wp-content/uploads/2016/07/cart.png" title="cart" class = "muth-references-web-fix-size" data-gallery="#blueimp-gallery-links">
+            <img src="http://www.muth.dev/wp-content/uploads/2016/07/cart.png" alt="cart">
                 <div class="muth-references-web-description">
                     <div class="muth-reference-name">
                         <h3 class="muth-reference-name-h3"><?php echo $project_name; ?></h3>
                     </div>
                     <span><?php echo $project_description; ?></span>
                 </div> <!-- muth-references-web-description -->
+            </a> <!-- muth-references-web-fix-size -->
+
+            <a href="http://www.muth.dev/wp-content/uploads/2016/06/outsourcing.png" title="outsourcing" class = "muth-invisible-image-gallery" data-gallery="#blueimp-gallery-links">
             </a> <!-- muth-references-web-fix-size -->
                 
         </div><!--  muth-references-webs -->

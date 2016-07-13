@@ -77,7 +77,6 @@
               <span class="muth-muth-quote-last"></span>
             </div><!-- muth-quote-mark-right muth-icon -->
           </div> <!-- muth-testimonial-text -->
-          <?php if(sizeof(get_testimonial()) > 1): ?>
 
           <ul id="muth-testimonial-controller-id" class="muth-testimonial-controller">
           <?php for($i = 0; $i< $count ; $i++ ):
@@ -86,8 +85,6 @@
            endfor; ?>
 
           </ul> <!-- muth-testimonial-controller -->
-          
-          <?php  endif;?>
         </div> <!-- row -->
       </div> <!-- muth-testimonial-content -->
     </section> <!-- muth-testimonial -->
