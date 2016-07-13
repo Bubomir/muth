@@ -72,6 +72,7 @@ Template Name: References Page
             
 
 <?php 
+$counter = 0;
 if( have_rows('web_references') ):
    
     // loop through the rows of data
@@ -88,6 +89,9 @@ if( have_rows('web_references') ):
       		//image
       		case false:
       			$picture = get_sub_field('thumbnail_web');
+                $data_gallery = '';
+                $gallery_feed = '';
+                $id = '';
       			break;
 
       		//gallery
@@ -95,30 +99,50 @@ if( have_rows('web_references') ):
       			$pictures = get_sub_field('thumbnail_web_gallery');
       			//var_dump($pictures[0]);
       			$picture = $pictures[0];
+               // var_dump($picture);
+                $id = 'id="gallery-references-'.$counter.'"';
+
+                $data_gallery = 'data-gallery="#blueimp-gallery-gallery-references-'.$counter.'"';
+                $gallery_feed = '';
+
+                $i = 0;
+                foreach ($pictures as $pic) {
+                    //aby nezobrazovalo prvy obrazok dva krat
+                    if($i > 0){
+                        $url = (!empty($pic['url']) ? $pic['url'] : __(''));
+                        $title = (!empty($pic['title']) ? $pic['title'] : __(''));
+
+                        $gallery_feed .= '<a href="'.$url.'" title="'. $title .'" class = "muth-invisible-image-gallery"' .$data_gallery .'></a>';
+                    }
+                    $i++;
+                }
+
+                $counter++;
       			break;
 
       		default:
       			# code...
       			break;
       	}
-
-
+        
         $project_name = get_sub_field('project_name');
         $project_description = get_sub_field('project_description');
 
         $alt_img = (isset($picture['alt']) && !empty($picture['alt']))?  'alt="'.$picture['alt'].'"' : __('');
 
         if(isset($picture['url']) && !empty($picture['url'])):
-          $img = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
+            $img = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
+            $img_url = $picture['url'];
         else:
-          $img = '<img src="http://placehold.it/300x300">';
+            $img = '<img src="http://placehold.it/300x300">';
+            $img_url = '';
         endif;
               
        ?>
 
-       <div id="links" class="muth-references-webs"> 
-            <a href="http://www.muth.dev/wp-content/uploads/2016/07/cart.png" title="cart" class = "muth-references-web-fix-size" data-gallery="#blueimp-gallery-links">
-            <img src="http://www.muth.dev/wp-content/uploads/2016/07/cart.png" alt="cart">
+       <div <?php echo $id; ?> class="muth-references-webs"> 
+            <a href="<?php echo $img_url; ?>" title="cart" class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
+            <?php echo $img; ?>
                 <div class="muth-references-web-description">
                     <div class="muth-reference-name">
                         <h3 class="muth-reference-name-h3"><?php echo $project_name; ?></h3>
@@ -127,9 +151,10 @@ if( have_rows('web_references') ):
                 </div> <!-- muth-references-web-description -->
             </a> <!-- muth-references-web-fix-size -->
 
-            <a href="http://www.muth.dev/wp-content/uploads/2016/06/outsourcing.png" title="outsourcing" class = "muth-invisible-image-gallery" data-gallery="#blueimp-gallery-links">
-            </a> <!-- muth-references-web-fix-size -->
-                
+            <?php if (isset($gallery_feed) && !empty($gallery_feed)) {
+                echo $gallery_feed;
+            }?>
+                            
         </div><!--  muth-references-webs -->
 <?php   
     endwhile;

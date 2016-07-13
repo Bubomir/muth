@@ -9273,3 +9273,9 @@
 
 )
 
+[13-Jul-2016 18:54:31 UTC] PHP Notice:  Undefined variable: gallery_feed in C:\wamp\www\muth\wp-content\themes\muththeme\page-references.php on line 146
+[13-Jul-2016 18:54:31 UTC] PHP Stack trace:
+[13-Jul-2016 18:54:31 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[13-Jul-2016 18:54:31 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[13-Jul-2016 18:54:31 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[13-Jul-2016 18:54:31 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
