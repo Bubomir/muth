@@ -44,7 +44,14 @@ class muth_contact_widget extends WP_Widget
 
         //phone
         $output .= '<tr>';
-        $output .= '<td class="' . $phone_glyphicon . '">'.$phone_title . '</td>';
+        $output .= '<td class="muth-icon">';
+       
+        $output .= '<div class="' . $phone_glyphicon . '"></div>';
+      
+        $output .= '</td>';
+        $output .= '<td>';
+        $output .= '<span>' . $phone_title . '</span>';
+        $output .= '</td>';
         $output .= '<td>';
         $output .= '<span>' . $phone_describe . '</span>';
         $output .= '</td>';
@@ -52,15 +59,27 @@ class muth_contact_widget extends WP_Widget
 
         //email
         $output .= '<tr>';
-        $output .= '<td class="' . $email_glyphicon . '">'.$email_title . '</td>';
+        $output .= '<td class="muth-icon">';
+        $output .= '<div class="' . $email_glyphicon . '"></div>';
+        $output .= '</td>';
+        $output .= '<td>';
+        $output .= '<span>' . $email_title . '</span>';
+        $output .= '</td>';
         $output .= '<td>';
         $output .= '<span>' . $email_describe . '</span>';
         $output .= '</td>';
         $output .= '</tr>';
 
+
         //address
         $output .= '<tr>';
-        $output .= '<td class="' . $address_glyphicon . '">'.$address_title . '</td>';
+        $output .= '<td class="muth-icon">';
+        $output .= '<div class="' . $address_glyphicon . '"></div>';
+        $output .= '</div>';
+        $output .= '</td>';
+        $output .= '<td>';
+        $output .= '<span>' . $address_title . '</span>';
+        $output .= '</td>';
         $output .= '<td>';
         $output .= '<span>' . $address_street . '</span>';
         $output .= '<br>';

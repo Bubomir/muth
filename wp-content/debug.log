@@ -8245,3 +8245,982 @@
 [12-Jul-2016 12:35:05 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
 [12-Jul-2016 12:35:05 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
 [12-Jul-2016 12:35:05 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[13-Jul-2016 11:49:48 UTC] PHP Notice:  Undefined variable: pictures in C:\wamp\www\muth\wp-content\themes\muththeme\page-references.php on line 66
+[13-Jul-2016 11:49:48 UTC] PHP Stack trace:
+[13-Jul-2016 11:49:48 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[13-Jul-2016 11:49:48 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[13-Jul-2016 11:49:48 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[13-Jul-2016 11:49:48 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
+[13-Jul-2016 12:32:33 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [PHP_VERSION] => 5.5.12
+            [WORDPRESS_VERSION] => 4.5.3
+            [AKISMET_VERSION] => 3.1.11
+            [AKISMET__PLUGIN_DIR] => C:\wamp\www\muth\wp-content\plugins\akismet/
+            [SITE_URL] => http://www.muth.dev
+            [HOME_URL] => http://www.muth.dev
+            [gethostbynamel] => exists
+            [Servers] => 
+            [Test Connection] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:32:35 GMT
+                            [content-type] => text/html; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => connected
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:32:51 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://rest.akismet.com/1.1/verify-key
+            [http_args] => Array
+                (
+                    [body] => key=0f2a5d4c786c&blog=http%3A%2F%2Fwww.muth.dev
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:32:53 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 5
+                            [connection] => close
+                        )
+
+                    [body] => valid
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:32:57 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://rest.akismet.com/1.1/get-subscription
+            [http_args] => Array
+                (
+                    [body] => key=0f2a5d4c786c&blog=http%3A%2F%2Fwww.muth.dev
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:32:59 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 159
+                            [connection] => close
+                        )
+
+                    [body] => {"account_id":107505972,"next_billing_date":false,"limit_reached":false,"account_type":"free-api-key","account_name":"Personal Free Account","status":"active"}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:32:57 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [PHP_VERSION] => 5.5.12
+            [WORDPRESS_VERSION] => 4.5.3
+            [AKISMET_VERSION] => 3.1.11
+            [AKISMET__PLUGIN_DIR] => C:\wamp\www\muth\wp-content\plugins\akismet/
+            [SITE_URL] => http://www.muth.dev
+            [HOME_URL] => http://www.muth.dev
+            [gethostbynamel] => exists
+            [Servers] => 
+            [Test Connection] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:00 GMT
+                            [content-type] => text/html; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => connected
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:00 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/get-subscription
+            [http_args] => Array
+                (
+                    [body] => key=0f2a5d4c786c&blog=http%3A%2F%2Fwww.muth.dev
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:02 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 159
+                            [connection] => close
+                        )
+
+                    [body] => {"account_id":107505972,"next_billing_date":false,"limit_reached":false,"account_type":"free-api-key","account_name":"Personal Free Account","status":"active"}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:01 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/get-stats
+            [http_args] => Array
+                (
+                    [body] => blog=http%3A%2F%2Fwww.muth.dev&key=0f2a5d4c786c&from=6-months
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:03 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => {"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"accuracy":0,"breakdown":{"2016-01":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-01-01"},"2016-02":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-02-01"},"2016-03":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-03-01"},"2016-04":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-04-01"},"2016-05":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-05-01"},"2016-06":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-06-01"},"2016-07":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-07-01"}},"time_saved":0}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:06 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/get-stats
+            [http_args] => Array
+                (
+                    [body] => blog=http%3A%2F%2Fwww.muth.dev&key=0f2a5d4c786c&from=all
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:08 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => {"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"accuracy":0,"breakdown":{"2011":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2011->01-01"},"2012":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2012->01-01"},"2013":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2013->01-01"},"2014":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2014->01-01"},"2015":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2015->01-01"},"2016":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016->01-01"}},"time_saved":0}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:06 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [stat_totals] => Array
+                (
+                    [6-months] => stdClass Object
+                        (
+                            [spam] => 0
+                            [ham] => 0
+                            [missed_spam] => 0
+                            [false_positives] => 0
+                            [accuracy] => 0
+                            [breakdown] => stdClass Object
+                                (
+                                    [2016-01] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-01-01
+                                        )
+
+                                    [2016-02] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-02-01
+                                        )
+
+                                    [2016-03] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-03-01
+                                        )
+
+                                    [2016-04] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-04-01
+                                        )
+
+                                    [2016-05] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-05-01
+                                        )
+
+                                    [2016-06] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-06-01
+                                        )
+
+                                    [2016-07] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-07-01
+                                        )
+
+                                )
+
+                            [time_saved] => 0
+                        )
+
+                    [all] => stdClass Object
+                        (
+                            [spam] => 0
+                            [ham] => 0
+                            [missed_spam] => 0
+                            [false_positives] => 0
+                            [accuracy] => 0
+                            [breakdown] => stdClass Object
+                                (
+                                    [2011] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2011->01-01
+                                        )
+
+                                    [2012] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2012->01-01
+                                        )
+
+                                    [2013] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2013->01-01
+                                        )
+
+                                    [2014] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2014->01-01
+                                        )
+
+                                    [2015] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2015->01-01
+                                        )
+
+                                    [2016] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016->01-01
+                                        )
+
+                                )
+
+                            [time_saved] => 0
+                        )
+
+                )
+
+            [akismet_user] => stdClass Object
+                (
+                    [account_id] => 107505972
+                    [next_billing_date] => 
+                    [limit_reached] => 
+                    [account_type] => free-api-key
+                    [account_name] => Personal Free Account
+                    [status] => active
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:12 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [PHP_VERSION] => 5.5.12
+            [WORDPRESS_VERSION] => 4.5.3
+            [AKISMET_VERSION] => 3.1.11
+            [AKISMET__PLUGIN_DIR] => C:\wamp\www\muth\wp-content\plugins\akismet/
+            [SITE_URL] => http://www.muth.dev
+            [HOME_URL] => http://www.muth.dev
+            [gethostbynamel] => exists
+            [Servers] => 
+            [Test Connection] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:14 GMT
+                            [content-type] => text/html; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => connected
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:14 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/get-subscription
+            [http_args] => Array
+                (
+                    [body] => key=0f2a5d4c786c&blog=http%3A%2F%2Fwww.muth.dev
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:17 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 159
+                            [connection] => close
+                        )
+
+                    [body] => {"account_id":107505972,"next_billing_date":false,"limit_reached":false,"account_type":"free-api-key","account_name":"Personal Free Account","status":"active"}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:15 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/get-stats
+            [http_args] => Array
+                (
+                    [body] => blog=http%3A%2F%2Fwww.muth.dev&key=0f2a5d4c786c&from=6-months
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:17 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => {"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"accuracy":0,"breakdown":{"2016-01":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-01-01"},"2016-02":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-02-01"},"2016-03":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-03-01"},"2016-04":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-04-01"},"2016-05":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-05-01"},"2016-06":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-06-01"},"2016-07":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016-07-01"}},"time_saved":0}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:16 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/get-stats
+            [http_args] => Array
+                (
+                    [body] => blog=http%3A%2F%2Fwww.muth.dev&key=0f2a5d4c786c&from=all
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:18 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [connection] => close
+                            [vary] => Accept-Encoding
+                            [content-encoding] => gzip
+                        )
+
+                    [body] => {"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"accuracy":0,"breakdown":{"2011":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2011->01-01"},"2012":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2012->01-01"},"2013":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2013->01-01"},"2014":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2014->01-01"},"2015":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2015->01-01"},"2016":{"spam":0,"ham":0,"missed_spam":0,"false_positives":0,"da":"2016->01-01"}},"time_saved":0}
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:16 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [stat_totals] => Array
+                (
+                    [6-months] => stdClass Object
+                        (
+                            [spam] => 0
+                            [ham] => 0
+                            [missed_spam] => 0
+                            [false_positives] => 0
+                            [accuracy] => 0
+                            [breakdown] => stdClass Object
+                                (
+                                    [2016-01] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-01-01
+                                        )
+
+                                    [2016-02] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-02-01
+                                        )
+
+                                    [2016-03] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-03-01
+                                        )
+
+                                    [2016-04] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-04-01
+                                        )
+
+                                    [2016-05] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-05-01
+                                        )
+
+                                    [2016-06] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-06-01
+                                        )
+
+                                    [2016-07] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016-07-01
+                                        )
+
+                                )
+
+                            [time_saved] => 0
+                        )
+
+                    [all] => stdClass Object
+                        (
+                            [spam] => 0
+                            [ham] => 0
+                            [missed_spam] => 0
+                            [false_positives] => 0
+                            [accuracy] => 0
+                            [breakdown] => stdClass Object
+                                (
+                                    [2011] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2011->01-01
+                                        )
+
+                                    [2012] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2012->01-01
+                                        )
+
+                                    [2013] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2013->01-01
+                                        )
+
+                                    [2014] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2014->01-01
+                                        )
+
+                                    [2015] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2015->01-01
+                                        )
+
+                                    [2016] => stdClass Object
+                                        (
+                                            [spam] => 0
+                                            [ham] => 0
+                                            [missed_spam] => 0
+                                            [false_positives] => 0
+                                            [da] => 2016->01-01
+                                        )
+
+                                )
+
+                            [time_saved] => 0
+                        )
+
+                )
+
+            [akismet_user] => stdClass Object
+                (
+                    [account_id] => 107505972
+                    [next_billing_date] => 
+                    [limit_reached] => 
+                    [account_type] => free-api-key
+                    [account_name] => Personal Free Account
+                    [status] => active
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:33:19 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/comment-check
+            [http_args] => Array
+                (
+                    [body] => comment_author=viagra-test-123&comment_author_email=lubomir.igonda%40gmail.com&comment_author_url=&comment_content=viagra-test-123%0A%0Alubomir.igonda%40gmail.com%0A%0Adaw&blog=http%3A%2F%2Fwww.muth.dev&blog_lang=sk_SK&blog_charset=UTF-8&user_ip=127.0.0.1&user_agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A49.0%29+Gecko%2F20100101+Firefox%2F49.0&referrer=http%3A%2F%2Fwww.muth.dev%2Fsk%2Fkontakt%2F&comment_type=contact-form&SERVER_SOFTWARE=Apache%2F2.4.9+%28Win64%29+PHP%2F5.5.12&REQUEST_URI=%2Fsk%2Fkontakt%2F&REDIRECT_STATUS=200&HTTP_HOST=www.muth.dev&HTTP_USER_AGENT=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A49.0%29+Gecko%2F20100101+Firefox%2F49.0&HTTP_ACCEPT=application%2Fjson%2C+text%2Fjavascript%2C+%2A%2F%2A%3B+q%3D0.01&HTTP_ACCEPT_LANGUAGE=sk%2Ccs%3Bq%3D0.8%2Cen-US%3Bq%3D0.5%2Cen%3Bq%3D0.3&HTTP_ACCEPT_ENCODING=gzip%2C+deflate&HTTP_REFERER=http%3A%2F%2Fwww.muth.dev%2Fsk%2Fkontakt%2F&CONTENT_TYPE=application%2Fx-www-form-urlencoded%3B+charset%3DUTF-8&HTTP_X_REQUESTED_WITH=XMLHttpRequest&CONTENT_LENGTH=204&HTTP_DNT=1&HTTP_CONNECTION=keep-alive&PATH=C%3A%5C%5CProgram+Files%5C%5CCommon+Files%5C%5CMicrosoft+Shared%5C%5CWindows+Live%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CCommon+Files%5C%5CMicrosoft+Shared%5C%5CWindows+Live%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CiCLS+Client%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CiCLS+Client%5C%5C%3BC%3A%5C%5CWindows%5C%5Csystem32%3BC%3A%5C%5CWindows%3BC%3A%5C%5CWindows%5C%5CSystem32%5C%5CWbem%3BC%3A%5C%5CWindows%5C%5CSystem32%5C%5CWindowsPowerShell%5C%5Cv1.0%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CWiFi%5C%5Cbin%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CCommon+Files%5C%5CIntel%5C%5CWirelessCommon%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CDAL%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CDAL%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CIPT%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CIPT%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CSkype%5C%5CPhone%5C%5C%3BC%3A%5C%5CHashiCorp%5C%5CVagrant%5C%5Cbin%3BC%3A%5C%5Cwamp%5C%5Cbin%5C%5Cphp%5C%5Cphp5.5.12%3BC%3A%5C%5CProgramData%5C%5CComposerSetup%5C%5Cbin%3BC%3A%5C%5CUsers%5C%5CBubo%5C%5CAppData%5C%5CLocal%5C%5CAndroid%5C%5Csdk%5C%5Ctools%5C%5C%3Bc%3A%5C%5CUsers%5C%5CBubo%5C%5CAppData%5C%5CLocal%5C%5CAndroid%5C%5Csdk%5C%5Cplatform-tools%5C%5C%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CWindows+Live%5C%5CShared%3BC%3A%5C%5CProgram+Files%5C%5Cnodejs%5C%5C%3B&SystemRoot=C%3A%5C%5CWindows&COMSPEC=C%3A%5C%5CWindows%5C%5Csystem32%5C%5Ccmd.exe&PATHEXT=.COM%3B.EXE%3B.BAT%3B.CMD%3B.VBS%3B.VBE%3B.JS%3B.JSE%3B.WSF%3B.WSH%3B.MSC&WINDIR=C%3A%5C%5CWindows&SERVER_SIGNATURE=%3Caddress%3EApache%2F2.4.9+%28Win64%29+PHP%2F5.5.12+Server+at+www.muth.dev+Port+80%3C%2Faddress%3E%0A&SERVER_NAME=www.muth.dev&SERVER_ADDR=127.0.0.1&SERVER_PORT=80&REMOTE_ADDR=127.0.0.1&DOCUMENT_ROOT=C%3A%2Fwamp%2Fwww%2Fmuth&REQUEST_SCHEME=http&CONTEXT_PREFIX=&CONTEXT_DOCUMENT_ROOT=C%3A%2Fwamp%2Fwww%2Fmuth&SERVER_ADMIN=admin%40example.com&SCRIPT_FILENAME=C%3A%2Fwamp%2Fwww%2Fmuth%2Findex.php&REMOTE_PORT=54312&REDIRECT_URL=%2Fsk%2Fkontakt%2F&GATEWAY_INTERFACE=CGI%2F1.1&SERVER_PROTOCOL=HTTP%2F1.1&REQUEST_METHOD=POST&QUERY_STRING=&SCRIPT_NAME=%2Findex.php&PHP_SELF=%2Findex.php&REQUEST_TIME_FLOAT=1468413197.959&REQUEST_TIME=1468413197
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:33:22 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 4
+                            [connection] => close
+                            [x-akismet-guid] => a92cb6c50ae55697e9626a072a677ba3
+                        )
+
+                    [body] => true
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:39:18 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/comment-check
+            [http_args] => Array
+                (
+                    [body] => comment_author=viagra-test-123&comment_author_email=lubomir.igonda%40gmail.com&comment_author_url=&comment_content=viagra-test-123%0A%0Alubomir.igonda%40gmail.com%0A%0Adaw&blog=http%3A%2F%2Fwww.muth.dev&blog_lang=sk_SK&blog_charset=UTF-8&user_ip=127.0.0.1&user_agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A49.0%29+Gecko%2F20100101+Firefox%2F49.0&referrer=http%3A%2F%2Fwww.muth.dev%2Fsk%2Fkontakt%2F&comment_type=contact-form&SERVER_SOFTWARE=Apache%2F2.4.9+%28Win64%29+PHP%2F5.5.12&REQUEST_URI=%2Fsk%2Fkontakt%2F&REDIRECT_STATUS=200&HTTP_HOST=www.muth.dev&HTTP_USER_AGENT=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A49.0%29+Gecko%2F20100101+Firefox%2F49.0&HTTP_ACCEPT=application%2Fjson%2C+text%2Fjavascript%2C+%2A%2F%2A%3B+q%3D0.01&HTTP_ACCEPT_LANGUAGE=sk%2Ccs%3Bq%3D0.8%2Cen-US%3Bq%3D0.5%2Cen%3Bq%3D0.3&HTTP_ACCEPT_ENCODING=gzip%2C+deflate&HTTP_REFERER=http%3A%2F%2Fwww.muth.dev%2Fsk%2Fkontakt%2F&CONTENT_TYPE=application%2Fx-www-form-urlencoded%3B+charset%3DUTF-8&HTTP_X_REQUESTED_WITH=XMLHttpRequest&CONTENT_LENGTH=204&HTTP_DNT=1&HTTP_CONNECTION=keep-alive&PATH=C%3A%5C%5CProgram+Files%5C%5CCommon+Files%5C%5CMicrosoft+Shared%5C%5CWindows+Live%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CCommon+Files%5C%5CMicrosoft+Shared%5C%5CWindows+Live%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CiCLS+Client%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CiCLS+Client%5C%5C%3BC%3A%5C%5CWindows%5C%5Csystem32%3BC%3A%5C%5CWindows%3BC%3A%5C%5CWindows%5C%5CSystem32%5C%5CWbem%3BC%3A%5C%5CWindows%5C%5CSystem32%5C%5CWindowsPowerShell%5C%5Cv1.0%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CWiFi%5C%5Cbin%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CCommon+Files%5C%5CIntel%5C%5CWirelessCommon%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CDAL%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CDAL%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CIPT%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CIPT%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CSkype%5C%5CPhone%5C%5C%3BC%3A%5C%5CHashiCorp%5C%5CVagrant%5C%5Cbin%3BC%3A%5C%5Cwamp%5C%5Cbin%5C%5Cphp%5C%5Cphp5.5.12%3BC%3A%5C%5CProgramData%5C%5CComposerSetup%5C%5Cbin%3BC%3A%5C%5CUsers%5C%5CBubo%5C%5CAppData%5C%5CLocal%5C%5CAndroid%5C%5Csdk%5C%5Ctools%5C%5C%3Bc%3A%5C%5CUsers%5C%5CBubo%5C%5CAppData%5C%5CLocal%5C%5CAndroid%5C%5Csdk%5C%5Cplatform-tools%5C%5C%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CWindows+Live%5C%5CShared%3BC%3A%5C%5CProgram+Files%5C%5Cnodejs%5C%5C%3B&SystemRoot=C%3A%5C%5CWindows&COMSPEC=C%3A%5C%5CWindows%5C%5Csystem32%5C%5Ccmd.exe&PATHEXT=.COM%3B.EXE%3B.BAT%3B.CMD%3B.VBS%3B.VBE%3B.JS%3B.JSE%3B.WSF%3B.WSH%3B.MSC&WINDIR=C%3A%5C%5CWindows&SERVER_SIGNATURE=%3Caddress%3EApache%2F2.4.9+%28Win64%29+PHP%2F5.5.12+Server+at+www.muth.dev+Port+80%3C%2Faddress%3E%0A&SERVER_NAME=www.muth.dev&SERVER_ADDR=127.0.0.1&SERVER_PORT=80&REMOTE_ADDR=127.0.0.1&DOCUMENT_ROOT=C%3A%2Fwamp%2Fwww%2Fmuth&REQUEST_SCHEME=http&CONTEXT_PREFIX=&CONTEXT_DOCUMENT_ROOT=C%3A%2Fwamp%2Fwww%2Fmuth&SERVER_ADMIN=admin%40example.com&SCRIPT_FILENAME=C%3A%2Fwamp%2Fwww%2Fmuth%2Findex.php&REMOTE_PORT=54426&REDIRECT_URL=%2Fsk%2Fkontakt%2F&GATEWAY_INTERFACE=CGI%2F1.1&SERVER_PROTOCOL=HTTP%2F1.1&REQUEST_METHOD=POST&QUERY_STRING=&SCRIPT_NAME=%2Findex.php&PHP_SELF=%2Findex.php&REQUEST_TIME_FLOAT=1468413555.912&REQUEST_TIME=1468413555
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 12:39:20 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 4
+                            [connection] => close
+                            [x-akismet-guid] => a92cb6c50ae55697e9626a072a677ba3
+                        )
+
+                    [body] => true
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+
+[13-Jul-2016 12:50:50 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 49
+[13-Jul-2016 12:50:50 UTC] PHP Stack trace:
+[13-Jul-2016 12:50:50 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[13-Jul-2016 12:50:50 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[13-Jul-2016 12:50:50 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[13-Jul-2016 12:50:50 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[13-Jul-2016 12:50:50 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[13-Jul-2016 12:50:50 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[13-Jul-2016 12:50:50 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[13-Jul-2016 12:56:09 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 49
+[13-Jul-2016 12:56:09 UTC] PHP Stack trace:
+[13-Jul-2016 12:56:09 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[13-Jul-2016 12:56:09 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[13-Jul-2016 12:56:09 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[13-Jul-2016 12:56:09 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[13-Jul-2016 12:56:09 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[13-Jul-2016 12:56:09 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[13-Jul-2016 12:56:09 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[13-Jul-2016 12:56:38 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in C:\wamp\www\muth\wp-content\themes\muththeme\include\widgets\muth_contact_info_widget.php on line 49
+[13-Jul-2016 12:56:38 UTC] PHP Stack trace:
+[13-Jul-2016 12:56:38 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[13-Jul-2016 12:56:38 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[13-Jul-2016 12:56:38 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:13
+[13-Jul-2016 12:56:38 UTC] PHP   4. require_once() C:\wamp\www\muth\wp-load.php:37
+[13-Jul-2016 12:56:38 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
+[13-Jul-2016 12:56:38 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
+[13-Jul-2016 12:56:38 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5

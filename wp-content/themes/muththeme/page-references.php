@@ -69,7 +69,7 @@ Template Name: References Page
 <section class="muth-page-full-width muth-page-background-white">
     <div class="muth-page-content">
         <div class="row">
-            <div class = "muth-references-webs"> 
+            
 
 <?php 
 if( have_rows('web_references') ):
@@ -78,7 +78,31 @@ if( have_rows('web_references') ):
     while ( have_rows('web_references') ) : the_row();
 
         // display a sub field value
-        $picture = get_sub_field('thumbnail_web');
+        
+        
+        $switcher = get_sub_field('image_gallery_switcher');
+      
+      	//var_dump($pictures);
+      	
+      	switch ($switcher) {
+      		//image
+      		case false:
+      			$picture = get_sub_field('thumbnail_web');
+      			break;
+
+      		//gallery
+      		case true:
+      			$pictures = get_sub_field('thumbnail_web_gallery');
+      			//var_dump($pictures[0]);
+      			$picture = $pictures[0];
+      			break;
+
+      		default:
+      			# code...
+      			break;
+      	}
+
+
         $project_name = get_sub_field('project_name');
         $project_description = get_sub_field('project_description');
 
@@ -87,7 +111,7 @@ if( have_rows('web_references') ):
         if(isset($picture['url']) && !empty($picture['url'])):
           $img = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
         else:
-           $img = '<img src="http://placehold.it/300x300">';
+          $img = '<img src="http://placehold.it/300x300">';
         endif;
               
        ?>
@@ -113,9 +137,12 @@ else :
     // no rows found
 endif;?>
 
-    </div> <!-- row --> 
+
+    	</div> <!-- row --> 
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
+
+
 
 <?php if( have_rows('outsoarsing_references') ): ?>
 

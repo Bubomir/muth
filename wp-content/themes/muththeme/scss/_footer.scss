@@ -155,35 +155,16 @@ footer{
 	table{
 		td{
 			padding-bottom: 8px;
-			padding-left: $padding-medium;
+			//padding-right: 15px;
 		}
+		div{
+			display: inline-block;
+			font-size: 1.5rem;
+			padding-right: 10px;
+		}	
 		span{
-			color: $light-green;
-		}
-		//margin: 0 auto;
-		.muth-footer-phone{
-			background-image: url(../img/phone-ico.png);
-			background-repeat: no-repeat;
-			background-size: 22px 22px;
-			padding-left: $padding-medium;
-			vertical-align: top;
-
-		}
-		.muth-footer-mail{
-			background-image: url(../img/mail-ico.png);
-			background-repeat: no-repeat;
-			background-size: 22px 22px;
-			padding-left: $padding-medium;
-			vertical-align: top;
-
-		}
-		.muth-footer-address{
-			background-image: url(../img/address-ico.png);
-			background-repeat: no-repeat;
-			background-size: 22px 22px;
-			padding-left: $padding-medium;
-			vertical-align: top;
-
+			display: inline-block;
+			padding-right: $padding-medium;
 		}
 		@media (max-width: 768px){
 			text-align: left;
