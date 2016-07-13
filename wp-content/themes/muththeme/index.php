@@ -28,6 +28,28 @@
     
   <?php endif; ?>
 
+  <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="muth-modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="muth-modal-title" id="myModalLabel">Kontaktný formulár</h4>
+          </div>
+          <div class="muth-modal-body">
+            <form>
+              <label>Meno</label>
+              <input class="muth-contact-form-name-input" type="" name="">
+               <label>Email</label>
+              <input class="muth-contact-form-name-input" type="" name="">
+              <label class="muth-contact-form-text-label">Obsah</label>
+              <textarea class="muth-contact-form-text-textarea"></textarea>
+            </form>
+            <input type="submit" class="muth-button">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <?php if(!empty(get_testimonial())): ?>
     <section class="muth-testimonial">

@@ -1,0 +1,43 @@
+.muth-contact-form-text-label {
+      display: block;
+      text-align: left;
+      color: $dark-blue;
+      pointer-events: none;
+    }
+
+.muth-contact-form-text-textarea {
+      padding: 8px 15px 8px 15px;
+      color: $medium-blue;
+      font-weight: bold;
+      resize: none;
+      width: 100%;
+      height: 250px;
+      border: none;
+  }
+
+  .muth-contact-form-text-textarea:focus {
+    box-shadow: 0px 0px 0px 2px $light-green;
+    pointer-events: none;
+  }
+
+.muth-contact-form-text-span {
+    position: relative;
+    display: block;
+    pointer-events: none;
+  }
+
+.muth-contact-form-text-span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 250px;
+    top: -250px;
+    left: 0px;
+    box-shadow: 0px 0px 0px 0px;
+    color: $light-green;
+}
+
+.muth-contact-form-text-textarea:focus + .muth-contact-form-text-span::after {
+    -webkit-animation: anim-shadow 0.3s forwards;
+    animation: anim-shadow 0.3s forwards;
+}

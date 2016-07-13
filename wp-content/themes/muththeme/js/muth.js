@@ -1,4 +1,9 @@
 jQuery(document).ready(function($) {
+
+    $('#myModal').on('shown.bs.modal', function () {
+        ('#myInput').focus()
+    })
+
     var testimonial_text = $('.muth-testimonial-text'),
         testimonial_controller = $('.muth-testimonial-controller');
        

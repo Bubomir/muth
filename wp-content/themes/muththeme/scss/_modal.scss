@@ -1,0 +1,24 @@
+.modal-content{
+	margin-top: 120px;
+}
+
+.muth-modal-header{
+	border-radius: 5px 5px 0px 0px;
+	padding: $padding-small $padding-medium $padding-small $padding-medium;
+	display: block;
+	background: $light-green;
+	color: $white;
+	h4{
+		margin: 0;
+		font-weight: bold;
+	}
+}
+.muth-modal-body{
+	padding: 0 $padding-medium $padding-small $padding-medium;
+	background: $gray;
+	border-radius: 5px;
+	label{
+		margin-top: $margin-small;
+	}
+
+}

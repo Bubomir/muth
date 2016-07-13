@@ -1,0 +1,64 @@
+.muth-button {
+      margin-top: $margin-small;
+      width: 100%;
+      background: none;
+      padding: 10px $padding-small 10px $padding-small;
+      border-color: black;
+      color: #37474f;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      border: none;
+      outline: 1px solid;
+}
+
+.muth-button-animation-span {
+      display: block;
+      position: relative;
+      pointer-events: none;
+}
+
+.muth-button-animation-span::after {
+      pointer-esvents: none;
+      position: absolute;
+      content: attr(value);
+      background: $light-green;
+      width: 100%;
+      top: -70px;
+      height: 0px;
+      text-align: center;
+      font-size: 1.2rem;
+      vertical-align: middle;
+      padding-top: 10px;
+      color: white;
+      opacity: 0;
+      -webkit-text-size-adjust: none;
+      @media (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
+        top: -69px;
+      }
+      @media (max-width: 992px) and (-webkit-min-device-pixel-ratio:0) {
+        top: -80px;
+      }
+      @media (max-width: 992px) {
+        top: -64px;
+      }
+}
+
+.muth-button:active,
+    .muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+      -webkit-animation: anim-button-span 0.3s forwards;
+      animation: anim-button-span 0.3s forwards;
+      @media (max-width: 992px) {
+        -webkit-animation: anim-button-span992 0.3s forwards;
+        animation: anim-button-span992 0.3s forwards;
+      }
+    }
+
+    .muth-button:active,
+    .muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+      -webkit-animation: anim-button-span 0.3s forwards;
+      animation: anim-button-span 0.3s forwards;
+      @media (max-width: 992px) {
+        -webkit-animation: anim-button-span992 0.3s forwards;
+        animation: anim-button-span992 0.3s forwards;
+      }
+    }

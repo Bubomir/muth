@@ -7766,6 +7766,7 @@ button.close {
 }
 
 .muth-icon {
+  display: table-cell;
   font-family: "MuthFont" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -7781,12 +7782,14 @@ button.close {
   content: "\e000";
   color: #800000;
   font-size: 8rem;
+  display: inline-block;
 }
 
 .map-marker-muth-correspondece:before {
   content: "\e000";
   color: #d5a118;
   font-size: 8rem;
+  display: inline-block;
 }
 
 .muth-logo-icon:before {
@@ -7795,7 +7798,8 @@ button.close {
 
 .muth-email:before {
   content: "\e002";
-  font-size: 5rem;
+  font-size: 6rem;
+  color: #000080;
 }
 
 .lang-item-de:before {
@@ -7832,7 +7836,8 @@ button.close {
 
 .muth-smartphone:before {
   content: "\e00c";
-  font-size: 5rem;
+  font-size: 6rem;
+  color: #008000;
 }
 
 .muth-muth-twiter:before {
@@ -7841,6 +7846,32 @@ button.close {
 
 .lang-item-cs:before {
   content: "\e003";
+}
+
+.location:before {
+  content: "\e00e";
+}
+
+.envelope:before {
+  content: "\e00f";
+}
+
+.muth-smartphone2:before {
+  content: "\e012";
+  font-size: 5rem;
+  color: #333333;
+  display: inline-block;
+}
+
+.phone-call:before {
+  content: "\e011";
+}
+
+.muth-2:before {
+  content: "\e010";
+  font-size: 5rem;
+  color: #333333;
+  display: inline-block;
 }
 
 .muth-page-title {
@@ -8013,6 +8044,179 @@ button.close {
 @media (min-width: 1200px) {
   .muth-page-content .muth-subheader-line {
     margin-left: 33.33333%;
+  }
+}
+
+.muth-contact-form-name-label {
+  display: block;
+  text-align: left;
+  color: #262b2e;
+  pointer-events: none;
+  padding-top: 1.25rem;
+}
+
+.muth-contact-form-name-input {
+  border: none;
+  padding: 8px 15px 8px 15px;
+  font-size: 1rem;
+  width: 100%;
+  box-shadow: 0px 0px 0px 2px transparent;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  color: #525d63;
+  font-weight: bold;
+}
+
+.muth-contact-form-name-span {
+  position: relative;
+  display: block;
+  pointer-events: none;
+}
+
+.muth-contact-form-name-span::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 39px;
+  top: -40px;
+  left: 0px;
+  box-shadow: 0px 0px 0px 0px;
+  color: #2dbe60;
+}
+
+.muth-contact-form-name-input:focus {
+  box-shadow: 0px 0px 0px 2px #2dbe60;
+  pointer-events: none;
+}
+
+.muth-contact-form-name-input:focus + .muth-contact-form-name-span::after {
+  -webkit-animation: anim-shadow 0.3s forwards;
+  animation: anim-shadow 0.3s forwards;
+}
+
+.muth-contact-form-text-label {
+  display: block;
+  text-align: left;
+  color: #262b2e;
+  pointer-events: none;
+}
+
+.muth-contact-form-text-textarea {
+  padding: 8px 15px 8px 15px;
+  color: #525d63;
+  font-weight: bold;
+  resize: none;
+  width: 100%;
+  height: 250px;
+  border: none;
+}
+
+.muth-contact-form-text-textarea:focus {
+  box-shadow: 0px 0px 0px 2px #2dbe60;
+  pointer-events: none;
+}
+
+.muth-contact-form-text-span {
+  position: relative;
+  display: block;
+  pointer-events: none;
+}
+
+.muth-contact-form-text-span::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 250px;
+  top: -250px;
+  left: 0px;
+  box-shadow: 0px 0px 0px 0px;
+  color: #2dbe60;
+}
+
+.muth-contact-form-text-textarea:focus + .muth-contact-form-text-span::after {
+  -webkit-animation: anim-shadow 0.3s forwards;
+  animation: anim-shadow 0.3s forwards;
+}
+
+.muth-button {
+  margin-top: 1.25rem;
+  width: 100%;
+  background: none;
+  padding: 10px 1.25rem 10px 1.25rem;
+  border-color: black;
+  color: #37474f;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid;
+}
+
+.muth-button-animation-span {
+  display: block;
+  position: relative;
+  pointer-events: none;
+}
+
+.muth-button-animation-span::after {
+  pointer-esvents: none;
+  position: absolute;
+  content: attr(value);
+  background: #2dbe60;
+  width: 100%;
+  top: -70px;
+  height: 0px;
+  text-align: center;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  padding-top: 10px;
+  color: white;
+  opacity: 0;
+  -webkit-text-size-adjust: none;
+}
+
+@media (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
+  .muth-button-animation-span::after {
+    top: -69px;
+  }
+}
+
+@media (max-width: 992px) and (-webkit-min-device-pixel-ratio: 0) {
+  .muth-button-animation-span::after {
+    top: -80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .muth-button-animation-span::after {
+    top: -64px;
+  }
+}
+
+.muth-button:active,
+.muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+  -webkit-animation: anim-button-span 0.3s forwards;
+  animation: anim-button-span 0.3s forwards;
+}
+
+@media (max-width: 992px) {
+  .muth-button:active,
+  .muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+    -webkit-animation: anim-button-span992 0.3s forwards;
+    animation: anim-button-span992 0.3s forwards;
+  }
+}
+
+.muth-button:active,
+.muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+  -webkit-animation: anim-button-span 0.3s forwards;
+  animation: anim-button-span 0.3s forwards;
+}
+
+@media (max-width: 992px) {
+  .muth-button:active,
+  .muth-button:hover + .ajax-loader + .muth-button-animation-span::after {
+    -webkit-animation: anim-button-span992 0.3s forwards;
+    animation: anim-button-span992 0.3s forwards;
   }
 }
 
@@ -9215,6 +9419,33 @@ footer {
   height: 60px;
 }
 
+.modal-content {
+  margin-top: 120px;
+}
+
+.muth-modal-header {
+  border-radius: 5px 5px 0px 0px;
+  padding: 1.25rem 2.5rem 1.25rem 2.5rem;
+  display: block;
+  background: #2dbe60;
+  color: #ffffff;
+}
+
+.muth-modal-header h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.muth-modal-body {
+  padding: 0 2.5rem 1.25rem 2.5rem;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.muth-modal-body label {
+  margin-top: 1.25rem;
+}
+
 .muth-title-text {
   position: relative;
   float: left;
@@ -9798,55 +10029,8 @@ footer {
   }
 }
 
-.muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-label {
-  display: block;
-  text-align: left;
-  color: #262b2e;
-  pointer-events: none;
-  padding-top: 1.25rem;
-}
-
 .muth-all-contacts-content .muth-contact-form-name br {
   display: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-span {
-  position: relative;
-  display: block;
-  pointer-events: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-span::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 39px;
-  top: -40px;
-  left: 0px;
-  box-shadow: 0px 0px 0px 0px;
-  color: #2dbe60;
-}
-
-.muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-input {
-  border: none;
-  padding: 8px 15px 8px 15px;
-  font-size: 1rem;
-  width: 100%;
-  box-shadow: 0px 0px 0px 2px transparent;
-  -webkit-transition: box-shadow 0.3s;
-  transition: box-shadow 0.3s;
-  color: #525d63;
-  font-weight: bold;
-}
-
-.muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-input:focus {
-  box-shadow: 0px 0px 0px 2px #2dbe60;
-  pointer-events: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-name .muth-contact-form-name-input:focus + .muth-contact-form-name-span::after {
-  -webkit-animation: anim-shadow 0.3s forwards;
-  animation: anim-shadow 0.3s forwards;
 }
 
 .muth-all-contacts-content .muth-contact-form-name .wpcf7-not-valid-tip {
@@ -9926,112 +10110,14 @@ footer {
   border: 3px dashed #2d7010;
 }
 
-.muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-label {
-  display: block;
-  text-align: left;
-  color: #262b2e;
-  pointer-events: none;
-}
-
 .muth-all-contacts-content .muth-contact-form-text br {
   display: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-textarea {
-  padding: 8px 15px 8px 15px;
-  color: #525d63;
-  font-weight: bold;
-  resize: none;
-  width: 100%;
-  height: 250px;
-  border: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-textarea:focus {
-  box-shadow: 0px 0px 0px 2px #2dbe60;
-  pointer-events: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-span {
-  position: relative;
-  display: block;
-  pointer-events: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-span::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 250px;
-  top: -250px;
-  left: 0px;
-  box-shadow: 0px 0px 0px 0px;
-  color: #2dbe60;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-contact-form-text-textarea:focus + .muth-contact-form-text-span::after {
-  -webkit-animation: anim-shadow 0.3s forwards;
-  animation: anim-shadow 0.3s forwards;
 }
 
 .muth-all-contacts-content .muth-contact-form-text .wpcf7-not-valid-tip {
   padding-left: 1px;
   padding-top: 8px;
   font-size: 0.8rem;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-button {
-  margin-top: 1.25rem;
-  width: 100%;
-  background: none;
-  padding: 10px 1.25rem 10px 1.25rem;
-  border-color: black;
-  color: #37474f;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  border: none;
-  outline: 1px solid;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span {
-  display: block;
-  position: relative;
-  pointer-events: none;
-}
-
-.muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
-  pointer-esvents: none;
-  position: absolute;
-  content: attr(value);
-  background: #2dbe60;
-  width: 100%;
-  top: -70px;
-  height: 0px;
-  text-align: center;
-  font-size: 1.2rem;
-  vertical-align: middle;
-  padding-top: 10px;
-  color: white;
-  opacity: 0;
-  -webkit-text-size-adjust: none;
-}
-
-@media (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
-  .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
-    top: -69px;
-  }
-}
-
-@media (max-width: 992px) and (-webkit-min-device-pixel-ratio: 0) {
-  .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
-    top: -80px;
-  }
-}
-
-@media (max-width: 992px) {
-  .muth-all-contacts-content .muth-contact-form-text .muth-button-animation-span::after {
-    top: -64px;
-  }
 }
 
 .muth-all-contacts-content .muth-contact-form-text .muth-button:active,
@@ -10072,6 +10158,7 @@ footer {
   list-style: none;
   border-color: #2dbe60;
   padding-bottom: 3.75rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -10098,162 +10185,47 @@ footer {
 @media (max-width: 991px) {
   .muth-all-contacts-content ul {
     padding-top: 0px;
-    text-align: center;
   }
 }
 
 .muth-all-contacts-content ul li {
-  font-weight: bold;
+  display: table;
+  padding-left: 15px;
 }
 
 @media (max-width: 991px) {
   .muth-all-contacts-content ul li {
     display: inline-block;
-    padding: 0 1.25rem 0 1.25rem;
   }
-}
-
-@media (max-width: 751px) {
-  .muth-all-contacts-content ul li {
-    display: block;
-  }
-}
-
-.muth-all-contacts-content ul li svg {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  vertical-align: middle;
 }
 
 .muth-all-contacts-content ul li p {
-  display: inline-block;
-  padding-left: 1.25rem;
-  font-size: 1rem;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 35px;
+  font-size: 1.4rem;
   margin: 0px;
-}
-
-@media (max-width: 751px) {
-  .muth-all-contacts-content ul li p {
-    padding: 1.25rem;
-    display: block;
-  }
+  font-weight: bold;
 }
 
 .muth-all-contacts-content ul li:last-child {
-  padding-top: 1.25rem;
+  padding-top: 3.75rem;
+}
+
+@media (max-width: 991px) {
+  .muth-all-contacts-content ul li:last-child {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 593px) {
+  .muth-all-contacts-content ul li:last-child {
+    padding-top: 3.75rem;
+  }
 }
 
 .muth-map {
   background-color: white;
-}
-
-.muth-map .muth-map-content h2 {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: center;
-  margin: 0px;
-  padding: 3.75rem 0 2.5rem 0;
-}
-
-@media (min-width: 768px) {
-  .muth-map .muth-map-content h2 {
-    float: left;
-    width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  .muth-map .muth-map-content h2 {
-    float: left;
-    width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .muth-map .muth-map-content h2 {
-    float: left;
-    width: 100%;
-  }
-}
-
-.muth-map .muth-map-content .muth-subheader {
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 25%;
-  border-bottom: 1px solid;
-  border-color: #2dbe60;
-}
-
-@media (min-width: 768px) {
-  .muth-map .muth-map-content .muth-subheader {
-    float: left;
-    width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  .muth-map .muth-map-content .muth-subheader {
-    float: left;
-    width: 50%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .muth-map .muth-map-content .muth-subheader {
-    float: left;
-    width: 50%;
-  }
-}
-
-@media (min-width: 768px) {
-  .muth-map .muth-map-content .muth-subheader {
-    margin-left: 25%;
-  }
-}
-
-@media (min-width: 992px) {
-  .muth-map .muth-map-content .muth-subheader {
-    margin-left: 25%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .muth-map .muth-map-content .muth-subheader {
-    margin-left: 25%;
-  }
 }
 
 .muth-map .muth-map-content .muth-google-map {
@@ -10308,6 +10280,7 @@ footer {
 }
 
 .muth-map .muth-map-content .muth-address {
+  text-align: center;
   padding-top: 2.5rem;
   position: relative;
   float: left;
@@ -10351,111 +10324,45 @@ footer {
   }
 }
 
-.muth-map .muth-map-content .muth-address .muth-adress-name {
-  padding-top: 1.25rem;
-  display: block;
-  vertical-align: middle;
+.muth-map .muth-map-content .muth-address .muth-normal-address {
+  display: table;
+  margin-bottom: 3.75rem;
 }
 
-.muth-map .muth-map-content .muth-address .muth-adress-name h4 {
+.muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content h4 {
+  text-align: left;
   font-size: 1rem;
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  padding-left: 15px;
+  margin: 10px 0 20px 15px;
   font-weight: bold;
 }
 
-.muth-map .muth-map-content .muth-address .muth-adress-name svg {
-  fill: #262b2e;
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-}
-
-@media (max-width: 341px) {
-  .muth-map .muth-map-content .muth-address .muth-adress-name {
-    text-align: center;
-  }
-  .muth-map .muth-map-content .muth-address .muth-adress-name h4 {
-    padding-left: 0px;
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 15px;
-  }
-  .muth-map .muth-map-content .muth-address .muth-adress-name svg {
-    margin: 0 auto;
-    display: block;
-  }
-}
-
-.muth-map .muth-map-content .muth-address .muth-correspondedn-address {
-  display: block;
-}
-
-.muth-map .muth-map-content .muth-address .muth-correspondedn-address ul {
+.muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content ul {
+  list-style: none;
   margin: 0px;
   padding: 0px;
-  display: block;
-  list-style: none;
 }
 
-.muth-map .muth-map-content .muth-address .muth-correspondedn-address ul li {
-  padding-left: 72px;
-  font-size: 1.1rem;
+.muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content ul li {
+  text-align: left;
+  padding-left: 35px;
+  padding-bottom: 2px;
 }
 
-@media (max-width: 991px) {
-  .muth-map .muth-map-content .muth-address .muth-correspondedn-address {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (max-width: 341px) {
-  .muth-map .muth-map-content .muth-address .muth-correspondedn-address {
-    padding-top: 2.5rem;
-  }
-  .muth-map .muth-map-content .muth-address .muth-correspondedn-address ul li {
-    padding: 0px;
-  }
-}
-
-.muth-map .muth-map-content .muth-address .muth-normal-address {
-  display: block;
-}
-
-.muth-map .muth-map-content .muth-address .muth-normal-address ul {
-  margin: 0px;
-  padding: 0px;
-  display: block;
-  list-style: none;
-}
-
-.muth-map .muth-map-content .muth-address .muth-normal-address ul li {
-  padding-left: 72px;
-  font-size: 1.1rem;
-}
-
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .muth-map .muth-map-content .muth-address .muth-normal-address {
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-bottom: 0px;
   }
 }
 
-@media (max-width: 341px) {
-  .muth-map .muth-map-content .muth-address .muth-normal-address ul li {
-    padding: 0px;
-  }
-}
-
-@media (max-width: 991px) {
-  .muth-map .muth-map-content .muth-address {
-    text-align: center;
+@media (max-width: 638px) {
+  .muth-map .muth-map-content .muth-address .muth-normal-address {
+    margin-bottom: 3.75rem;
   }
 }
 

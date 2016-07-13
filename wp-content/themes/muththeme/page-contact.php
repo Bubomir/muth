@@ -53,17 +53,19 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
              ?>
       
         <div class="muth-normal-address">
-          <div class="muth-adress-name">
-          <div class="muth-icon"> <div class="<?php echo  $glyphicon_class; ?>"></div></div>
-         
+            <div class="muth-icon"> 
+              <div class="<?php echo  $glyphicon_class; ?>">
+              </div>
+            </div>
 
+          <div class="muth-address-content">
             <h4><?php echo $address_type;?></h4>
-          </div> <!-- muth-adress-name -->
-          <ul>
-            <li><?php echo $street;?></li>
-            <li><?php echo $city.__(' ').$zip;?></li>
-            <li><?php echo $štat;?></li>
-          </ul>
+            <ul>
+              <li><?php echo $street;?></li>
+              <li><?php echo $city.__(' ').$zip;?></li>
+              <li><?php echo $štat;?></li>
+            </ul>
+          </div>
         </div> <!-- muth-normal-address -->
 
       <?php
@@ -106,13 +108,13 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
             <ul>
               <li>
               <div class="muth-icon">
-                <div class="muth-email"></div>
+                <div class="muth-2"></div>
               </div>
                 <p><?php if(get_field('email')): the_field('email'); endif; ?></p>
               </li>
               <li>
               <div class="muth-icon">
-                <div class="muth-smartphone"></div>
+                <div class="muth-smartphone2"></div>
               </div>
                 <p><?php if(get_field('phone_num')): the_field('phone_num'); endif; ?></p>
               </li>

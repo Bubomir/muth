@@ -63,6 +63,9 @@
 @import "global";
 
 //Index page
+@import "inputStyles";
+@import "textAreaStyles";
+@import "buttonStyles";
 @import "navigationBar";
 @import "animatedMobileButton";
 @import "slider";
@@ -71,6 +74,7 @@
 @import "footer";
 @import "testimonial";
 @import "partners";
+@import "modal";
 
 //Contact Us Page
 @import "page_about_us";

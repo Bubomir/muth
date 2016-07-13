@@ -11,7 +11,7 @@
 }
 
 [data-icon]:before {
-  font-family: "MuthFont" !important;
+   font-family: "MuthFont" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -24,33 +24,37 @@
 }
 
 .muth-icon {
-      font-family: "MuthFont" !important;
-      font-style: normal !important;
-      font-weight: normal !important;
-      font-variant: normal !important;
-      text-transform: none !important;
-      speak: none;
-      line-height: 1;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+  display: table-cell;
+        font-family: "MuthFont" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        speak: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 }
 
 .map-marker-muth-normal:before {
   content: "\e000";
   color: #800000;
   font-size: 8rem;
+   display: inline-block;
 }
 .map-marker-muth-correspondece:before {
   content: "\e000";
   color: #d5a118;
   font-size: 8rem;
+   display: inline-block;
 }
 .muth-logo-icon:before {
   content: "\e001";
 }
 .muth-email:before {
   content: "\e002";
-  font-size: 5rem;
+  font-size: 6rem;
+  color: #000080;
 }
 .lang-item-de:before {
   content: "\e004";
@@ -78,7 +82,8 @@
 }
 .muth-smartphone:before {
   content: "\e00c";
-  font-size: 5rem;
+  font-size: 6rem;
+  color: #008000;
 }
 .muth-muth-twiter:before {
   content: "\e00d";
@@ -87,4 +92,28 @@
   content: "\e003";
 }
 
+.location:before {
+  content: "\e00e";
+}
 
+.envelope:before {
+  content: "\e00f";
+}
+
+.muth-smartphone2:before {
+  content: "\e012";
+  font-size: 5rem;
+  color: #333333;
+  display: inline-block;
+}
+
+.phone-call:before {
+  content: "\e011";
+}
+
+.muth-2:before {
+  content: "\e010";
+  font-size: 5rem;
+  color: #333333;
+  display: inline-block;
+}
