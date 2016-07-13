@@ -78,6 +78,7 @@ endif;?>
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
 
+<?php if( have_rows('outsoarsing_references') ): ?>
 
 <section class="muth-page-full-width muth-page-background-gray">
 	<div class="muth-page-content">
@@ -98,14 +99,21 @@ endif;?>
         <div class="row">
         	<div class = "muth-references-outsourcing"> 
         		 <ul>
-        		 	<li>Centrum environmentálnych služieb, s.r.o., Bratislava</li>
-        		 	<li>MADE BY VACULIK, s. r. o., Bratislava</li>
+                    
+                    <?php  while ( have_rows('outsoarsing_references') ) : the_row(); ?>
+                            <li> <?php the_sub_field('outsoarsing_company_name'); ?> </li>
+                    <?php endwhile; ?>
+        		 	
         		 </ul>
         		
         	</div><!--  muth-references-outsourcing -->
 		</div> <!-- row --> 
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
+
+<?php endif; ?>
+
+<?php if( have_rows('shop_references') ): ?>
 
 <section class="muth-page-full-width muth-page-background-gray">
 	<div class="muth-page-content">
@@ -125,8 +133,11 @@ endif;?>
         <div class="row">
         	<div class = "muth-references-shop"> 
         		 <ul>
-        		 	<li>Základná škola Turzovka – Bukovina</li>
-        		 	<li>DAVID TRANS, s.r.o., Kysucké Nové Mesto</li>
+
+                    <?php  while ( have_rows('shop_references') ) : the_row(); ?>
+                            <li> <?php the_sub_field('shop_company_name'); ?> </li>
+                    <?php endwhile; ?>
+        		 	
         		 </ul>
         		
         	</div><!--  muth-references-shop -->
@@ -134,6 +145,7 @@ endif;?>
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
 
+<?php endif; ?>
 
 
 

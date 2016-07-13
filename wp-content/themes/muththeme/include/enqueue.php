@@ -10,13 +10,17 @@
 */
 function muth_admin_script_enqeue($hook){
      
-    if( $hook != 'widgets.php' ) 
-        return;
-
-    wp_enqueue_media();
-    wp_enqueue_script('customjs', get_template_directory_uri() . '/js/muth.admin.js');
+    switch ($hook) {
+        case 'widgets.php':
+            wp_enqueue_media();
+            wp_enqueue_script('customjs', get_template_directory_uri() . '/js/muth.admin.js');
+            break;
+     }
+    
 }
 add_action('admin_enqueue_scripts', 'muth_admin_script_enqeue');
+
+
 
 
 
