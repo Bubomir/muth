@@ -9028,35 +9028,17 @@ footer {
 
 .muth-footer-table table td {
   padding-bottom: 8px;
-  padding-left: 2.5rem;
+}
+
+.muth-footer-table table div {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding-right: 10px;
 }
 
 .muth-footer-table table span {
-  color: #2dbe60;
-}
-
-.muth-footer-table table .muth-footer-phone {
-  background-image: url(../img/phone-ico.png);
-  background-repeat: no-repeat;
-  background-size: 22px 22px;
-  padding-left: 2.5rem;
-  vertical-align: top;
-}
-
-.muth-footer-table table .muth-footer-mail {
-  background-image: url(../img/mail-ico.png);
-  background-repeat: no-repeat;
-  background-size: 22px 22px;
-  padding-left: 2.5rem;
-  vertical-align: top;
-}
-
-.muth-footer-table table .muth-footer-address {
-  background-image: url(../img/address-ico.png);
-  background-repeat: no-repeat;
-  background-size: 22px 22px;
-  padding-left: 2.5rem;
-  vertical-align: top;
+  display: inline-block;
+  padding-right: 2.5rem;
 }
 
 @media (max-width: 768px) {
@@ -9809,7 +9791,7 @@ footer {
   top: 120px;
   width: 300px;
   height: 180px;
-  opacity: 0.9;
+  opacity: 0.95;
   transform: translateY(80px);
   -webkit-transition: 0.5s linear;
   -moz-transition: 0.5s linear;
@@ -10115,6 +10097,11 @@ footer {
 .muth-all-contacts-content .muth-contact-form-text .wpcf7-mail-sent-ok {
   border-radius: 5px;
   border: 3px dashed #2d7010;
+}
+
+.muth-all-contacts-content .muth-contact-form-text .wpcf7-spam-blocked {
+  border-radius: 5px;
+  border: 3px dashed #ffa500;
 }
 
 .muth-all-contacts-content .muth-contact-form-text br {
