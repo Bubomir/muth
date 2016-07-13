@@ -9028,6 +9028,7 @@ footer {
 
 .muth-footer-table table td {
   padding-bottom: 8px;
+  vertical-align: top;
 }
 
 .muth-footer-table table div {
