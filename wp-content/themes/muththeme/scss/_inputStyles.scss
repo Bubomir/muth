@@ -1,0 +1,48 @@
+
+.muth-contact-form-name-label {
+      display: block;
+      text-align: left;
+      color: $dark-blue;
+      pointer-events: none;
+      padding-top: $padding-small;
+}
+
+.muth-contact-form-name-input {
+      //z-index: -1;    
+      border: none;
+      padding: 8px 15px 8px 15px;
+      font-size: 1rem;
+      width: 100%;
+      box-shadow: 0px 0px 0px 2px transparent;
+      -webkit-transition: box-shadow 0.3s;
+      transition: box-shadow 0.3s;
+      color: $medium-blue;
+      font-weight: bold
+}
+
+.muth-contact-form-name-span {
+      position: relative;
+      display: block;
+      pointer-events: none;
+}
+
+.muth-contact-form-name-span::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 39px;
+      top: -40px;
+      left: 0px;
+      box-shadow: 0px 0px 0px 0px;
+      color: $light-green;
+    }
+
+.muth-contact-form-name-input:focus {
+      box-shadow: 0px 0px 0px 2px $light-green;
+      pointer-events: none;
+    }
+
+.muth-contact-form-name-input:focus + .muth-contact-form-name-span::after {
+      -webkit-animation: anim-shadow 0.3s forwards;
+      animation: anim-shadow 0.3s forwards;
+}
