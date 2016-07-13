@@ -8245,3 +8245,9 @@
 [12-Jul-2016 12:35:05 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
 [12-Jul-2016 12:35:05 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
 [12-Jul-2016 12:35:05 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[13-Jul-2016 11:49:48 UTC] PHP Notice:  Undefined variable: pictures in C:\wamp\www\muth\wp-content\themes\muththeme\page-references.php on line 66
+[13-Jul-2016 11:49:48 UTC] PHP Stack trace:
+[13-Jul-2016 11:49:48 UTC] PHP   1. {main}() C:\wamp\www\muth\index.php:0
+[13-Jul-2016 11:49:48 UTC] PHP   2. require() C:\wamp\www\muth\index.php:17
+[13-Jul-2016 11:49:48 UTC] PHP   3. require_once() C:\wamp\www\muth\wp-blog-header.php:19
+[13-Jul-2016 11:49:48 UTC] PHP   4. include() C:\wamp\www\muth\wp-includes\template-loader.php:75
