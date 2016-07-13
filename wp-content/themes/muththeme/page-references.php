@@ -72,46 +72,43 @@ Template Name: References Page
             
 
 <?php 
-$counter = 0;
+
 if( have_rows('web_references') ):
-   
+    //pocitadlo pre inkrementovanie id galerie
+    $counter = 0;
+
     // loop through the rows of data
     while ( have_rows('web_references') ) : the_row();
 
         // display a sub field value
-        
-        
         $switcher = get_sub_field('image_gallery_switcher');
       
-      	//var_dump($pictures);
-      	
+      	      	
       	switch ($switcher) {
       		//image
       		case false:
-      			$picture = get_sub_field('thumbnail_web');
-                $data_gallery = '';
-                $gallery_feed = '';
-                $id = '';
+      			$picture        = get_sub_field('thumbnail_web');
+                $data_gallery   = __('');
+                $gallery_feed   = __('');
+                $id             = __('');
       			break;
 
       		//gallery
       		case true:
-      			$pictures = get_sub_field('thumbnail_web_gallery');
-      			//var_dump($pictures[0]);
-      			$picture = $pictures[0];
-               // var_dump($picture);
-                $id = 'id="gallery-references-'.$counter.'"';
-
-                $data_gallery = 'data-gallery="#blueimp-gallery-gallery-references-'.$counter.'"';
-                $gallery_feed = '';
+      			$pictures          = get_sub_field('thumbnail_web_gallery');
+      			$picture           = $pictures[0];
+                $id                = 'id="gallery-references-'.$counter.'"';
+                $data_gallery      = 'data-gallery="#blueimp-gallery-gallery-references-'.$counter.'"';
+                $gallery_feed      = __('');
 
                 $i = 0;
                 foreach ($pictures as $pic) {
                     //aby nezobrazovalo prvy obrazok dva krat
                     if($i > 0){
-                        $url = (!empty($pic['url']) ? $pic['url'] : __(''));
-                        $title = (!empty($pic['title']) ? $pic['title'] : __(''));
+                        $url    = (!empty($pic['url']) ? $pic['url'] : __(''));
+                        $title  = (!empty($pic['title']) ? $pic['title'] : __(''));
 
+                        //
                         $gallery_feed .= '<a href="'.$url.'" title="'. $title .'" class = "muth-invisible-image-gallery"' .$data_gallery .'></a>';
                     }
                     $i++;
@@ -125,17 +122,17 @@ if( have_rows('web_references') ):
       			break;
       	}
         
-        $project_name = get_sub_field('project_name');
-        $project_description = get_sub_field('project_description');
+        $project_name           = get_sub_field('project_name');
+        $project_description    = get_sub_field('project_description');
 
         $alt_img = (isset($picture['alt']) && !empty($picture['alt']))?  'alt="'.$picture['alt'].'"' : __('');
 
         if(isset($picture['url']) && !empty($picture['url'])):
-            $img = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
-            $img_url = $picture['url'];
+            $img        = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
+            $img_url    = $picture['url'];
         else:
-            $img = '<img src="http://placehold.it/300x300">';
-            $img_url = '';
+            $img        = '<img src="http://placehold.it/300x300">';
+            $img_url    = '';
         endif;
               
        ?>
