@@ -9224,3 +9224,52 @@
 [13-Jul-2016 12:56:38 UTC] PHP   5. require_once() C:\wamp\www\muth\wp-config.php:91
 [13-Jul-2016 12:56:38 UTC] PHP   6. include() C:\wamp\www\muth\wp-settings.php:369
 [13-Jul-2016 12:56:38 UTC] PHP   7. require() C:\wamp\www\muth\wp-content\themes\muththeme\functions.php:5
+[13-Jul-2016 18:36:13 UTC] Array
+(
+    [akismet_debug] => Array
+        (
+            [akismet_url] => https://0f2a5d4c786c.rest.akismet.com/1.1/comment-check
+            [http_args] => Array
+                (
+                    [body] => comment_author=Bubo&comment_author_email=lubomir.igonda%40gmail.com&comment_author_url=&comment_content=Bubo%0A%0Alubomir.igonda%40gmail.com%0A%0Aahoj&blog=http%3A%2F%2Fwww.muth.dev&blog_lang=sk_SK&blog_charset=UTF-8&user_ip=127.0.0.1&user_agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A49.0%29+Gecko%2F20100101+Firefox%2F49.0&referrer=http%3A%2F%2Fwww.muth.dev%2Fsk%2F&comment_type=contact-form&SERVER_SOFTWARE=Apache%2F2.4.9+%28Win64%29+PHP%2F5.5.12&REQUEST_URI=%2Fsk%2F&REDIRECT_STATUS=200&HTTP_HOST=www.muth.dev&HTTP_USER_AGENT=Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A49.0%29+Gecko%2F20100101+Firefox%2F49.0&HTTP_ACCEPT=application%2Fjson%2C+text%2Fjavascript%2C+%2A%2F%2A%3B+q%3D0.01&HTTP_ACCEPT_LANGUAGE=sk%2Ccs%3Bq%3D0.8%2Cen-US%3Bq%3D0.5%2Cen%3Bq%3D0.3&HTTP_ACCEPT_ENCODING=gzip%2C+deflate&HTTP_REFERER=http%3A%2F%2Fwww.muth.dev%2Fsk%2F&CONTENT_TYPE=application%2Fx-www-form-urlencoded%3B+charset%3DUTF-8&HTTP_X_REQUESTED_WITH=XMLHttpRequest&CONTENT_LENGTH=194&HTTP_DNT=1&HTTP_CONNECTION=keep-alive&PATH=C%3A%5C%5CProgram+Files%5C%5CCommon+Files%5C%5CMicrosoft+Shared%5C%5CWindows+Live%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CCommon+Files%5C%5CMicrosoft+Shared%5C%5CWindows+Live%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CiCLS+Client%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CiCLS+Client%5C%5C%3BC%3A%5C%5CWindows%5C%5Csystem32%3BC%3A%5C%5CWindows%3BC%3A%5C%5CWindows%5C%5CSystem32%5C%5CWbem%3BC%3A%5C%5CWindows%5C%5CSystem32%5C%5CWindowsPowerShell%5C%5Cv1.0%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CWiFi%5C%5Cbin%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CCommon+Files%5C%5CIntel%5C%5CWirelessCommon%5C%5C%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CDAL%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CDAL%3BC%3A%5C%5CProgram+Files%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CIPT%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CIntel%5C%5CIntel%28R%29+Management+Engine+Components%5C%5CIPT%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CSkype%5C%5CPhone%5C%5C%3BC%3A%5C%5CHashiCorp%5C%5CVagrant%5C%5Cbin%3BC%3A%5C%5Cwamp%5C%5Cbin%5C%5Cphp%5C%5Cphp5.5.12%3BC%3A%5C%5CProgramData%5C%5CComposerSetup%5C%5Cbin%3BC%3A%5C%5CUsers%5C%5CBubo%5C%5CAppData%5C%5CLocal%5C%5CAndroid%5C%5Csdk%5C%5Ctools%5C%5C%3Bc%3A%5C%5CUsers%5C%5CBubo%5C%5CAppData%5C%5CLocal%5C%5CAndroid%5C%5Csdk%5C%5Cplatform-tools%5C%5C%3BC%3A%5C%5CProgram+Files+%28x86%29%5C%5CWindows+Live%5C%5CShared%3BC%3A%5C%5CProgram+Files%5C%5Cnodejs%5C%5C%3B&SystemRoot=C%3A%5C%5CWindows&COMSPEC=C%3A%5C%5CWindows%5C%5Csystem32%5C%5Ccmd.exe&PATHEXT=.COM%3B.EXE%3B.BAT%3B.CMD%3B.VBS%3B.VBE%3B.JS%3B.JSE%3B.WSF%3B.WSH%3B.MSC&WINDIR=C%3A%5C%5CWindows&SERVER_SIGNATURE=%3Caddress%3EApache%2F2.4.9+%28Win64%29+PHP%2F5.5.12+Server+at+www.muth.dev+Port+80%3C%2Faddress%3E%0A&SERVER_NAME=www.muth.dev&SERVER_ADDR=127.0.0.1&SERVER_PORT=80&REMOTE_ADDR=127.0.0.1&DOCUMENT_ROOT=C%3A%2Fwamp%2Fwww%2Fmuth&REQUEST_SCHEME=http&CONTEXT_PREFIX=&CONTEXT_DOCUMENT_ROOT=C%3A%2Fwamp%2Fwww%2Fmuth&SERVER_ADMIN=admin%40example.com&SCRIPT_FILENAME=C%3A%2Fwamp%2Fwww%2Fmuth%2Findex.php&REMOTE_PORT=49945&REDIRECT_URL=%2Fsk%2F&GATEWAY_INTERFACE=CGI%2F1.1&SERVER_PROTOCOL=HTTP%2F1.1&REQUEST_METHOD=POST&QUERY_STRING=&SCRIPT_NAME=%2Findex.php&PHP_SELF=%2Findex.php&REQUEST_TIME_FLOAT=1468434970.801&REQUEST_TIME=1468434970
+                    [headers] => Array
+                        (
+                            [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                            [Host] => 0f2a5d4c786c.rest.akismet.com
+                            [User-Agent] => WordPress/4.5.3 | Akismet/3.1.11
+                        )
+
+                    [httpversion] => 1.0
+                    [timeout] => 15
+                )
+
+            [response] => Array
+                (
+                    [headers] => Array
+                        (
+                            [server] => nginx
+                            [date] => Wed, 13 Jul 2016 18:36:12 GMT
+                            [content-type] => text/plain; charset=utf-8
+                            [content-length] => 5
+                            [connection] => close
+                            [x-akismet-guid] => 62ca38843f27d472bc7b8c4ff268353e
+                        )
+
+                    [body] => false
+                    [response] => Array
+                        (
+                            [code] => 200
+                            [message] => OK
+                        )
+
+                    [cookies] => Array
+                        (
+                        )
+
+                    [filename] => 
+                )
+
+        )
+
+)
+

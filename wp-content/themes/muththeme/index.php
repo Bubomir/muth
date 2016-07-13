@@ -1,4 +1,15 @@
-<?php get_header();?>
+<?php get_header();
+
+	//registracia JS a CSS pre contact form 7
+	if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+	    wpcf7_enqueue_scripts();
+	}
+ 
+    if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+        wpcf7_enqueue_styles();
+    }
+
+?>
 
 	<section class="slider">
       <div class="muth-banner-image"></div> <!-- muth-banner-image -->
@@ -37,7 +48,28 @@
             <h4 class="muth-modal-title" id="myModalLabel">Kontaktný formulár</h4>
           </div>
           <div class="muth-modal-body">
-            <form>
+          	<?php
+        	 	//language switcher for contact multi-lang form 
+        	$lang = get_bloginfo('language'); 
+        	switch ($lang):
+        	 	case 'sk-SK':
+                echo do_shortcode('[contact-form-7 id="167" title="Kontaktný formulár SK"]');
+        	 		break;
+        	 	case 'cs-CZ':
+        	 		  echo do_shortcode('[contact-form-7 id="175" title="Kontaktný formulár CZ"]');
+        	 		break;
+        	 	case 'en-US':
+        	 		  echo do_shortcode('[contact-form-7 id="176" title="Kontaktný formulár EN"]');
+        	 		break;
+        	 	case 'de-DE':
+        	 		  echo do_shortcode('[contact-form-7 id="177" title="Kontaktný formulár DE"]');
+        	 		break;
+        	 	default:
+        	 		//echo 'neznamy jazyk';
+        	 		break;
+        	 endswitch;?>
+          
+            <!-- <form>
               <label>Meno</label>
               <input class="muth-contact-form-name-input" type="" name="">
                <label>Email</label>
@@ -45,7 +77,7 @@
               <label class="muth-contact-form-text-label">Obsah</label>
               <textarea class="muth-contact-form-text-textarea"></textarea>
             </form>
-            <input type="submit" class="muth-button">
+            <input type="submit" class="muth-button"> -->
           </div>
         </div>
       </div>
