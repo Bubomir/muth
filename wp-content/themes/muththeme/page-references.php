@@ -112,7 +112,7 @@ if( have_rows('web_references') ):
                         $url    = (!empty($pic['url']) ? $pic['url'] : __(''));
                         $title  = (!empty($pic['title']) ? $pic['title'] : __(''));
                         
-                        $gallery_feed .= '<a href="'.$url.'" title="'. $title .'" class = "muth-invisible-image-gallery"' .$data_gallery .'></a>';
+                        $gallery_feed .= '<a href="'.$url.'" title="'. $title .'" class = "muth-invisible-image-gallery"' .$data_gallery .'><img src="'.$url.'" ></a>';
                     }
                     $i++;
                 }
