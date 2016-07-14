@@ -127,6 +127,8 @@ if( have_rows('web_references') ):
 
         $alt_img = (isset($picture['alt']) && !empty($picture['alt']))?  'alt="'.$picture['alt'].'"' : __('');
 
+        $title_img = (isset($picture['title']) && !empty($picture['title']))?  'title="'.$picture['title'].'"' : __('');
+
         if(isset($picture['url']) && !empty($picture['url'])):
             $img        = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
             $img_url    = $picture['url'];
@@ -138,7 +140,7 @@ if( have_rows('web_references') ):
        ?>
 
        <div <?php echo $id; ?> class="muth-references-webs"> 
-            <a href="<?php echo $img_url; ?>" title="cart" class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
+            <a href="<?php echo $img_url; ?>" <?php echo $title_img; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
             <?php echo $img; ?>
                 <div class="muth-references-web-description">
                     <div class="muth-reference-name">
