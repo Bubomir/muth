@@ -12,9 +12,9 @@
                <?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
               <?php endif; ?>
               <hr>
-            <ul>
+            <div>
               <?php wp_nav_menu(array('theme_location' => 'secondary')); ?>
-            </ul>
+            </div>
           </div>
           <div class="muth-contact">
             <div class="muth-footer-table">

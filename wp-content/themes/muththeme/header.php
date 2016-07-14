@@ -30,9 +30,13 @@
       </div><!-- menu-icon-wrapper -->
 
       <nav class="muth-nav-menu">
-        <ul id="main-menu" class="mobile-menu-deactivated">
-         <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
-        </ul>
+        <div id="main-menu" class="mobile-menu-deactivated">
+         <?php wp_nav_menu(array(
+                  'theme_location' => 'primary',
+                  'walker' => new Walker_Nav_Primary()
+                  )
+                ); ?>
+        </div>
       </nav><!-- muth-nav-menu -->
 
       <nav class="muth-navbar-languages">

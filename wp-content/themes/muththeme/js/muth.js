@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
        
     //podmienka pre zobrazenie iba tam kde sa nachadza testimonial container
     if (testimonial_text.length && testimonial_controller.length) {
-        var testimonial_timer = 5000,
+        var testimonial_timer = 10000,
             timer = setTimeout(testimonial_slider_timer, testimonial_timer);
         testimonial_manual_click_slider();
     }
@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
             center: myLatLng,
             zoom: 16
         });
-        var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+        var image = 'http://www.muth.sk/wp-content/uploads/2016/07/bitmap.png';
 
         var marker = new google.maps.Marker({
             position: myLatLng,
