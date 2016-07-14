@@ -8522,6 +8522,7 @@ button.close {
   .slider .muth-banner-image {
     background-image: url(../img/mobile-slider.png);
     float: left;
+    height: 320px;
   }
 }
 
@@ -8588,6 +8589,14 @@ button.close {
   -o-transition: 0.5s ease-in-out;
 }
 
+@media (max-width: 991px) {
+  .services .muth-icon-menu .muth-icon-item .muth-monitor-image {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+  }
+}
+
 .services .muth-icon-menu .muth-icon-item .muth-service-name-out {
   padding: 1.25rem 0 1.25rem 0;
   text-align: center;
@@ -8596,6 +8605,12 @@ button.close {
   -webkit-transition: color 0.5s ease-in-out;
   -moz-transition: color 0.5s ease-in-out;
   -o-transition: color 0.5s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .services .muth-icon-menu .muth-icon-item .muth-service-name-out {
+    color: #2dbe60;
+  }
 }
 
 .services .muth-icon-menu .muth-icon-item .muth-service-name-in {
@@ -8622,6 +8637,12 @@ button.close {
   padding-right: 30px;
 }
 
+@media (max-width: 991px) {
+  .services .muth-icon-menu .muth-icon-item .muth-service-name-in h4 {
+    opacity: 0;
+  }
+}
+
 .services .muth-icon-menu .muth-icon-item .muth-service-name-in img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -8631,6 +8652,12 @@ button.close {
   top: 6px;
   left: 5px;
   width: 226px;
+}
+
+@media (max-width: 991px) {
+  .services .muth-icon-menu .muth-icon-item .muth-service-name-in img {
+    opacity: 1;
+  }
 }
 
 .services .muth-icon-menu .muth-icon-item .muth-service-description {
@@ -8643,6 +8670,14 @@ button.close {
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .services .muth-icon-menu .muth-icon-item .muth-service-description {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+  }
 }
 
 .services .muth-icon-menu .muth-icon-item:hover .muth-monitor-image {
