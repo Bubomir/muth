@@ -29,7 +29,6 @@
               <li><a class="muth-muth-fb" href="https://www.facebook.com/muth.sk/?fref=ts" target="_blank"></a></li>
               <li><a class="muth-muth-twiter"></a></li>
               <li><a class="muth-muth-linkedin"></a></li>
-              <li><a class="muth-muth-rss"></a></li>
             </ul>
           </div>
         </div>
