@@ -43,12 +43,22 @@
         <ul class="muth-icon">
           
         <?php
+        //echo pll_the_languages(array('current_lang' => true));
           //custom language switcher 
           if(function_exists('pll_the_languages')):
-            $custom_languages = pll_the_languages(array('raw' => 1));
+            $custom_languages = pll_the_languages(array('raw' => 1,));
+            $current_lang = pll_current_language();
             
+            //var_dump($custom_languages);
             foreach ($custom_languages as $custom_language):
-              echo '<li><a class='.$custom_language['classes'][2].' href='.esc_url($custom_language['url']).'></a></li>';
+              if($custom_language['slug'] == $current_lang){
+                $active = 'muth-active_lang_menu';
+              }
+              else{
+                 $active = '';
+              }
+                echo '<li><a class="'.$custom_language['classes'][2].' '.$active.'" href='.esc_url($custom_language['url']).'></a></li>';
+
             endforeach;
           endif; ?>
 
