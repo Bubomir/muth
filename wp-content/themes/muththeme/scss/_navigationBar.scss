@@ -5,12 +5,16 @@
 }
 //Styling for this sections
 .muth-navbar{
+	float: left;
 	z-index: 1000;
 	display: block;
 	width:100%;
-	background-color: $dark-blue;
-	opacity: 0.95;
+	background-color: $dark-blue-95a;
 	position: fixed;
+	@media (max-width: 750px){
+		display: inline-block;
+		position: initial;
+	}
 	.muth-nav-logo{
 		float: left;
 		position: fixed;
@@ -38,6 +42,7 @@
 			text-align: center;
 			height: 65px;
 			width: 100%;
+			position: initial;
 		}
 	}
 
@@ -71,12 +76,18 @@
 					display: block;
 					padding: 1.3rem;
 					color: white;
+				}
 
-					&:hover, &:focus, &:visited, &:active{
-						background: $light-green;
+				a:hover{
+					background: $light-green;
 				}
+
+				a:focus{
+					background: $light-green;
 				}
-			
+				a:visited{
+					background: $light-green;
+				}
 			}
 		}
 	}
@@ -101,11 +112,13 @@
 	}
 
 	@media (max-width: 750px){
+		position: absolute;
+		float: left;
 		border-radius:5px;
 		height: 55px;
 		width: 140px;
-		top:7px;
-		left:6px;
+		top:72px;
+		left: 20px;
 		-ms-transform: none;
    		-webkit-transform: none;
     	transform: none;
@@ -147,8 +160,13 @@
 				cursor: pointer;
 				&:hover, &:active{
 					color: $gray;
-					cursor: pointer;
 				} 
+			}
+			a:hover{
+				color: $gray;
+			}
+			a:active{
+				color: $gray;
 			}
 		}
 	}

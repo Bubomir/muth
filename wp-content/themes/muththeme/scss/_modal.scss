@@ -16,12 +16,21 @@
 	}
 }
 .muth-modal-body{
-	padding: 0 $padding-small $padding-small $padding-small;
+	padding: 0 $padding-small 0 $padding-small;
 	background: $gray;
 	border-radius: 0px 0px 5px 5px;
 	opacity: 1;
 	label{
-		margin-top: $margin-small;
+		//margin-top: $margin-small;
+	}
+	br{
+		display: none;
+	}
+	.muth-contact-form-text-label{
+		padding-top: $padding-small;
+	}
+	p{
+		margin: 0px;
 	}
 
 }
