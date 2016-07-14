@@ -9875,6 +9875,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   border: 1px solid transparent;
   background: #ccc;
   background: rgba(255, 255, 255, 0.25) center no-repeat;
+  background-size: 20px 20px;
   border-radius: 5px;
   box-shadow: 0 0 2px #000;
   opacity: 0.5;
