@@ -57,11 +57,13 @@
               else{
                  $active = '';
               }
-                echo '<li><a class="'.$custom_language['classes'][2].' '.$active.'" href='.esc_url($custom_language['url']).'></a></li>';
+               // echo '<li><a class="'.$custom_language['classes'][2].' '.$active.'" href='.esc_url($custom_language['url']).'></a></li>';
 
             endforeach;
           endif; ?>
 
         </ul> <!-- muth-icon -->
       </nav> <!-- muth-navbar-languages -->
+
+
     </section> <!-- muth-navbar -->
