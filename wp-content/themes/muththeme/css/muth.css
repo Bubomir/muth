@@ -8221,12 +8221,19 @@ button.close {
 }
 
 .muth-navbar {
+  float: left;
   z-index: 1000;
   display: block;
   width: 100%;
-  background-color: #262b2e;
-  opacity: 0.95;
+  background-color: rgba(38, 43, 46, 0.95);
   position: fixed;
+}
+
+@media (max-width: 750px) {
+  .muth-navbar {
+    display: inline-block;
+    position: initial;
+  }
 }
 
 .muth-navbar .muth-nav-logo {
@@ -8267,6 +8274,7 @@ button.close {
     text-align: center;
     height: 65px;
     width: 100%;
+    position: initial;
   }
 }
 
@@ -8314,7 +8322,15 @@ button.close {
   color: white;
 }
 
-.muth-navbar .muth-nav-menu ul li a:hover, .muth-navbar .muth-nav-menu ul li a:focus, .muth-navbar .muth-nav-menu ul li a:visited, .muth-navbar .muth-nav-menu ul li a:active {
+.muth-navbar .muth-nav-menu ul li a:hover {
+  background: #2dbe60;
+}
+
+.muth-navbar .muth-nav-menu ul li a:focus {
+  background: #2dbe60;
+}
+
+.muth-navbar .muth-nav-menu ul li a:visited {
   background: #2dbe60;
 }
 
@@ -8342,11 +8358,13 @@ button.close {
 
 @media (max-width: 750px) {
   .muth-navbar-languages {
+    position: absolute;
+    float: left;
     border-radius: 5px;
     height: 55px;
     width: 140px;
-    top: 7px;
-    left: 6px;
+    top: 72px;
+    left: 20px;
     -ms-transform: none;
     -webkit-transform: none;
     transform: none;
@@ -8393,7 +8411,14 @@ button.close {
 
 .muth-navbar-languages ul li a:hover, .muth-navbar-languages ul li a:active {
   color: #f4f4f4;
-  cursor: pointer;
+}
+
+.muth-navbar-languages ul li a:hover {
+  color: #f4f4f4;
+}
+
+.muth-navbar-languages ul li a:active {
+  color: #f4f4f4;
 }
 
 @media (max-width: 750px) {
@@ -8495,6 +8520,7 @@ button.close {
 @media (max-width: 768px) {
   .slider .muth-banner-image {
     background-image: url(../img/mobile-slider.png);
+    float: left;
   }
 }
 
@@ -9430,14 +9456,22 @@ footer {
 }
 
 .muth-modal-body {
-  padding: 0 1.25rem 1.25rem 1.25rem;
+  padding: 0 1.25rem 0 1.25rem;
   background: #f4f4f4;
   border-radius: 0px 0px 5px 5px;
   opacity: 1;
 }
 
-.muth-modal-body label {
-  margin-top: 1.25rem;
+.muth-modal-body br {
+  display: none;
+}
+
+.muth-modal-body .muth-contact-form-text-label {
+  padding-top: 1.25rem;
+}
+
+.muth-modal-body p {
+  margin: 0px;
 }
 
 /*
