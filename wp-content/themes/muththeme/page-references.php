@@ -91,6 +91,8 @@ if( have_rows('web_references') ):
                 $data_gallery   = __('');
                 $gallery_feed   = __('');
                 $id             = __('');
+                $link_reference = get_sub_field('link_reference');
+                $blank          =   'target = "_blank" ';
       			break;
 
       		//gallery
@@ -100,6 +102,8 @@ if( have_rows('web_references') ):
                 $id                = 'id="gallery-references-'.$counter.'"';
                 $data_gallery      = 'data-gallery="#blueimp-gallery-gallery-references-'.$counter.'"';
                 $gallery_feed      = __('');
+                $link_reference    = $picture['url'];
+                $blank             =   '';
 
                 $i = 0;
                 foreach ($pictures as $pic) {
@@ -107,8 +111,7 @@ if( have_rows('web_references') ):
                     if($i > 0){
                         $url    = (!empty($pic['url']) ? $pic['url'] : __(''));
                         $title  = (!empty($pic['title']) ? $pic['title'] : __(''));
-
-                        //
+                        
                         $gallery_feed .= '<a href="'.$url.'" title="'. $title .'" class = "muth-invisible-image-gallery"' .$data_gallery .'></a>';
                     }
                     $i++;
@@ -131,16 +134,16 @@ if( have_rows('web_references') ):
 
         if(isset($picture['url']) && !empty($picture['url'])):
             $img        = '<img src="'. $picture['url'] . '" '. $alt_img .'>';
-            $img_url    = $picture['url'];
         else:
             $img        = '<img src="http://placehold.it/300x300">';
-            $img_url    = '';
+            $link_reference    = '';
         endif;
               
        ?>
 
        <div <?php echo $id; ?> class="muth-references-webs"> 
-            <a href="<?php echo $img_url; ?>" <?php echo $title_img; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
+            <a href="<?php echo $link_reference; ?>" <?php echo $title_img; ?> <?php echo $blank; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
+
             <?php echo $img; ?>
              
                 <div class="muth-references-web-description">
