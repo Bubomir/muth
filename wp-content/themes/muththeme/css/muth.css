@@ -8232,7 +8232,7 @@ button.close {
 @media (max-width: 750px) {
   .muth-navbar {
     display: inline-block;
-    position: initial;
+    position: static;
   }
 }
 
@@ -8364,7 +8364,7 @@ button.close {
     height: 55px;
     width: 140px;
     top: 72px;
-    left: 20px;
+    left: 6px;
     -ms-transform: none;
     -webkit-transform: none;
     transform: none;
@@ -8409,15 +8409,11 @@ button.close {
   cursor: pointer;
 }
 
-.muth-navbar-languages ul li a:hover, .muth-navbar-languages ul li a:active {
-  color: #f4f4f4;
-}
-
 .muth-navbar-languages ul li a:hover {
   color: #f4f4f4;
 }
 
-.muth-navbar-languages ul li a:active {
+.muth-navbar-languages ul li .muth-active_lang_menu {
   color: #f4f4f4;
 }
 
@@ -8443,8 +8439,13 @@ button.close {
   }
 }
 
+.muth-active_main_menu {
+  background: #2dbe60;
+}
+
 /* Menu icon styles */
 .menu-icon-wrapper {
+  z-index: 1000;
   float: right;
   position: relative;
   width: 34px;
@@ -8940,11 +8941,15 @@ footer {
   padding-right: 1.25rem;
 }
 
+.muth-footer-sitemap .current_page_item a {
+  color: #f4f4f4;
+}
+
 .muth-footer-sitemap a {
   color: #8e9397;
 }
 
-.muth-footer-sitemap a:hover, .muth-footer-sitemap a:link, .muth-footer-sitemap a:active {
+.muth-footer-sitemap a:hover {
   color: #fff;
 }
 
@@ -9826,8 +9831,8 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .blueimp-gallery > .indicator > li {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   margin: 6px 3px 0 3px;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;

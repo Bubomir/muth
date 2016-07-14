@@ -13,7 +13,7 @@
 	position: fixed;
 	@media (max-width: 750px){
 		display: inline-block;
-		position: initial;
+		position: static;
 	}
 	.muth-nav-logo{
 		float: left;
@@ -118,7 +118,7 @@
 		height: 55px;
 		width: 140px;
 		top:72px;
-		left: 20px;
+		left: 6px;
 		-ms-transform: none;
    		-webkit-transform: none;
     	transform: none;
@@ -158,16 +158,14 @@
 				color: $light-font-gray;
 				text-decoration: none;
 				cursor: pointer;
-				&:hover, &:active{
+				&:hover{
 					color: $gray;
 				} 
 			}
-			a:hover{
+			.muth-active_lang_menu{
 				color: $gray;
 			}
-			a:active{
-				color: $gray;
-			}
+
 		}
 	}
 }
@@ -192,5 +190,10 @@
 	@media (max-width: 750px){
 			top: 69px;
 		}
+}
+
+//Aktive klassees
+.muth-active_main_menu{
+	background: $light-green;
 }
 

@@ -74,6 +74,8 @@ footer{
 		margin: 0px;
 		padding:0px;
 		display: block;
+
+
 	}
 	li{
 		display:inline-block;
@@ -81,8 +83,12 @@ footer{
 		padding-right: $padding-small;
 	}
 	
+	.current_page_item a{
+		color: $gray;
+	}
+
 	a{
-		&:hover, &:link, &:active{
+		&:hover{
 			color: $white-font;
 		}
 		color: $light-font-gray;

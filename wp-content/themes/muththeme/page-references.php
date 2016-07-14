@@ -142,6 +142,7 @@ if( have_rows('web_references') ):
        <div <?php echo $id; ?> class="muth-references-webs"> 
             <a href="<?php echo $img_url; ?>" <?php echo $title_img; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
             <?php echo $img; ?>
+             
                 <div class="muth-references-web-description">
                     <div class="muth-reference-name">
                         <h3 class="muth-reference-name-h3"><?php echo $project_name; ?></h3>
