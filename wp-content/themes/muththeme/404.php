@@ -72,7 +72,7 @@ $current_lang = pll_current_language();
 	<div class="muth-page-content">
         <div class="row">
         	<div class = "muth-title-text-404"> 
-        		<div class="img-404"></div>	
+        		<img src="http://www.muth.sk/wp-content/uploads/2016/07/404-logo.png">
         		<span>
         		  <?php _e( $description ); ?>
         		</span>
