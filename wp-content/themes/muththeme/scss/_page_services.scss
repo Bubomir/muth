@@ -10,11 +10,20 @@
   span {
     @include make-all-columns(12, 8, 8, 8, $gutter);
     display: block;
+    padding: 0px;
   }
   h2 {
     display: block;
     margin-top: 0;
     margin-bottom: $margin-medium;
+    @media (max-width: 750px){
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+  }
+  p{
+    font-size: 1rem;
   }
   .muth-img-left {
     @include make-all-columns-pull(0, 8, 8, 8);
@@ -24,11 +33,11 @@
   }
   .muth-text-right {
     text-align: right;
+    @media (max-width: 750px){
+      text-align: center;
+    }
   }
   @media (max-width: $screen-sm) {
-    .muth-text-right {
-      text-align: left;
-    }
     img {
      // width: 200px;
      // height: 200px;

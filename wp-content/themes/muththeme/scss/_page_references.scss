@@ -91,6 +91,7 @@
 .muth-references-shop {
   @include make-all-columns(12, 12, 12, 12, $gutter);
   ul {
+    padding: 0px;
     li {
       padding-top: $padding-small;
       list-style: none;

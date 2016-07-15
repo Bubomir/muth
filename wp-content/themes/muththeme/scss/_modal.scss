@@ -1,6 +1,9 @@
 .modal-content{
 	margin-top: 120px;
 	opacity: 0.98;
+	@media (max-width: 750px) {
+		margin-top: 0px;
+	}
 }
 
 .muth-modal-header{

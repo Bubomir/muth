@@ -26,11 +26,14 @@
 
        a{
         @include make-all-columns(12, 12, 12, 12, $gutter);
-        padding: $padding-medium 0px $padding-medium 0px;
+        padding: $padding-medium 30px $padding-medium 30px;
         text-decoration: none;
         color: black;
         font-size: 1.2rem;
         cursor: pointer;
+        &:hover{
+          text-decoration: underline;
+        }
         &::before, &::after{
           display: inline-block;
           opacity: 0;
@@ -41,11 +44,13 @@
           margin-right: 10px;
           content: '{';
           @include parenthesis-translateX-transform(0px);
+          display: none;
         }
         &::after{
           margin-left: 10px;
           content: '}';
           @include parenthesis-translateX-transform(-0px);
+          display: none;
         }
         &:hover::before, &:hover::after, &:focus::before, &:focus::after{
           opacity: 1;
