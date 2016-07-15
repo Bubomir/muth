@@ -3,8 +3,9 @@
   
   span{
     display: block;
-    padding: $padding-medium;
-    font-size: 1.25rem;
+    padding-top: $padding-medium;
+    padding-bottom: $padding-medium;
+    font-size: 1rem;
     text-align: justify;
   }
 } 
