@@ -10869,3 +10869,31 @@ body:last-child .blueimp-gallery-playing > .play-pause {
     height: 44px;
   }
 }
+
+.body_404 {
+  background-color: #262b2e;
+  color: #ffffff;
+}
+
+.body_404 .muth-title-text-404 {
+  text-align: center;
+}
+
+.body_404 span {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  display: block;
+}
+
+.body_404 .img-404 {
+  margin-top: 2.5rem;
+  height: 280px;
+  background-image: url("http://www.muth.sk/wp-content/uploads/2016/07/404-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%, 40%;
+}
+
+.body_404 .muth-page-title-404 {
+  margin-top: 20px;
+}

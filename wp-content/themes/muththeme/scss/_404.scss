@@ -1,0 +1,30 @@
+.body_404{
+	background-color: $dark-blue;
+	color: $white;
+
+	.muth-title-text-404{
+		text-align: center;
+	}
+	span{
+		padding-top: $padding-medium;
+		padding-bottom: $padding-medium;
+		display: block;
+
+	}
+	
+
+	.img-404{
+		margin-top: $padding-medium;
+		
+		height: 280px;
+		background-image: url('http://www.muth.sk/wp-content/uploads/2016/07/404-logo.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 40%, 40%;
+	}
+	.muth-page-title-404{
+		margin-top: 20px;
+	}
+		
+	
+}

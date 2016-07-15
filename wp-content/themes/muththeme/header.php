@@ -39,17 +39,15 @@
         </div>
       </nav><!-- muth-nav-menu -->
 
-      <nav class="muth-navbar-languages">
+      <nav> <!-- PRIDAT CSS TRIEDU class="muth-navbar-languages" PRE AKTIVACIU LANG MENU NA MOBILNOM ZARIADENI -->
         <ul class="muth-icon">
           
         <?php
-        //echo pll_the_languages(array('current_lang' => true));
           //custom language switcher 
           if(function_exists('pll_the_languages')):
             $custom_languages = pll_the_languages(array('raw' => 1,));
             $current_lang = pll_current_language();
             
-            //var_dump($custom_languages);
             foreach ($custom_languages as $custom_language):
               if($custom_language['slug'] == $current_lang){
                 $active = 'muth-active_lang_menu';
@@ -57,6 +55,10 @@
               else{
                  $active = '';
               }
+              /*
+                ODKOMENTOVAT PRE AKTIVACIU LANGUAGE MENU 
+              */
+
                // echo '<li><a class="'.$custom_language['classes'][2].' '.$active.'" href='.esc_url($custom_language['url']).'></a></li>';
 
             endforeach;
