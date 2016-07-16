@@ -3,7 +3,12 @@
 Template Name: References Page
 */
 ?>
-<?php get_header(); ?>
+<?php get_header(); 
+
+if(function_exists('muth_gallery_script_enqeue')){
+    muth_gallery_script_enqeue();
+}
+?>
 
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
