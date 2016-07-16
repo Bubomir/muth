@@ -9,9 +9,13 @@ if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
         wpcf7_enqueue_scripts();
     }
  
-    if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
-        wpcf7_enqueue_styles();
-    }
+if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+    wpcf7_enqueue_styles();
+}
+
+if( function_exists('muth_google_map_script_enqeue')){
+	muth_google_map_script_enqeue();
+}
 ?>
 
 <section class="muth-map">
