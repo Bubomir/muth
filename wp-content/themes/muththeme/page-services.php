@@ -28,15 +28,15 @@ if( have_rows('services') ):
     while ( have_rows('services') ) : the_row();
         if($dif_counter%2){
             $color_class = 'muth-page-background-white';
-            $muth_span_right_class = 'class="muth-span-right"';
-            $muth_text_right_class = 'class="muth-text-right"';
-            $muth_img_left         = 'class="muth-img-left"';
+            $muth_span_right_class = 'class="muth-span-right animated fadeInRight"';
+            $muth_text_right_class = 'class="muth-text-right animated fadeInRight"';
+            $muth_img_left         = 'class="muth-img-left animated fadeInLeft"';
         }
         else{
             $color_class = 'muth-page-background-gray';
-            $muth_span_right_class = '';
-            $muth_text_right_class = '';
-            $muth_img_left         = '';
+            $muth_span_right_class = 'class="animated fadeInLeft"';
+            $muth_text_right_class = 'class="animated fadeInLeft"';
+            $muth_img_left         = 'class="animated fadeInRight"';
         }
 
         // display a sub field value

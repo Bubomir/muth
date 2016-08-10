@@ -25,7 +25,7 @@ Template Name: About us Page
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class = "muth-title-text"> 
+        	<div class = "muth-title-text animated fadeInLeft"> 
         		        		
         		<span>
         		  <?php if(get_field('about_us_description')): the_field('about_us_description'); endif; ?>
@@ -63,7 +63,7 @@ if( have_rows('profiles') ):
               
        ?>
 
-       <div class = "muth-profiles"> 
+       <div class = "muth-profiles animated flip"> 
                 <?php echo $img; ?>
                 <h3><?php echo $name;?></h3>
                 <h4><?php echo $position; ?></h4>                 

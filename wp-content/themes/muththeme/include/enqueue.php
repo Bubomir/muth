@@ -44,8 +44,10 @@ function muth_gallery_script_enqeue(){
 
 function muth_script_enqeue()
 {
-   // wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/muth.css', array(), '1.0.0', 'all');
+  
+	wp_enqueue_style('animatestyle', get_template_directory_uri() . '/css/animate.min.css', array(), '3.5.1', 'all');
 
+    // wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/muth.css', array(), '1.0.0', 'all');
     wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/muth.min.css', array(), '1.0.0', 'all');
 
 	wp_enqueue_script( 'jquery' );

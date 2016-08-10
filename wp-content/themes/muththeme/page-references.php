@@ -146,7 +146,7 @@ if( have_rows('web_references') ):
               
        ?>
 
-       <div <?php echo $id; ?> class="muth-references-webs"> 
+       <div <?php echo $id; ?> class="muth-references-webs animated flipInX"> 
             <a href="<?php echo $link_reference; ?>" <?php echo $title_img; ?> <?php echo $blank; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
 
             <?php echo $img; ?>
@@ -194,7 +194,7 @@ endif;?>
 
 
 <section class="muth-page-full-width muth-page-background-gray">
-	<div class="muth-page-content">
+	<div class="muth-page-content animated fadeInLeft">
         <div class="row">
         	<div class = "muth-references-outsourcing"> 
         		 <ul>
@@ -214,7 +214,7 @@ endif;?>
 
 <?php if( have_rows('shop_references') ): ?>
 
-<section class="muth-page-full-width muth-page-background-gray">
+<section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
         	<div class="muth-page-sub-title"> 
@@ -227,8 +227,8 @@ endif;?>
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
 
-<section class="muth-page-full-width muth-page-background-gray">
-	<div class="muth-page-content">
+<section class="muth-page-full-width muth-page-background-white">
+	<div class="muth-page-content animated fadeInRight">
         <div class="row">
         	<div class = "muth-references-shop"> 
         		 <ul>
