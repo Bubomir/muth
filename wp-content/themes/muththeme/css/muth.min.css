@@ -4395,7 +4395,7 @@ button.close {
   padding: 0 2.5rem 0 2.5rem;
   line-height: 1.6rem;
   text-align: center;
-  color: #353535;
+  color: #969da3;
   transform: translateY(-24px);
   -webkit-transform: translateY(-24px);
   -moz-transform: translateY(-24px);
@@ -6029,7 +6029,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-services p {
-  color: #353535;
+  color: #969da3;
   font-family: PoppinsRegular;
   font-size: 1.1rem;
 }
