@@ -1,7 +1,7 @@
 .muth-services {
   @include make-all-columns(12, 12, 12, 12, $gutter);
   display: block;
-  padding: $padding-medium;
+  padding: $padding-big;
   text-align: justify;
   img {
     @include make-all-columns(12, 4, 4, 4, $gutter);
@@ -13,6 +13,8 @@
     padding: 0px;
   }
   h2 {
+    color: #374048;
+    font-family: PoppinsSemiBold;
     display: block;
     margin-top: 0;
     margin-bottom: $margin-medium;
@@ -23,7 +25,9 @@
     }
   }
   p{
-    font-size: 1rem;
+    color: #353535;
+    font-family: PoppinsRegular;
+    font-size: 1.1rem;
   }
   .muth-img-left {
     @include make-all-columns-pull(0, 8, 8, 8);

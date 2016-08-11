@@ -37,6 +37,7 @@ footer{
 	text-align: center;
 	color: $white-font;
 	h4{
+		padding-top: 2px;
 		font-size: 0.8rem;
 	}
 }
@@ -79,8 +80,6 @@ footer{
 		margin: 0px;
 		padding:0px;
 		display: block;
-
-
 	}
 	li{
 		font-family: PoppinsRegular;
@@ -159,7 +158,6 @@ footer{
 
 .muth-footer-table{
 	padding-bottom: $padding-medium;
-
 	a{
 		color: $light-green;
 	}

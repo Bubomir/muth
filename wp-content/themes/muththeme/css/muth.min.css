@@ -3474,6 +3474,10 @@ button.close {
 }
 
 .muth-page-title {
+  text-transform: uppercase;
+  font-family: Helvetica95Black;
+  font-size: 2.6rem;
+  color: #58595B;
   position: relative;
   float: left;
   width: 100%;
@@ -3614,7 +3618,7 @@ button.close {
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 33.33333%;
-  border-bottom: 1px solid;
+  border-bottom: 1px groove;
   border-color: #2dbe60;
 }
 
@@ -4391,6 +4395,7 @@ button.close {
   padding: 0 2.5rem 0 2.5rem;
   line-height: 1.6rem;
   text-align: center;
+  color: #353535;
   transform: translateY(-24px);
   -webkit-transform: translateY(-24px);
   -moz-transform: translateY(-24px);
@@ -4554,6 +4559,7 @@ footer {
 }
 
 .muth-secondary-footer h4 {
+  padding-top: 2px;
   font-size: 0.8rem;
 }
 
@@ -5894,7 +5900,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   padding-left: 30px;
   padding-right: 30px;
   display: block;
-  padding: 2.5rem;
+  padding: 3.75rem;
   text-align: justify;
 }
 
@@ -6007,6 +6013,8 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-services h2 {
+  color: #374048;
+  font-family: PoppinsSemiBold;
   display: block;
   margin-top: 0;
   margin-bottom: 2.5rem;
@@ -6021,7 +6029,9 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-services p {
-  font-size: 1rem;
+  color: #353535;
+  font-family: PoppinsRegular;
+  font-size: 1.1rem;
 }
 
 .muth-services .muth-img-left {

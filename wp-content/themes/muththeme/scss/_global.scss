@@ -29,6 +29,10 @@
 
 //global classes
 .muth-page-title {
+  text-transform: uppercase;
+  font-family: Helvetica95Black;
+  font-size: 2.6rem;
+  color: #58595B;
   @include make-all-columns(12, 12, 12, 12, $gutter);
   text-align: center;
   margin-top: 100px;
@@ -75,7 +79,7 @@
   .muth-subheader-line {
     @include make-all-columns(4, 4, 4, 4, $gutter);
     @include make-all-columns-offset(4, 4, 4, 4);
-    border-bottom: 1px solid;
+    border-bottom: 1px groove;
     border-color: $light-green;
   }
 }
