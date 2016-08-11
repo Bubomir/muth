@@ -41,7 +41,7 @@ footer{
 	}
 }
 .muth-footer-text-moto{
-	padding-top: $padding-medium;
+	padding-top: $padding-big;
 	padding-bottom: $padding-big;
 
 	
@@ -68,7 +68,7 @@ footer{
 	}
 	}
 .muth-footer-sitemap{
-	padding-top: $padding-medium;
+	padding-top: $padding-big;
 	padding-bottom: $padding-big;
 	@include make-all-columns(12,6,6,4,$gutter);
 	
@@ -108,7 +108,7 @@ footer{
 .muth-contact{
 	@include make-all-columns(12,6,6,4,$gutter);
 	
-	padding-top: $padding-medium;
+	padding-top: $padding-big;
 	padding-bottom: $padding-big;
 
 	h3{

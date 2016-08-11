@@ -35,27 +35,9 @@
         &:hover{
           text-decoration: underline;
         }
-        &::before, &::after{
-          display: inline-block;
-          opacity: 0;
-          @include parethesis-transition(0.3s, 0.2s);
-        }
-
-        &::before{
-          margin-right: 10px;
-          content: '{';
-          @include parenthesis-translateX-transform(0px);
-          display: none;
-        }
-        &::after{
-          margin-left: 10px;
-          content: '}';
-          @include parenthesis-translateX-transform(-0px);
-          display: none;
-        }
-        &:hover::before, &:hover::after, &:focus::before, &:focus::after{
-          opacity: 1;
-          //@include parenthesis-scale-transform(1.8);
+        span{
+          font-family: PoppinsBold;
+          color: #2dbe60;
         }
     }
   }

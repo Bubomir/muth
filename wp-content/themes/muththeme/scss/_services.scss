@@ -20,8 +20,24 @@
 
 //Styles for this section
 .services {
+  @extend .container;
+  .muth-services-header{
+      font-family: Helvetica95Black;
+      @include make-all-columns(12, 12, 12, 12, $gutter);
+      text-transform: uppercase;
+      padding-top: $padding-big;
+      padding-bottom: $padding-small;
+      text-align: center;
+      font-size: 2.6rem;
+      color: #58595B;
+    }
+    .muth-subheader{
+      @include make-all-columns(4, 4, 4, 4, $gutter);
+      @include make-all-columns-offset(4, 4, 4, 4);
+      border-bottom: 1px groove;
+      border-color: $light-green;
+    }
   .muth-icon-menu {
-    @extend .container;
     .muth-icon-item {
       @include make-all-columns(12, 12, 4, 4, $gutter);
       padding-top: $padding-big;

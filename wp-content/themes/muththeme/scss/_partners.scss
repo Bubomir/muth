@@ -8,7 +8,7 @@
 			font-family: Helvetica95Black;
 			@include make-all-columns(12, 12, 12, 12, $gutter);
 			text-transform: uppercase;
-			padding-top: $padding-small;
+			padding-top: $padding-big;
 			padding-bottom: $padding-small;
 			text-align: center;
 			font-size: 2.6rem;
@@ -19,19 +19,19 @@
 			@include make-all-columns-offset(4, 4, 4, 4);
 			border-bottom: 1px groove;
 			border-color: $light-green;
+			margin-bottom: $padding-medium;
 		}
 		.muth-partners-logos{
 			@include make-all-columns(12, 12, 12, 12, $gutter);
 
 			ul{
 				list-style: none;
-				padding-bottom: $padding-small;
 				margin: 0px;
 				padding: 0px;
 				text-align: center;
 				li{
 					display: inline-block;
-					padding: $padding-small $padding-medium $padding-small $padding-medium;
+					padding: $padding-small $padding-medium $padding-big $padding-medium;
 					img{
 						height: 60px;
 					}

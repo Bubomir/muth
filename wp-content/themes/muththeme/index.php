@@ -16,6 +16,10 @@
     </section> <!-- slider -->
 
     <section class="services">
+    <div class="row">
+      <div class="muth-services-header">Naše služby</div>
+        <div class="muth-subheader"></div>
+    </div>
       <div class="muth-icon-menu">
         <div class="row">
           

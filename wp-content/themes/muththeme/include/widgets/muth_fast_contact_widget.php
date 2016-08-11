@@ -33,7 +33,7 @@ class muth_fast_contact_widget extends WP_Widget
 
         $output .= '<a data-toggle="modal" data-target="#myModal">';
         $output .= $text_title;
-        $output .= '<span style="color: #2dbe60;">'.__(' '). $text_describe . '</span>';
+        $output .= '<span>'.__(' '). $text_describe . '</span>';
         $output .= '</a>';
 
         echo $output;
