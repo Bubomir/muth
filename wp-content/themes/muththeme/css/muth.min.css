@@ -4139,7 +4139,7 @@ button.close {
 
 .slider {
   display: block;
-  background: #F1F2F2;
+  background: linear-gradient(to top, #374048 1%, #ffffff 70%);
 }
 
 .slider .slider-content .muth-banner-text {

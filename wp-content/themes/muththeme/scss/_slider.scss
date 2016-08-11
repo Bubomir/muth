@@ -1,7 +1,7 @@
 .slider{
 	display: block;
-     //height: 80vh;
-     background: $gray;
+     //background: $gray;
+     background: linear-gradient(to top, $dark-blue-proland 1%, $white 70%);
      .slider-content{
         @extend .container;
         .muth-banner-text{
