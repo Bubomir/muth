@@ -12,7 +12,17 @@
 ?>
 
 	<section class="slider">
-      <div class="muth-banner-image"></div> <!-- muth-banner-image -->
+  <div class="slider-content">
+    <div class="row">
+          <div class="muth-banner-text">
+            <h1>Web aplikácie na mieru</h1>
+            <h2>IT OutSourcing, Predaj softwéru a hadrwéru</h2>
+          </div>
+          <div class="muth-banner-image">
+            <img src="http://www.muth.dev/wp-content/uploads/2016/08/slider-image.png">
+          </div>
+      </div>
+  </div>
     </section> <!-- slider -->
 
     <section class="services">

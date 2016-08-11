@@ -1938,36 +1938,36 @@ pre code {
   overflow-y: scroll;
 }
 
-.container, .muth-page-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
+.container, .muth-page-content, .slider .slider-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.container:before, .muth-page-content:before, .services:before, .muth-fast-contact .muth-fast-contact-content:before, .muth-container:before, .muth-testimonial .muth-testimonial-content:before, .partners .muth-partners-content:before, .muth-all-contacts-content:before, .muth-map .muth-map-content:before, .container:after, .muth-page-content:after, .services:after, .muth-fast-contact .muth-fast-contact-content:after, .muth-container:after, .muth-testimonial .muth-testimonial-content:after, .partners .muth-partners-content:after, .muth-all-contacts-content:after, .muth-map .muth-map-content:after {
+.container:before, .muth-page-content:before, .slider .slider-content:before, .services:before, .muth-fast-contact .muth-fast-contact-content:before, .muth-container:before, .muth-testimonial .muth-testimonial-content:before, .partners .muth-partners-content:before, .muth-all-contacts-content:before, .muth-map .muth-map-content:before, .container:after, .muth-page-content:after, .slider .slider-content:after, .services:after, .muth-fast-contact .muth-fast-contact-content:after, .muth-container:after, .muth-testimonial .muth-testimonial-content:after, .partners .muth-partners-content:after, .muth-all-contacts-content:after, .muth-map .muth-map-content:after {
   content: " ";
   display: table;
 }
 
-.container:after, .muth-page-content:after, .services:after, .muth-fast-contact .muth-fast-contact-content:after, .muth-container:after, .muth-testimonial .muth-testimonial-content:after, .partners .muth-partners-content:after, .muth-all-contacts-content:after, .muth-map .muth-map-content:after {
+.container:after, .muth-page-content:after, .slider .slider-content:after, .services:after, .muth-fast-contact .muth-fast-contact-content:after, .muth-container:after, .muth-testimonial .muth-testimonial-content:after, .partners .muth-partners-content:after, .muth-all-contacts-content:after, .muth-map .muth-map-content:after {
   clear: both;
 }
 
 @media (min-width: 768px) {
-  .container, .muth-page-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
+  .container, .muth-page-content, .slider .slider-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
     width: 750px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .muth-page-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
+  .container, .muth-page-content, .slider .slider-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
     width: 970px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .muth-page-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
+  .container, .muth-page-content, .slider .slider-content, .services, .muth-fast-contact .muth-fast-contact-content, .muth-container, .muth-testimonial .muth-testimonial-content, .partners .muth-partners-content, .muth-all-contacts-content, .muth-map .muth-map-content {
     width: 1170px;
   }
 }
@@ -4139,23 +4139,111 @@ button.close {
 
 .slider {
   display: block;
-  height: 480px;
+  background: #F1F2F2;
 }
 
-.slider .muth-banner-image {
-  display: block;
-  background-image: url(../img/slider.png);
+.slider .slider-content .muth-banner-text {
+  position: relative;
+  float: left;
   width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: PoppinsBold;
+  text-align: center;
+  padding-top: 100px;
 }
 
-@media (max-width: 768px) {
-  .slider .muth-banner-image {
-    background-image: url(../img/mobile-slider.png);
+@media (min-width: 768px) {
+  .slider .slider-content .muth-banner-text {
     float: left;
-    height: 320px;
+    width: 100%;
   }
+}
+
+@media (min-width: 992px) {
+  .slider .slider-content .muth-banner-text {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider .slider-content .muth-banner-text {
+    float: left;
+    width: 100%;
+  }
+}
+
+.slider .slider-content .muth-banner-text h1 {
+  font-size: 3.4rem;
+}
+
+.slider .slider-content .muth-banner-text h2 {
+  font-family: PoppinsLight;
+  font-size: 1.4rem;
+}
+
+.slider .slider-content .muth-banner-image {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .slider .slider-content .muth-banner-image {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .slider .slider-content .muth-banner-image {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider .slider-content .muth-banner-image {
+    float: left;
+    width: 100%;
+  }
+}
+
+.slider .slider-content .muth-banner-image img {
+  padding-top: 3.75rem;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 3.75rem;
 }
 
 .services .muth-services-header {
@@ -4468,7 +4556,7 @@ button.close {
 }
 
 .muth-fast-contact {
-  font-family: PoppinsRegular;
+  font-family: 'PoppinsRegular', sans-serif;
   background: #F1F2F2;
 }
 

@@ -1,16 +1,33 @@
 .slider{
 	display: block;
-     height: 480px;
-	.muth-banner-image{
-		display: block;
-		background-image: url(../img/slider.png);	
-		width: 100%;
-   		height: 100%;
-    	background-size: 100% 100%;
-    	@media (max-width: 768px){
-    		background-image: url(../img/mobile-slider.png);
-    		float: left;
-            height: 320px;	
-    	}
-	}
+     //height: 80vh;
+     background: $gray;
+     .slider-content{
+        @extend .container;
+        .muth-banner-text{
+        @include make-all-columns(12, 12, 12, 12, $gutter);
+        font-family: PoppinsBold;
+        text-align: center;
+        padding-top: 100px;
+        h1{
+            font-size: 3.4rem;
+        }
+        h2{
+            font-family: PoppinsLight;
+            font-size: 1.4rem;
+        }
+    }
+    .muth-banner-image{
+        @include make-all-columns(12, 12, 12, 12, $gutter);
+        display: block;
+        img{
+            padding-top: $padding-big;
+            margin: 0 auto;
+            display: block;
+            padding-bottom: $padding-big;
+           
+        }   
+    }
+
+     }
 }
