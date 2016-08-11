@@ -1,6 +1,6 @@
 .muth-references-webs {
   @include make-all-columns(12, 6, 4, 4, $gutter);
-  padding-bottom: $padding-medium;
+  padding-bottom: $padding-big;
   text-align: center;
 }
 
@@ -21,25 +21,25 @@
     display: block;
     height: 100px;
     width: 300px;
-    //background-color: #27a553;
     @media (max-width: 768px){
       width: 200px;
       height: 70px;
     }
   }
   .muth-reference-name-h3 {
-    //background-color: blue;
+    font-family: PoppinsSemiBold;
     padding-left: $padding-small;
     padding-right: $padding-small;
     text-align: center;
     margin: 0;
   }
   span {
+    font-family: PoppinsRegular;
     display: block;
     padding: 0 $padding-small $padding-small $padding-small;
     height: 80px;
     text-transform: uppercase;
-    color: #d9d9d9;
+    color: $white;
     font-size: 0.9rem;
     //background-color: yellow;
   }
@@ -93,11 +93,13 @@
   ul {
     padding: 0px;
     li {
+      font-family: PoppinsRegular;
       padding-top: $padding-small;
-      list-style: none;
+      color: #969da3;
+      //list-style: none;
     }
   }
-  padding-bottom: $padding-small;
+  padding-bottom: $padding-big;
 }
 
 .muth-invisible-image-gallery{

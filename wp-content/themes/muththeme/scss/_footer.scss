@@ -42,6 +42,7 @@ footer{
 	}
 }
 .muth-footer-text-moto{
+	color: #969da3;
 	padding-top: $padding-big;
 	padding-bottom: $padding-big;
 
@@ -58,6 +59,7 @@ footer{
 			text-align: left;
 		}
 		p{
+
 			text-align: left;
 		}
 	}
@@ -127,7 +129,7 @@ footer{
 			a{
 				text-decoration: none;
 				cursor: pointer;
-				color: $light-font-gray;
+				color: #969da3;
 			}
 			.muth-muth-fb{
 				&:hover{
@@ -158,6 +160,7 @@ footer{
 
 .muth-footer-table{
 	padding-bottom: $padding-medium;
+	color: #969da3;
 	a{
 		color: $light-green;
 	}

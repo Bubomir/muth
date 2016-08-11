@@ -32,7 +32,7 @@
   text-transform: uppercase;
   font-family: Helvetica95Black;
   font-size: 2.6rem;
-  color: #58595B;
+   color: #374048;
   @include make-all-columns(12, 12, 12, 12, $gutter);
   text-align: center;
   margin-top: 100px;
@@ -48,15 +48,20 @@
 
 }
 .muth-page-sub-title{
+  font-family: PoppinsSemiBold;
   @include make-all-columns(12, 12, 12, 12, $gutter);
   text-align: center;
-  margin-bottom: $padding-small;
+  padding-bottom: $padding-medium;
   font-size: 1.6rem;
   font-weight: bold;
+  color: $light-green;
+  padding-top: $padding-big;
+  h2{
+    margin: 0px;
+  }
   @media (max-width: 750px){
     h2{
       font-size: 1.4rem;
-      font-weight: bold;
     }
   }
   

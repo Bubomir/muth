@@ -11,7 +11,7 @@
   
   .muth-contact-form-name {
     @include make-all-columns(12, 12, 4, 4, $gutter);
-    padding-top: $padding-small;
+    padding-top: $padding-medium;
     br {
       display: none;
     }
@@ -24,7 +24,7 @@
   }
   .muth-contact-form-text {
     @include make-all-columns(12, 12, 4, 4, $gutter);
-    padding-top: $padding-medium;
+    padding-top: $padding-big;
     padding-bottom: $padding-big;
     p {
       margin: 0;
@@ -74,18 +74,19 @@
       padding-top: 0px;
     }
     li {
+      color: #374048;
     display: table;
     padding-left: 15px;
     @media (max-width: 991px) {
       display: inline-block;
     }
       p {
+        font-family: PoppinsSemiBold;
         display: table-cell;
         vertical-align: middle;
         padding-left: 35px;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         margin: 0px;
-        font-weight: bold;
       }
       &:last-child {
         padding-top: $padding-big;
@@ -106,7 +107,7 @@
     @extend .container;
     .muth-google-map {
       @include make-all-columns(12, 12, 8, 8, $gutter);
-      padding-top: $padding-medium;
+      padding-top: $padding-big;
       padding-bottom: $padding-big;
       .muth-map {
         display: block;
@@ -118,7 +119,7 @@
 
     .muth-address {
       text-align: center;
-      padding-top: $padding-medium;
+      padding-top: $padding-big;
       @include make-all-columns(12, 12, 4, 4, $gutter);
       padding-bottom: $padding-big;
 
@@ -129,8 +130,10 @@
           display: table-cell;
           vertical-align: top;
           h4{
+            font-family: PoppinsRegular;
+            color: #374048;
             text-align: left;
-            font-size: 1rem;
+            font-size: 1.1rem;
             margin: 10px 0 20px 15px;
             font-weight: bold;
           }
@@ -139,9 +142,11 @@
             margin: 0px;
             padding: 0px;
             li{
+              font-family: PoppinsLight;
               text-align: left;
               padding-left: 35px;
               padding-bottom: 2px;
+              color: #969da3;
             }
           }
         }

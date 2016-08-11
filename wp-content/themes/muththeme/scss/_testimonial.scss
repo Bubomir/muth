@@ -19,7 +19,7 @@
       padding-bottom: $padding-small;
       text-align: center;
       font-size: 2.6rem;
-      color: #58595B;
+       color: #374048;
     }
     .muth-subheader{
       @include make-all-columns(4, 4, 4, 4, $gutter);
@@ -52,6 +52,7 @@
             padding: 0 $padding-medium 0 $padding-medium;
             text-align: center;
             margin:0px;
+            color: #969da3;
           }
 
           .muth-testimonial-author{
@@ -60,7 +61,8 @@
             display: inline-block;
             text-align: center;
             font-size: 1rem;
-            margin-top: 18px;      
+            margin-top: 18px; 
+            color: $light-green;     
           }
         }
         .testimonial-activated{

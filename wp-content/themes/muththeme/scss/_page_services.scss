@@ -6,6 +6,9 @@
   img {
     @include make-all-columns(12, 4, 4, 4, $gutter);
     display: block;
+    padding-right: $padding-big;
+    padding-left: $padding-big;
+
   }
   span {
     @include make-all-columns(12, 8, 8, 8, $gutter);
@@ -13,7 +16,7 @@
     padding: 0px;
   }
   h2 {
-    color: #374048;
+    color: $light-green;
     font-family: PoppinsSemiBold;
     display: block;
     margin-top: 0;

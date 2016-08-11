@@ -1,8 +1,10 @@
 .muth-button {
+      font-family: PoppinsSemiBold;
+      text-transform: uppercase;
       margin-top: $margin-small;
       width: 100%;
       background: none;
-      padding: 10px $padding-small 10px $padding-small;
+      padding: 12px $padding-small 10px $padding-small;
       border-color: black;
       color: #37474f;
       font-size: 1.2rem;
@@ -12,6 +14,8 @@
 }
 
 .muth-button-animation-span {
+    font-family: PoppinsSemiBold;
+      text-transform: uppercase;
       display: block;
       position: relative;
       pointer-events: none;
@@ -23,7 +27,7 @@
       content: attr(value);
       background: $light-green;
       width: 100%;
-      top: -70px;
+      top: -72px;
       height: 0px;
       text-align: center;
       font-size: 1.2rem;

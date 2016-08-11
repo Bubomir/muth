@@ -2,16 +2,18 @@
   @include make-all-columns(12, 12, 12, 12, $gutter);
   
   span{
+    font-family: PoppinsRegular;
     display: block;
-    padding-top: $padding-medium;
-    padding-bottom: $padding-medium;
+    padding-top: $padding-big;
+    padding-bottom: $padding-big;
     font-size: 1rem;
     text-align: justify;
+    color: #969da3;
   }
 } 
 .muth-profiles {
   @include make-all-columns(12, 6, 6, 3, $gutter);
-  padding: $padding-medium;
+  padding: $padding-big $padding-medium $padding-big $padding-medium;
 
   img{
     display: block;
@@ -20,18 +22,26 @@
     height: 128px;
   }
   h3{
+    color: $light-green;
+    font-size: 1.6rem;
+    font-family: PoppinsMedium;
     display: block;
     text-align: center;
   }
   h4{
-
+    font-size: 1.2rem;
+    font-family: PoppinsRegular;
     display: block;
     text-align: center;
+    color: #374048;
   }
   
   span{
+    font-size: 1rem;
+    font-family: PoppinsLight;
     padding-top: $padding-small;
     display: block;
     text-align: justify;
+    color: #969da3;
   }
 }

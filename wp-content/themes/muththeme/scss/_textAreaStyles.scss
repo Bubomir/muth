@@ -1,12 +1,15 @@
 .muth-contact-form-text-label {
+      font-family: PoppinsMedium;
       display: block;
       text-align: left;
-      color: $dark-blue;
+      color: #374048;
       pointer-events: none;
+      padding-bottom: 10px;
     }
 
 .muth-contact-form-text-textarea {
-      padding: 8px 15px 8px 15px;
+  font-family: PoppinsLight; 
+      padding: 9px 15px 9px 15px;
       color: $medium-blue;
       font-weight: bold;
       resize: none;

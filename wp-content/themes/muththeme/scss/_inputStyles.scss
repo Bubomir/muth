@@ -1,16 +1,18 @@
 
 .muth-contact-form-name-label {
+      font-family: PoppinsMedium;
       display: block;
       text-align: left;
-      color: $dark-blue;
+      color: #374048;
       pointer-events: none;
       padding-top: $padding-small;
+      padding-bottom: 10px;
 }
 
 .muth-contact-form-name-input {
-      //z-index: -1;    
+      font-family: PoppinsLight;   
       border: none;
-      padding: 8px 15px 8px 15px;
+      padding: 9px 15px 9px 15px;
       font-size: 1rem;
       width: 100%;
       box-shadow: 0px 0px 0px 2px transparent;

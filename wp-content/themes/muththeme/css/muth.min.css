@@ -3380,14 +3380,14 @@ button.close {
 .map-marker-muth-normal:before {
   content: "\e000";
   color: #800000;
-  font-size: 8rem;
+  font-size: 4rem;
   display: inline-block;
 }
 
 .map-marker-muth-correspondece:before {
   content: "\e000";
   color: #d5a118;
-  font-size: 8rem;
+  font-size: 4rem;
   display: inline-block;
 }
 
@@ -3457,7 +3457,7 @@ button.close {
 
 .muth-smartphone2:before {
   content: "\e012";
-  font-size: 5rem;
+  font-size: 3rem;
   color: #333333;
   display: inline-block;
 }
@@ -3468,7 +3468,7 @@ button.close {
 
 .muth-2:before {
   content: "\e010";
-  font-size: 5rem;
+  font-size: 3rem;
   color: #333333;
   display: inline-block;
 }
@@ -3477,7 +3477,7 @@ button.close {
   text-transform: uppercase;
   font-family: Helvetica95Black;
   font-size: 2.6rem;
-  color: #58595B;
+  color: #374048;
   position: relative;
   float: left;
   width: 100%;
@@ -3534,6 +3534,7 @@ button.close {
 }
 
 .muth-page-sub-title {
+  font-family: PoppinsSemiBold;
   position: relative;
   float: left;
   width: 100%;
@@ -3553,9 +3554,11 @@ button.close {
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
-  margin-bottom: 1.25rem;
+  padding-bottom: 2.5rem;
   font-size: 1.6rem;
   font-weight: bold;
+  color: #2dbe60;
+  padding-top: 3.75rem;
 }
 
 @media (min-width: 768px) {
@@ -3579,10 +3582,13 @@ button.close {
   }
 }
 
+.muth-page-sub-title h2 {
+  margin: 0px;
+}
+
 @media (max-width: 750px) {
   .muth-page-sub-title h2 {
     font-size: 1.4rem;
-    font-weight: bold;
   }
 }
 
@@ -3662,16 +3668,19 @@ button.close {
 }
 
 .muth-contact-form-name-label {
+  font-family: PoppinsMedium;
   display: block;
   text-align: left;
-  color: #262b2e;
+  color: #374048;
   pointer-events: none;
   padding-top: 1.25rem;
+  padding-bottom: 10px;
 }
 
 .muth-contact-form-name-input {
+  font-family: PoppinsLight;
   border: none;
-  padding: 8px 15px 8px 15px;
+  padding: 9px 15px 9px 15px;
   font-size: 1rem;
   width: 100%;
   box-shadow: 0px 0px 0px 2px transparent;
@@ -3709,14 +3718,17 @@ button.close {
 }
 
 .muth-contact-form-text-label {
+  font-family: PoppinsMedium;
   display: block;
   text-align: left;
-  color: #262b2e;
+  color: #374048;
   pointer-events: none;
+  padding-bottom: 10px;
 }
 
 .muth-contact-form-text-textarea {
-  padding: 8px 15px 8px 15px;
+  font-family: PoppinsLight;
+  padding: 9px 15px 9px 15px;
   color: #525d63;
   font-weight: bold;
   resize: none;
@@ -3753,10 +3765,12 @@ button.close {
 }
 
 .muth-button {
+  font-family: PoppinsSemiBold;
+  text-transform: uppercase;
   margin-top: 1.25rem;
   width: 100%;
   background: none;
-  padding: 10px 1.25rem 10px 1.25rem;
+  padding: 12px 1.25rem 10px 1.25rem;
   border-color: black;
   color: #37474f;
   font-size: 1.2rem;
@@ -3766,6 +3780,8 @@ button.close {
 }
 
 .muth-button-animation-span {
+  font-family: PoppinsSemiBold;
+  text-transform: uppercase;
   display: block;
   position: relative;
   pointer-events: none;
@@ -3777,7 +3793,7 @@ button.close {
   content: attr(value);
   background: #2dbe60;
   width: 100%;
-  top: -70px;
+  top: -72px;
   height: 0px;
   text-align: center;
   font-size: 1.2rem;
@@ -4167,7 +4183,7 @@ button.close {
   padding-bottom: 1.25rem;
   text-align: center;
   font-size: 2.6rem;
-  color: #58595B;
+  color: #374048;
 }
 
 @media (min-width: 768px) {
@@ -4564,6 +4580,7 @@ footer {
 }
 
 .muth-footer-text-moto {
+  color: #969da3;
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
   position: relative;
@@ -4781,7 +4798,7 @@ footer {
 .muth-contact ul li a {
   text-decoration: none;
   cursor: pointer;
-  color: #8e9397;
+  color: #969da3;
 }
 
 .muth-contact ul li .muth-muth-fb:hover {
@@ -4808,6 +4825,7 @@ footer {
 
 .muth-footer-table {
   padding-bottom: 2.5rem;
+  color: #969da3;
 }
 
 .muth-footer-table a {
@@ -4878,7 +4896,7 @@ footer {
   padding-bottom: 1.25rem;
   text-align: center;
   font-size: 2.6rem;
-  color: #58595B;
+  color: #374048;
 }
 
 @media (min-width: 768px) {
@@ -5036,6 +5054,7 @@ footer {
   padding: 0 2.5rem 0 2.5rem;
   text-align: center;
   margin: 0px;
+  color: #969da3;
 }
 
 .muth-testimonial .muth-testimonial-content .muth-testimonial-text ul li .muth-testimonial-author {
@@ -5045,6 +5064,7 @@ footer {
   text-align: center;
   font-size: 1rem;
   margin-top: 18px;
+  color: #2dbe60;
 }
 
 .muth-testimonial .muth-testimonial-content .muth-testimonial-text ul .testimonial-activated {
@@ -5175,7 +5195,7 @@ footer {
   padding-bottom: 1.25rem;
   text-align: center;
   font-size: 2.6rem;
-  color: #58595B;
+  color: #374048;
 }
 
 @media (min-width: 768px) {
@@ -5807,11 +5827,13 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-title-text span {
+  font-family: PoppinsRegular;
   display: block;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
   font-size: 1rem;
   text-align: justify;
+  color: #969da3;
 }
 
 .muth-profiles {
@@ -5833,7 +5855,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding: 2.5rem;
+  padding: 3.75rem 2.5rem 3.75rem 2.5rem;
 }
 
 @media (min-width: 768px) {
@@ -5865,19 +5887,28 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-profiles h3 {
+  color: #2dbe60;
+  font-size: 1.6rem;
+  font-family: PoppinsMedium;
   display: block;
   text-align: center;
 }
 
 .muth-profiles h4 {
+  font-size: 1.2rem;
+  font-family: PoppinsRegular;
   display: block;
   text-align: center;
+  color: #374048;
 }
 
 .muth-profiles span {
+  font-size: 1rem;
+  font-family: PoppinsLight;
   padding-top: 1.25rem;
   display: block;
   text-align: justify;
+  color: #969da3;
 }
 
 .muth-services {
@@ -5945,6 +5976,8 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   padding-left: 30px;
   padding-right: 30px;
   display: block;
+  padding-right: 3.75rem;
+  padding-left: 3.75rem;
 }
 
 @media (min-width: 768px) {
@@ -6013,7 +6046,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-services h2 {
-  color: #374048;
+  color: #2dbe60;
   font-family: PoppinsSemiBold;
   display: block;
   margin-top: 0;
@@ -6107,7 +6140,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 2.5rem;
+  padding-bottom: 3.75rem;
   text-align: center;
 }
 
@@ -6160,6 +6193,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-references-web-description .muth-reference-name-h3 {
+  font-family: PoppinsSemiBold;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   text-align: center;
@@ -6167,11 +6201,12 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-references-web-description span {
+  font-family: PoppinsRegular;
   display: block;
   padding: 0 1.25rem 1.25rem 1.25rem;
   height: 80px;
   text-transform: uppercase;
-  color: #d9d9d9;
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
@@ -6241,7 +6276,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 1.25rem;
+  padding-bottom: 3.75rem;
 }
 
 @media (min-width: 768px) {
@@ -6275,8 +6310,9 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .muth-references-outsourcing ul li,
 .muth-references-shop ul li {
+  font-family: PoppinsRegular;
   padding-top: 1.25rem;
-  list-style: none;
+  color: #969da3;
 }
 
 .muth-invisible-image-gallery {
@@ -6349,7 +6385,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 1.25rem;
+  padding-top: 2.5rem;
   /*Styles for required contact form7*/
 }
 
@@ -6403,7 +6439,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 2.5rem;
+  padding-top: 3.75rem;
   padding-bottom: 3.75rem;
   /*Stylig for contact form 7*/
   /*Styles for required contact form7*/
@@ -6525,6 +6561,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-all-contacts-content ul li {
+  color: #374048;
   display: table;
   padding-left: 15px;
 }
@@ -6536,12 +6573,12 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-all-contacts-content ul li p {
+  font-family: PoppinsSemiBold;
   display: table-cell;
   vertical-align: middle;
   padding-left: 35px;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   margin: 0px;
-  font-weight: bold;
 }
 
 .muth-all-contacts-content ul li:last-child {
@@ -6583,7 +6620,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 2.5rem;
+  padding-top: 3.75rem;
   padding-bottom: 3.75rem;
 }
 
@@ -6617,7 +6654,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .muth-map .muth-map-content .muth-address {
   text-align: center;
-  padding-top: 2.5rem;
+  padding-top: 3.75rem;
   position: relative;
   float: left;
   width: 100%;
@@ -6671,8 +6708,10 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content h4 {
+  font-family: PoppinsRegular;
+  color: #374048;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 10px 0 20px 15px;
   font-weight: bold;
 }
@@ -6684,9 +6723,11 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content ul li {
+  font-family: PoppinsLight;
   text-align: left;
   padding-left: 35px;
   padding-bottom: 2px;
+  color: #969da3;
 }
 
 @media (max-width: 992px) {
