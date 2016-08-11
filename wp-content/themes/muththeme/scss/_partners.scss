@@ -5,17 +5,19 @@
 		@extend .container;
 		text-align: center;
 		.muth-partners-header{
+			font-family: Helvetica95Black;
 			@include make-all-columns(12, 12, 12, 12, $gutter);
+			text-transform: uppercase;
 			padding-top: $padding-small;
 			padding-bottom: $padding-small;
 			text-align: center;
-			font-size: 1.8rem;
-			font-weight: bold;
+			font-size: 2.6rem;
+			color: #58595B;
 		}
 		.muth-subheader{
 			@include make-all-columns(4, 4, 4, 4, $gutter);
 			@include make-all-columns-offset(4, 4, 4, 4);
-			border-bottom: 1px solid;
+			border-bottom: 1px groove;
 			border-color: $light-green;
 		}
 		.muth-partners-logos{

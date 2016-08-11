@@ -22,7 +22,6 @@
               <?php if ( is_active_sidebar( 'footer-sidebar-3' ) ): ?>
                 <?php dynamic_sidebar( 'footer-sidebar-3' ); ?>
               <?php endif; ?>
-                
               </table>
             </div>
             <ul class="muth-icon">

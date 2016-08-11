@@ -11,12 +11,29 @@
   background-color: white;
   .muth-testimonial-content{
     @extend .container;
+    .muth-testimonial-header{
+      font-family: Helvetica95Black;
+      @include make-all-columns(12, 12, 12, 12, $gutter);
+      text-transform: uppercase;
+      padding-top: $padding-small;
+      padding-bottom: $padding-small;
+      text-align: center;
+      font-size: 2.6rem;
+      color: #58595B;
+    }
+    .muth-subheader{
+      @include make-all-columns(4, 4, 4, 4, $gutter);
+      @include make-all-columns-offset(4, 4, 4, 4);
+      border-bottom: 1px groove;
+      border-color: $light-green;
+    }
     .muth-testimonial-text{
       @include make-all-columns(12, 12, 12, 12, $gutter);
       
       .muth-quote-mark-left{
+        color: #58595B;
         display: inline-block;
-        padding-top: $padding-big;
+        //padding-top: $padding-big;
         @include quotes-skew-transform(-15deg, 0deg, 40px);
       }
       ul{
@@ -28,6 +45,8 @@
           display: none;
           float: left;
           p{
+            font-family: PoppinsLight;
+            font-size: 1.2rem;
             display: inline-block;
             padding: 0 $padding-medium 0 $padding-medium;
             text-align: center;
@@ -35,12 +54,12 @@
           }
 
           .muth-testimonial-author{
+            font-family: PoppinsSemiBold;
             width: 100%;
             display: inline-block;
             text-align: center;
-            font-size: 1.1rem;
-            margin-top: 18px;
-                 
+            font-size: 1rem;
+            margin-top: 18px;      
           }
         }
         .testimonial-activated{
@@ -49,6 +68,7 @@
       }
 
       .muth-quote-mark-right{
+        color: #58595B;
         display: inline-block;
         margin-top: -40px;
         padding-bottom: $padding-big;

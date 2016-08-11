@@ -1,11 +1,7 @@
 @charset "UTF-8";
 @font-face {
-     font-family: "MuthFont";
-  src:url("../img/fonts/MuthFont/MuthFont.eot");
-  src:url("../img/fonts/MuthFont/MuthFont.eot?#iefix") format("embedded-opentype"),
-    url("../img/fonts/MuthFont/MuthFont.woff") format("woff"),
-    url("../img/fonts/MuthFont/MuthFont.ttf") format("truetype"),
-    url("../img/fonts/MuthFont/MuthFont.svg#muthfont") format("svg");
+  font-family: "MuthFont";
+  src: url("../fonts/MuthFont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

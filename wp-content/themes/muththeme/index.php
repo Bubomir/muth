@@ -87,6 +87,9 @@
     <section class="muth-testimonial">
       <div class="muth-testimonial-content">
         <div class="row">
+        <div class="muth-testimonial-header">Povedali o nás...</div>
+        <div class="muth-subheader"></div>
+        
           <div class="muth-testimonial-text">
             <div class="muth-quote-mark-left muth-icon">
               <span class="muth-muth-quote-first"></span>

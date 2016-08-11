@@ -12,11 +12,13 @@ footer{
 		border-top-color: $light-green;
 	}
 	h3{
+		font-family: PoppinsSemiBold;
 		margin-top: 0px;
 		font-size: 1.4rem;
 		color: $white-font;
 	}
 	p{
+		font-family: PoppinsLight;
 		text-align: justify;
 	}
 	h4{
@@ -26,6 +28,9 @@ footer{
 	}
 }
 .muth-secondary-footer{
+	display: inline-block;
+	vertical-align: middle;
+	font-family: PoppinsLight;
 	width: 100%;
 	padding: $padding-small;
 	background-color: $dark-blue;
@@ -78,6 +83,7 @@ footer{
 
 	}
 	li{
+		font-family: PoppinsRegular;
 		display:inline-block;
 		width: 50%;
 		padding-right: $padding-small;
@@ -159,7 +165,10 @@ footer{
 	}
 
 	table{
+		width: 100%;
+		//table-layout: fixed;
 		td{
+			font-family: PoppinsLight;
 			padding-bottom: 8px;
 			vertical-align: top;
 		}
