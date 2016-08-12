@@ -74,6 +74,9 @@ footer{
 	padding-top: $padding-big;
 	padding-bottom: $padding-big;
 	@include make-all-columns(12,6,6,4,$gutter);
+	h3{
+		color: $light-green;
+	}
 	
 	ul{
 		text-transform: uppercase;
@@ -113,6 +116,7 @@ footer{
 	padding-bottom: $padding-big;
 
 	h3{
+		color: $light-green;
 		@media (max-width: 768px){
 			text-align: center;
 		}

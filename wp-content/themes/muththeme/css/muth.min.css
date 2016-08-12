@@ -4795,6 +4795,10 @@ footer {
   }
 }
 
+.muth-footer-sitemap h3 {
+  color: #2dbe60;
+}
+
 .muth-footer-sitemap ul {
   text-transform: uppercase;
   list-style: none;
@@ -4872,6 +4876,10 @@ footer {
     float: left;
     width: 33.33333%;
   }
+}
+
+.muth-contact h3 {
+  color: #2dbe60;
 }
 
 @media (max-width: 768px) {
