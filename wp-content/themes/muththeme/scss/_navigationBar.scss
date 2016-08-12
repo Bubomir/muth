@@ -9,7 +9,7 @@
 	z-index: 1000;
 	display: block;
 	width:100%;
-	background-color: $dark-blue-95a;
+	background-color: transparent;
 	position: fixed;
 	@media (max-width: 750px){
 		display: inline-block;
@@ -77,18 +77,21 @@
 					font-size: 1rem;
 					display: block;
 					padding: 1.3rem;
-					color: white;
+					color: $font-gray-proland;
 				}
 
 				a:hover{
-					background: $light-green;
+					//background: $light-green;
+					color: $light-green;
 				}
 
 				a:focus{
-					background: $light-green;
+					//background: $light-green;
+					//color: $light-green;
 				}
 				a:visited{
-					background: $light-green;
+					//background: $light-green;
+					//color: $light-green;
 				}
 			}
 		}
@@ -196,6 +199,7 @@
 
 //Aktive klassees
 .muth-active_main_menu{
-	background: $light-green;
+	//background: $light-green;
+	color: $light-green;
 }
 
