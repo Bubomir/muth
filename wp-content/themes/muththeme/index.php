@@ -14,12 +14,14 @@
 	<section class="slider">
   <div class="slider-content">
     <div class="row">
-          <div class="muth-banner-text">
+          <div class="muth-banner-text wow fadeInUp">
             <h1>Web aplikácie na mieru</h1>
             <h2>IT OutSourcing, Predaj softwéru a hadrwéru</h2>
           </div>
           <div class="muth-banner-image">
-            <img src="http://www.muth.dev/wp-content/uploads/2016/08/slider-image.png">
+            <img class="animated fadeInUp wow" src="http://www.muth.dev/wp-content/uploads/2016/08/monitor.png">
+            <img class="muth-banner-notebook animated bounceInLeft wow" src="http://www.muth.dev/wp-content/uploads/2016/08/notebook.png">
+            <img class="muth-banner-mobile-group animated bounceInRight wow" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile-group.png">
           </div>
       </div>
   </div>
@@ -27,7 +29,7 @@
 
     <section class="services">
     <div class="row">
-      <div class="muth-services-header">Naše služby</div>
+      <div class="muth-services-header wow fadeInUp">Naše služby</div>
         <div class="muth-subheader"></div>
     </div>
       <div class="muth-icon-menu">

@@ -18,12 +18,12 @@
 	.muth-nav-logo{
 		float: left;
 		position: fixed;
-		background: black;
+		background: transparent;
 		height: 64.45px;
 		opacity: 0.95;
 		img{
-			margin: 4px 40px 0 30px;
-			@include size-png-logo(168px, 55px);
+			margin: 7px 40px 0 30px;
+			@include size-png-logo(168px, 50px);
 
 			@media (max-width: 991px){
 				@include size-png-logo(144px, 47px);
@@ -200,6 +200,6 @@
 //Aktive klassees
 .muth-active_main_menu{
 	//background: $light-green;
-	color: $light-green;
+	font-color: $light-green;
 }
 

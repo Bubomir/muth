@@ -1,4 +1,6 @@
 jQuery(document).ready(function($) {
+    new WOW().init();
+
     $('#myModal').on('shown.bs.modal', function () {
         ('#myInput').focus()
     })

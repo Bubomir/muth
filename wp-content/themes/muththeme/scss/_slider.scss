@@ -1,7 +1,10 @@
 .slider{
 	display: block;
-     background: $gray;
+     //background: $gray;
      //background: linear-gradient(to top, $dark-blue-proland 1%, $white 70%);
+     background-image: url(http://www.muth.dev/wp-content/uploads/2016/08/header-background.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
      .slider-content{
         @extend .container;
         .muth-banner-text{
@@ -20,13 +23,25 @@
     .muth-banner-image{
         @include make-all-columns(12, 12, 12, 12, $gutter);
         display: block;
+        position: relative;
         img{
             padding-top: $padding-big;
             margin: 0 auto;
             display: block;
-            padding-bottom: $padding-big;
+            padding-bottom: 3*$padding-big;
            
-        }   
+        }  
+
+        .muth-banner-notebook{
+            position: absolute;
+            top: 240px;
+            left: 120px;
+        }
+        .muth-banner-mobile-group{
+            position: absolute;
+            top: 197px;
+            right: 100px;
+        } 
     }
 
      }
