@@ -3855,7 +3855,7 @@ button.close {
   z-index: 1000;
   display: block;
   width: 100%;
-  background-color: rgba(55, 64, 72, 0.95);
+  background-color: transparent;
   position: fixed;
 }
 
@@ -3951,19 +3951,11 @@ button.close {
   font-size: 1rem;
   display: block;
   padding: 1.3rem;
-  color: white;
+  color: #8f969d;
 }
 
 .muth-navbar .muth-nav-menu ul li a:hover {
-  background: #2dbe60;
-}
-
-.muth-navbar .muth-nav-menu ul li a:focus {
-  background: #2dbe60;
-}
-
-.muth-navbar .muth-nav-menu ul li a:visited {
-  background: #2dbe60;
+  color: #2dbe60;
 }
 
 .muth-navbar-languages {
@@ -4072,7 +4064,7 @@ button.close {
 }
 
 .muth-active_main_menu {
-  background: #2dbe60;
+  color: #2dbe60;
 }
 
 /* Menu icon styles */
@@ -4139,7 +4131,7 @@ button.close {
 
 .slider {
   display: block;
-  background: linear-gradient(to top, #374048 1%, #ffffff 70%);
+  background: #F1F2F2;
 }
 
 .slider .slider-content .muth-banner-text {
@@ -4621,7 +4613,7 @@ button.close {
 }
 
 footer {
-  background-color: #374048;
+  background-color: #F1F2F2;
   color: #8e9397;
 }
 
@@ -5251,7 +5243,7 @@ footer {
 }
 
 .partners {
-  background: #F1F2F2;
+  background: #ffffff;
 }
 
 .partners .muth-partners-content {
