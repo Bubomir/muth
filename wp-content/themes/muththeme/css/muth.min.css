@@ -4134,6 +4134,7 @@ button.close {
   background-image: url(http://www.muth.dev/wp-content/uploads/2016/08/header-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .slider .slider-content .muth-banner-text {
@@ -4157,7 +4158,7 @@ button.close {
   padding-right: 30px;
   font-family: PoppinsBold;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 @media (min-width: 768px) {
@@ -4182,12 +4183,13 @@ button.close {
 }
 
 .slider .slider-content .muth-banner-text h1 {
-  font-size: 3.4rem;
+  font-size: 3rem;
 }
 
 .slider .slider-content .muth-banner-text h2 {
   font-family: PoppinsLight;
   font-size: 1.4rem;
+  padding: 0px 120px;
 }
 
 .slider .slider-content .muth-banner-image {

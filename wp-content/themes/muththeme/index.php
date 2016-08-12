@@ -14,14 +14,14 @@
 	<section class="slider">
   <div class="slider-content">
     <div class="row">
-          <div class="muth-banner-text wow fadeInUp">
-            <h1>Web aplikácie na mieru</h1>
-            <h2>IT OutSourcing, Predaj softwéru a hadrwéru</h2>
+          <div class="muth-banner-text">
+            <h1 class="wow fadeInUp">Budúcnosť Vášho webu v našich rukách</h1>
+            <h2 data-wow-delay=".5s" class="wow fadeInUp">Máte veľké očakávanie od Vášej web stránky alebo potrebujete IT riešienie? Nemusíte hľadať ďalej ste na správnom mieste! Ponúkamé tvorbu web stránok, web aplikácií, IT Outsourcing a iné...</h2>
           </div>
           <div class="muth-banner-image">
-            <img class="animated fadeInUp wow" src="http://www.muth.dev/wp-content/uploads/2016/08/monitor.png">
-            <img class="muth-banner-notebook animated bounceInLeft wow" src="http://www.muth.dev/wp-content/uploads/2016/08/notebook.png">
-            <img class="muth-banner-mobile-group animated bounceInRight wow" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile-group.png">
+            <img data-wow-delay="1s" class="animated fadeInUp wow" src="http://www.muth.dev/wp-content/uploads/2016/08/monitor.png">
+            <img data-wow-delay="1.5s" data-wow-duration="2s" class="muth-banner-notebook animated bounceInLeft wow" src="http://www.muth.dev/wp-content/uploads/2016/08/notebook.png">
+            <img data-wow-delay="1.5s" data-wow-duration="2s" class="muth-banner-mobile-group animated bounceInRight wow" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile-group.png">
           </div>
       </div>
   </div>
@@ -103,7 +103,7 @@
     <section class="muth-testimonial">
       <div class="muth-testimonial-content">
         <div class="row">
-        <div class="muth-testimonial-header">Povedali o nás...</div>
+        <div class="muth-testimonial-header wow fadeInUp">Povedali o nás...</div>
         <div class="muth-subheader"></div>
         
           <div class="muth-testimonial-text">
