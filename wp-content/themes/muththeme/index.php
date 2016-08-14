@@ -146,7 +146,7 @@
         <div class="muth-partners-content">
           <div class="row">
             <?php dynamic_sidebar( 'partners-title-sidebar' ); ?>
-              <div class="muth-partners-logos">
+              <div class="muth-partners-logos wow fadeInUp">
                 <ul>
                   <?php dynamic_sidebar( 'partners-sidebar' ); ?>
                 </ul>

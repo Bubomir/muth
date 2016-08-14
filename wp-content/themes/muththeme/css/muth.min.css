@@ -3685,6 +3685,7 @@ button.close {
   pointer-events: none;
   padding-top: 1.25rem;
   padding-bottom: 10px;
+  color: #2dbe60;
 }
 
 .muth-contact-form-name-input {
@@ -3728,10 +3729,10 @@ button.close {
 }
 
 .muth-contact-form-text-label {
+  color: #2dbe60;
   font-family: PoppinsMedium;
   display: block;
   text-align: left;
-  color: #374048;
   pointer-events: none;
   padding-bottom: 10px;
 }
@@ -6674,7 +6675,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content h4 {
   font-family: PoppinsRegular;
-  color: #374048;
+  color: #2dbe60;
   text-align: left;
   font-size: 1.1rem;
   margin: 10px 0 20px 15px;

@@ -60,7 +60,7 @@ function muth_widget_setup()
         'description'   => 'Partners Title Sidebar',
         'before_widget' => '',
         'after_widget'  => '',
-        'before_title'  => '<div class="muth-partners-header">',
+        'before_title'  => '<div class="muth-partners-header wow fadeInUp">',
         'after_title'   => '</div>'
     );
     register_sidebar($args);
