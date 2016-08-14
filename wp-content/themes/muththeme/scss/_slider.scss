@@ -1,7 +1,6 @@
 .slider{
 	display: block;
-     //background: $gray;
-     //background: linear-gradient(to top, $dark-blue-proland 1%, $white 70%);
+     overflow: hidden;
      background-image: url(http://www.muth.dev/wp-content/uploads/2016/08/header-background.jpg);
      background-size: cover;
      background-repeat: no-repeat;

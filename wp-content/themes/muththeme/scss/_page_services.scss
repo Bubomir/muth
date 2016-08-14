@@ -1,4 +1,5 @@
 .muth-services {
+  overflow: hidden;
   @include make-all-columns(12, 12, 12, 12, $gutter);
   display: block;
   padding: $padding-big;

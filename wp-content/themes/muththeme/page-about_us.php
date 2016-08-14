@@ -39,7 +39,7 @@ Template Name: About us Page
 
 <?php 
 if( have_rows('profiles') ):
-   $counter = 0;
+   $counter = 3;
     // loop through the rows of data
     while ( have_rows('profiles') ) : the_row();
        

@@ -21,6 +21,7 @@
 //Styles for this section
 .services {
   @extend .container;
+  overflow: hidden;
   .muth-services-header{
       font-family: Helvetica95Black;
       position: relative;

@@ -1,5 +1,6 @@
 //Style for this section
 .partners{
+	 overflow: hidden;
 	background: $gray;
 	.muth-partners-content{
 		@extend .container;

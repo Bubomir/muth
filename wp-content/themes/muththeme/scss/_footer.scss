@@ -6,6 +6,7 @@ footer{
 	@extend .container;
 }
 .muth-main-footer{
+	 overflow: hidden;
 	@extend .row;
 	line-height: 1.6rem;
 	hr{
