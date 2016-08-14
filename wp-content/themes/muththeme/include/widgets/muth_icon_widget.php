@@ -1,6 +1,7 @@
 <?php
 class muth_icon_widget extends WP_Widget
 {
+    private $counter = 0;
     /**
      * Constructor
      **/
@@ -13,6 +14,12 @@ class muth_icon_widget extends WP_Widget
 
         parent::__construct( 'muth_icon_widget', 'Muth Icon Menu Widget', $widget_ops );
     }
+    public function get_counter(){
+        return $this->counter;
+    }
+    public function set_counter($value){
+        $this->counter = $value;
+    }
 
     /**
      * Outputs the HTML for this widget.
@@ -23,6 +30,22 @@ class muth_icon_widget extends WP_Widget
      **/
     public function widget( $args, $instance )
     {
+        //switch for setting different delay on icons
+        switch ($this->get_counter()) {
+            case 0:
+                $animation_delay = 'data-wow-delay="0.1s"';
+                break;
+            case 1:
+                  $animation_delay = 'data-wow-delay="0.2s"';
+                  break;
+            case 2:
+                  $animation_delay = 'data-wow-delay="0.3s"';
+                  break;
+              
+              default:
+                  $animation_delay = '';
+                  break;
+        }   
 
         $link = (!empty($instance['link'])? $instance['link'] : __('#'));
         $glyphicon = (!empty($instance['glyphicon'])? $instance['glyphicon'] : __(''));
@@ -33,13 +56,14 @@ class muth_icon_widget extends WP_Widget
 
         // Add any html to output the image in the $instance array
         $output = '';
-        $output .= '<a href='.$link.' class="muth-icon-item wow fadeInUp">';
+        $output .= '<a href='.$link.' class="muth-icon-item wow fadeInUp" '.$animation_delay.'>';
         $output .= '<div class="'.$glyphicon.'">';
         $output .= '<div class="muth-service-name-in"><h4 class="muth-service-name-h4">'.$text_title.'</h4><img src='.$image.'></div></div>';
         $output .= '<div class="muth-service-name-out">'.$text_title.'</div>';
         $output .= '<div class="muth-service-description">'.$text_describe.'</div>';
         $output .= '</a>';
-       
+
+        $this->set_counter($this->get_counter()+1);
         echo $output;
     }   
 

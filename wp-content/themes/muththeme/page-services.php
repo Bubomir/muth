@@ -39,7 +39,7 @@ if( have_rows('services') ):
 
         // display a sub field value
        $services_name =get_sub_field('services_name');
-       $services_description =get_sub_field('services_description');
+       $services_description = get_sub_field('services_description', false);
        $picture =get_sub_field('picture');
               
        ?>
@@ -48,9 +48,9 @@ if( have_rows('services') ):
             <div class="muth-page-content">
                 <div class="row">
                     <div class = 'muth-services'>
-                        <span <?php if (isset($muth_span_right_class)): echo $muth_span_right_class; endif; ?> >
-                        <h2 <?php if (isset($muth_text_right_class)): echo $muth_text_right_class; endif; ?> ><?php echo $services_name; ?></h2>
-                            <?php echo $services_description; ?>
+                        <span <?php if (isset($muth_span_right_class)): echo $muth_span_right_class; endif; ?>>
+                        <h2 <?php if (isset($muth_text_right_class)): echo $muth_text_right_class; endif; ?> data-wow-delay="" ><?php echo $services_name; ?></h2>
+                           <p data-wow-delay="" > <?php echo ( $services_description); ?> </p>
                         </span>
                         <?php 
 
@@ -58,9 +58,9 @@ if( have_rows('services') ):
                         $alt_img = (isset($picture['alt']) && !empty($picture['alt']))?  'alt="'.$picture['alt'].'"' : __('');
 
                         if(isset($picture['url']) && !empty($picture['url'])):
-                          echo '<img ' .$class_output. ' src="'. $picture['url'] . '" '. $alt_img .'>';
+                          echo '<img ' .$class_output. ' src="'. $picture['url'] . '" '. $alt_img .' data-wow-delay="">';
                         else:
-                           echo '<img '. $class_output .' src="http://placehold.it/400x500">';
+                           echo '<img '. $class_output .' src="http://placehold.it/400x500" data-wow-delay="">';
                         endif;
                         ?>
                         
