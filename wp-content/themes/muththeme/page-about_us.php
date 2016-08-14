@@ -39,7 +39,7 @@ Template Name: About us Page
 
 <?php 
 if( have_rows('profiles') ):
-   
+   $counter = 0;
     // loop through the rows of data
     while ( have_rows('profiles') ) : the_row();
        
@@ -60,7 +60,7 @@ if( have_rows('profiles') ):
               
        ?>
 
-       <div data-wow-delay=".2s" class = "muth-profiles wow fadeInUp"> 
+       <div data-wow-delay="<?php echo '.'.$counter.'s'; ?>" class = "muth-profiles wow fadeInUp"> 
                 <?php echo $img; ?>
                 <h3><?php echo $name;?></h3>
                 <h4><?php echo $position; ?></h4>                 
@@ -69,7 +69,7 @@ if( have_rows('profiles') ):
             </div><!--  muth-services -->
 
 <?php   
-    
+    $counter++;
     endwhile;
 
 else :
