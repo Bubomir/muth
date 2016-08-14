@@ -1,6 +1,7 @@
 <?php
 class muth_partners_widget extends WP_Widget
 {
+	private $counter = 0;
     /**
      * Constructor
      **/
@@ -14,6 +15,13 @@ class muth_partners_widget extends WP_Widget
         parent::__construct( 'muth_partners_widget', 'Muth Partners Sidebar Widget', $widget_ops );
     }
 
+    public function get_counter(){
+        return $this->counter;
+    }
+    public function set_counter($value){
+        $this->counter = $value;
+    }
+
     /**
      * Outputs the HTML for this widget.
      *
@@ -23,12 +31,38 @@ class muth_partners_widget extends WP_Widget
      **/
     public function widget( $args, $instance )
     {
+    	//switch for setting different delay on icons
+        switch ($this->get_counter()) {
+            case 0:
+                $animation_delay = 'data-wow-delay="0.1s"';
+                break;
+            case 1:
+				$animation_delay = 'data-wow-delay="0.2s"';
+				break;
+            case 2:
+				$animation_delay = 'data-wow-delay="0.3s"';
+				break;
+            case 3:
+				$animation_delay = 'data-wow-delay="0.4s"';
+				break;
+            case 4:
+				$animation_delay = 'data-wow-delay="0.5s"';
+				break;
+            case 5:
+				$animation_delay = 'data-wow-delay="0.6s"';
+				break;
+             default:
+                $animation_delay = '';
+                break;
+        }
+
         $link = (!empty($instance['link'])? $instance['link'] : __('#'));
         $image = (!empty($instance['image'])? $instance['image'] : __(''));
         // Add any html to output the image in the $instance array
         $output = '';
-        $output .= '<li><a href='.$link.'><img src='.$image.'></a></li>';
+        $output .= '<li  '.$animation_delay.'><a href='.$link.'><img src='.$image.'></a></li>';
       
+        $this->set_counter($this->get_counter()+1);
         echo $output;
     }   
 
