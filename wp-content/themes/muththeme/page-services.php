@@ -8,13 +8,11 @@ Template Name: Services Page
 <section class="muht-page-full-width muth-page-background-gray">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-title"> 
+        	<div class="muth-page-title wow fadeInUp"> 
         	
         	<h1><?php if(get_field('title')): the_field('title'); endif; ?></h1>
 
         	</div> <!-- muth-page-title -->
-        	
-        	<div class="muth-subheader-line"></div> <!-- muth-subheader -->
         </div> <!-- row --> 
     </div> <!-- muth-all-contacts-content -->
 </section> <!-- muth-all-contacts -->
@@ -28,15 +26,15 @@ if( have_rows('services') ):
     while ( have_rows('services') ) : the_row();
         if($dif_counter%2){
             $color_class = 'muth-page-background-white';
-            $muth_span_right_class = 'class="muth-span-right animated fadeInRight"';
-            $muth_text_right_class = 'class="muth-text-right animated fadeInRight"';
-            $muth_img_left         = 'class="muth-img-left animated fadeInLeft"';
+            $muth_span_right_class = 'class="muth-span-right animated fadeInUp"';
+            $muth_text_right_class = 'class="muth-text-right animated fadeInUp"';
+            $muth_img_left         = 'class="muth-img-left animated fadeInUp"';
         }
         else{
             $color_class = 'muth-page-background-gray';
-            $muth_span_right_class = 'class="animated fadeInLeft"';
-            $muth_text_right_class = 'class="animated fadeInLeft"';
-            $muth_img_left         = 'class="animated fadeInRight"';
+            $muth_span_right_class = 'class="animated fadeInUp"';
+            $muth_text_right_class = 'class="animated fadeInUp"';
+            $muth_img_left         = 'class="animated fadeInUp"';
         }
 
         // display a sub field value

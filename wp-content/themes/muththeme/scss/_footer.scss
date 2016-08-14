@@ -1,5 +1,5 @@
 footer{
-	background-color: $gray;
+	background-color: #374048;
 	color: $light-font-gray;
 }
 .muth-container{
@@ -33,7 +33,7 @@ footer{
 	font-family: PoppinsLight;
 	width: 100%;
 	padding: $padding-small;
-	background-color: $dark-blue;
+	background-color: #21262c;
 	text-align: center;
 	color: $white-font;
 	h4{
@@ -98,6 +98,8 @@ footer{
 	}
 
 	a{
+		text-decoration: none;
+		outline: none;
 		&:hover{
 			color: $white-font;
 		}

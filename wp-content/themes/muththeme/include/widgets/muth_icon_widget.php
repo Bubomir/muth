@@ -33,7 +33,7 @@ class muth_icon_widget extends WP_Widget
 
         // Add any html to output the image in the $instance array
         $output = '';
-        $output .= '<a href='.$link.' class="muth-icon-item">';
+        $output .= '<a href='.$link.' class="muth-icon-item wow fadeInUp">';
         $output .= '<div class="'.$glyphicon.'">';
         $output .= '<div class="muth-service-name-in"><h4 class="muth-service-name-h4">'.$text_title.'</h4><img src='.$image.'></div></div>';
         $output .= '<div class="muth-service-name-out">'.$text_title.'</div>';

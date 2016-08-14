@@ -22,19 +22,16 @@ if( function_exists('muth_google_map_script_enqeue')){
   <div class="muth-map-content muth-page-content">
     <div class="row">
 
-      <div class="muth-page-title"> 
+      <div class="muth-page-title wow fadeInUp"> 
           
          <h1><?php if(get_field('title_page')): the_field('title_page'); endif; ?></h1>
 
-          </div> <!-- muth-page-title -->
-          
-          <div class="muth-subheader-line"></div> <!-- muth-subheader -->
-      
-      <div class="muth-google-map">
+          </div> <!-- muth-page-title -->    
+      <div data-wow-delay=".1s" class="muth-google-map wow fadeInUp">
         <div id="muth-google-map-id" class="muth-map"></div> <!-- muth-map --> 
       </div> <!-- muth-google-map -->
 
-      <div class="muth-address">
+      <div data-wow-delay=".8s" class="muth-address wow bounceInRight">
 <?php
       //check if the repeater field has rows of data
        if( have_rows('addresses') ):
@@ -109,7 +106,7 @@ if( function_exists('muth_google_map_script_enqeue')){
         	 		break;
         	 endswitch;?>
             
-            <ul>
+            <ul data-wow-delay="1.5s" class="wow bounceInRight">
               <li>
               <div class="muth-icon">
                 <div class="muth-2"></div>

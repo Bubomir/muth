@@ -31,7 +31,7 @@ class muth_fast_contact_widget extends WP_Widget
         // Add any html to output the image in the $instance array
         $output = '';
 
-        $output .= '<a data-toggle="modal" data-target="#myModal">';
+        $output .= '<a data-toggle="modal" data-target="#myModal" class="wow pulse">';
         $output .= $text_title;
         $output .= '<span>'.__(' '). $text_describe . '</span>';
         $output .= '</a>';

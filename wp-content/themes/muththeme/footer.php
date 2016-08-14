@@ -7,7 +7,7 @@
               <?php endif; ?>
            
          
-          <div class="muth-footer-sitemap">
+          <div data-wow-delay=".2s" class="muth-footer-sitemap wow fadeInUp">
             <?php if ( is_active_sidebar( 'footer-sidebar-2' ) ): ?>
                <?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
               <?php endif; ?>
@@ -16,7 +16,7 @@
               <?php wp_nav_menu(array('theme_location' => 'secondary')); ?>
             </div>
           </div>
-          <div class="muth-contact">
+          <div data-wow-delay=".3s" class="muth-contact wow fadeInUp">
             <div class="muth-footer-table">
               <table>
               <?php if ( is_active_sidebar( 'footer-sidebar-3' ) ): ?>
@@ -25,9 +25,9 @@
               </table>
             </div>
             <ul class="muth-icon">
-              <li><a class="muth-muth-fb" href="https://www.facebook.com/muth.sk/?fref=ts" target="_blank"></a></li>
-              <li><a class="muth-muth-twiter"></a></li>
-              <li><a class="muth-muth-linkedin"></a></li>
+              <li data-wow-delay=".5s" class="wow fadeInUp"><a class="muth-muth-fb" href="https://www.facebook.com/muth.sk/?fref=ts" target="_blank"></a></li>
+              <li data-wow-delay=".6s" class="wow fadeInUp"><a class="muth-muth-twiter"></a></li>
+              <li data-wow-delay=".7s" class="wow fadeInUp"><a class="muth-muth-linkedin"></a></li>
             </ul>
           </div>
         </div>

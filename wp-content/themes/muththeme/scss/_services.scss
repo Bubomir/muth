@@ -23,24 +23,28 @@
   @extend .container;
   .muth-services-header{
       font-family: Helvetica95Black;
+      position: relative;
       @include make-all-columns(12, 12, 12, 12, $gutter);
       text-transform: uppercase;
       padding-top: $padding-big;
       padding-bottom: $padding-small;
       text-align: center;
       font-size: 2.6rem;
-       color: #374048;
-    }
-    .muth-subheader{
-      @include make-all-columns(4, 4, 4, 4, $gutter);
-      @include make-all-columns-offset(4, 4, 4, 4);
-      border-bottom: 1px groove;
-      border-color: $light-green;
+      color: #374048;
+      &:after{
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 82px;
+        background:  #adebc4;
+        left: calc(50% - 41px);
+        bottom: 0px;
+      }
     }
   .muth-icon-menu {
     .muth-icon-item {
       @include make-all-columns(12, 12, 4, 4, $gutter);
-      padding-top: $padding-big;
+      padding-top: $padding-small;
       padding-bottom: $padding-big;
       text-decoration: none;
       color: $dark-font-gray;

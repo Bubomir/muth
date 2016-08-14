@@ -30,7 +30,7 @@ class muth_simple_text_widget extends WP_Widget
         // Add any html to output the image in the $instance array
         $output = '';
 
-        $output .= '<div class="muth-footer-text-moto">';
+        $output .= '<div data-wow-delay=".1s" class="muth-footer-text-moto wow fadeInUp">';
         $output .= '<a href="'. $home_link .'"><img src="'.$image.'"></a>';
         //$output .= '<h3> TEST </h3>';
         $output .= '<hr>';

@@ -1,4 +1,16 @@
 jQuery(document).ready(function($) {
+    
+    //Zmena farby headeru pri zacati scrolovania
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 65) {
+            $(".muth-navbar").addClass("muth-scrolling");
+        } else {
+            $(".muth-navbar").removeClass("muth-scrolling");
+        }
+    });
+
     new WOW().init();
 
     $('#myModal').on('shown.bs.modal', function () {

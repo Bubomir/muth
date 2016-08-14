@@ -1,6 +1,6 @@
 //Style for this section
 .partners{
-	background: $white;
+	background: $gray;
 	.muth-partners-content{
 		@extend .container;
 		text-align: center;
@@ -13,17 +13,18 @@
 			text-align: center;
 			font-size: 2.6rem;
 			 color: #374048;
-		}
-		.muth-subheader{
-			@include make-all-columns(4, 4, 4, 4, $gutter);
-			@include make-all-columns-offset(4, 4, 4, 4);
-			border-bottom: 1px groove;
-			border-color: $light-green;
-			margin-bottom: $padding-medium;
+			    &:after{
+		        content: "";
+		        position: absolute;
+		        height: 5px;
+		        width: 82px;
+		        background:  #adebc4;
+		        left: calc(50% - 41px);
+		        bottom: 0px;
+		      }
 		}
 		.muth-partners-logos{
 			@include make-all-columns(12, 12, 12, 12, $gutter);
-
 			ul{
 				list-style: none;
 				margin: 0px;
@@ -31,7 +32,7 @@
 				text-align: center;
 				li{
 					display: inline-block;
-					padding: $padding-small $padding-medium $padding-big $padding-medium;
+					padding: $padding-medium $padding-medium $padding-big $padding-medium;
 					img{
 						height: 60px;
 					}

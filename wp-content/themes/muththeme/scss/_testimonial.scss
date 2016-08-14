@@ -20,13 +20,15 @@
       text-align: center;
       font-size: 2.6rem;
        color: #374048;
-    }
-    .muth-subheader{
-      @include make-all-columns(4, 4, 4, 4, $gutter);
-      @include make-all-columns-offset(4, 4, 4, 4);
-      border-bottom: 1px groove;
-      border-color: $light-green;
-      margin-bottom: $padding-medium;
+          &:after{
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 82px;
+        background:  #adebc4;
+        left: calc(50% - 41px);
+        bottom: 0px;
+      }
     }
     .muth-testimonial-text{
       @include make-all-columns(12, 12, 12, 12, $gutter);

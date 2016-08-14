@@ -16,12 +16,12 @@
     <div class="row">
           <div class="muth-banner-text">
             <h1 class="wow fadeInUp">Budúcnosť Vášho webu v našich rukách</h1>
-            <h2 data-wow-delay=".5s" class="wow fadeInUp">Máte veľké očakávanie od Vášej web stránky alebo potrebujete IT riešienie? Nemusíte hľadať ďalej ste na správnom mieste! Ponúkamé tvorbu web stránok, web aplikácií, IT Outsourcing a iné...</h2>
+            <h2 data-wow-delay=".1s" class="wow fadeInUp">Máte veľké očakávanie od Vášej web stránky alebo potrebujete IT riešienie? Nemusíte hľadať ďalej ste na správnom mieste! Ponúkamé tvorbu web stránok, web aplikácií, IT Outsourcing a iné...</h2>
           </div>
           <div class="muth-banner-image">
-            <img data-wow-delay="1s" class="animated fadeInUp wow" src="http://www.muth.dev/wp-content/uploads/2016/08/monitor.png">
-            <img data-wow-delay="1.5s" data-wow-duration="2s" class="muth-banner-notebook animated bounceInLeft wow" src="http://www.muth.dev/wp-content/uploads/2016/08/notebook.png">
-            <img data-wow-delay="1.5s" data-wow-duration="2s" class="muth-banner-mobile-group animated bounceInRight wow" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile-group.png">
+            <img data-wow-delay=".2s" class="animated fadeInUp wow" src="http://www.muth.dev/wp-content/uploads/2016/08/monitor.png">
+            <img data-wow-delay=".3s" data-wow-duration="2s" class="muth-banner-notebook animated bounceInLeft wow" src="http://www.muth.dev/wp-content/uploads/2016/08/notebook.png">
+            <img data-wow-delay=".3s" data-wow-duration="2s" class="muth-banner-mobile-group animated bounceInRight wow" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile-group.png">
           </div>
       </div>
   </div>
@@ -30,7 +30,6 @@
     <section class="services">
     <div class="row">
       <div class="muth-services-header wow fadeInUp">Naše služby</div>
-        <div class="muth-subheader"></div>
     </div>
       <div class="muth-icon-menu">
         <div class="row">
@@ -103,18 +102,16 @@
     <section class="muth-testimonial">
       <div class="muth-testimonial-content">
         <div class="row">
-        <div class="muth-testimonial-header wow fadeInUp">Povedali o nás...</div>
-        <div class="muth-subheader"></div>
-        
+        <div class="muth-testimonial-header wow fadeInUp">Povedali o nás...</div>        
           <div class="muth-testimonial-text">
-            <div class="muth-quote-mark-left muth-icon">
+            <div data-wow-delay=".1s" class="muth-quote-mark-left muth-icon wow bounceInLeft">
               <span class="muth-muth-quote-first"></span>
             </div> <!-- muth-quote-mark-left muth-icon -->
             <ul >
            
             <?php $count=0;
               foreach (get_testimonial() as $testimonial):
-                $activated = ($count < 1) ? 'class="testimonial-activated"' : '';
+                $activated = ($count < 1) ? 'class="testimonial-activated wow fadeInUp"' : '';
                   echo '<li id="muth-testimonial-list-'.$count.'" '.$activated.'>';
                   echo '<p>'. $testimonial['content'].'</p>';
                   echo '<p class="muth-testimonial-author">- '.$testimonial['client_name'].' -</p>';
@@ -124,14 +121,14 @@
               
             </ul>
 
-            <div class="muth-quote-mark-right muth-icon">
+            <div data-wow-delay=".1s" class="muth-quote-mark-right muth-icon wow bounceInRight">
               <span class="muth-muth-quote-last"></span>
             </div><!-- muth-quote-mark-right muth-icon -->
           </div> <!-- muth-testimonial-text -->
 
           <?php if(sizeof(get_testimonial()) > 1): ?>
 
-          <ul id="muth-testimonial-controller-id" class="muth-testimonial-controller">
+          <ul id="muth-testimonial-controller-id" data-wow-delay=".1s" class="muth-testimonial-controller wow bounceInUp">
           <?php for($i = 0; $i< $count ; $i++ ):
             $activated = ($i < 1) ? 'class="muth-controller-activated"' : '';
             echo '<li id="muth-controller-'.$i.'" value="'.$i.'" '.$activated.'></li>';
@@ -149,7 +146,6 @@
         <div class="muth-partners-content">
           <div class="row">
             <?php dynamic_sidebar( 'partners-title-sidebar' ); ?>
-            <div class="muth-subheader"></div>
               <div class="muth-partners-logos">
                 <ul>
                   <?php dynamic_sidebar( 'partners-sidebar' ); ?>

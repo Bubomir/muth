@@ -13,14 +13,11 @@ if(function_exists('muth_gallery_script_enqeue')){
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-title"> 
+        	<div class="muth-page-title wow fadeInUp"> 
         	
         		<h1><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h1>
 
-        	</div> <!-- muth-page-title -->
-        	
-        	<div class="muth-subheader-line"></div> <!-- muth-subheader-line -->
-        	
+        	</div> <!-- muth-page-title -->  	
         </div> <!-- row --> 
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
@@ -64,7 +61,7 @@ if(function_exists('muth_gallery_script_enqeue')){
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-sub-title"> 
+        	<div data-wow-delay=".1s" class="muth-page-sub-title wow fadeInUp"> 
         		<h2><?php if(get_field('title_web_references')): the_field('title_web_references'); endif; ?></h2>
         	</div> <!-- muth-page-title -->
         </div> <!-- row --> 
@@ -146,7 +143,7 @@ if( have_rows('web_references') ):
               
        ?>
 
-       <div <?php echo $id; ?> class="muth-references-webs animated flipInX"> 
+       <div <?php echo $id; ?> data-wow-delay=".2s" class="muth-references-webs wow fadeInUp"> 
             <a href="<?php echo $link_reference; ?>" <?php echo $title_img; ?> <?php echo $blank; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
 
             <?php echo $img; ?>
@@ -182,7 +179,7 @@ endif;?>
 <section class="muth-page-full-width muth-page-background-gray">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-sub-title"> 
+        	<div data-wow-delay=".6s"  class="muth-page-sub-title wow fadeInUp"> 
         	
         		<h2><?php if(get_field('title_outsoarsing_references')): the_field('title_outsoarsing_references'); endif; ?></h2>
 
@@ -194,13 +191,13 @@ endif;?>
 
 
 <section class="muth-page-full-width muth-page-background-gray">
-	<div class="muth-page-content animated fadeInLeft">
+	<div class="muth-page-content">
         <div class="row">
         	<div class = "muth-references-outsourcing"> 
         		 <ul>
                     
                     <?php  while ( have_rows('outsoarsing_references') ) : the_row(); ?>
-                            <li> <?php the_sub_field('outsoarsing_company_name'); ?> </li>
+                            <li data-wow-delay=".7s" class="wow fadeInUp"> <?php the_sub_field('outsoarsing_company_name'); ?> </li>
                     <?php endwhile; ?>
         		 	
         		 </ul>
@@ -217,7 +214,7 @@ endif;?>
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-sub-title"> 
+        	<div class="muth-page-sub-title wow fadeInUp"> 
         	
         		<h2><?php if(get_field('title_shop_references')): the_field('title_shop_references'); endif; ?></h2>
 
@@ -234,7 +231,7 @@ endif;?>
         		 <ul>
 
                     <?php  while ( have_rows('shop_references') ) : the_row(); ?>
-                            <li> <?php the_sub_field('shop_company_name'); ?> </li>
+                            <li data-wow-delay=".1s" class="wow fadeInUp"> <?php the_sub_field('shop_company_name'); ?> </li>
                     <?php endwhile; ?>
         		 	
         		 </ul>

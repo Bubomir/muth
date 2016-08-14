@@ -8,14 +8,11 @@ Template Name: About us Page
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-title"> 
+        	<div class="muth-page-title wow fadeInUp"> 
         	
         		<h1><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h1>
 
-        	</div> <!-- muth-page-title -->
-        	
-        	<div class="muth-subheader-line"></div> <!-- muth-subheader-line -->
-        	
+        	</div> <!-- muth-page-title -->   	
         </div> <!-- row --> 
     </div> <!-- muth-page-content -->
 </section> <!-- muth-page-full-width muth-page-background-white -->
@@ -25,7 +22,7 @@ Template Name: About us Page
 <section class="muth-page-full-width muth-page-background-white">
 	<div class="muth-page-content">
         <div class="row">
-        	<div class = "muth-title-text animated fadeInLeft"> 
+        	<div data-wow-delay=".1s" class = "muth-title-text wow fadeInUp"> 
         		        		
         		<span>
         		  <?php if(get_field('about_us_description')): the_field('about_us_description'); endif; ?>
@@ -63,7 +60,7 @@ if( have_rows('profiles') ):
               
        ?>
 
-       <div class = "muth-profiles animated flip"> 
+       <div data-wow-delay=".2s" class = "muth-profiles wow fadeInUp"> 
                 <?php echo $img; ?>
                 <h3><?php echo $name;?></h3>
                 <h4><?php echo $position; ?></h4>                 

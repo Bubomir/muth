@@ -45,6 +45,15 @@
       font-weight: bold;
     }
   }
+   &:after{
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 82px;
+        background:  #adebc4;
+        left: calc(50% - 41px);
+        bottom: -15px;
+      }
 
 }
 .muth-page-sub-title{
