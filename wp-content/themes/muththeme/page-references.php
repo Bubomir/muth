@@ -119,7 +119,7 @@ if( have_rows('web_references') ):
                     $i++;
                 }
 
-                $counter++;
+                
       			break;
 
       		default:
@@ -143,7 +143,7 @@ if( have_rows('web_references') ):
               
        ?>
 
-       <div <?php echo $id; ?> data-wow-delay=".2s" class="muth-references-webs wow fadeInUp"> 
+       <div <?php echo $id; ?> data-wow-delay="<?php echo '.'.$counter.'s'; ?>" class="muth-references-webs wow fadeInUp"> 
             <a href="<?php echo $link_reference; ?>" <?php echo $title_img; ?> <?php echo $blank; ?> class = "muth-references-web-fix-size" <?php echo $data_gallery; ?>>
 
             <?php echo $img; ?>
@@ -162,6 +162,7 @@ if( have_rows('web_references') ):
                             
         </div><!--  muth-references-webs -->
 <?php   
+    $counter++;
     endwhile;
 else :
     // no rows found
