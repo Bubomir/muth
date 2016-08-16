@@ -37,6 +37,24 @@ if( have_rows('services') ):
             $muth_img_left         = 'class="wow bounceInRight"';
         }
 
+        switch ($dif_counter) {
+            case 0:
+                $title_delay = 'data-wow-delay=".3s"';
+                $text_delay = 'data-wow-delay=".6s"';
+                $img_delay = 'data-wow-delay=".9s"';
+                break;
+            case 1:
+                $title_delay = 'data-wow-delay="1.2s"';
+                $text_delay = 'data-wow-delay="1.6s"';
+                $img_delay = 'data-wow-delay="1.9s"';
+                break;
+            default:
+                $title_delay = '';
+                $text_delay = '';
+                $img_delay = '';
+                break;
+        }
+
         // display a sub field value
        $services_name =get_sub_field('services_name');
        $services_description = get_sub_field('services_description', false);
@@ -49,8 +67,8 @@ if( have_rows('services') ):
                 <div class="row">
                     <div class = 'muth-services'>
                         <span <?php if (isset($muth_span_right_class)): echo $muth_span_right_class; endif; ?>>
-                        <h2 <?php if (isset($muth_text_right_class)): echo $muth_text_right_class; endif; ?> data-wow-delay=".3s" ><?php echo $services_name; ?></h2>
-                           <p class="wow fadeInUp" data-wow-delay=".6s" > <?php echo ( $services_description); ?> </p>
+                        <h2 <?php if (isset($muth_text_right_class)): echo $muth_text_right_class; endif; ?> <?php echo $title_delay;?> ><?php echo $services_name; ?></h2>
+                           <p class="wow fadeInUp" <?php echo $text_delay;?>> <?php echo ( $services_description); ?> </p>
                         </span>
                         <?php 
 
@@ -58,9 +76,9 @@ if( have_rows('services') ):
                         $alt_img = (isset($picture['alt']) && !empty($picture['alt']))?  'alt="'.$picture['alt'].'"' : __('');
 
                         if(isset($picture['url']) && !empty($picture['url'])):
-                          echo '<img ' .$class_output. ' src="'. $picture['url'] . '" '. $alt_img .' data-wow-delay="1s">';
+                          echo '<img ' .$class_output. ' src="'. $picture['url'] . '" '. $alt_img .' '.$img_delay.' >';
                         else:
-                           echo '<img '. $class_output .' src="http://placehold.it/400x500" data-wow-delay="">';
+                           echo '<img '. $class_output .' src="http://placehold.it/400x500" '.$img_delay.'>';
                         endif;
                         ?>
                         
