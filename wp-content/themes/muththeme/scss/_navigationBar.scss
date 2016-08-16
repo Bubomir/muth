@@ -51,18 +51,21 @@
 	}
 
 	.muth-nav-menu{
+		transition: all 300 linear;
 		font-family: PoppinsMedium;
 		text-transform: uppercase;
 		float: right;
 		@media (max-width: 750px){
+			box-shadow: 0 2px 42px rgba(0,0,0,0.1);
 			display: block;
 			float: left;
 			width: 100%;
+			background: transparent;
 			ul{
 				text-align: center;
+				backgroun: transparent;
 				li{
-					border-bottom: 1px dashed;
-					border-color: $medium-blue;
+					border-color: $font-gray-proland;
 				}
 			}
 		}
@@ -189,6 +192,8 @@
 
 .mobile-menu-activated{
 	display: block;
+	background: transparent;
+	transition: all 300 linear;
 }
 
 .muth-logo-mobile-activated{
@@ -205,7 +210,10 @@
 
 //Aktive klassees
 .muth-active_main_menu{
-	//background: $light-green;
-	color: $light-green;
+	
+	a{
+		color: $light-green !important;
+	}
+
 }
 

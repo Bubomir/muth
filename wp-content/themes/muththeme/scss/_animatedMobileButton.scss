@@ -22,6 +22,7 @@
 }
 
 .menu-icon-wrapper svg {
+
 	position: absolute;
 	top: -33px;
 	left: -33px;
@@ -34,7 +35,7 @@
 }
 
 .menu-icon-wrapper svg path {
-	stroke: #fff;
+	stroke: $dark-blue-proland;
 	stroke-width: 40px;
 	stroke-linecap: round;
     stroke-linejoin: round;

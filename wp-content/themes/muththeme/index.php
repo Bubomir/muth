@@ -22,6 +22,7 @@
             <img data-wow-delay=".2s" class="animated fadeInUp wow" src="http://www.muth.dev/wp-content/uploads/2016/08/monitor.png">
             <img data-wow-delay=".3s" data-wow-duration="2s" class="muth-banner-notebook animated bounceInLeft wow" src="http://www.muth.dev/wp-content/uploads/2016/08/notebook.png">
             <img data-wow-delay=".3s" data-wow-duration="2s" class="muth-banner-mobile-group animated bounceInRight wow" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile-group.png">
+            <img class="muth-mobile-slider" src="http://www.muth.dev/wp-content/uploads/2016/08/mobile.png">
           </div>
       </div>
   </div>

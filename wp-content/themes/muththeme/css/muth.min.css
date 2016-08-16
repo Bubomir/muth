@@ -3926,6 +3926,7 @@ button.close {
 }
 
 .muth-navbar .muth-nav-menu {
+  transition: all 300 linear;
   font-family: PoppinsMedium;
   text-transform: uppercase;
   float: right;
@@ -3933,16 +3934,18 @@ button.close {
 
 @media (max-width: 750px) {
   .muth-navbar .muth-nav-menu {
+    box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
     display: block;
     float: left;
     width: 100%;
+    background: transparent;
   }
   .muth-navbar .muth-nav-menu ul {
     text-align: center;
+    backgroun: transparent;
   }
   .muth-navbar .muth-nav-menu ul li {
-    border-bottom: 1px dashed;
-    border-color: #525d63;
+    border-color: #8f969d;
   }
 }
 
@@ -4067,6 +4070,8 @@ button.close {
 
 .mobile-menu-activated {
   display: block;
+  background: transparent;
+  transition: all 300 linear;
 }
 
 @media (max-width: 750px) {
@@ -4081,8 +4086,8 @@ button.close {
   }
 }
 
-.muth-active_main_menu {
-  color: #2dbe60;
+.muth-active_main_menu a {
+  color: #2dbe60 !important;
 }
 
 /* Menu icon styles */
@@ -4123,7 +4128,7 @@ button.close {
 }
 
 .menu-icon-wrapper svg path {
-  stroke: #fff;
+  stroke: #374048;
   stroke-width: 40px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -4149,11 +4154,9 @@ button.close {
 
 .slider {
   display: block;
-  overflow: hidden;
   background-image: url(http://www.muth.dev/wp-content/uploads/2016/08/header-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .slider .slider-content .muth-banner-text {
@@ -4201,16 +4204,40 @@ button.close {
   }
 }
 
+@media (max-width: 767px) {
+  .slider .slider-content .muth-banner-text {
+    padding-top: 0px;
+  }
+}
+
 .slider .slider-content .muth-banner-text h1 {
-  font-size: 3rem;
+  font-siz: 2.4rem;
   color: #374048;
+}
+
+@media (max-width: 767px) {
+  .slider .slider-content .muth-banner-text h1 {
+    font-size: 2rem;
+  }
 }
 
 .slider .slider-content .muth-banner-text h2 {
   font-family: PoppinsLight;
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding: 0px 120px;
   color: #8e9397;
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-text h2 {
+    padding: 0px 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider .slider-content .muth-banner-text h2 {
+    padding: 0px 20px;
+  }
 }
 
 .slider .slider-content .muth-banner-image {
@@ -4264,16 +4291,66 @@ button.close {
   padding-bottom: 11.25rem;
 }
 
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-image img {
+    display: none;
+  }
+}
+
 .slider .slider-content .muth-banner-image .muth-banner-notebook {
   position: absolute;
   top: 240px;
   left: 120px;
 }
 
+@media (max-width: 1991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-notebook {
+    left: 32px;
+  }
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-notebook {
+    display: none;
+  }
+}
+
 .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
   position: absolute;
   top: 197px;
   right: 100px;
+}
+
+@media (max-width: 1991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+    right: 31px;
+  }
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+    position: static;
+    display: block;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+    display: none;
+  }
+}
+
+.slider .slider-content .muth-banner-image .muth-mobile-slider {
+  display: none;
+}
+
+@media (max-width: 410px) {
+  .slider .slider-content .muth-banner-image .muth-mobile-slider {
+    display: block;
+    padding-bottom: 2.5rem;
+    padding-top: 1.25rem;
+  }
 }
 
 .services {
@@ -6685,7 +6762,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .muth-map .muth-map-content .muth-address .muth-normal-address .muth-address-content h4 {
   font-family: PoppinsRegular;
-  color: #2dbe60;
+  color: #374048;
   text-align: left;
   font-size: 1.1rem;
   margin: 10px 0 20px 15px;

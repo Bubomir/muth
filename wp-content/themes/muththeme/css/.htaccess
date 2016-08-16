@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.smartzero.sk
+RewriteCond %{HTTP_HOST} ^([^.]+).smartzero.sk
+RewriteRule ^$ /index.php?name=%1 [L] 

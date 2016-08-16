@@ -11,7 +11,11 @@ jQuery(document).ready(function($) {
         }
     });
 
-    new WOW().init();
+    wow = new WOW({
+        mobile: false
+    })
+
+    wow.init();
 
     $('#myModal').on('shown.bs.modal', function () {
         ('#myInput').focus()

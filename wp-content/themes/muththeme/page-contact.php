@@ -111,13 +111,13 @@ if( function_exists('muth_google_map_script_enqeue')){
               <div class="muth-icon">
                 <div class="muth-2"></div>
               </div>
-                <p style="color: #2dbe60;"><?php if(get_field('email')): the_field('email'); endif; ?></p>
+                <p><?php if(get_field('email')): the_field('email'); endif; ?></p>
               </li>
               <li>
               <div class="muth-icon">
                 <div  class="muth-smartphone2"></div>
               </div>
-                <p style="color: #2dbe60;"><?php if(get_field('phone_num')): the_field('phone_num'); endif; ?></p>
+                <p><?php if(get_field('phone_num')): the_field('phone_num'); endif; ?></p>
               </li>
             </ul>
         </div> <!-- row -->
