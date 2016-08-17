@@ -3533,6 +3533,16 @@ button.close {
   }
 }
 
+.muth-page-title:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 82px;
+  background: #adebc4;
+  left: calc(50% - 41px);
+  bottom: -15px;
+}
+
 .muth-page-sub-title {
   font-family: PoppinsSemiBold;
   position: relative;
@@ -3594,6 +3604,7 @@ button.close {
 
 .muth-page-full-width {
   display: block;
+  overflow: hidden;
 }
 
 .muth-page-background-gray {
@@ -3675,6 +3686,7 @@ button.close {
   pointer-events: none;
   padding-top: 1.25rem;
   padding-bottom: 10px;
+  color: #2dbe60;
 }
 
 .muth-contact-form-name-input {
@@ -3718,10 +3730,10 @@ button.close {
 }
 
 .muth-contact-form-text-label {
+  color: #2dbe60;
   font-family: PoppinsMedium;
   display: block;
   text-align: left;
-  color: #374048;
   pointer-events: none;
   padding-bottom: 10px;
 }
@@ -3850,12 +3862,17 @@ button.close {
   }
 }
 
+.muth-scrolling {
+  background: white;
+  box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
+}
+
 .muth-navbar {
+  transition: all 300ms linear 0s;
   float: left;
   z-index: 1000;
   display: block;
   width: 100%;
-  background-color: transparent;
   position: fixed;
 }
 
@@ -3869,14 +3886,14 @@ button.close {
 .muth-navbar .muth-nav-logo {
   float: left;
   position: fixed;
-  background: black;
+  background: transparent;
   height: 64.45px;
   opacity: 0.95;
 }
 
 .muth-navbar .muth-nav-logo img {
-  margin: 4px 40px 0 30px;
-  height: 55px;
+  margin: 7px 40px 0 30px;
+  height: 50px;
   width: 168px;
 }
 
@@ -3909,6 +3926,7 @@ button.close {
 }
 
 .muth-navbar .muth-nav-menu {
+  transition: all 300 linear;
   font-family: PoppinsMedium;
   text-transform: uppercase;
   float: right;
@@ -3916,16 +3934,18 @@ button.close {
 
 @media (max-width: 750px) {
   .muth-navbar .muth-nav-menu {
+    box-shadow: 0px 33px 42px rgba(0, 0, 0, 0.1);
     display: block;
     float: left;
     width: 100%;
+    background: transparent;
   }
   .muth-navbar .muth-nav-menu ul {
     text-align: center;
+    backgroun: transparent;
   }
   .muth-navbar .muth-nav-menu ul li {
-    border-bottom: 1px dashed;
-    border-color: #525d63;
+    border-color: #8f969d;
   }
 }
 
@@ -3947,6 +3967,7 @@ button.close {
 }
 
 .muth-navbar .muth-nav-menu ul li a {
+  outline: none;
   text-decoration: none;
   font-size: 1rem;
   display: block;
@@ -4049,6 +4070,8 @@ button.close {
 
 .mobile-menu-activated {
   display: block;
+  background: transparent;
+  transition: all 300 linear;
 }
 
 @media (max-width: 750px) {
@@ -4063,8 +4086,8 @@ button.close {
   }
 }
 
-.muth-active_main_menu {
-  color: #2dbe60;
+.muth-active_main_menu a {
+  color: #2dbe60 !important;
 }
 
 /* Menu icon styles */
@@ -4105,7 +4128,7 @@ button.close {
 }
 
 .menu-icon-wrapper svg path {
-  stroke: #fff;
+  stroke: #374048;
   stroke-width: 40px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -4131,7 +4154,9 @@ button.close {
 
 .slider {
   display: block;
-  background: #F1F2F2;
+  background-image: url(http://www.muth.dev/wp-content/uploads/2016/08/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slider .slider-content .muth-banner-text {
@@ -4155,7 +4180,7 @@ button.close {
   padding-right: 30px;
   font-family: PoppinsBold;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 @media (min-width: 768px) {
@@ -4179,13 +4204,40 @@ button.close {
   }
 }
 
+@media (max-width: 767px) {
+  .slider .slider-content .muth-banner-text {
+    padding-top: 0px;
+  }
+}
+
 .slider .slider-content .muth-banner-text h1 {
-  font-size: 3.4rem;
+  font-siz: 2.4rem;
+  color: #374048;
+}
+
+@media (max-width: 767px) {
+  .slider .slider-content .muth-banner-text h1 {
+    font-size: 2rem;
+  }
 }
 
 .slider .slider-content .muth-banner-text h2 {
   font-family: PoppinsLight;
-  font-size: 1.4rem;
+  font-size: 1rem;
+  padding: 0px 120px;
+  color: #8e9397;
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-text h2 {
+    padding: 0px 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider .slider-content .muth-banner-text h2 {
+    padding: 0px 20px;
+  }
 }
 
 .slider .slider-content .muth-banner-image {
@@ -4208,6 +4260,7 @@ button.close {
   padding-left: 30px;
   padding-right: 30px;
   display: block;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -4235,11 +4288,78 @@ button.close {
   padding-top: 3.75rem;
   margin: 0 auto;
   display: block;
-  padding-bottom: 3.75rem;
+  padding-bottom: 11.25rem;
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-image img {
+    display: none;
+  }
+}
+
+.slider .slider-content .muth-banner-image .muth-banner-notebook {
+  position: absolute;
+  top: 240px;
+  left: 120px;
+}
+
+@media (max-width: 1991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-notebook {
+    left: 32px;
+  }
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-notebook {
+    display: none;
+  }
+}
+
+.slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+  position: absolute;
+  top: 197px;
+  right: 100px;
+}
+
+@media (max-width: 1991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+    right: 31px;
+  }
+}
+
+@media (max-width: 991px) {
+  .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+    position: static;
+    display: block;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .slider .slider-content .muth-banner-image .muth-banner-mobile-group {
+    display: none;
+  }
+}
+
+.slider .slider-content .muth-banner-image .muth-mobile-slider {
+  display: none;
+}
+
+@media (max-width: 410px) {
+  .slider .slider-content .muth-banner-image .muth-mobile-slider {
+    display: block;
+    padding-bottom: 2.5rem;
+    padding-top: 1.25rem;
+  }
+}
+
+.services {
+  overflow: hidden;
 }
 
 .services .muth-services-header {
   font-family: Helvetica95Black;
+  position: relative;
   position: relative;
   float: left;
   width: 100%;
@@ -4287,67 +4407,14 @@ button.close {
   }
 }
 
-.services .muth-subheader {
-  position: relative;
-  float: left;
-  width: 33.33333%;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 33.33333%;
-  border-bottom: 1px groove;
-  border-color: #2dbe60;
-}
-
-@media (min-width: 768px) {
-  .services .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 992px) {
-  .services .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .services .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 768px) {
-  .services .muth-subheader {
-    margin-left: 33.33333%;
-  }
-}
-
-@media (min-width: 992px) {
-  .services .muth-subheader {
-    margin-left: 33.33333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .services .muth-subheader {
-    margin-left: 33.33333%;
-  }
+.services .muth-services-header:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 82px;
+  background: #adebc4;
+  left: calc(50% - 41px);
+  bottom: 0px;
 }
 
 .services .muth-icon-menu .muth-icon-item {
@@ -4369,7 +4436,7 @@ button.close {
   min-height: 1px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 3.75rem;
+  padding-top: 1.25rem;
   padding-bottom: 3.75rem;
   text-decoration: none;
   color: #1a2319;
@@ -4613,11 +4680,12 @@ button.close {
 }
 
 footer {
-  background-color: #F1F2F2;
+  background-color: #374048;
   color: #8e9397;
 }
 
 .muth-main-footer {
+  overflow: hidden;
   line-height: 1.6rem;
 }
 
@@ -4649,7 +4717,7 @@ footer {
   font-family: PoppinsLight;
   width: 100%;
   padding: 1.25rem;
-  background-color: #262b2e;
+  background-color: #21262c;
   text-align: center;
   color: #fff;
 }
@@ -4778,6 +4846,10 @@ footer {
   }
 }
 
+.muth-footer-sitemap h3 {
+  color: #2dbe60;
+}
+
 .muth-footer-sitemap ul {
   text-transform: uppercase;
   list-style: none;
@@ -4799,6 +4871,8 @@ footer {
 }
 
 .muth-footer-sitemap a {
+  text-decoration: none;
+  outline: none;
   color: #8e9397;
 }
 
@@ -4855,6 +4929,10 @@ footer {
     float: left;
     width: 33.33333%;
   }
+}
+
+.muth-contact h3 {
+  color: #2dbe60;
 }
 
 @media (max-width: 768px) {
@@ -4948,6 +5026,7 @@ footer {
 }
 
 .muth-testimonial {
+  overflow: hidden;
   background-color: white;
 }
 
@@ -5000,68 +5079,14 @@ footer {
   }
 }
 
-.muth-testimonial .muth-testimonial-content .muth-subheader {
-  position: relative;
-  float: left;
-  width: 33.33333%;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 33.33333%;
-  border-bottom: 1px groove;
-  border-color: #2dbe60;
-  margin-bottom: 2.5rem;
-}
-
-@media (min-width: 768px) {
-  .muth-testimonial .muth-testimonial-content .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 992px) {
-  .muth-testimonial .muth-testimonial-content .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .muth-testimonial .muth-testimonial-content .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 768px) {
-  .muth-testimonial .muth-testimonial-content .muth-subheader {
-    margin-left: 33.33333%;
-  }
-}
-
-@media (min-width: 992px) {
-  .muth-testimonial .muth-testimonial-content .muth-subheader {
-    margin-left: 33.33333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .muth-testimonial .muth-testimonial-content .muth-subheader {
-    margin-left: 33.33333%;
-  }
+.muth-testimonial .muth-testimonial-content .muth-testimonial-header:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 82px;
+  background: #adebc4;
+  left: calc(50% - 41px);
+  bottom: 0px;
 }
 
 .muth-testimonial .muth-testimonial-content .muth-testimonial-text {
@@ -5243,7 +5268,8 @@ footer {
 }
 
 .partners {
-  background: #ffffff;
+  overflow: hidden;
+  background: #F1F2F2;
 }
 
 .partners .muth-partners-content {
@@ -5299,68 +5325,14 @@ footer {
   }
 }
 
-.partners .muth-partners-content .muth-subheader {
-  position: relative;
-  float: left;
-  width: 33.33333%;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 33.33333%;
-  border-bottom: 1px groove;
-  border-color: #2dbe60;
-  margin-bottom: 2.5rem;
-}
-
-@media (min-width: 768px) {
-  .partners .muth-partners-content .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 992px) {
-  .partners .muth-partners-content .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .partners .muth-partners-content .muth-subheader {
-    float: left;
-    width: 33.33333%;
-  }
-}
-
-@media (min-width: 768px) {
-  .partners .muth-partners-content .muth-subheader {
-    margin-left: 33.33333%;
-  }
-}
-
-@media (min-width: 992px) {
-  .partners .muth-partners-content .muth-subheader {
-    margin-left: 33.33333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .partners .muth-partners-content .muth-subheader {
-    margin-left: 33.33333%;
-  }
+.partners .muth-partners-content .muth-partners-header:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 82px;
+  background: #adebc4;
+  left: calc(50% - 41px);
+  bottom: 0px;
 }
 
 .partners .muth-partners-content .muth-partners-logos {
@@ -5414,7 +5386,7 @@ footer {
 
 .partners .muth-partners-content .muth-partners-logos ul li {
   display: inline-block;
-  padding: 1.25rem 2.5rem 3.75rem 2.5rem;
+  padding: 2.5rem 2.5rem 3.75rem 2.5rem;
 }
 
 .partners .muth-partners-content .muth-partners-logos ul li img {
@@ -5992,6 +5964,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-services {
+  overflow: hidden;
   position: relative;
   float: left;
   width: 100%;
