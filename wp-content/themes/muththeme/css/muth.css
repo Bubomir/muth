@@ -5880,7 +5880,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 .muth-title-text span {
-  font-family: PoppinsRegular;
+  font-family: PoppinsLight;
   display: block;
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
@@ -6123,7 +6123,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 
 .muth-services p {
   color: #969da3;
-  font-family: PoppinsRegular;
+  font-family: PoppinsLight;
   font-size: 1.1rem;
 }
 
