@@ -3474,10 +3474,6 @@ button.close {
 }
 
 .muth-page-title {
-  text-transform: uppercase;
-  font-family: Helvetica95Black;
-  font-size: 2.6rem;
-  color: #374048;
   position: relative;
   float: left;
   width: 100%;
@@ -3499,7 +3495,6 @@ button.close {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 1.25rem;
-  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -3523,11 +3518,17 @@ button.close {
   }
 }
 
+.muth-page-title h1 {
+  text-transform: uppercase;
+  font-family: Helvetica95Black;
+  font-size: 2.6rem;
+  color: #374048;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .muth-page-title {
     margin-top: 10px;
-  }
-  .muth-page-title h1 {
     font-size: 2.2rem;
     font-weight: bold;
   }
@@ -3880,6 +3881,7 @@ button.close {
   .muth-navbar {
     display: inline-block;
     position: static;
+    box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -5888,6 +5890,12 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   color: #969da3;
 }
 
+@media (max-width: 767px) {
+  .row .muth-profiles:first-child, .muth-main-footer .muth-profiles:first-child {
+    padding-bottom: 0;
+  }
+}
+
 .muth-profiles {
   position: relative;
   float: left;
@@ -6523,6 +6531,12 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   margin: 0;
 }
 
+@media (max-width: 767px) {
+  .muth-all-contacts-content .muth-contact-form-text {
+    padding-top: 1.25rem;
+  }
+}
+
 .muth-all-contacts-content .muth-contact-form-text .wpcf7-response-output {
   padding: 1.25rem;
   text-align: center;
@@ -6622,6 +6636,14 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 @media (max-width: 991px) {
   .muth-all-contacts-content ul li {
     display: inline-block;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .muth-all-contacts-content ul li {
+    display: inline-block;
+    padding-left: 0;
   }
 }
 
@@ -6644,7 +6666,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   }
 }
 
-@media (max-width: 593px) {
+@media (max-width: 468px) {
   .muth-all-contacts-content ul li:last-child {
     padding-top: 3.75rem;
   }
@@ -6703,6 +6725,12 @@ body:last-child .blueimp-gallery-playing > .play-pause {
   height: 350px;
   width: 100%;
   background: #F1F2F2;
+}
+
+@media (max-width: 991px) {
+  .muth-map .muth-map-content .muth-google-map {
+    padding-bottom: 0;
+  }
 }
 
 .muth-map .muth-map-content .muth-address {
@@ -6791,7 +6819,7 @@ body:last-child .blueimp-gallery-playing > .play-pause {
 }
 
 @media (max-width: 638px) {
-  .muth-map .muth-map-content .muth-address .muth-normal-address {
+  .muth-map .muth-map-content .muth-address .muth-normal-address:first-child {
     margin-bottom: 3.75rem;
   }
 }

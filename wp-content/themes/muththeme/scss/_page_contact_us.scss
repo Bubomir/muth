@@ -29,6 +29,12 @@
     p {
       margin: 0;
     }
+
+    @media (max-width: 767px) {
+      padding-top: $padding-small;
+    }
+
+
     /*Stylig for contact form 7*/
     .wpcf7-response-output {
       padding: $padding-small;
@@ -78,7 +84,12 @@
     display: table;
     padding-left: 15px;
     @media (max-width: 991px) {
+       display: inline-block;
+       padding-left: 60px;
+    }
+     @media (max-width: 767px) {
       display: inline-block;
+      padding-left: 0;
     }
       p {
         font-family: PoppinsSemiBold;
@@ -93,11 +104,12 @@
         @media (max-width: 991px) {
           padding-top: 0px;
         }
-          @media (max-width: 593px) {
+          @media (max-width: 468px) {
           padding-top: $padding-big;
         }
       }
     }
+
   }
 }
 
@@ -114,6 +126,9 @@
         height: 350px;
         width: 100%;
         background: $gray;
+      }
+      @media (max-width: 991px){
+        padding-bottom: 0;
       }
     }
 
@@ -159,7 +174,7 @@
         }
       }
         @media (max-width: 638px){
-        .muth-normal-address {
+        .muth-normal-address:first-child {
           //display: table-cell;
           margin-bottom: $margin-big;
         }

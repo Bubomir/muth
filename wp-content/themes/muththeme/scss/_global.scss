@@ -29,21 +29,21 @@
 
 //global classes
 .muth-page-title {
-  text-transform: uppercase;
-  font-family: Helvetica95Black;
-  font-size: 2.6rem;
-   color: #374048;
   @include make-all-columns(12, 12, 12, 12, $gutter);
   text-align: center;
   margin-top: 100px;
   margin-bottom: $padding-small;
-  font-weight: bold;
+  h1{
+    text-transform: uppercase;
+    font-family: Helvetica95Black;
+    font-size: 2.6rem;
+    color: #374048;
+    font-weight: bold;
+  }
   @media (max-width: 768px){
     margin-top: 10px;
-    h1{
-      font-size: 2.2rem;
-      font-weight: bold;
-    }
+    font-size: 2.2rem;
+    font-weight: bold;
   }
    &:after{
         content: "";
