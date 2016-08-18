@@ -3881,7 +3881,6 @@ button.close {
   .muth-navbar {
     display: inline-block;
     position: static;
-    box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
   }
 }
 

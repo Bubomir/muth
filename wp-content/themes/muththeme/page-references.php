@@ -10,17 +10,17 @@ if(function_exists('muth_gallery_script_enqeue')){
 }
 ?>
 
-<section class="muth-page-full-width muth-page-background-white">
-	<div class="muth-page-content">
+<section class="muht-page-full-width">
+    <div class="muth-page-content">
         <div class="row">
-        	<div class="muth-page-title wow fadeInUp"> 
-        	
-        		<h1><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h1>
+            <div class="muth-page-title wow fadeInUp"> 
+            
+            <h1><?php if(get_field('page_title')): the_field('page_title'); endif; ?></h1>
 
-        	</div> <!-- muth-page-title -->  	
+            </div> <!-- muth-page-title -->
         </div> <!-- row --> 
-    </div> <!-- muth-page-content -->
-</section> <!-- muth-page-full-width muth-page-background-white -->
+    </div> <!-- muth-all-contacts-content -->
+</section> <!-- muth-all-contacts -->
 
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
