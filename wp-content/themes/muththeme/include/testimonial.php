@@ -13,14 +13,14 @@ function muth_testimonials_post_type()
     $labels = array(
         'name'               => 'Testimonials',
         'singular_name'      => 'Testimonial',
-        'add_new'            => 'Add New',
-        'add_new_item'       => 'Add New Testimonial',
-        'edit_item'          => 'Edit Testimonial',
-        'new_item'           => 'New Testimonial',
-        'view_item'          => 'View Testimonial',
-        'search_items'       => 'Search Testimonials',
-        'not_found'          => 'No Testimonials found',
-        'not_found_in_trash' => 'No Testimonials in the trash',
+        'add_new'            => 'Pridať nový',
+        'add_new_item'       => 'Pridať nový Testimonial',
+        'edit_item'          => 'Upraviť Testimonial',
+        'new_item'           => 'Nový Testimonial',
+        'view_item'          => 'Zobraziť Testimonial',
+        'search_items'       => 'Hľadať Testimonial',
+        'not_found'          => 'Žiaden Testimonial nebol nájdený',
+        'not_found_in_trash' => 'Žiaden Testimonial nie je v koši',
         'parent_item_colon'  => '',
     );
 
@@ -33,7 +33,7 @@ function muth_testimonials_post_type()
         'query_var'            => true,
         'rewrite'              => true,
         'capability_type'      => 'post',
-        'has_archive'          => true,
+        'has_archive'          => false,
         'hierarchical'         => false,
         'menu_position'        => 10,
         'supports'             => array('editor'),
@@ -59,15 +59,15 @@ function muth_testimonials_form()
     wp_nonce_field('testimonials', 'testimonials');
     ?>
     <p>
-        <label>Client's Name (optional)</label><br />
+        <label>Meno klienta (voliteľné)</label><br />
         <input type="text" value="<?php echo $client_name; ?>" name="testimonial[client_name]" size="40" />
     </p>
     <p>
-        <label>Business/Site Name (optional)</label><br />
+        <label>Názov spoločnosti (voliteľné)</label><br />
         <input type="text" value="<?php echo $source; ?>" name="testimonial[source]" size="40" />
     </p>
     <p>
-        <label>Link (optional)</label><br />
+        <label>Link (voliteľné)</label><br />
         <input type="text" value="<?php echo $link; ?>" name="testimonial[link]" size="40" />
     </p>
     <?php
@@ -122,13 +122,13 @@ function muth_testimonials_edit_columns($columns)
 {
     $columns = array(
         'cb'                      => '<input type="checkbox" />',
-        'title'                   => 'Title',
+        'title'                   => 'Názov',
         'testimonial'             => 'Testimonial',
-        'testimonial-client-name' => 'Client\'s Name',
-        'testimonial-source'      => 'Business/Site',
-        'testimonial-link'        => 'Link',
-        'author'                  => 'Posted by',
-        'date'                    => 'Date',
+        'testimonial-client-name' => 'Meno klienta',
+        'testimonial-source'      => 'Názov spoločnosti',
+        'testimonial-link'        => 'URL link',
+        'author'                  => 'Pridané',
+        'date'                    => 'Dátum',
     );
 
     return $columns;
@@ -160,6 +160,13 @@ function muth_testimonials_columns($column, $post_id)
     }
 }
 add_action('manage_posts_custom_column', 'muth_testimonials_columns', 10, 2);
+
+add_action("trash_post", "muth_test");
+
+function muth_test($post_id){
+	var_dump($post_id);
+}
+
 
 /**
  * Display a testimonial

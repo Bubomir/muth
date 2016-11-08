@@ -31,7 +31,7 @@ add_action('admin_enqueue_scripts', 'muth_admin_script_enqeue');
     ======================================
 */
 function muth_google_map_script_enqeue(){
-    wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBuU_0_uLMnFM-2oWod_fzC0atPZj7dHlU', array(), '', true);
+    wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBgA18WQBt8hQxSjkujyhjiDKPe5F0_Gy4', array(), '', true);
     do_action('wp_enqueue_script', 'google-maps');
 }
 

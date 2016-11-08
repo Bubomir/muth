@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-07 21:01:34+0000\n"
+"PO-Revision-Date: 2016-08-15 21:48:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,8 +10,61 @@ msgstr ""
 "X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Network Admin\n"
 
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:475
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "Odstrániť %s"
+
+#: wp-admin/network/sites.php:240
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "Nemáte oprávnenie vymazať túto webovú stránku."
+
+#: wp-admin/network/themes.php:17
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "Nemáte oprávnenie spravovať témy siete."
+
+#: wp-admin/network/themes.php:93
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "Nemáte oprávnenie mazať témy z tejto webovej stránky."
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:409
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "Pridajte nasledovné do vášho súboru %1$s v %2$s <strong>nad</strong> riadok obsahujúci %3$s:"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:417
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr "To je všetko! Príjemné blogovanie!"
+
+#: wp-admin/network/settings.php:269
+msgid "First Comment Email"
+msgstr "E-mail prvého komentára"
+
+#: wp-admin/network/settings.php:273
+msgid "The email address of the first comment author on a new site."
+msgstr "E-mailová adresa autora prvého komentára na novej webovej stránke."
+
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "Nemáte oprávnenie upravovať túto webovú stránku. "
+
+#: wp-admin/network/site-new.php:20
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Nemáte oprávnenie pridávať webové stránky do tejto siete."
+
+#: wp-admin/network/site-themes.php:17
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "Nemáte oprávnenie spravovať témy pre túto webovú stránku."
+
 #. translators: 1: theme name, 2: theme author
-#: wp-admin/network/themes.php:148
+#: wp-admin/network/themes.php:141
 msgctxt "theme"
 msgid "%1$s by %2$s"
 msgstr "%1$s od %2$s"
@@ -22,12 +75,12 @@ msgid "User added. <a href=\"%s\">Edit user</a>"
 msgstr "Používateľ pridaný. <a href=\"%s\">Upraviť používateľa</a>"
 
 #. translators: 1: wp-config.php
-#: wp-admin/includes/network.php:448
+#: wp-admin/includes/network.php:454
 msgid "This unique authentication key is also missing from your %s file."
 msgstr "V súbore %s chýba unikátny autentifikačný kľúč."
 
 #. translators: 1: wp-config.php
-#: wp-admin/includes/network.php:454
+#: wp-admin/includes/network.php:460
 msgid "These unique authentication keys are also missing from your %s file."
 msgstr "V súbore %s chýbajú unikátne autentifikačné kľúče."
 
@@ -66,11 +119,6 @@ msgstr "Odporúčame vám zálohovať si súbory %1$s a %2$s."
 msgid "We recommend you back up your existing %s file."
 msgstr "Odporúčame vám zálohovať si súbor %s."
 
-#. translators: 1: wp-config.php 2: location of wp-config file
-#: wp-admin/includes/network.php:409
-msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
-msgstr "Pridajte nasledujúce do súboru %1$s v %2$s. Pridajte to <strong>nad</strong> riadok s textom <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
-
 #. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
 #. search for mod_rewrite
 #: wp-admin/includes/network.php:181
@@ -86,84 +134,84 @@ msgid "You cannot change this later."
 msgstr "Neskôr to už nebudete môcť zmeniť."
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:41
-#: wp-admin/network/site-info.php:198
+#: wp-admin/network/site-info.php:190
 msgid "Archived"
 msgstr "Archivované"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:42
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:523
-#: wp-admin/network/site-info.php:199
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:537
+#: wp-admin/network/site-info.php:191
 msgctxt "site"
 msgid "Spam"
 msgstr "Spam"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:43
-#: wp-admin/network/site-info.php:200
+#: wp-admin/network/site-info.php:192
 msgid "Deleted"
 msgstr "Zmazané"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:44
-#: wp-admin/network/site-info.php:202
+#: wp-admin/network/site-info.php:194
 msgid "Mature"
 msgstr "Pre dospelých"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:179
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:192
 msgid "No sites found."
 msgstr "Neboli nájdené žiadne stránky."
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:190
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:203
 msgctxt "site"
 msgid "Mark as Spam"
 msgstr "Označiť ako spam"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:191
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:521
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:204
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:535
 msgctxt "site"
 msgid "Not Spam"
 msgstr "Nie je spam"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:217
-#: wp-admin/network/site-info.php:192
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:230
+#: wp-admin/network/site-info.php:184
 msgid "Last Updated"
 msgstr "Naposledy aktualizovaná"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:218
-#: wp-admin/network/site-info.php:188
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:231
+#: wp-admin/network/site-info.php:180
 msgctxt "site"
 msgid "Registered"
 msgstr "Registrovaná"
 
 #. translators: 1: site name, 2: site tagline.
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:321
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:334
 msgid "%1$s &#8211; %2$s"
 msgstr "%1$s &#8211; %2$s"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:347
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:360
 msgid "Never"
 msgstr "Nikdy"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:515
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
 msgid "Unarchive"
 msgstr "Odarchivovať"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:517
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
 msgctxt "verb; site"
 msgid "Archive"
 msgstr "Archivovať"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:229
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:233
 msgid "No themes found."
 msgstr "Témy nenájdené."
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:231
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:235
 msgid "You do not appear to have any themes available at this time."
 msgstr "Vyzerá to tak že momentálne nie je žiadna téma na zobrazenie."
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:242
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:246
 msgid "Theme"
 msgstr "Téma"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:285
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:289
 msgctxt "themes"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -171,77 +219,77 @@ msgstr[0] "Všetky <span class=\"count\">(%s)</span>"
 msgstr[1] "Všetky <span class=\"count\">(%s)</span>"
 msgstr[2] "Všetky <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:288
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:292
 msgid "Enabled <span class=\"count\">(%s)</span>"
 msgid_plural "Enabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Povolené <span class=\"count\">(%s)</span> "
 msgstr[1] "Povolené <span class=\"count\">(%s)</span> "
 msgstr[2] "Povolené <span class=\"count\">(%s)</span> "
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:291
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:295
 msgid "Disabled <span class=\"count\">(%s)</span>"
 msgid_plural "Disabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Nepovolený <span class=\"count\">(%s)</span>"
 msgstr[1] "Nepovolené <span class=\"count\">(%s)</span>"
 msgstr[2] "Nepovolená <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:297
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:301
 msgid "Broken <span class=\"count\">(%s)</span>"
 msgid_plural "Broken <span class=\"count\">(%s)</span>"
 msgstr[0] "Poškodený <span class=\"count\">(%s)</span>"
 msgstr[1] "Poškodené <span class=\"count\">(%s)</span>"
 msgstr[2] "Poškodených <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:328
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:420
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:424
 msgid "Enable"
 msgstr "Povoliť"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:442
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
 msgid "Disable"
 msgstr "Zakázať"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:442
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
 msgid "Network Disable"
 msgstr "Zakázať v sieti"
 
 #. translators: %s: theme name
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:411
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:415
 msgid "Enable %s"
 msgstr "Povoliť %s"
 
 #. translators: %s: theme name
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:414
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:418
 msgid "Network Enable %s"
 msgstr "Povoliť tému %s v sieti"
 
 #. translators: %s: theme name
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:433
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:437
 msgid "Disable %s"
 msgstr "Zakázať %s"
 
 #. translators: %s: theme name
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:436
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
 msgid "Network Disable %s"
 msgstr "Zakázať tému %s v sieti"
 
 #. translators: %s: theme name
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:452
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:456
 msgid "Open %s in the Theme Editor"
 msgstr "Otvoriť tému %s v Editore"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:536
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:540
 msgid "Broken Theme:"
 msgstr "Poškodená téma:"
 
 #. translators: %s: theme name
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:563
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:567
 msgid "Visit %s homepage"
 msgstr "Navštíviť domovskú stránku témy %s"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:568
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:572
 msgid "Visit Theme Site"
 msgstr "Navštíviť stránku témy"
 
@@ -282,12 +330,12 @@ msgstr "Uistite sa, že je Apache modul %s nainštalovaný, pretože sa použije
 msgid "It looks like the Apache %s module is not installed."
 msgstr "Zdá sa, že Apache modul %s nie je nainštalovaný."
 
-#: wp-admin/network/site-users.php:329 wp-admin/network/user-new.php:120
+#: wp-admin/network/site-users.php:321 wp-admin/network/user-new.php:120
 msgid "A password reset link will be sent to the user via email."
 msgstr "Používateľovi bude e-mailom zaslaný odkaz na zmenu hesla."
 
 #. translators: 1: NOBLOGREDIRECT 2: wp-config.php
-#: wp-admin/network/settings.php:142
+#: wp-admin/network/settings.php:143
 msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
 msgstr "Ak je registrácia zakázaná, nastavte %1$s vo %2$s na URL adresu, kam budete presmerovávať návštevníkov ak navštívia neexistujúcu webovú stránku."
 
@@ -307,7 +355,7 @@ msgstr "Navigácia zoznamu webových stránok"
 msgid "Sites list"
 msgstr "Zoznam webových stránok"
 
-#: wp-admin/network/themes.php:231
+#: wp-admin/network/themes.php:224
 msgid "Themes list navigation"
 msgstr "Navigácia zoznamu tém"
 
@@ -407,7 +455,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" targe
 msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Dokumentácia k vytvoreniu siete [EN]</a>"
 
-#: wp-admin/network/themes.php:225
+#: wp-admin/network/themes.php:218
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Dokumentácia o témach siete</a>"
 
@@ -416,73 +464,73 @@ msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" tar
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Dokumentácia nastavení siete [EN]</a>"
 
 #. translators: 1: site url, 2: server error message
-#: wp-admin/network/upgrade.php:76
+#: wp-admin/network/upgrade.php:80
 msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
 msgstr "Pozor! Nastala chyba pri aktualizácii %1$s. Pravdepodobne zlyhalo spojenie stránky so serevom. Kód chyby: %2$s"
 
-#: wp-admin/network/themes.php:139
+#: wp-admin/network/themes.php:132
 msgid "Delete Themes"
 msgstr "Vymazať témy"
 
-#: wp-admin/network/themes.php:173
+#: wp-admin/network/themes.php:166
 msgid "Yes, delete these themes"
 msgstr "Áno, vymazať témy"
 
-#: wp-admin/network/themes.php:275
+#: wp-admin/network/themes.php:269
 msgid "%s theme deleted."
 msgid_plural "%s themes deleted."
 msgstr[0] "%s téma bola vymazaná."
 msgstr[1] "%s témy boli vymazané."
 msgstr[2] "%s tém bolo vymazaných."
 
-#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:259
+#: wp-admin/network/site-themes.php:164 wp-admin/network/themes.php:253
 msgid "%s theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "%s téma bola povolená."
 msgstr[1] "%s témy boli povolené."
 msgstr[2] "%s tém bolo povolených."
 
-#: wp-admin/network/site-themes.php:180 wp-admin/network/themes.php:267
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:261
 msgid "%s theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "%s téma zakázaná."
 msgstr[1] "%s témy zakázané."
 msgstr[2] "%s tém zakázaných."
 
-#: wp-admin/network/themes.php:156
+#: wp-admin/network/themes.php:149
 msgid "Are you sure you wish to delete this theme?"
 msgstr "Ste si istý, že chcete vymazať túto tému?"
 
-#: wp-admin/network/themes.php:140
+#: wp-admin/network/themes.php:133
 msgid "These themes may be active on other sites in the network."
 msgstr "Tieto témy môžu byť aktívne na iných stránkach v sieti."
 
-#: wp-admin/network/themes.php:141
+#: wp-admin/network/themes.php:134
 msgid "You are about to remove the following themes:"
 msgstr "Chystáte sa odstrániť nasledujúce témy:"
 
-#: wp-admin/network/settings.php:367
+#: wp-admin/network/settings.php:377
 msgid "Enable menus"
 msgstr "Povoliť menu"
 
-#: wp-admin/network/site-info.php:208
+#: wp-admin/network/site-info.php:200
 msgid "Set site attributes"
 msgstr "Nastaviť atribúty stránky"
 
-#: wp-admin/network/settings.php:294
+#: wp-admin/network/settings.php:304
 msgid "Allowed file types. Separate types by spaces."
 msgstr "Povolené typy súborov. Oddeľujte typy medzerou."
 
-#: wp-admin/network/settings.php:304
+#: wp-admin/network/settings.php:314
 msgid "Size in kilobytes"
 msgstr "Veľkosť v kilobajtoch"
 
-#: wp-admin/network/settings.php:134
+#: wp-admin/network/settings.php:135
 msgid "New registrations settings"
 msgstr "Nastavenia nových registrácií"
 
 #. translators: 1: a filename like .htaccess. 2: a file path.
-#: wp-admin/includes/network.php:523 wp-admin/includes/network.php:563
+#: wp-admin/includes/network.php:529 wp-admin/includes/network.php:569
 msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
 msgstr "Do súboru %1$s nachádzajúceho sa v %2$s pridajte nasledujúci kód, ktorým <strong>nahradíte</strong> ostatné WordPress pravidlá:"
 
@@ -492,13 +540,13 @@ msgstr "Do súboru %1$s nachádzajúceho sa v %2$s pridajte nasledujúci kód, k
 #: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
 #: wp-admin/network/users.php:172
 msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
-msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">fórum podpory WordPress[EN]</a> alebo <a href=\"http://wp.sk/forum/\">Slovenské fórum podpory WordPress</a>"
+msgstr "<a href=\"https://sk.forums.wordpress.org/\" target=\"_blank\">Fórum podpory</a>"
 
 #: wp-admin/network/sites.php:103
 msgid "Confirm your action"
 msgstr "Potvrdte akciu"
 
-#: wp-admin/network/settings.php:118
+#: wp-admin/network/settings.php:119
 msgid "This email address will receive notifications. Registration and support emails will also come from this address."
 msgstr "Na túto emailová adresu budú zasielané oznámenia. Registrácia a podpora taktiež bude používať túto adresu."
 
@@ -521,10 +569,6 @@ msgstr "Pre vyhľadanie používateľa vyplňte <strong>email alebo používate�
 #: wp-admin/network/index.php:43
 msgid "To search for a site, <strong>enter the path or domain</strong>."
 msgstr "Pre vyhľadanie stránky zadajte <strong>adresu alebo názov domény</strong>."
-
-#: wp-admin/network/settings.php:96
-msgid "Options saved."
-msgstr "Nastavenia uložené"
 
 #: wp-admin/network/index.php:25
 msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
@@ -563,7 +607,7 @@ msgid "Quick Tasks"
 msgstr "Rýchle úlohy"
 
 #: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
-#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:119
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:123
 msgid "Upgrade Network"
 msgstr "Aktualizovať sieť"
 
@@ -571,7 +615,7 @@ msgstr "Aktualizovať sieť"
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Použite túto obrazovku keď aktualizujete na novú verziu WordPress pomocou Aktualizácií/ Dostupných aktualizácií.(Cez navigačné menu v administrácii siete) Kliknite na tlačidlo aktualizovať sieť, ktoré vás prevedie každou stránkou v sieti, 5 na jeden krát, a skontroluje aktuálnosť všetkých databáz."
 
-#: wp-admin/network/upgrade.php:115
+#: wp-admin/network/upgrade.php:119
 msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
 msgstr "WordPress bol aktualizovaný! Predtým než vás vyšleme na cestu, musíme individuálne aktualizovať stránky vo vašej sieti."
 
@@ -592,28 +636,28 @@ msgstr ""
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
 msgstr "Pridajte určené riadky kódu do wp-config.php (tesne pred <code>/* ... zastavenie editácie ...*/ </code>) a <code>.htaccess </code> (nahraďte existujúce pravidlá WordPress)."
 
-#: wp-admin/includes/network.php:219 wp-admin/includes/network.php:529
-#: wp-admin/includes/network.php:569
+#: wp-admin/includes/network.php:219 wp-admin/includes/network.php:535
+#: wp-admin/includes/network.php:575
 msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
 msgstr "Siete, ktoré používajú podadresáre nemusia byť plne kompatibilné s vlastnými adresármi wp-content."
 
-#: wp-admin/network/site-users.php:249
+#: wp-admin/network/site-users.php:241
 msgid "Enter the username and email."
 msgstr "Zadajte prihlasovacie meno a heslo"
 
-#: wp-admin/network/site-users.php:237
+#: wp-admin/network/site-users.php:229
 msgid "Select a user to change role."
 msgstr "Vyberte používateľa, ktorému  chcete zmeniť oprávnenia."
 
-#: wp-admin/network/site-users.php:243
+#: wp-admin/network/site-users.php:235
 msgid "Select a user to remove."
 msgstr "Vyberte používateľa, ktorého chcete odstrániť."
 
-#: wp-admin/network/site-users.php:246
+#: wp-admin/network/site-users.php:238
 msgid "User created."
 msgstr "Používateľ vytvorený."
 
-#: wp-admin/network/site-users.php:297 wp-admin/network/user-new.php:132
+#: wp-admin/network/site-users.php:289 wp-admin/network/user-new.php:132
 msgid "Add User"
 msgstr "Pridať používateľa"
 
@@ -622,10 +666,10 @@ msgid "Cannot add user."
 msgstr "Nemôžem pridať užívateľa."
 
 #: wp-admin/network/sites.php:147
-msgid "You are not allowed to delete the site."
-msgstr "Nemáte oprávnenie zmazať túto stránku."
+msgid "Sorry, you are not allowed to delete the site."
+msgstr "Nemáte oprávnenie odstrániť túto webovú stránku."
 
-#: wp-admin/network/site-users.php:228
+#: wp-admin/network/site-users.php:220
 msgid "User is already a member of this site."
 msgstr "Používateľ už je členom tejto stránky."
 
@@ -633,11 +677,11 @@ msgstr "Používateľ už je členom tejto stránky."
 msgid "Site info updated."
 msgstr "Informácie o stránke boli upravené."
 
-#: wp-admin/network/site-users.php:231
+#: wp-admin/network/site-users.php:223
 msgid "Enter the username of an existing user."
 msgstr "Zadajte prihlasovacie meno súčasného používateľa."
 
-#: wp-admin/network/themes.php:281
+#: wp-admin/network/themes.php:275
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr "Nemôžete vymazať tému, kým je aktívna na hlavnej stránke."
 
@@ -645,28 +689,23 @@ msgstr "Nemôžete vymazať tému, kým je aktívna na hlavnej stránke."
 msgid "Add New Site"
 msgstr "Pridať novú stránku"
 
-#: wp-admin/network/site-info.php:149 wp-admin/network/site-settings.php:101
-#: wp-admin/network/site-themes.php:155 wp-admin/network/site-users.php:210
-msgid "Info"
-msgstr "Informácie"
-
-#: wp-admin/network/themes.php:158
+#: wp-admin/network/themes.php:151
 msgid "Are you sure you wish to delete these themes?"
 msgstr "Ste si istý, že chcete odstrániť tieto témy?"
 
-#: wp-admin/network/themes.php:171
+#: wp-admin/network/themes.php:164
 msgid "Yes, delete this theme"
 msgstr "Áno, zmazať túto tému"
 
-#: wp-admin/network/themes.php:137
+#: wp-admin/network/themes.php:130
 msgid "You are about to remove the following theme:"
 msgstr "Chystáte sa odstrániť túto tému:"
 
-#: wp-admin/network/themes.php:136
+#: wp-admin/network/themes.php:129
 msgid "This theme may be active on other sites in the network."
 msgstr "Táto téma môže byť použitá na stránkach v sieti."
 
-#: wp-admin/network/themes.php:135
+#: wp-admin/network/themes.php:128
 msgid "Delete Theme"
 msgstr "Zmazať tému"
 
@@ -674,23 +713,15 @@ msgstr "Zmazať tému"
 msgid "Network Settings"
 msgstr "Nastavenia siete"
 
-#: wp-admin/network/site-themes.php:187
+#: wp-admin/network/site-themes.php:179
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Témy povolené v sieti sa na tejto stránke nezobrazujú."
-
-#: wp-admin/network/themes.php:17
-msgid "You do not have sufficient permissions to manage network themes."
-msgstr "Nemáte dostatočné oprávnenie na upravovanie sieťových tém."
 
 #: wp-admin/network/user-new.php:23
 msgid "Add User will set up a new user account on the network and send that person an email with username and password."
 msgstr "Funkcia \"Pridať používateľa\" vytvorí nový účet v sieti a pošle novému používateľovi email s prihlasovacím menom a heslom."
 
-#: wp-admin/network/themes.php:100
-msgid "You do not have sufficient permissions to delete themes for this site."
-msgstr "Nemáte dostatočné oprávnenie na zmazanie tém pre túto stránku."
-
-#: wp-admin/network/site-themes.php:178 wp-admin/network/themes.php:265
+#: wp-admin/network/site-themes.php:170 wp-admin/network/themes.php:259
 msgid "Theme disabled."
 msgstr "Téma je zakázaná."
 
@@ -699,11 +730,11 @@ msgstr "Téma je zakázaná."
 msgid "Invalid site ID."
 msgstr "Neplatné ID stránky."
 
-#: wp-admin/network/site-themes.php:170 wp-admin/network/themes.php:257
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:251
 msgid "Theme enabled."
 msgstr "Téma povolená."
 
-#: wp-admin/network/site-themes.php:184 wp-admin/network/themes.php:279
+#: wp-admin/network/site-themes.php:176 wp-admin/network/themes.php:273
 msgid "No theme selected."
 msgstr "Nie je zvolená žiadna téma."
 
@@ -717,14 +748,14 @@ msgstr "<strong>Témy</strong> - Táto oblasť zobrazuje témy, ktoré zatiaľ n
 msgid "Edit Site: %s"
 msgstr "Upraviť stránku: %s"
 
-#: wp-admin/network/themes.php:181
+#: wp-admin/network/themes.php:174
 msgid "No, return me to the theme list"
 msgstr "Nie, naspäť na výber tém"
 
 #: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
 #: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
 msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
-msgstr "<strong>Nastavenia</strong> &mdash; Táto stránka zobrazuje zoznam nastavení webovej stránky. Niektoré parametre vytvára WordPress, zatiaľ čo ostatné pridávajú moduly, ktoré aktivujete. Niektoré polia sú sivé a označené ako Serialized Data. Tieto hodnoty nie je možné meniť, vzhľadom na to, ako sa nastavenia ukladajú v databáze. "
+msgstr "<strong>Nastavenia</strong> &mdash; Táto stránka zobrazuje zoznam nastavení webovej stránky. Niektoré parametre vytvára WordPress, zatiaľ čo ostatné pridávajú pluginy, ktoré aktivujete. Niektoré polia sú sivé a označené ako Serialized Data. Tieto hodnoty nie je možné meniť, vzhľadom na to, ako sa nastavenia ukladajú v databáze. "
 
 #: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
 #: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
@@ -745,11 +776,11 @@ msgstr "Menu slúži na úpravu parametrov jednotlivých stránok, najmä ak je 
 msgid "Dashboard leads to the Dashboard for that site."
 msgstr "Nástenka otvorí nástenku danej stránky."
 
-#: wp-admin/network/settings.php:166
+#: wp-admin/network/settings.php:167
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
 msgstr "Umožňuje administrátorom stránok pridať nových používateľov pomocou odkazu \"Používatelia &rarr; Pridať nového\"."
 
-#: wp-admin/network/settings.php:315
+#: wp-admin/network/settings.php:325
 msgid "Language Settings"
 msgstr "Nastavenie jazyka"
 
@@ -769,10 +800,6 @@ msgstr "Témy %s"
 msgid "All Sites"
 msgstr "Všetky stránky"
 
-#: wp-admin/network/site-themes.php:17
-msgid "You do not have sufficient permissions to manage themes for this site."
-msgstr "Nemáte oprávnenie upravovať témy tejto stránky."
-
 #. translators: 1: dashboard url, 2: network admin edit url
 #: wp-admin/network/site-new.php:171
 msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
@@ -782,15 +809,7 @@ msgstr "Stránka pridaná. Navštívte <a href=\"%1$s\">nástenku</a> alebo <a h
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
 msgstr "Pridať novú vás presmeruje na pridávanie nových stránok. Môžete vyhľadávať stránku podľa názvu, ID alebo IP adresy. Možnosti zobrazenia vám umožnia nastaviť, koľko stránok bude zobrazených na jednej strane."
 
-#: wp-admin/network/sites.php:240
-msgid "You do not have permission to delete that site."
-msgstr "Nemáte oprávnenie na odstránenie stránky"
-
-#: wp-admin/network/site-new.php:20
-msgid "You do not have sufficient permissions to add sites to this network."
-msgstr "Nemáte dostatočné oprávnenie na pridanie stránok do tejto siete."
-
-#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:245
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:239
 msgctxt "theme"
 msgid "Add New"
 msgstr "Pridať novú"
@@ -803,7 +822,7 @@ msgstr "Kliknutím na tučné nadpisy môžete zmeniť usporiadanie tabuľky. "
 msgid "Delete which is a permanent action after the confirmation screens."
 msgstr "Vymazanie je trvalá akcia, platná po potvrdení tejto obrazovky."
 
-#: wp-admin/network/themes.php:220
+#: wp-admin/network/themes.php:213
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
 msgstr "Sieťový administrátor môže povoliť témy pre jednotlivé stránky cez obrazovku Upraviť stránku (kde sa nachádza záložka Témy); dostanete sa tam cez odkaz Upraviť na obrazovke Všetky stránky. Iba sieťoví administrátori môžu inštalovať a upravovať témy."
 
@@ -851,7 +870,7 @@ msgstr "Inštalácia používajúca subdomény"
 msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
 msgstr "Pretože toto nie je vaša prvá inštalácia, webové stránky vašej WordPress siete musia používať subdomény."
 
-#: wp-admin/includes/network.php:294 wp-admin/network/settings.php:107
+#: wp-admin/includes/network.php:294 wp-admin/network/settings.php:108
 msgid "Network Title"
 msgstr "Názov siete"
 
@@ -909,7 +928,7 @@ msgstr "Pozor!"
 msgid "Sub-domains"
 msgstr "Subdomény"
 
-#: wp-admin/includes/network.php:459
+#: wp-admin/includes/network.php:465
 msgid "To make your installation more secure, you should also add:"
 msgstr "Aby bola vaša inštalácia bezpečnejšia, mali by ste tiež pridať:"
 
@@ -921,7 +940,7 @@ msgstr "Zvoľte si subdomény alebo podadresáre; toto je možné aktivovať až
 msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
 msgstr "Ďalšia obrazovka pre Nastavenie siete umožňuje pridávanie inviduálne vytvorených riadkov kódu do súborov wp-config.php a .htaccess. Skontrolujte v nastaveniach vášho FTP klienta, že súbory začínajúce bodkou (.) sú viditeľné, takže môžete nájsť .htaccess. Ak súbor nie je k dispozícii, tak ho vytvorte. Tiež si vytvorte záložné kópie súborov wp-config.php a .htaccess"
 
-#: wp-admin/includes/network.php:578
+#: wp-admin/includes/network.php:584
 msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
 msgstr "Ak dokončíte tieto kroky, bude vaša sieť povolená a nakonfigurovaná. Budete sa musieť znovu prihlásiť."
 
@@ -943,11 +962,11 @@ msgstr "Možnosť stránok v podadresároch je zakázaná, ak je inštalácia st
 
 #: wp-admin/includes/network.php:113
 msgid "Once the network is created, you may reactivate your plugins."
-msgstr "Keď vytvoríte sieť, môžete znovu aktivovať vaše moduly."
+msgstr "Keď vytvoríte sieť, môžete znovu aktivovať vaše pluginy."
 
 #: wp-admin/includes/network.php:113
 msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
-msgstr "Pred povolením funkcie siete najskôr <a href=\"%s\">deaktivujte moduly</a>."
+msgstr "Pred povolením funkcie siete najskôr <a href=\"%s\">deaktivujte pluginy</a>."
 
 #: wp-admin/includes/network.php:250 wp-admin/includes/network.php:265
 msgid "Sub-directory Install"
@@ -970,7 +989,7 @@ msgid "The Network creation panel is not for WordPress MU networks."
 msgstr "Panel Vytvoriť sieť nie je určený pre WordPress MU sieť."
 
 #: wp-admin/includes/network.php:113 wp-admin/includes/network.php:363
-#: wp-admin/includes/network.php:529 wp-admin/includes/network.php:569
+#: wp-admin/includes/network.php:535 wp-admin/includes/network.php:575
 msgid "Warning:"
 msgstr "Upozornenie:"
 
@@ -999,11 +1018,6 @@ msgstr "CHYBA: Nepodarilo sa vytvoriť sieť."
 #: wp-admin/network.php:63
 msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
 msgstr "Akonáhle pridáte tento kód a aktualizujete svoj prehliadač, bude Multisite povolená. Táto obrazovka, teraz v menu Administrácia siete, uschová kópiu pridaného kódu. Medzi položkami Administrácia siete a Administrácia stránky sa môžete prepínať kliknutím na Administrácia siete alebo cez individuálny názov stránky zadaný v paneli nástrojov Moje Stránky."
-
-#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
-#: wp-admin/network/site-users.php:17
-msgid "You do not have sufficient permissions to edit this site."
-msgstr "Nemáte dostatočné oprávnenia na úpravu tejto stránky."
 
 #: wp-admin/network/users.php:73
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
@@ -1049,11 +1063,11 @@ msgstr "Nasledujte tento odkaz pre zobrazenie živej webovej stránky."
 msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
 msgstr "Nastavenia pre nové stránky sú automaticky aplikované, vždy keď je v sieti vytvorená nová stránka. Tieto nastavenia predvolene zahŕňajú uvítací email pre novoregistrovaného používateľa a tiež aj prvý príspevok, stránku, komentár, autora komentáru a URL adresu komentára."
 
-#: wp-admin/network/themes.php:218
+#: wp-admin/network/themes.php:211
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
 msgstr "Táto obrazovka povoľuje alebo zakazuje vkladanie tém dostupných v menu \"Vzhľad\" pre jednotlivé stránky. Touto akciou nezmeníte, ktorá téma je stránkou aktuálne používaná."
 
-#: wp-admin/network/themes.php:219
+#: wp-admin/network/themes.php:212
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
 msgstr "Ak administrátor siete deaktivuje tému, ktorá sa práve používa, stránka ju bude naďalej využívať. Ak však bude zvolená iná téma, deaktivovaná téma sa už neobjaví v ponuke Vzhľad > Témy."
 
@@ -1063,11 +1077,11 @@ msgstr "Táto obrazovka umožňuje upravovať a meniť nastavenia pre sieť ako 
 
 #: wp-admin/network/settings.php:33
 msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
-msgstr "Nastavenia registrácie zakazujú/povoľujú verejnú registráciu. Ak necháte registráciu otvorenú pre všetkých, odporúčame nainštalovať moduly proti spamu. Zakázané mená používateľov by mali byť oddelené medzerami (nie čiarkami)."
+msgstr "Nastavenia registrácie zakazujú/povoľujú verejnú registráciu. Ak necháte registráciu otvorenú pre všetkých, odporúčame nainštalovať plugin proti spamu. Zakázané mená používateľov by mali byť oddelené medzerami (nie čiarkami)."
 
 #: wp-admin/network/settings.php:37
 msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
-msgstr "Nastavenie menu povoľuje/zakazuje zobrazenie menu modulov pre používateľov, ktorí nie sú super administrátormi, takže prístup k aktivácii modulov môžu mať len super administrátori."
+msgstr "Nastavenie menu povoľuje/zakazuje zobrazenie menu pluginov pre používateľov, ktorí nie sú super administrátormi, takže prístup k aktivácii pluginov môžu mať len super administrátori."
 
 #: wp-admin/network/sites.php:32
 msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
@@ -1078,8 +1092,8 @@ msgid "Users who are signed up to the network without a site are added as subscr
 msgstr "Používatelia, ktorí sú zaregistrovaní v sieti a nemajú priradenú webovú stránku, sú pridaní ako odberatelia hlavnej webovej stránky. Takíto používatelia majú k dispozícii profilové stránky na úpravu ich účtov. Pokým pre nich nie je vytvorená webová stránka, tak títo používatelia vidia v hlavnej navigácii iba sekcie \"Nástenka\" a \"Moje stránky\"."
 
 #: wp-admin/network/users.php:164
-msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
-msgstr "Tabuľku môžete usporiadať kliknutím na tučné nadpisy. Prepínať medzi zobrazením zoznamu alebo zhrnutí môžete pomocou ikon vpravo hore."
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "Obsah tabuľky môžete usporiadať kliknutím na ktorýkoľvek z nápisov v tabuľke, prepínať medzi zobrazeniami zoznamu a zhrnutia môžte pomocou ikony nad zoznamom používateľov."
 
 #: wp-admin/network/upgrade.php:27
 msgid "If this process fails for any reason, users logging in to their sites will force the same update."
@@ -1102,11 +1116,11 @@ msgstr "Existujúcemu používateľovi môžete prideliť práva super administr
 msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
 msgstr "Nasledujúce slová sú rezervované pre interné funkcie WordPress a nemôžu byť použité ako názov webovej stránky: %s"
 
-#: wp-admin/network/settings.php:188
+#: wp-admin/network/settings.php:189
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Ak chcete obmedziť registrácie na stránku iba na určité domény. Zadajte jednu doménu na riadok."
 
-#: wp-admin/network/settings.php:199
+#: wp-admin/network/settings.php:200
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "Ak chcete zakázať domény z registrácií stránky. Zadajte jednu doménu na riadok."
 
@@ -1114,7 +1128,7 @@ msgstr "Ak chcete zakázať domény z registrácií stránky. Zadajte jednu dom�
 msgid "Can&#8217;t create an empty site."
 msgstr "Nie je možné vytvoriť prázdnu stránku."
 
-#: wp-admin/network/upgrade.php:100
+#: wp-admin/network/upgrade.php:104
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "Ak Váš prehliadač nezačne načítavať nasledujúcu stránku automaticky, kliknite na tento odkaz:"
 
@@ -1179,39 +1193,39 @@ msgid "There was an error creating the user."
 msgstr "Pri vytváraní používateľa došlo k chybe."
 
 #: wp-admin/network/sites.php:94 wp-admin/network/sites.php:160
-msgid "You are not allowed to change the current site."
-msgstr "Nie je vam dovolené meniť aktuálnu stránku."
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "Nemáte oprávnenie meniť akutálnu webovú stránku."
 
-#: wp-admin/network/settings.php:302
+#: wp-admin/network/settings.php:312
 msgctxt "File size in kilobytes"
 msgid "%s KB"
 msgstr "%s KB"
 
-#: wp-admin/network/settings.php:290
+#: wp-admin/network/settings.php:300
 msgid "Upload file types"
 msgstr "Nahrateľné typy súborov"
 
-#: wp-admin/network/settings.php:282
+#: wp-admin/network/settings.php:292
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "Obmedziť celkovú veľkosť nahrávateľných súborov na %s MB"
 
-#: wp-admin/network/settings.php:263
+#: wp-admin/network/settings.php:264
 msgid "The author of the first comment on a new site."
 msgstr "Autor prvého komentáru na novej stránke."
 
-#: wp-admin/network/settings.php:234
+#: wp-admin/network/settings.php:235
 msgid "The first post on a new site."
 msgstr "Prvý článok na novej stránke."
 
-#: wp-admin/network/settings.php:244
+#: wp-admin/network/settings.php:245
 msgid "The first page on a new site."
 msgstr "Prvá strana na novej webovej stránke."
 
-#: wp-admin/network/settings.php:254
+#: wp-admin/network/settings.php:255
 msgid "The first comment on a new site."
 msgstr "Prvý komentár na novej stránke."
 
-#: wp-admin/network/settings.php:272
+#: wp-admin/network/settings.php:282
 msgid "The URL for the first comment on a new site."
 msgstr "URL adresa pre prvý komentár na novej stránke."
 
@@ -1219,39 +1233,39 @@ msgstr "URL adresa pre prvý komentár na novej stránke."
 msgid "All done!"
 msgstr "Hotovo!"
 
-#: wp-admin/network/settings.php:137
+#: wp-admin/network/settings.php:138
 msgid "Logged in users may register new sites."
 msgstr "Prihlásení používatelia môžu registrovať nové stránky."
 
-#: wp-admin/network/settings.php:138
+#: wp-admin/network/settings.php:139
 msgid "Both sites and user accounts can be registered."
 msgstr "Obe stránky a používateľské účty môžu byť zaregistrované."
 
-#: wp-admin/network/settings.php:136
+#: wp-admin/network/settings.php:137
 msgid "User accounts may be registered."
 msgstr "Používateľské účty môžu byť zaregistrované."
 
-#: wp-admin/network/settings.php:135
+#: wp-admin/network/settings.php:136
 msgid "Registration is disabled."
 msgstr "Registrácia je zablokovaná."
 
-#: wp-admin/network/settings.php:345
+#: wp-admin/network/settings.php:355
 msgid "Enable administration menus"
 msgstr "Povoliť administrátorské menu"
 
-#: wp-admin/network/settings.php:104
+#: wp-admin/network/settings.php:105
 msgid "Operational Settings"
 msgstr "Operačné nastavenia"
 
-#: wp-admin/network/settings.php:277
+#: wp-admin/network/settings.php:287
 msgid "Upload Settings"
 msgstr "Nastavenia nahrávania"
 
-#: wp-admin/network/settings.php:205
+#: wp-admin/network/settings.php:206
 msgid "New Site Settings"
 msgstr "Nastavenia novej stránky"
 
-#: wp-admin/network/settings.php:123
+#: wp-admin/network/settings.php:124
 msgid "Registration Settings"
 msgstr "Nastavenia registrácie"
 
@@ -1263,7 +1277,7 @@ msgstr "Chýbajúca alebo neplatná adresa stránky."
 msgid "Missing email address."
 msgstr "Chýba e-mailová adresa."
 
-#: wp-admin/includes/network.php:303 wp-admin/network/settings.php:114
+#: wp-admin/includes/network.php:303 wp-admin/network/settings.php:115
 msgid "Network Admin Email"
 msgstr "E-mail administrátora siete"
 
@@ -1272,36 +1286,25 @@ msgstr "E-mail administrátora siete"
 msgid "[%s] New Site Created"
 msgstr "[%s] Vytvorená nová stránka"
 
-#: wp-admin/network/settings.php:214
+#: wp-admin/network/settings.php:215
 msgid "The welcome email sent to new site owners."
 msgstr "Uvítací email, ktorý bude odoslaný novým vlastníkom stránky."
 
-#: wp-admin/network/settings.php:280
+#: wp-admin/network/settings.php:290
 msgid "Site upload space"
 msgstr "Nahrávací priestor stránky"
 
-#: wp-admin/network/settings.php:159
+#: wp-admin/network/settings.php:160
 msgid "Send the network admin an email notification every time someone registers a site or user account."
 msgstr "Pošlite administrátorovi siete upozornenie e-mailom zakaždým, keď niekto zaregistruje stránku alebo používateľský účet."
 
-#: wp-admin/network/settings.php:175
+#: wp-admin/network/settings.php:176
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "Používatelia nie sú oprávnení registrovať tieto stránky. Oddeľte názvy medzerami."
 
-#: wp-admin/network/upgrade.php:100
+#: wp-admin/network/upgrade.php:104
 msgid "Next Sites"
 msgstr "Ďalšie stránky"
-
-#: wp-admin/network/index.php:20 wp-admin/network/settings.php:20
-#: wp-admin/network/site-info.php:50 wp-admin/network/site-settings.php:47
-#: wp-admin/network/site-themes.php:70 wp-admin/network/site-users.php:63
-#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:129
-#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:37
-#: wp-admin/network/users.php:17 wp-admin/network/users.php:26
-#: wp-admin/network/users.php:47 wp-admin/network/users.php:60
-#: wp-admin/network/users.php:109
-msgid "You do not have permission to access this page."
-msgstr "Nemáte povolenie k prístupu na túto stránku."
 
 #: wp-admin/network/sites.php:110
 msgid "Confirm"
@@ -1311,67 +1314,67 @@ msgstr "Potvrdiť"
 msgid "Cannot create an empty user."
 msgstr "Nie je možné vytvoriť používateľa bez mena."
 
-#: wp-admin/network/site-users.php:252
+#: wp-admin/network/site-users.php:244
 msgid "Duplicated username or email address."
 msgstr "Duplicitné používateľské meno alebo e-mailová adresa."
 
-#: wp-admin/network/settings.php:126
+#: wp-admin/network/settings.php:127
 msgid "Allow new registrations"
 msgstr "Povoliť nové registrácie"
 
-#: wp-admin/network/settings.php:153
+#: wp-admin/network/settings.php:154
 msgid "Registration notification"
 msgstr "Oznámenie o registrácii"
 
-#: wp-admin/network/settings.php:164
+#: wp-admin/network/settings.php:165
 msgid "Add New Users"
 msgstr "Pridať nových používateľov"
 
-#: wp-admin/network/settings.php:171
+#: wp-admin/network/settings.php:172
 msgid "Banned Names"
 msgstr "Zakázané mená"
 
-#: wp-admin/network/settings.php:181
+#: wp-admin/network/settings.php:182
 msgid "Limited Email Registrations"
 msgstr "Obmedzená registrácia emailov"
 
-#: wp-admin/network/settings.php:194
+#: wp-admin/network/settings.php:195
 msgid "Banned Email Domains"
 msgstr "Zablokované e-mailové domény"
 
-#: wp-admin/network/settings.php:209
+#: wp-admin/network/settings.php:210
 msgid "Welcome Email"
 msgstr "Uvítací e-mail"
 
-#: wp-admin/network/settings.php:219
+#: wp-admin/network/settings.php:220
 msgid "Welcome User Email"
 msgstr "Uvítací e-mail používateľa"
 
-#: wp-admin/network/settings.php:224
+#: wp-admin/network/settings.php:225
 msgid "The welcome email sent to new users."
 msgstr "Uvítací email, ktorý bude odoslalný novým používateľom."
 
-#: wp-admin/network/settings.php:239
+#: wp-admin/network/settings.php:240
 msgid "First Page"
 msgstr "Prvá stránka"
 
-#: wp-admin/network/settings.php:249
+#: wp-admin/network/settings.php:250
 msgid "First Comment"
 msgstr "Prvý komentár"
 
-#: wp-admin/network/settings.php:259
+#: wp-admin/network/settings.php:260
 msgid "First Comment Author"
 msgstr "Autor prvého komentára"
 
-#: wp-admin/network/settings.php:268
+#: wp-admin/network/settings.php:278
 msgid "First Comment URL"
 msgstr "URL adresa prvého komentára"
 
-#: wp-admin/network/settings.php:300
+#: wp-admin/network/settings.php:310
 msgid "Max upload file size"
 msgstr "Maximálna veľkosť nahrávaného súboru"
 
-#: wp-admin/network/settings.php:318
+#: wp-admin/network/settings.php:328
 msgid "Default Language"
 msgstr "Predvolený jazyk"
 
