@@ -25,13 +25,14 @@ class muth_simple_text_widget extends WP_Widget
     {
 
         $text_describe = (!empty($instance['text_describe']) ? $instance['text_describe'] : __(''));
+        $title         = (!empty($instance['title']) ? $instance['title'] : __(''));
         $image         = (!empty($instance['image']) ? $instance['image'] : __(''));
         $home_link     =  get_home_url();
         // Add any html to output the image in the $instance array
         $output = '';
 
         $output .= '<div data-wow-delay=".1s" class="muth-footer-text-moto wow fadeInUp">';
-        $output .= '<a href="'. $home_link .'"><img src="'.$image.'"></a>';
+        $output .= '<a href="'. $home_link .'"><img src="'.$image.'" alt="'.$title.'"></a>';
         //$output .= '<h3> TEST </h3>';
         $output .= '<hr>';
         $output .= '<p>'.$text_describe.'</p>';
