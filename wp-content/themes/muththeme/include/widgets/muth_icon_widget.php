@@ -58,7 +58,7 @@ class muth_icon_widget extends WP_Widget
         $output = '';
         $output .= '<a href='.$link.' class="muth-icon-item wow fadeInUp" '.$animation_delay.'>';
         $output .= '<div class="'.$glyphicon.'">';
-        $output .= '<div class="muth-service-name-in"><h4 class="muth-service-name-h4">'.$text_title.'</h4><img src='.$image.'></div></div>';
+        $output .= '<div class="muth-service-name-in"><h4 class="muth-service-name-h4">'.$text_title.'</h4><img src="'.$image.'" alt="'.$text_title.'"></div></div>';
         $output .= '<div class="muth-service-name-out">'.$text_title.'</div>';
         $output .= '<div class="muth-service-description">'.$text_describe.'</div>';
         $output .= '</a>';

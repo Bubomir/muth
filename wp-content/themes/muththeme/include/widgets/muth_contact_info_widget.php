@@ -43,6 +43,7 @@ class muth_contact_widget extends WP_Widget
         $output = '';
 
         //phone
+        $output .= '<table>';
         $output .= '<tr>';
         $output .= '<td class="muth-icon">';
        
@@ -88,7 +89,7 @@ class muth_contact_widget extends WP_Widget
         $output .= '<span>' . $address_country .'</span>';
         $output .= '</td>';
         $output .= '</tr>';
-
+        $output .= '</table>';
 
         echo $output;
     }

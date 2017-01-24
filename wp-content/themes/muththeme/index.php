@@ -108,7 +108,7 @@
             <div data-wow-delay=".1s" class="muth-quote-mark-left muth-icon wow bounceInLeft">
               <span class="muth-muth-quote-first"></span>
             </div> <!-- muth-quote-mark-left muth-icon -->
-            <ul >
+            <ul>
            
             <?php $count=0;
               foreach (get_testimonial() as $testimonial):
@@ -132,7 +132,7 @@
           <ul id="muth-testimonial-controller-id" data-wow-delay=".1s" class="muth-testimonial-controller wow bounceInUp">
           <?php for($i = 0; $i< $count ; $i++ ):
             $activated = ($i < 1) ? 'class="muth-controller-activated"' : '';
-            echo '<li id="muth-controller-'.$i.'" value="'.$i.'" '.$activated.'></li>';
+            echo '<li id="muth-controller-'.$i.'" data-index="'.$i.'" '.$activated.'></li>';
            endfor; ?>
 
           </ul> <!-- muth-testimonial-controller -->

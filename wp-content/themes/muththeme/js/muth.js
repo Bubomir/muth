@@ -16,10 +16,10 @@ jQuery(document).ready(function($) {
     })
 
     wow.init();
-
-    $('#myModal').on('shown.bs.modal', function () {
-        ('#myInput').focus()
-    })
+    //ASI ZABUDNUTY JOZOV KOD 
+    // $('#myModal').on('shown.bs.modal', function () {
+    //     // ('#myInput').focus()
+    // })
 
     var testimonial_text = $('.muth-testimonial-text'),
         testimonial_controller = $('.muth-testimonial-controller');
@@ -83,7 +83,7 @@ jQuery(document).ready(function($) {
     */
     function testimonial_slider_timer() {
         var ul_controller_children = $('#muth-testimonial-controller-id').children(),
-            start_index = $('.muth-controller-activated')[0].value,
+            start_index = parseInt( $('.muth-controller-activated')[0].dataset.index ),
             fadeIn_element,
             fadeOut_element,
             time_animation = 300,
@@ -110,7 +110,7 @@ jQuery(document).ready(function($) {
             class_animation = 'testimonial-activated';
         for (var i = 0; i < ul_controller_children.length; i++) {
             $('#muth-controller-' + i).on('click', function(e) {
-                var index = e.currentTarget.value,
+                var index = e.currentTarget.dataset.index,
                     fadeOut_element = $('.testimonial-activated'),
                     fadeIn_element = $('#muth-testimonial-list-' + index);
                 //nulovanie timeru kvoli synchronizacii medzi manualnym preklikavanim a automatickym posuvanim
