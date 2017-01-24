@@ -55,12 +55,12 @@ class muth_partners_widget extends WP_Widget
                 $animation_delay = '';
                 break;
         }
-
-        $link = (!empty($instance['link'])? $instance['link'] : __('#'));
+        $title = (!empty($instance['title'])? $instance['title'] : __(''));
+        $link  = (!empty($instance['link'])? $instance['link'] : __('#'));
         $image = (!empty($instance['image'])? $instance['image'] : __(''));
         // Add any html to output the image in the $instance array
-        $output = '';
-        $output .= '<li  '.$animation_delay.'><a href='.$link.'><img src='.$image.'></a></li>';
+        $output  = '';
+        $output .= '<li  '.$animation_delay.'><a href='.$link.'><img src="'.$image.'" alt="'.$title.'" ></a></li>';
       
         $this->set_counter($this->get_counter()+1);
         echo $output;

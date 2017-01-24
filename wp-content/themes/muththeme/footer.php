@@ -28,14 +28,14 @@
         </div>
       </div>
       <div class="muth-secondary-footer">
-        <h4><?php _e( '&copy; ' ); ?>
+        <span><?php _e( '&copy; ' ); ?>
             <?php echo date( 'Y' ); ?>
             <span> <?php bloginfo( 'name' ); ?> </span>
             <span> | </span>
             <?php if ( is_active_sidebar( 'footer-sidebar-copyright' ) ):?>
                 <?php dynamic_sidebar( 'footer-sidebar-copyright' ); ?>
             <?php endif; ?>
-        </h4>
+        </span>
       </div> 
 		</footer>
 
