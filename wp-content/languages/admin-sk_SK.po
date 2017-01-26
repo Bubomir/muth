@@ -26,143 +26,143 @@ msgctxt "start of week"
 msgid "1"
 msgstr "1"
 
-#: wp-admin/about.php:231
+#: wp-admin/about.php:234
 msgid "Customize changesets make changes in the customizer persistent, like autosave drafts. They also make exciting new features like starter content possible."
 msgstr "Vlastné množiny zmien robia trvalé zmeny v možnostiach prispôsobenia, ako automatocké ukladanie konceptov. Taktiež umožňujú nové funkcie ako napríklad štartovací obsah."
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:233
 msgid "Customize Changesets"
 msgstr "Vlastné množiny zmien"
 
 #. translators: 1: register_setting(), 2:
 #. https://make.wordpress.org/core/2016/10/26/registering-your-settings-in-wordpress-4-7/
-#: wp-admin/about.php:223
+#: wp-admin/about.php:226
 msgid "%1$s <a href=\"%2$s\">has been enhanced</a> to include type, description, and REST API visibility."
 msgstr "%1$s <a href=\"%2$s\">bolo vylepšené</a> tak, aby obsahovalo typ, popis a REST API viditeľnosť."
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:222
 msgid "Settings Registration API"
 msgstr "API pre registráciu nastavení"
 
 #. translators: %s:
 #. https://make.wordpress.org/core/2016/09/08/wp_hook-next-generation-actions-and-filters/
-#: wp-admin/about.php:213
+#: wp-admin/about.php:216
 msgid "The code that lies beneath actions and filters has been overhauled and modernized, fixing bugs along the way."
 msgstr "Kód, ktorý sa skrýva za akciami a filtrami bol zrevidovaný, modernizovaný a má menej bugov."
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:206
 msgid "List tables, now with more than bulk edit and delete."
 msgstr "Tabuľky zoznamov ponúkakú teraz viac ako len zromadné editovanie a zmazanie."
 
-#: wp-admin/about.php:202
+#: wp-admin/about.php:205
 msgid "Custom Bulk Actions"
 msgstr "Vlastné hromadné akcie"
 
 #. translators: %s:
 #. https://make.wordpress.org/core/2016/09/09/new-functions-hooks-and-behaviour-for-theme-developers-in-wordpress-4-7/
-#: wp-admin/about.php:196
+#: wp-admin/about.php:199
 msgid "WordPress 4.7 includes <a href=\"%s\">new functions, hooks, and behavior</a> for theme developers."
 msgstr "WordPress 4.7 obsahuje <a href=\"%s\">nové funkcie, hooky a vlastnosti</a> pre vývojárov tém."
 
-#: wp-admin/about.php:192
+#: wp-admin/about.php:195
 msgid "More Theme API Goodies"
 msgstr "Viac vylepšení v API tém"
 
-#: wp-admin/about.php:189
+#: wp-admin/about.php:192
 msgid "By opening up the page template functionality to all post types, theme developers have even more flexibility with the WordPress template hierarchy."
 msgstr "Funkcionalita šablón stránok bola otvorená pre všetky typy obsahu, čo umožňuje vývojárom tém väčšiu flexibilitu s hierarchiou WordPress šablón."
 
-#: wp-admin/about.php:188
+#: wp-admin/about.php:191
 msgid "Post Type Templates"
 msgstr "Šablóny pre typy obsahov"
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:181
+#: wp-admin/about.php:184
 msgid "Even More Developer Happiness %s"
 msgstr "Viac radosti pre vývojárov %s"
 
 #. translators: %s: https://developer.wordpress.org/rest-api/
-#: wp-admin/about.php:169
+#: wp-admin/about.php:172
 msgid "Content endpoints provide machine-readable external access to your WordPress site with a clear, standards-driven interface, paving the way for new and innovative methods of interacting with sites through plugins, themes, apps, and beyond. Ready to get started with development? <a href=\"%s\">Check out the REST API reference.</a>"
 msgstr "Koncové body obsahu poskytujú externý prístup na vašu WordPress stránku s čistým rozhraním, ktoré je podľa štandardov a pripravuje cestu pre nové a inovatívne metódy interakcie s webovými stránkami cez pluginy, témy, aplikácie a esšte oveľa viac. chcete začať s vývojom? <a href=\"%s\">Pzrite si REST API dokumentáciu.</a>"
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:167
 msgid "WordPress 4.7 comes with REST API endpoints for posts, comments, terms, users, meta, and settings."
 msgstr "WordPress 4.7 prichádza s koncovými bodmi REST API  pre články, komentáre, výrazy, používateľov, nastavenia a meta."
 
-#: wp-admin/about.php:163
+#: wp-admin/about.php:166
 msgid "Introducing REST API Content Endpoints"
 msgstr "Predstavujeme koncové body pre REST API"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:159
 msgid "Just because your site is in one language doesn&#8217;t mean that everybody helping manage it prefers that language for their admin. Add more languages to your site and a user language option will show up in your user&#8217;s profiles."
 msgstr "Používatelia stránky si môžu teraz zvoliť iný jazyk pre WordPress admin, ako je jazyk webovej stránky. Keď si nahráte na stránku viac jazykov, zobrazia sa v profile jednotlivých používateľov."
 
-#: wp-admin/about.php:154
+#: wp-admin/about.php:157
 msgid "Dashboard in your language"
 msgstr "Admin vo vašom jazyku"
 
-#: wp-admin/about.php:151
+#: wp-admin/about.php:154
 msgid "Managing your document collection is easier with WordPress 4.7. Uploading PDFs will generate thumbnail images so you can more easily distinguish between all your documents."
 msgstr "Správa zoznamu dokumentov je vo WordPress 4.7 ľahšia. Po nahratí PDF súborov sa vytvoria náhľadové obrázky aby ste ich mohli ľahko rozoznať medzi ostatnými dokumentami."
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:152
 msgid "PDF Thumbnail Previews"
 msgstr "Náhľady PDF dokumentov"
 
-#: wp-admin/about.php:141
+#: wp-admin/about.php:144
 msgid "Sometimes you just need a few visual tweaks to make your site perfect. WordPress 4.7 allows you to add custom CSS and instantly see how your changes affect your site. The live preview allows you to work quickly without page refreshes slowing you down."
 msgstr "Niekedy potrebujete len niekoľko drobných úprav k tomu, aby bola vaša stránka perfektná. WordPress 4.7 vám umožňuje pridať vlastné CSS a okamžite vidieť ako tieto zmeny ovplyvnili vašu webovú stránku."
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:139
 msgid "Many menus for sites contain links to the pages of your site, but what happens when you don&#8217;t have any pages yet? Now you can add new pages while building menus instead of leaving the customizer and abandoning your changes. Once you&#8217;ve published your customizations, you&#8217;ll have new pages ready for you to fill with content."
 msgstr "Teraz môžete pridávať stránky počas vytvárania menu. Keď uložite zmany, budete mať vytvorené nové stránky, ktoré môžete naplniť obsahom."
 
-#: wp-admin/about.php:134
+#: wp-admin/about.php:137
 msgid "Smoother Menu Building"
 msgstr "Jednoduchšie vytváranie menu"
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:131
 msgid "Sometimes a big atmospheric video as a moving header image is just what you need to showcase your wares; go ahead and try it out with Twenty Seventeen. Need some video inspiration? Try searching for sites with video headers available for download and use."
 msgstr "Niekedy potrebujete vyjadriť vaše myslienky videom. Vyskúšajte to s Twenty Seventeen. Pridajte si video ako obrázok hlavičky. "
 
-#: wp-admin/about.php:116
+#: wp-admin/about.php:119
 msgid "Video Headers"
 msgstr "Video v hlavičke"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:116
 msgid "Visible icons appear to show you which parts of your site can be customized while live previewing. Click on a shortcut and get straight to editing. Paired with starter content, getting started with customizing your site is faster than ever."
 msgstr "Časti stránky, ktoré môžete editovať počas živého náhľadu sú zobrazené viditeľnou ikonou. Rovnako môžete kliknúť na skratku pre začatie editovania. Spolu so štartovacím obsahom môžete začať prispôsobovať vašu stránku rýchlejšie ako kedykoľvek predtým."
 
-#: wp-admin/about.php:101
+#: wp-admin/about.php:104
 msgid "Edit Shortcuts"
 msgstr "Editovacie skratky"
 
-#: wp-admin/about.php:82
+#: wp-admin/about.php:85
 msgid "To help give you a solid base to build from, individual themes can provide starter content that appears when you go to customize your brand new site. This can range from placing a business information widget in the best location to providing a sample menu with social icon links to a static front page complete with beautiful images. Don&#8217;t worry - nothing new will appear on the live site until you&#8217;re ready to save and publish your initial theme setup."
 msgstr "Témy môžu teraz obsahovať štartovací obsah, ktorý sa zobrazí na stránke, keď ju začnete prispôsobovať. Od widgetov, cez menu až po statické stránky. Nič z toho sa nezačne zobrazovať na živej stránke pokiaľ to neuložite a nepublikujete."
 
-#: wp-admin/about.php:81
+#: wp-admin/about.php:84
 msgid "Theme Starter Content"
 msgstr "Štartovací obsah"
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:79
 msgid "WordPress 4.7 adds new features to the customizer to help take you through the initial setup of a theme, with non-destructive live previews of all your changes in one uninterrupted workflow."
 msgstr "WordPress 4.7 pridáva nové možnosti prispôsobenia, ktoré vám pomôžu s prvotným nastavením témy. Takisto poskytuje nedeštruktívne náhľady vštkých zmien."
 
-#: wp-admin/about.php:75
+#: wp-admin/about.php:78
 msgid "Your Site, Your Way"
 msgstr "Vaša stránka, váš spôsob"
 
-#: wp-admin/about.php:69
+#: wp-admin/about.php:72
 msgid "Twenty Seventeen focuses on business sites and features a customizable front page with multiple sections. Personalize it with widgets, navigation, social menus, a logo, custom colors, and more. Our default theme for 2017 works great in many languages, on any device, and for a wide range of users."
 msgstr "Twenty Seventeen sa zameriava na firemné stránky. Prináša prispôsobiteľnú domovskú stránku s viacerými sekciami. Personalizujte si ju s widgetmi, navigáciou, menu sociálnych sietí, logom, vlastnými farbami a ďalšími možnosťami. Téma pre 2017 je pripravená pre veľa jazykov, všetky zariadenia a pre široké spektrum používateľov."
 
-#: wp-admin/about.php:63
+#: wp-admin/about.php:66
 msgid "A brand new default theme brings your site to life with immersive featured images and video headers."
 msgstr "Nová základná téma prináša videohlavičku a nové možnosti pre náhľadové obrázky."
 
-#: wp-admin/about.php:62
+#: wp-admin/about.php:65
 msgid "Presenting Twenty Seventeen"
 msgstr "Predstavujeme Twenty Seventeen"
 
@@ -1237,7 +1237,7 @@ msgid "Welcome to %s. This is your first post. Edit or delete it, then start blo
 msgstr "Vitajte v %s. Toto je váš prvý článok. Upravte ho alebo vymažte a začnite blogovať!"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:266
+#: wp-admin/about.php:269
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Verzia %s</strong> odstránila jeden bezpečnostný problém."
 
@@ -1254,15 +1254,15 @@ msgstr "Obrázok profilu si môžete zmeniť v službe <a href=\"%s\">Gravatar</
 msgid "Profile Picture"
 msgstr "Profilová fotka"
 
-#: wp-admin/about.php:263
+#: wp-admin/about.php:47 wp-admin/about.php:266
 msgid "Maintenance and Security Releases"
 msgstr "Bezpečnostné a údržbové vydania"
 
-#: wp-admin/about.php:260
+#: wp-admin/about.php:263
 msgid "Security Releases"
 msgstr "Bezpečnostné vydania"
 
-#: wp-admin/about.php:257
+#: wp-admin/about.php:260
 msgid "Maintenance Releases"
 msgstr "Údržbové vydania"
 
@@ -1658,7 +1658,7 @@ msgstr "Navigácia zoznamu položiek"
 msgid "Filter items list"
 msgstr "Filtrovať zoznam položiek"
 
-#: wp-admin/includes/class-wp-press-this.php:1483
+#: wp-admin/includes/class-wp-press-this.php:1521
 msgid "Saving&hellip;"
 msgstr "Ukladá sa"
 
@@ -1957,11 +1957,11 @@ msgstr[2] "%s článkov tohto autora"
 msgid "Live Preview &#8220;%s&#8221;"
 msgstr "Náhľad &#8222;%s&#8220;"
 
-#: wp-admin/includes/class-wp-press-this.php:1486
+#: wp-admin/includes/class-wp-press-this.php:1524
 msgid "More actions"
 msgstr "Ďalšie akcie"
 
-#: wp-admin/includes/class-wp-press-this.php:223
+#: wp-admin/includes/class-wp-press-this.php:241
 msgid "This category already exists."
 msgstr "Kategória už existuje"
 
@@ -2288,7 +2288,7 @@ msgstr "https://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 msgid "The <a href=\"https://codex.wordpress.org/Glossary#Character_set\">character encoding</a> of your site (UTF-8 is recommended)"
 msgstr "<a href=\"https://codex.wordpress.org/Glossary#Character_set\">Kódovanie znakov</a> vašej stránky (UTF-8 je odporučené)"
 
-#: wp-admin/includes/class-wp-press-this.php:1491
+#: wp-admin/includes/class-wp-press-this.php:1529
 msgid "Standard Editor"
 msgstr "Štandardný editor"
 
@@ -2410,7 +2410,7 @@ msgstr "Chystáte sa odstrániť nasledujúce pluginy:"
 msgid "Delete Plugins"
 msgstr "Zmazať pluginy"
 
-#: wp-admin/includes/class-wp-press-this.php:1333
+#: wp-admin/includes/class-wp-press-this.php:1363
 msgid "Hide post options"
 msgstr "Schovať nastavenia článku"
 
@@ -2534,67 +2534,67 @@ msgctxt "revision date short format"
 msgid "j M @ H:i"
 msgstr "j. n. G:i"
 
-#: wp-admin/includes/class-wp-press-this.php:241
+#: wp-admin/includes/class-wp-press-this.php:259
 msgid "This category cannot be added. Please change the name and try again."
 msgstr "Kategória nemôže byť pridaná. Prosím skúste zmeniť meno a pokus zopakujte."
 
-#: wp-admin/includes/class-wp-press-this.php:248
+#: wp-admin/includes/class-wp-press-this.php:266
 msgid "Error while adding the category. Please try again later."
 msgstr "Nastala chyba pri pridávaní kategórie. Prosím skúste pokus opakovať neskôr."
 
-#: wp-admin/includes/class-wp-press-this.php:859
+#: wp-admin/includes/class-wp-press-this.php:883
 msgid "Toggle add category"
 msgstr "Pridať kategóriu"
 
-#: wp-admin/includes/class-wp-press-this.php:884
+#: wp-admin/includes/class-wp-press-this.php:908
 msgid "Search categories by name"
 msgstr "Hľadať v kategóriách podľa mena"
 
-#: wp-admin/includes/class-wp-press-this.php:886
+#: wp-admin/includes/class-wp-press-this.php:910
 msgid "Search categories"
 msgstr "Hľadať v kategóriách"
 
-#: wp-admin/includes/class-wp-press-this.php:1138
+#: wp-admin/includes/class-wp-press-this.php:1162
 msgctxt "Used in Press This to indicate where the content comes from."
 msgid "Source:"
 msgstr "Zdroj:"
 
-#: wp-admin/includes/class-wp-press-this.php:1331
+#: wp-admin/includes/class-wp-press-this.php:1361
 msgid "Show post options"
 msgstr "Zobraziť nastavenia článku"
 
-#: wp-admin/includes/class-wp-press-this.php:1244
+#: wp-admin/includes/class-wp-press-this.php:1268
 msgid "Press This!"
 msgstr "Press This!"
 
-#: wp-admin/includes/class-wp-press-this.php:1339
+#: wp-admin/includes/class-wp-press-this.php:1369
 msgid "Scan site for content"
 msgstr "Skenovať obsah stránky"
 
-#: wp-admin/includes/class-wp-press-this.php:1340
+#: wp-admin/includes/class-wp-press-this.php:1370
 msgid "Enter a URL to scan"
 msgstr "Zadajte url adresu na oskenovanie"
 
-#: wp-admin/includes/class-wp-press-this.php:1341
+#: wp-admin/includes/class-wp-press-this.php:1371
 msgid "Scan"
 msgstr "Skenovať"
 
-#: wp-admin/includes/class-wp-press-this.php:1367
+#: wp-admin/includes/class-wp-press-this.php:1397
 msgid "You should upgrade <a href=\"%s\" target=\"_blank\">your bookmarklet</a> to the latest version!"
 msgstr "Aktualizujte <a href=\"%s\" target=\"_blank\">bookmarklet</a> na poslednú verziu!"
 
-#: wp-admin/includes/class-wp-press-this.php:1376
-#: wp-admin/includes/class-wp-press-this.php:1377
+#: wp-admin/includes/class-wp-press-this.php:1406
+#: wp-admin/includes/class-wp-press-this.php:1407
 msgid "Post title"
 msgstr "Nadpis článku"
 
-#: wp-admin/includes/class-wp-press-this.php:1381
+#: wp-admin/includes/class-wp-press-this.php:1411
 msgid "Suggested media"
 msgstr "Odporúčané médiá"
 
-#: wp-admin/includes/class-wp-press-this.php:1444
-#: wp-admin/includes/class-wp-press-this.php:1454
-#: wp-admin/includes/class-wp-press-this.php:1463
+#: wp-admin/includes/class-wp-press-this.php:1478
+#: wp-admin/includes/class-wp-press-this.php:1489
+#: wp-admin/includes/class-wp-press-this.php:1500
 msgid "Back to post options"
 msgstr "Späť na nastavenia článku"
 
@@ -5416,7 +5416,7 @@ msgid "Contributing Developers"
 msgstr "Prispievajúci vývojári"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:271
+#: wp-admin/about.php:274
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Verzia %1$s</strong> opravuje %2$s bug. "
@@ -5425,7 +5425,7 @@ msgstr[2] "<strong>Verzia %1$s</strong> opravuje %2$s bugov. "
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:48 wp-admin/about.php:279
+#: wp-admin/about.php:51 wp-admin/about.php:282
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Verzia %1$s</strong> priniesla niekoľko bezpečnostných záplat a opravila %2$s bug."
@@ -5433,13 +5433,13 @@ msgstr[1] "<strong>Verzia %1$s</strong> priniesla niekoľko bezpečnostných zá
 msgstr[2] "<strong>Verzia %1$s</strong> priniesla niekoľko bezpečnostných záplat a opravila %2$s bugov."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:50 wp-admin/about.php:283
+#: wp-admin/about.php:49 wp-admin/about.php:53 wp-admin/about.php:286
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Pre viac informácií si pozrite <a href=\"%s\">poznámky k vydaniu [EN]</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:275
+#: wp-admin/about.php:278
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>WordPress %1$s</strong> opravuje bezpečnostný problém a %2$s ďalšiu chybu."
@@ -5451,15 +5451,15 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Vitajte na Nástenke WordPress! Táto stránka sa vám zobrazí vždy, keď sa prihlásite do administrácie. Dáva vám prístup ku správe všetkých funkcií. Keď kliknete vpravo hore na záložku Pomocník, získate ďalšie informácie a rady."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:268
+#: wp-admin/about.php:48 wp-admin/about.php:271
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Verzia %s</strong> vyriešila niekoľko bezpečnostných rizík."
 
-#: wp-admin/about.php:256
+#: wp-admin/about.php:259
 msgid "Maintenance Release"
 msgstr "Údržbové vydanie"
 
-#: wp-admin/about.php:259
+#: wp-admin/about.php:262
 msgid "Security Release"
 msgstr "Bezpečnostné vydanie"
 
@@ -5467,7 +5467,7 @@ msgstr "Bezpečnostné vydanie"
 msgid "What&#8217;s New"
 msgstr "Čo je nové"
 
-#: wp-admin/about.php:47 wp-admin/about.php:262
+#: wp-admin/about.php:265
 msgid "Maintenance and Security Release"
 msgstr "Údržbové a bezpečnostné vydanie"
 
@@ -5479,7 +5479,7 @@ msgstr "Táto obrazovka umožňuje vybrať si predvolenú štruktúru trvalých 
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Vitajte vo WordPress %1$s. <a href=\"%2$s\">Zistite viac</a>."
 
-#: wp-admin/about.php:242
+#: wp-admin/about.php:245
 msgid "Return to Updates"
 msgstr "Späť na aktualizácie"
 
@@ -5759,11 +5759,11 @@ msgstr "Funkcia add_meta_box() bola pravdepodobne použitá v kombinácii s pria
 msgid "Welcome to WordPress %s"
 msgstr "Vitajte vo WordPress %s"
 
-#: wp-admin/about.php:242
+#: wp-admin/about.php:245
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Vrátiť sa na Nástenka &rarr; Aktualizácie"
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:248
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Prejsť na Nástenka &rarr; Domovská stránka"
 
@@ -6188,7 +6188,7 @@ msgstr ""
 msgid "Featured Images"
 msgstr "Ilustračné obrázky"
 
-#: wp-admin/includes/class-wp-press-this.php:823
+#: wp-admin/includes/class-wp-press-this.php:841
 #: wp-admin/includes/meta-boxes.php:385 wp-admin/includes/theme.php:263
 msgid "Post Formats"
 msgstr "Formáty článkov"
@@ -7626,7 +7626,7 @@ msgstr "Zobraziť všetko"
 msgid "Please enter a valid menu name."
 msgstr "Prosím zadajte platný názov menu."
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:248
 msgid "Go to Dashboard"
 msgstr "Prejsť na nástenku"
 
@@ -10141,7 +10141,7 @@ msgstr "Odmietnuť komentár"
 msgid "Approve this comment"
 msgstr "Schváliť komentár"
 
-#: wp-admin/includes/class-wp-press-this.php:1482
+#: wp-admin/includes/class-wp-press-this.php:1520
 #: wp-admin/includes/meta-boxes.php:269 wp-admin/includes/meta-boxes.php:270
 msgid "Submit for Review"
 msgstr "Odoslať na schválenie"
